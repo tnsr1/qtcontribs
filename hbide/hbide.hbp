@@ -30,7 +30,7 @@ hbxbp.hbc
 hbformat.hbc
 hbct.hbc
 hbnf.hbc
-hbtip.hbc
+#hbtip.hbc
 hbnetio.hbc
 hbmxml.hbc
 hbmemio.hbc 
@@ -39,7 +39,7 @@ hbsms.hbc
 hbtcpio.hbc
 hbzebra.hbc
 hbziparc.hbc
-hbssl.hbc
+#hbssl.hbc
 {allwin}gtwvg.hbc
 
 -env:HB_DYNLOAD_RDDADS=yes
