@@ -21,7 +21,7 @@
 -o../../lib/${hb_plat}/${hb_comp}${hb_build}/${hb_targetname}
 -workdir=${hb_work}/${hb_plat}/${hb_comp}${hb_build}/${hb_targetname}
 
-hbqt.hbc
+../hbqt/hbqt.hbc
 hbqtwidgets.hbc
 hbqtzxing.hbc
 

@@ -20,8 +20,10 @@
 -o../../lib/${hb_plat}/${hb_comp}${hb_build}/${hb_targetname}
 -workdir=${hb_work}/${hb_plat}/${hb_comp}${hb_build}/${hb_targetname}
 
+-i..\hbqt\qtcore\
 
-hbqt.hbc
+
+..\hbqt\hbqt.hbc
 hbct.hbc
 
 -instfile=inc:hbtoqt.ch
@@ -30,7 +32,7 @@ hbct.hbc
 
 -3rd=hbide_file=hbqtwidgets.hbx
 
-hbqtwidgets.hbx
+-3rd=hbide_file=hbqtwidgets.hbx
 
 getsys.prg
 getlist.prg

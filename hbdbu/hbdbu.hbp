@@ -25,7 +25,7 @@
 
 {(HB_QT_MAJOR_VER='5')&(HB_QT_MINOR_VER='7')}hbqtcharts.hbc
 {(HB_QT_MAJOR_VER='5')&(HB_QT_MINOR_VER>'7')}hbqtcharts.hbc
-hbqt.hbc
+../hbqt/hbqt.hbc
 hbqtcore.hbc
 hbqtwidgets.hbc
 hbqtmultimedia.hbc
@@ -43,8 +43,8 @@ hbsms.hbc
 hbtcpio.hbc
 hbzebra.hbc
 hbziparc.hbc
-hbssl.hbc
-hbtip.hbc
+#hbssl.hbc
+#hbtip.hbc
 hbcomio.hbc
 hbcomm.hbc
 xhb.hbc

@@ -22,7 +22,7 @@
 {!android&!__ios__}-instpath=${HB_BIN}/
 {android|__ios__}-instpath=${HB_LIB}/
 
-hbqt.hbc
+../hbqt/hbqt.hbc
 hbqtwidgets.hbc
 hbqtmultimedia.hbc
 hbxbp.hbc

@@ -8,4 +8,4 @@ libs=${_HB_DYNPREF}${hb_name}${_HB_DYNSUFF}
 
 libpaths=lib/${hb_plat}/${hb_comp}/
 
-libs=hbqt.hbc
+#libs=hbqt.hbc
