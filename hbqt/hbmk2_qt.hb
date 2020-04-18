@@ -1,5 +1,6 @@
 /*
  * $Id: hbmk2_qt.hb 479 2020-02-28 21:57:06Z bedipritpal $
+ * $Id: hbmk2_qt.hb 481-candidate 2020-04-18 17:23:00Z+3 alex; $
  */
 
 /*
@@ -7,6 +8,7 @@
  *
  * Copyright 2010 Viktor Szakats (harbour syenar.net)
  * Copyright 2010 Pritpal Bedi <bedipritpal@hotmail.com> (qth->prg/cpp generator and hbqtui_gen_prg())
+ * Copyright 2020 Alexey Zapolskiy aka alex; <alexeyzapolskiy at gmail dot com>
  * www - http://harbour-project.org
  *
  * This program is free software; you can redistribute it and/or modify
@@ -686,6 +688,7 @@ CLASS THbUIC
 
    // --------- SPECIAL PARSERS ---------
 
+   METHOD parseQT_CONFIG_tooltip( s )
    METHOD parseSignalSlot( cLine )
    METHOD parseRetranslateUi( cLine )
    METHOD parseTabOrder( cLine )
@@ -719,6 +722,7 @@ CLASS THbUIC
    VAR rxRetransl
    VAR rxSigSlot
    VAR rxTabOrder
+   VAR rxIfdef
    VAR rxIfndef
    VAR rxEndif
 
@@ -823,12 +827,27 @@ METHOD THbUIC:New( cTmpFileSrc, cUiFile, cOutDir, cFrmFile, cSlotStyle, cTestFil
 #define RX_BOOL                                   '(true|false)'
 
 
+METHOD THbUIC:parseQT_CONFIG_tooltip( s )
+LOCAL str1
+	DO CASE
+	CASE s == '#if QT_CONFIG(tooltip)'
+		str1 := '#ifdef QT_CONFIG_tooltip_'
+	CASE s == '#if QT_CONFIG(whatsthis)'
+		str1 := '#ifdef QT_CONFIG_whatsthis_'
+	CASE s == '#if QT_CONFIG(statustip)'
+		str1 := '#ifdef QT_CONFIG_statustip_'
+	OTHERWISE
+		str1 := s
+	ENDCASE
+    RETURN str1
+
 METHOD THbUIC:regexInit
 
    // SPECIAL
    ::rxRetransl   := hb_regexComp( '^retranslateUi\(.+' )
    ::rxSigSlot    := hb_regexComp( '^QObject_connect\(.+' )
    ::rxTabOrder   := hb_regexComp( '^QWidget_setTabOrder\(.+' )
+   ::rxIfdef      := hb_regexComp( '^#if .+' )
    ::rxIfndef     := hb_regexComp( '^#ifndef .+' )
    ::rxEndif      := hb_regexComp( '^#endif .+' )
 
@@ -857,6 +876,7 @@ METHOD THbUIC:regexInit
       { ::rxRetransl , {| s | ::parseRetranslateUi( s ) }, 3, }, ;
       { ::rxSigSlot  , {| s | ::parseSignalSlot( s ) }, 3, }, ;
       { ::rxTabOrder , {| s | ::parseTabOrder( s ) }, 3, }, ;
+      { ::rxIfdef   , {| s | ::parseQT_CONFIG_tooltip( s ) }, 1, }, ;
       { ::rxIfndef   , {| s | s }, 1, }, ;
       { ::rxEndif    , {| s | s }, 1, } ;
      }
