@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: hbmk2_qt.hb 479 2020-02-28 21:57:06Z bedipritpal $
  */
 
 /*
@@ -1254,6 +1254,9 @@ METHOD THbUIC:pullTranslate( cLine )
          cLine      := hb_StrFormat( "%s QApplication().translate(%s))", aResult[ 2 ], ::concatArgs( aArgs ) )
       ENDIF
    ENDIF
+   IF " nullptr" $ cLine
+      cLine := StrTran( cLine, "nullptr", "0" )
+   ENDIF
    RETURN cLine
 
 /*
@@ -1623,6 +1626,7 @@ METHOD THbUIC:buildHeader()
 
    WR_PRG( "/* WARNING: Automatically generated source file. DO NOT EDIT! */" )
    WR_PRG( "" )
+   WR_PRG( '#include "hbqtcore.ch"' )
    WR_PRG( '#include "hbqtgui.ch"' )
    WR_PRG( '#include "hbclass.ch"' )
    WR_PRG( '#include "error.ch"' )
@@ -4258,7 +4262,8 @@ STATIC FUNCTION IsQt5Widget( cWidget )
          "QWidgetAction"                        => NIL , ;
          "QWidgetItem"                          => NIL , ;
          "QWizard"                              => NIL , ;
-         "QWizardPage"                          => NIL   }
+         "QWizardPage"                          => NIL , ;
+         "Q"                                    => NIL   }
 
    RETURN cWidget $ s_b_
 
@@ -4810,6 +4815,14 @@ STATIC FUNCTION qth_is_QObject( cWidget )
       "QPieModelMapper"                         => NIL , ;
       "QXYModelMapper"                          => NIL , ;
       "QBoxPlotModelMapper"                     => NIL , ;
+      "QWebEngineCookieStore"                   => NIL , ;
+      "QWebEngineUrlRequestInterceptor"         => NIL , ;
+      "QWebEngineUrlRequestJob"                 => NIL , ;
+      "QWebEngineUrlSchemeHandler"              => NIL , ;
+      "QWebEngineDownloadItem"                  => NIL , ;
+      "QWebEnginePage"                          => NIL , ;
+      "QWebEngineProfile"                       => NIL , ;
+      "QWebEngineView"                          => NIL , ;
       "x                      "                 => NIL   }
 
    IF lower( left( cWidget, 3 ) ) == "hbq"
