@@ -8,7 +8,6 @@
  *
  * Copyright 2010 Viktor Szakats (harbour syenar.net)
  * Copyright 2010 Pritpal Bedi <bedipritpal@hotmail.com> (qth->prg/cpp generator and hbqtui_gen_prg())
- * Copyright 2020 Alexey Zapolskiy aka alex; <alexeyzapolskiy at gmail dot com>
  * www - http://harbour-project.org
  *
  * This program is free software; you can redistribute it and/or modify
