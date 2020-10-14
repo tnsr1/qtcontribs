@@ -1,0 +1,53 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QGraphicsVideoItem()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qgraphicsvideoitem.html
+   $ONELINER$
+      Creates a new QGraphicsVideoItem object.
+   $INHERITS$
+      QGraphicsObject, QMediaBindableInterface
+   $SYNTAX$
+      QGraphicsVideoItem( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QGraphicsVideoItem
+   $METHODS$
+      :aspectRatioMode()                                  -> nQt_AspectRatioMode
+      :nativeSize()                                       -> oQSizeF
+      :offset()                                           -> oQPointF
+      :setAspectRatioMode( nMode )                        -> NIL
+      :setOffset( oQPointF )                              -> NIL
+      :setSize( oQSizeF )                                 -> NIL
+      :size()                                             -> oQSizeF
+      :boundingRect()                                     -> oQRectF
+      :mediaObject()                                      -> oQMediaObject
+      :paint( oQPainter, oQStyleOptionGraphicsItem, oQWidget )  -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtmultimediawidgets
+   $END$
+ */

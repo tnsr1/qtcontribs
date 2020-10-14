@@ -1,0 +1,46 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QAudioProbe()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qaudioprobe.html
+   $ONELINER$
+      Creates a new QAudioProbe object.
+   $INHERITS$
+
+   $SYNTAX$
+      QAudioProbe( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QAudioProbe
+   $METHODS$
+      :isActive()                                         -> lBool
+      :setSource( oQMediaObject )                         -> lBool
+      :( oQMediaRecorder )                                -> lBool
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtmultimedia
+   $END$
+ */

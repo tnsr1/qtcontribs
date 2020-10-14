@@ -1,0 +1,27 @@
+#
+# $Id: filelist.hbm 479 2020-02-28 21:57:06Z bedipritpal $
+#
+
+-pflag=-qtver=0x050600
+-pflag=-qtmodule=qtwebengine
+-pflag=-qthdocdir=../doc/
+
+QWebEngineCookieStore.qth
+QWebEngineUrlRequestInfo.qth
+QWebEngineUrlRequestInterceptor.qth
+QWebEngineUrlRequestJob.qth
+QWebEngineUrlSchemeHandler.qth
+QWebEngineCertificateError.qth
+QWebEngineContextMenuData.qth
+QWebEngineDownloadItem.qth
+QWebEngineFullScreenRequest.qth
+QWebEngineHistory.qth
+QWebEngineHistoryItem.qth
+QWebEnginePage.qth
+QWebEngineProfile.qth
+QWebEngineScript.qth
+QWebEngineScriptCollection.qth
+QWebEngineSettings.qth
+QWebEngineView.qth
+QQuickWebEngineProfile.qth
+

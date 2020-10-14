@@ -1,0 +1,50 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QContextMenuEvent()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qcontextmenuevent.html
+   $ONELINER$
+      Creates a new QContextMenuEvent object.
+   $INHERITS$
+      QInputEvent
+   $SYNTAX$
+      QContextMenuEvent( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QContextMenuEvent
+   $METHODS$
+      :globalPos()                                        -> oQPoint
+      :globalX()                                          -> nInt
+      :globalY()                                          -> nInt
+      :pos()                                              -> oQPoint
+      :reason()                                           -> nReason
+      :x()                                                -> nInt
+      :y()                                                -> nInt
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

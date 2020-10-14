@@ -1,0 +1,60 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QPlaceSearchRequest()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.5/qplacesearchrequest.html
+   $ONELINER$
+      Creates a new QPlaceSearchRequest object.
+   $INHERITS$
+
+   $SYNTAX$
+      QPlaceSearchRequest( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QPlaceSearchRequest
+   $METHODS$
+      :categories()                                       -> oQList_QPlaceCategory>
+      :clear()                                            -> NIL
+      :limit()                                            -> nInt
+      :recommendationId()                                 -> cQString
+      :relevanceHint()                                    -> nRelevanceHint
+      :searchArea()                                       -> oQGeoShape
+      :searchContext()                                    -> oQVariant
+      :searchTerm()                                       -> cQString
+      :setCategory( oQPlaceCategory )                     -> NIL
+      :setLimit( nLimit )                                 -> NIL
+      :setRecommendationId( cPlaceId )                    -> NIL
+      :setRelevanceHint( nHint )                          -> NIL
+      :setSearchArea( oQGeoShape )                        -> NIL
+      :setSearchContext( oQVariant )                      -> NIL
+      :setSearchTerm( cTerm )                             -> NIL
+      :setVisibilityScope( nScope )                       -> NIL
+      :visibilityScope()                                  -> nQLocation_VisibilityScope
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.5 or upper
+   $FILES$
+      Library: hbqtlocation
+   $END$
+ */

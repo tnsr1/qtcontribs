@@ -1,0 +1,54 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QUdpSocket()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qudpsocket.html
+   $ONELINER$
+      Creates a new QUdpSocket object.
+   $INHERITS$
+      QAbstractSocket
+   $SYNTAX$
+      QUdpSocket( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QUdpSocket
+   $METHODS$
+      :hasPendingDatagrams()                              -> lBool
+      :joinMulticastGroup( oQHostAddress )                -> lBool
+      :( oQHostAddress, oQNetworkInterface )              -> lBool
+      :leaveMulticastGroup( oQHostAddress )               -> lBool
+      :( oQHostAddress, oQNetworkInterface )              -> lBool
+      :multicastInterface()                               -> oQNetworkInterface
+      :pendingDatagramSize()                              -> nQint64
+      :readDatagram( cData, nMaxSize, oQHostAddress, @nPort )  -> nQint64
+      :setMulticastInterface( oQNetworkInterface )        -> NIL
+      :writeDatagram( cData, nSize, oQHostAddress, nPort )  -> nQint64
+      :( oQByteArray, oQHostAddress, nPort )              -> nQint64
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtnetwork
+   $END$
+ */

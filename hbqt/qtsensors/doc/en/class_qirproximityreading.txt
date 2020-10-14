@@ -1,0 +1,45 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QIRProximityReading()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qirproximityreading.html
+   $ONELINER$
+      Creates a new QIRProximityReading object.
+   $INHERITS$
+      QSensorReading
+   $SYNTAX$
+      QIRProximityReading( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QIRProximityReading
+   $METHODS$
+      :reflectance()                                      -> nQreal
+      :setReflectance( nReflectance )                     -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtandroid
+   $END$
+ */

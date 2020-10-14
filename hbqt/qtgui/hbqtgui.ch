@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: hbqtgui.ch 473 2019-04-23 07:40:05Z bedipritpal $
  */
 
 /*
@@ -53,8 +53,6 @@
 #define _HBQTGUI_CH
 
 #include "hbqt_version.ch"
-
-#define nullptr NIL
 
 /*----------------------------------------------------------------------*/
 //                        HBQT Defined Constants
@@ -5783,6 +5781,9 @@
 #define QVariant_Vector3D                                    QMetaType_QVector3D
 #define QVariant_Vector4D                                    QMetaType_QVector4D
 #define QVariant_UserType                                    QMetaType_User
+
+#define QRubberBand_Line                                     0 // A QRubberBand can represent a vertical or horizontal line. Geometry is still given in rect() and the line will fill the given geometry on most styles.
+#define QRubberBand_Rectangle                                1 // A QRubberBand can represent a rectangle. Some styles will interpret this as a filled (often semi-transparent) rectangle, or a rectangular outline.
 
 #endif
 

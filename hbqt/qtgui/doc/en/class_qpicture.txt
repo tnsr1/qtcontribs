@@ -1,0 +1,57 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QPicture()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qpicture.html
+   $ONELINER$
+      Creates a new QPicture object.
+   $INHERITS$
+      QPaintDevice
+   $SYNTAX$
+      QPicture( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QPicture
+   $METHODS$
+      :boundingRect()                                     -> oQRect
+      :data()                                             -> cChar
+      :isNull()                                           -> lBool
+      :load( cFileName, cFormat )                         -> lBool
+      :( oQIODevice, cFormat )                            -> lBool
+      :play( oQPainter )                                  -> lBool
+      :save( cFileName, cFormat )                         -> lBool
+      :( oQIODevice, cFormat )                            -> lBool
+      :setBoundingRect( oQRect )                          -> NIL
+      :setData( cData, nSize )                            -> NIL
+      :size()                                             -> nUint
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+      oPicture := QPicture():new()
+      oPicture := QPicture():new( nFormatVersion )
+      oPicture := QPicture():new( pQPicture )
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

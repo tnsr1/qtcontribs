@@ -1,0 +1,75 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QListWidget()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qlistwidget.html
+   $ONELINER$
+      Creates a new QListWidget object.
+   $INHERITS$
+      QListView
+   $SYNTAX$
+      QListWidget( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QListWidget
+   $METHODS$
+      :addItem( cLabel )                                  -> NIL
+      :( oQListWidgetItem )                               -> NIL
+      :addItems( oQStringList )                           -> NIL
+      :closePersistentEditor( oQListWidgetItem )          -> NIL
+      :count()                                            -> nInt
+      :currentItem()                                      -> oQListWidgetItem
+      :currentRow()                                       -> nInt
+      :editItem( oQListWidgetItem )                       -> NIL
+      :findItems( cText, nFlags )                         -> oQList_QListWidgetItem
+      :insertItem( nRow, oQListWidgetItem )               -> NIL
+      :( nRow, cLabel )                                   -> NIL
+      :insertItems( nRow, oQStringList )                  -> NIL
+      :isSortingEnabled()                                 -> lBool
+      :item( nRow )                                       -> oQListWidgetItem
+      :itemAt( oQPoint )                                  -> oQListWidgetItem
+      :( nX, nY )                                         -> oQListWidgetItem
+      :itemWidget( oQListWidgetItem )                     -> oQWidget
+      :openPersistentEditor( oQListWidgetItem )           -> NIL
+      :removeItemWidget( oQListWidgetItem )               -> NIL
+      :row( oQListWidgetItem )                            -> nInt
+      :selectedItems()                                    -> oQList_QListWidgetItem
+      :setCurrentItem( oQListWidgetItem )                 -> NIL
+      :( oQListWidgetItem, nCommand )                     -> NIL
+      :setCurrentRow( nRow )                              -> NIL
+      :( nRow, nCommand )                                 -> NIL
+      :setItemWidget( oQListWidgetItem, oQWidget )        -> NIL
+      :setSortingEnabled( lEnable )                       -> NIL
+      :sortItems( nOrder )                                -> NIL
+      :takeItem( nRow )                                   -> oQListWidgetItem
+      :visualItemRect( oQListWidgetItem )                 -> oQRect
+      :clear()                                            -> NIL
+      :scrollToItem( oQListWidgetItem, nHint )            -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

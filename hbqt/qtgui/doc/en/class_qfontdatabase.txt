@@ -1,0 +1,68 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QFontDatabase()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qfontdatabase.html
+   $ONELINER$
+      Creates a new QFontDatabase object.
+   $INHERITS$
+
+   $SYNTAX$
+      QFontDatabase( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QFontDatabase
+   $METHODS$
+      :bold( cFamily, cStyle )                            -> lBool
+      :families( nWritingSystem )                         -> oQStringList
+      :font( cFamily, cStyle, nPointSize )                -> oQFont
+      :isBitmapScalable( cFamily, cStyle )                -> lBool
+      :isPrivateFamily( cFamily )                         -> lBool
+      :isFixedPitch( cFamily, cStyle )                    -> lBool
+      :isScalable( cFamily, cStyle )                      -> lBool
+      :isSmoothlyScalable( cFamily, cStyle )              -> lBool
+      :italic( cFamily, cStyle )                          -> lBool
+      :pointSizes( cFamily, cStyle )                      -> oQList_int>
+      :smoothSizes( cFamily, cStyle )                     -> oQList_int>
+      :styleString( oQFont )                              -> cQString
+      :( oQFontInfo )                                     -> cQString
+      :styles( cFamily )                                  -> oQStringList
+      :weight( cFamily, cStyle )                          -> nInt
+      :addApplicationFont( cFileName )                    -> nInt
+      :addApplicationFontFromData( oQByteArray )          -> nInt
+      :applicationFontFamilies( nId )                     -> oQStringList
+      :removeAllApplicationFonts()                        -> lBool
+      :removeApplicationFont( nId )                       -> lBool
+      :standardSizes()                                    -> oQList_int>
+      :supportsThreadedFontRendering()                    -> lBool
+      :systemFont( nType )                                -> oQFont
+      :writingSystemName( nWritingSystem )                -> cQString
+      :writingSystemSample( nWritingSystem )              -> cQString
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

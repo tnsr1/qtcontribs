@@ -1,0 +1,69 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QQuickWindow()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qquickwindow.html
+   $ONELINER$
+      Creates a new QQuickWindow object.
+   $INHERITS$
+      QWindow
+   $SYNTAX$
+      QQuickWindow( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QQuickWindow
+   $METHODS$
+      :activeFocusItem()                                  -> oQQuickItem
+      :clearBeforeRendering()                             -> lBool
+      :color()                                            -> oQColor
+      :contentItem()                                      -> oQQuickItem
+      :createTextureFromId( nId, oQSize, nOptions )       -> oQSGTexture
+      :createTextureFromImage( oQImage, nOptions )        -> oQSGTexture
+      :( oQImage )                                        -> oQSGTexture
+      :grabWindow()                                       -> oQImage
+      :incubationController()                             -> oQQmlIncubationController
+      :isPersistentOpenGLContext()                        -> lBool
+      :isPersistentSceneGraph()                           -> lBool
+      :mouseGrabberItem()                                 -> oQQuickItem
+      :renderTargetId()                                   -> nUint
+      :renderTargetSize()                                 -> oQSize
+      :resetOpenGLState()                                 -> NIL
+      :sendEvent( oQQuickItem, oQEvent )                  -> lBool
+      :setClearBeforeRendering( lEnabled )                -> NIL
+      :setColor( oQColor )                                -> NIL
+      :setPersistentOpenGLContext( lPersistent )          -> NIL
+      :setPersistentSceneGraph( lPersistent )             -> NIL
+      :setRenderTarget( oQOpenGLFramebufferObject )       -> NIL
+      :( nFboId, oQSize )                                 -> NIL
+      :hasDefaultAlphaBuffer()                            -> lBool
+      :setDefaultAlphaBuffer( lUseAlpha )                 -> NIL
+      :releaseResources()                                 -> NIL
+      :update()                                           -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtquick
+   $END$
+ */

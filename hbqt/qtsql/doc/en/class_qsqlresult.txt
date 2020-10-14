@@ -1,0 +1,44 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QSqlResult()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qsqlresult.html
+   $ONELINER$
+      Creates a new QSqlResult object.
+   $INHERITS$
+
+   $SYNTAX$
+      QSqlResult( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QSqlResult
+   $METHODS$
+      :handle()                                           -> oQVariant
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtsql
+   $END$
+ */

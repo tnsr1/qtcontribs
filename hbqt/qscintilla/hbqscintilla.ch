@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: hbqscintilla.ch 426 2016-10-20 00:14:06Z bedipritpal $
  */
 
 /*

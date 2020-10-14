@@ -349,6 +349,10 @@ METHOD HbQtTouchPoint:init()
 FUNCTION QApplication_translate( p1, p2 )
    HB_SYMBOL_UNUSED( p1 )
    RETURN p2
+   
+FUNCTION QCoreApplication_translate( p1, p2 )
+   HB_SYMBOL_UNUSED( p1 )
+   RETURN p2
 //#endif
 
 

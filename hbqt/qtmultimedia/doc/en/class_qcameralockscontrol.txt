@@ -1,0 +1,47 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QCameraLocksControl()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qcameralockscontrol.html
+   $ONELINER$
+      Creates a new QCameraLocksControl object.
+   $INHERITS$
+      QMediaControl
+   $SYNTAX$
+      QCameraLocksControl( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QCameraLocksControl
+   $METHODS$
+      :lockStatus( nLock )                                -> nQCamera_LockStatus
+      :searchAndLock( nLocks )                            -> NIL
+      :supportedLocks()                                   -> nQCamera_LockTypes
+      :unlock( nLocks )                                   -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtmultimedia
+   $END$
+ */

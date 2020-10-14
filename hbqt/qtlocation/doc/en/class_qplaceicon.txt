@@ -1,0 +1,49 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QPlaceIcon()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.5/qplaceicon.html
+   $ONELINER$
+      Creates a new QPlaceIcon object.
+   $INHERITS$
+
+   $SYNTAX$
+      QPlaceIcon( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QPlaceIcon
+   $METHODS$
+      :isEmpty()                                          -> lBool
+      :manager()                                          -> oQPlaceManager
+      :parameters()                                       -> oQVariantMap
+      :setManager( oQPlaceManager )                       -> NIL
+      :setParameters( oQVariantMap )                      -> NIL
+      :url( oQSize )                                      -> oQUrl
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.5 or upper
+   $FILES$
+      Library: hbqtlocation
+   $END$
+ */

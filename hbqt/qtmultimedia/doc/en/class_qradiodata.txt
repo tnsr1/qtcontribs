@@ -1,0 +1,54 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QRadioData()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qradiodata.html
+   $ONELINER$
+      Creates a new QRadioData object.
+   $INHERITS$
+      QObject, QMediaBindableInterface
+   $SYNTAX$
+      QRadioData( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QRadioData
+   $METHODS$
+      :availability()                                     -> nQMultimedia_AvailabilityStatus
+      :error()                                            -> nQRadioData_Error
+      :errorString()                                      -> cQString
+      :isAlternativeFrequenciesEnabled()                  -> lBool
+      :programType()                                      -> nQRadioData_ProgramType
+      :programTypeName()                                  -> cQString
+      :radioText()                                        -> cQString
+      :stationId()                                        -> cQString
+      :stationName()                                      -> cQString
+      :mediaObject()                                      -> oQMediaObject
+      :setAlternativeFrequenciesEnabled( lEnabled )       -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtmultimedia
+   $END$
+ */

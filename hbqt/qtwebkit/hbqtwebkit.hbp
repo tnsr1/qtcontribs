@@ -1,5 +1,5 @@
 #
-# $Id$
+# $Id: hbqtwebkit.hbp 392 2015-01-23 21:14:12Z bedipritpal $
 #
 
 {android|__ios__}-stop='QtWebkit is not available for Android/ios...'

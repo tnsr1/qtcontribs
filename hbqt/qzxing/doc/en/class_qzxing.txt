@@ -1,0 +1,51 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QZXing()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qzxing.html
+   $ONELINER$
+      Creates a new QZXing object.
+   $INHERITS$
+      QObject
+   $SYNTAX$
+      QZXing( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QZXing
+   $METHODS$
+      :decodeImage( oQImage, nMaxWidth, nMaxHeight, lSmoothTransformation )  -> cQString
+      :decodeImageFromFile( cImageFilePath, nMaxWidth, nMaxHeight, lSmoothTransformation )  -> cQString
+      :decodeImageQML( oQObject )                         -> cQString
+      :decodeSubImageQML( oQObject, nOffsetX, nOffsetY, nWidth, nHeight )  -> cQString
+      :getProcessTimeOfLastDecoding()                     -> nInt
+      :getEnabledFormats()                                -> nUint
+      :setDecoder( nHint )                                -> NIL
+      :registerQMLTypes()                                 -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbQZXing
+   $END$
+ */

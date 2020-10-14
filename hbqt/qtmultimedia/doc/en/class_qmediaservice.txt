@@ -1,0 +1,45 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QMediaService()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qmediaservice.html
+   $ONELINER$
+      Creates a new QMediaService object.
+   $INHERITS$
+      QObject
+   $SYNTAX$
+      QMediaService( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QMediaService
+   $METHODS$
+      :releaseControl( oQMediaControl )                   -> NIL
+      :requestControl( cInterface )                       -> oQMediaControl
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtmultimedia
+   $END$
+ */

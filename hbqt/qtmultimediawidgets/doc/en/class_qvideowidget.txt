@@ -1,0 +1,57 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QVideoWidget()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qvideowidget.html
+   $ONELINER$
+      Creates a new QVideoWidget object.
+   $INHERITS$
+      QWidget, QMediaBindableInterface
+   $SYNTAX$
+      QVideoWidget( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QVideoWidget
+   $METHODS$
+      :aspectRatioMode()                                  -> nQt_AspectRatioMode
+      :brightness()                                       -> nInt
+      :contrast()                                         -> nInt
+      :hue()                                              -> nInt
+      :isFullScreen()                                     -> lBool
+      :saturation()                                       -> nInt
+      :mediaObject()                                      -> oQMediaObject
+      :sizeHint()                                         -> oQSize
+      :setAspectRatioMode( nMode )                        -> NIL
+      :setBrightness( nBrightness )                       -> NIL
+      :setContrast( nContrast )                           -> NIL
+      :setFullScreen( lFullScreen )                       -> NIL
+      :setHue( nHue )                                     -> NIL
+      :setSaturation( nSaturation )                       -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtmultimediawidgets
+   $END$
+ */

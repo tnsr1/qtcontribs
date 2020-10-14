@@ -1,0 +1,74 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QPageLayout()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qpagelayout.html
+   $ONELINER$
+      Creates a new QPageLayout object.
+   $INHERITS$
+
+   $SYNTAX$
+      QPageLayout( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QPageLayout
+   $METHODS$
+      :fullRect()                                         -> oQRectF
+      :( nUnits )                                         -> oQRectF
+      :fullRectPixels( nResolution )                      -> oQRect
+      :fullRectPoints()                                   -> oQRect
+      :isEquivalentTo( oQPageLayout )                     -> lBool
+      :isValid()                                          -> lBool
+      :margins()                                          -> oQMarginsF
+      :( nUnits )                                         -> oQMarginsF
+      :marginsPixels( nResolution )                       -> oQMargins
+      :marginsPoints()                                    -> oQMargins
+      :maximumMargins()                                   -> oQMarginsF
+      :minimumMargins()                                   -> oQMarginsF
+      :mode()                                             -> nQPageLayout_Mode
+      :orientation()                                      -> nQPageLayout_Orientation
+      :pageSize()                                         -> oQPageSize
+      :paintRect()                                        -> oQRectF
+      :( nUnits )                                         -> oQRectF
+      :paintRectPixels( nResolution )                     -> oQRect
+      :paintRectPoints()                                  -> oQRect
+      :setBottomMargin( nBottomMargin )                   -> lBool
+      :setLeftMargin( nLeftMargin )                       -> lBool
+      :setMargins( oQMarginsF )                           -> lBool
+      :setMinimumMargins( oQMarginsF )                    -> NIL
+      :setMode( nMode )                                   -> NIL
+      :setOrientation( nOrientation )                     -> NIL
+      :setPageSize( oQPageSize )                          -> NIL
+      :setRightMargin( nRightMargin )                     -> lBool
+      :setTopMargin( nTopMargin )                         -> lBool
+      :setUnits( nUnits )                                 -> NIL
+      :swap( oQPageLayout )                               -> NIL
+      :units()                                            -> nUnit
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

@@ -1,0 +1,267 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QWidget()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qwidget.html
+   $ONELINER$
+      Creates a new QWidget object.
+   $INHERITS$
+      QObject, QPaintDevice
+   $SYNTAX$
+      QWidget( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QWidget
+   $METHODS$
+      :acceptDrops()                                      -> lBool
+      :accessibleDescription()                            -> cQString
+      :accessibleName()                                   -> cQString
+      :actions()                                          -> oQList_QAction
+      :activateWindow()                                   -> NIL
+      :addAction( oQAction )                              -> NIL
+      :adjustSize()                                       -> NIL
+      :autoFillBackground()                               -> lBool
+      :backgroundRole()                                   -> nQPalette_ColorRole
+      :baseSize()                                         -> oQSize
+      :childAt( nX, nY )                                  -> oQWidget
+      :( oQPoint )                                        -> oQWidget
+      :childrenRect()                                     -> oQRect
+      :childrenRegion()                                   -> oQRegion
+      :clearFocus()                                       -> NIL
+      :clearMask()                                        -> NIL
+      :contentsMargins()                                  -> oQMargins
+      :contentsRect()                                     -> oQRect
+      :contextMenuPolicy()                                -> nQt_ContextMenuPolicy
+      :cursor()                                           -> oQCursor
+      :effectiveWinId()                                   -> nWId
+      :ensurePolished()                                   -> NIL
+      :focusPolicy()                                      -> nQt_FocusPolicy
+      :focusProxy()                                       -> oQWidget
+      :focusWidget()                                      -> oQWidget
+      :font()                                             -> oQFont
+      :fontInfo()                                         -> oQFontInfo
+      :fontMetrics()                                      -> oQFontMetrics
+      :foregroundRole()                                   -> nQPalette_ColorRole
+      :frameGeometry()                                    -> oQRect
+      :frameSize()                                        -> oQSize
+      :geometry()                                         -> oQRect
+      :getContentsMargins( @nLeft, @nTop, @nRight, @nBottom )  -> NIL
+      :grabGesture( nGesture, nFlags )                    -> NIL
+      :grabKeyboard()                                     -> NIL
+      :grabMouse()                                        -> NIL
+      :( oQCursor )                                       -> NIL
+      :grabShortcut( oQKeySequence, nContext )            -> nInt
+      :graphicsProxyWidget()                              -> oQGraphicsProxyWidget
+      :hasFocus()                                         -> lBool
+      :hasMouseTracking()                                 -> lBool
+      :height()                                           -> nInt
+      :heightForWidth( nW )                               -> nInt
+      :inputMethodHints()                                 -> nQt_InputMethodHints
+      :inputMethodQuery( nQuery )                         -> oQVariant
+      :insertAction( oQAction, oQAction )                 -> NIL
+      :isActiveWindow()                                   -> lBool
+      :isAncestorOf( oQWidget )                           -> lBool
+      :isEnabled()                                        -> lBool
+      :isEnabledTo( oQWidget )                            -> lBool
+      :isFullScreen()                                     -> lBool
+      :isHidden()                                         -> lBool
+      :isMaximized()                                      -> lBool
+      :isMinimized()                                      -> lBool
+      :isModal()                                          -> lBool
+      :isVisible()                                        -> lBool
+      :isVisibleTo( oQWidget )                            -> lBool
+      :isWindow()                                         -> lBool
+      :isWindowModified()                                 -> lBool
+      :layout()                                           -> oQLayout
+      :layoutDirection()                                  -> nQt_LayoutDirection
+      :locale()                                           -> oQLocale
+      :mapFrom( oQWidget, oQPoint )                       -> oQPoint
+      :mapFromGlobal( oQPoint )                           -> oQPoint
+      :mapFromParent( oQPoint )                           -> oQPoint
+      :mapTo( oQWidget, oQPoint )                         -> oQPoint
+      :mapToGlobal( oQPoint )                             -> oQPoint
+      :mapToParent( oQPoint )                             -> oQPoint
+      :mask()                                             -> oQRegion
+      :maximumHeight()                                    -> nInt
+      :maximumSize()                                      -> oQSize
+      :maximumWidth()                                     -> nInt
+      :minimumHeight()                                    -> nInt
+      :minimumSize()                                      -> oQSize
+      :minimumSizeHint()                                  -> oQSize
+      :minimumWidth()                                     -> nInt
+      :move( nX, nY )                                     -> NIL
+      :( oQPoint )                                        -> NIL
+      :nativeParentWidget()                               -> oQWidget
+      :nextInFocusChain()                                 -> oQWidget
+      :normalGeometry()                                   -> oQRect
+      :overrideWindowFlags( nFlags )                      -> NIL
+      :paintEngine()                                      -> oQPaintEngine
+      :palette()                                          -> oQPalette
+      :parentWidget()                                     -> oQWidget
+      :pos()                                              -> oQPoint
+      :previousInFocusChain()                             -> oQWidget
+      :rect()                                             -> oQRect
+      :releaseKeyboard()                                  -> NIL
+      :releaseMouse()                                     -> NIL
+      :releaseShortcut( nId )                             -> NIL
+      :removeAction( oQAction )                           -> NIL
+      :render( oQPaintDevice, oQPoint, oQRegion )         -> NIL
+      :( oQPainter, oQPoint, oQRegion )                   -> NIL
+      :repaint( nX, nY, nW, nH )                          -> NIL
+      :( oQRect )                                         -> NIL
+      :( oQRegion )                                       -> NIL
+      :resize( nW, nH )                                   -> NIL
+      :( oQSize )                                         -> NIL
+      :restoreGeometry( oQByteArray )                     -> lBool
+      :saveGeometry()                                     -> oQByteArray
+      :scroll( nDx, nDy )                                 -> NIL
+      :( nDx, nDy, oQRect )                               -> NIL
+      :setAcceptDrops( lOn )                              -> NIL
+      :setAccessibleDescription( cDescription )           -> NIL
+      :setAccessibleName( cName )                         -> NIL
+      :setAttribute( nAttribute, lOn )                    -> NIL
+      :setAutoFillBackground( lEnabled )                  -> NIL
+      :setBackgroundRole( nRole )                         -> NIL
+      :setBaseSize( oQSize )                              -> NIL
+      :( nBasew, nBaseh )                                 -> NIL
+      :setContentsMargins( nLeft, nTop, nRight, nBottom )  -> NIL
+      :( oQMargins )                                      -> NIL
+      :setContextMenuPolicy( nPolicy )                    -> NIL
+      :setCursor( oQCursor )                              -> NIL
+      :setFixedHeight( nH )                               -> NIL
+      :setFixedSize( oQSize )                             -> NIL
+      :( nW, nH )                                         -> NIL
+      :setFixedWidth( nW )                                -> NIL
+      :setFocus( nReason )                                -> NIL
+      :setFocusPolicy( nPolicy )                          -> NIL
+      :setFocusProxy( oQWidget )                          -> NIL
+      :setFont( oQFont )                                  -> NIL
+      :setForegroundRole( nRole )                         -> NIL
+      :setGeometry( oQRect )                              -> NIL
+      :( nX, nY, nW, nH )                                 -> NIL
+      :setGraphicsEffect( oQGraphicsEffect )              -> NIL
+      :setInputMethodHints( nHints )                      -> NIL
+      :setLayout( oQLayout )                              -> NIL
+      :setLayoutDirection( nDirection )                   -> NIL
+      :setLocale( oQLocale )                              -> NIL
+      :setMask( oQBitmap )                                -> NIL
+      :( oQRegion )                                       -> NIL
+      :setMaximumHeight( nMaxh )                          -> NIL
+      :setMaximumSize( oQSize )                           -> NIL
+      :( nMaxw, nMaxh )                                   -> NIL
+      :setMaximumWidth( nMaxw )                           -> NIL
+      :setMinimumHeight( nMinh )                          -> NIL
+      :setMinimumSize( oQSize )                           -> NIL
+      :( nMinw, nMinh )                                   -> NIL
+      :setMinimumWidth( nMinw )                           -> NIL
+      :setMouseTracking( lEnable )                        -> NIL
+      :setPalette( oQPalette )                            -> NIL
+      :setParent( oQWidget, nF )                          -> NIL
+      :setShortcutAutoRepeat( nId, lEnable )              -> NIL
+      :setShortcutEnabled( nId, lEnable )                 -> NIL
+      :setSizeIncrement( oQSize )                         -> NIL
+      :( nW, nH )                                         -> NIL
+      :setSizePolicy( oQSizePolicy )                      -> NIL
+      :( nHorizontal, nVertical )                         -> NIL
+      :setStatusTip( cQString )                           -> NIL
+      :setStyle( oQStyle )                                -> NIL
+      :setToolTip( cQString )                             -> NIL
+      :setToolTipDuration( nMsec )                        -> NIL
+      :setUpdatesEnabled( lEnable )                       -> NIL
+      :setWhatsThis( cQString )                           -> NIL
+      :setWindowFilePath( cFilePath )                     -> NIL
+      :setWindowFlags( nType )                            -> NIL
+      :setWindowIcon( oQIcon )                            -> NIL
+      :setWindowIconText( cQString )                      -> NIL
+      :setWindowModality( nWindowModality )               -> NIL
+      :setWindowOpacity( nLevel )                         -> NIL
+      :setWindowRole( cRole )                             -> NIL
+      :setWindowState( nWindowState )                     -> NIL
+      :size()                                             -> oQSize
+      :sizeHint()                                         -> oQSize
+      :sizeIncrement()                                    -> oQSize
+      :sizePolicy()                                       -> oQSizePolicy
+      :stackUnder( oQWidget )                             -> NIL
+      :statusTip()                                        -> cQString
+      :style()                                            -> oQStyle
+      :styleSheet()                                       -> cQString
+      :testAttribute( nAttribute )                        -> lBool
+      :toolTip()                                          -> cQString
+      :toolTipDuration()                                  -> nInt
+      :underMouse()                                       -> lBool
+      :unsetCursor()                                      -> NIL
+      :unsetLayoutDirection()                             -> NIL
+      :unsetLocale()                                      -> NIL
+      :update( nX, nY, nW, nH )                           -> NIL
+      :( oQRect )                                         -> NIL
+      :( oQRegion )                                       -> NIL
+      :updateGeometry()                                   -> NIL
+      :updatesEnabled()                                   -> lBool
+      :visibleRegion()                                    -> oQRegion
+      :whatsThis()                                        -> cQString
+      :width()                                            -> nInt
+      :winId()                                            -> nWId
+      :window()                                           -> oQWidget
+      :windowFilePath()                                   -> cQString
+      :windowFlags()                                      -> nQt_WindowFlags
+      :windowIcon()                                       -> oQIcon
+      :windowIconText()                                   -> cQString
+      :windowModality()                                   -> nQt_WindowModality
+      :windowOpacity()                                    -> nQreal
+      :windowRole()                                       -> cQString
+      :windowState()                                      -> nQt_WindowStates
+      :windowTitle()                                      -> cQString
+      :windowType()                                       -> nQt_WindowType
+      :x()                                                -> nInt
+      :y()                                                -> nInt
+      :find( nId )                                        -> oQWidget
+      :keyboardGrabber()                                  -> oQWidget
+      :mouseGrabber()                                     -> oQWidget
+      :setTabOrder( oQWidget, oQWidget )                  -> NIL
+      :close()                                            -> lBool
+      :hide()                                             -> NIL
+      :lower()                                            -> NIL
+      :raise()                                            -> NIL
+      :()                                                 -> NIL
+      :setDisabled( lDisable )                            -> NIL
+      :setEnabled( lEnable )                              -> NIL
+      :()                                                 -> NIL
+      :setHidden( lHidden )                               -> NIL
+      :setStyleSheet( cStyleSheet )                       -> NIL
+      :setVisible( lVisible )                             -> NIL
+      :setWindowModified( lModified )                     -> NIL
+      :setWindowTitle( cTitle )                           -> NIL
+      :show()                                             -> NIL
+      :showFullScreen()                                   -> NIL
+      :showMaximized()                                    -> NIL
+      :showMinimized()                                    -> NIL
+      :showNormal()                                       -> NIL
+      :()                                                 -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

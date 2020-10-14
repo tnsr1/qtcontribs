@@ -1,0 +1,65 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QMediaPlayerControl()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qmediaplayercontrol.html
+   $ONELINER$
+      Creates a new QMediaPlayerControl object.
+   $INHERITS$
+      QMediaControl
+   $SYNTAX$
+      QMediaPlayerControl( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QMediaPlayerControl
+   $METHODS$
+      :availablePlaybackRanges()                          -> oQMediaTimeRange
+      :bufferStatus()                                     -> nInt
+      :duration()                                         -> nQint64
+      :isAudioAvailable()                                 -> lBool
+      :isMuted()                                          -> lBool
+      :isSeekable()                                       -> lBool
+      :isVideoAvailable()                                 -> lBool
+      :media()                                            -> oQMediaContent
+      :mediaStatus()                                      -> nQMediaPlayer_MediaStatus
+      :mediaStream()                                      -> oQIODevice
+      :pause()                                            -> NIL
+      :play()                                             -> NIL
+      :playbackRate()                                     -> nQreal
+      :position()                                         -> nQint64
+      :setMedia( oQMediaContent, oQIODevice )             -> NIL
+      :setMuted( lMute )                                  -> NIL
+      :setPlaybackRate( nRate )                           -> NIL
+      :setPosition( nPosition )                           -> NIL
+      :setVolume( nVolume )                               -> NIL
+      :state()                                            -> nQMediaPlayer_State
+      :stop()                                             -> NIL
+      :volume()                                           -> nInt
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtmultimedia
+   $END$
+ */

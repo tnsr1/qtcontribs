@@ -1,0 +1,49 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QPlaceEditorial()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.5/qplaceeditorial.html
+   $ONELINER$
+      Creates a new QPlaceEditorial object.
+   $INHERITS$
+      QPlaceContent
+   $SYNTAX$
+      QPlaceEditorial( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QPlaceEditorial
+   $METHODS$
+      :language()                                         -> cQString
+      :setLanguage( cLanguage )                           -> NIL
+      :setText( cText )                                   -> NIL
+      :setTitle( cTitle )                                 -> NIL
+      :text()                                             -> cQString
+      :title()                                            -> cQString
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.5 or upper
+   $FILES$
+      Library: hbqtlocation
+   $END$
+ */

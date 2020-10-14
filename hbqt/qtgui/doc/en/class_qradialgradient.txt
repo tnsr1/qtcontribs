@@ -1,0 +1,51 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QRadialGradient()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qradialgradient.html
+   $ONELINER$
+      Creates a new QRadialGradient object.
+   $INHERITS$
+      QGradient
+   $SYNTAX$
+      QRadialGradient( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QRadialGradient
+   $METHODS$
+      :center()                                           -> oQPointF
+      :focalPoint()                                       -> oQPointF
+      :radius()                                           -> nQreal
+      :setCenter( oQPointF )                              -> NIL
+      :( nX, nY )                                         -> NIL
+      :setFocalPoint( oQPointF )                          -> NIL
+      :( nX, nY )                                         -> NIL
+      :setRadius( nRadius )                               -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

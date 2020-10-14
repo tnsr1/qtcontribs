@@ -1,0 +1,79 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QFormLayout()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qformlayout.html
+   $ONELINER$
+      Creates a new QFormLayout object.
+   $INHERITS$
+      QLayout
+   $SYNTAX$
+      QFormLayout( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QFormLayout
+   $METHODS$
+      :addRow( oQWidget, oQWidget )                       -> NIL
+      :( oQWidget, oQLayout )                             -> NIL
+      :( oQWidget )                                       -> NIL
+      :( cLabelText, oQWidget )                           -> NIL
+      :( cLabelText, oQLayout )                           -> NIL
+      :( oQLayout )                                       -> NIL
+      :fieldGrowthPolicy()                                -> nFieldGrowthPolicy
+      :formAlignment()                                    -> nQt_Alignment
+      :getItemPosition( nIndex, @nRowPtr, @nRolePtr )     -> NIL
+      :getLayoutPosition( oQLayout, @nRowPtr, @nRolePtr )  -> NIL
+      :getWidgetPosition( oQWidget, @nRowPtr, @nRolePtr )  -> NIL
+      :horizontalSpacing()                                -> nInt
+      :insertRow( nRow, oQWidget, oQWidget )              -> NIL
+      :( nRow, oQWidget, oQLayout )                       -> NIL
+      :( nRow, oQWidget )                                 -> NIL
+      :( nRow, cLabelText, oQWidget )                     -> NIL
+      :( nRow, cLabelText, oQLayout )                     -> NIL
+      :( nRow, oQLayout )                                 -> NIL
+      :itemAt( nRow, nRole )                              -> oQLayoutItem
+      :labelAlignment()                                   -> nQt_Alignment
+      :labelForField( oQWidget )                          -> oQWidget
+      :( oQLayout )                                       -> oQWidget
+      :rowCount()                                         -> nInt
+      :rowWrapPolicy()                                    -> nRowWrapPolicy
+      :setFieldGrowthPolicy( nPolicy )                    -> NIL
+      :setFormAlignment( nAlignment )                     -> NIL
+      :setHorizontalSpacing( nSpacing )                   -> NIL
+      :setItem( nRow, nRole, oQLayoutItem )               -> NIL
+      :setLabelAlignment( nAlignment )                    -> NIL
+      :setLayout( nRow, nRole, oQLayout )                 -> NIL
+      :setRowWrapPolicy( nPolicy )                        -> NIL
+      :setSpacing( nSpacing )                             -> NIL
+      :setVerticalSpacing( nSpacing )                     -> NIL
+      :setWidget( nRow, nRole, oQWidget )                 -> NIL
+      :spacing()                                          -> nInt
+      :verticalSpacing()                                  -> nInt
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

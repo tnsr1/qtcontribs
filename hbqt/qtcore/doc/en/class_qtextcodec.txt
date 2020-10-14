@@ -1,0 +1,64 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QTextCodec()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qtextcodec.html
+   $ONELINER$
+      Creates a new QTextCodec object.
+   $INHERITS$
+
+   $SYNTAX$
+      QTextCodec( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QTextCodec
+   $METHODS$
+      :aliases()                                          -> oQList_QByteArray>
+      :canEncode( oQChar )                                -> lBool
+      :( cS )                                             -> lBool
+      :fromUnicode( cStr )                                -> oQByteArray
+      :makeDecoder()                                      -> oQTextDecoder
+      :makeEncoder()                                      -> oQTextEncoder
+      :mibEnum()                                          -> nInt
+      :name()                                             -> oQByteArray
+      :toUnicode( oQByteArray )                           -> cQString
+      :( cChars )                                         -> cQString
+      :codecForCStrings()                                 -> oQTextCodec
+      :codecForHtml( oQByteArray, oQTextCodec )           -> oQTextCodec
+      :( oQByteArray )                                    -> oQTextCodec
+      :codecForLocale()                                   -> oQTextCodec
+      :codecForMib( nMib )                                -> oQTextCodec
+      :codecForName( oQByteArray )                        -> oQTextCodec
+      :( cName )                                          -> oQTextCodec
+      :codecForTr()                                       -> oQTextCodec
+      :setCodecForCStrings( oQTextCodec )                 -> NIL
+      :setCodecForLocale( oQTextCodec )                   -> NIL
+      :setCodecForTr( oQTextCodec )                       -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtcore
+   $END$
+ */

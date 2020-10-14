@@ -1,0 +1,55 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QNetworkInterface()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qnetworkinterface.html
+   $ONELINER$
+      Creates a new QNetworkInterface object.
+   $INHERITS$
+
+   $SYNTAX$
+      QNetworkInterface( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QNetworkInterface
+   $METHODS$
+      :addressEntries()                                   -> oQList_QNetworkAddressEntry>
+      :flags()                                            -> nInterfaceFlags
+      :hardwareAddress()                                  -> cQString
+      :humanReadableName()                                -> cQString
+      :index()                                            -> nInt
+      :isValid()                                          -> lBool
+      :name()                                             -> cQString
+      :swap( oQNetworkInterface )                         -> NIL
+      :allAddresses()                                     -> oQList_QHostAddress>
+      :allInterfaces()                                    -> oQList_QNetworkInterface>
+      :interfaceFromIndex( nIndex )                       -> oQNetworkInterface
+      :interfaceFromName( cName )                         -> oQNetworkInterface
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtnetwork
+   $END$
+ */

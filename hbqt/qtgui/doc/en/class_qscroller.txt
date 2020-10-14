@@ -1,0 +1,65 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QScroller()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.0/qscroller.html
+   $ONELINER$
+      Creates a new QScroller object.
+   $INHERITS$
+      QObject
+   $SYNTAX$
+      QScroller( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QScroller
+   $METHODS$
+      :finalPosition()                                    -> oQPointF
+      :handleInput( nInput, oQPointF, nTimestamp )        -> lBool
+      :pixelPerMeter()                                    -> oQPointF
+      :scrollerProperties()                               -> oQScrollerProperties
+      :setSnapPositionsX( nFirst, nInterval )             -> NIL
+      :setSnapPositionsY( nFirst, nInterval )             -> NIL
+      :state()                                            -> nState
+      :stop()                                             -> NIL
+      :target()                                           -> oQObject
+      :velocity()                                         -> oQPointF
+      :activeScrollers()                                  -> oQList_QScroller
+      :grabGesture( oQObject, nScrollGestureType )        -> nQt_GestureType
+      :grabbedGesture( oQObject )                         -> nQt_GestureType
+      :hasScroller( oQObject )                            -> lBool
+      :scroller( oQObject )                               -> oQScroller
+      :ungrabGesture( oQObject )                          -> NIL
+      :ensureVisible( oQRectF, nXmargin, nYmargin )       -> NIL
+      :( oQRectF, nXmargin, nYmargin, nScrollTime )       -> NIL
+      :resendPrepareEvent()                               -> NIL
+      :scrollTo( oQPointF )                               -> NIL
+      :( oQPointF, nScrollTime )                          -> NIL
+      :setScrollerProperties( oQScrollerProperties )      -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.0 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

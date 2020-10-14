@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: xbp.ch 465 2017-10-28 22:57:32Z bedipritpal $
  */
 
 #ifndef _XBP_CH

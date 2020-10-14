@@ -1,0 +1,58 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QAudioEncoderSettings()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qaudioencodersettings.html
+   $ONELINER$
+      Creates a new QAudioEncoderSettings object.
+   $INHERITS$
+
+   $SYNTAX$
+      QAudioEncoderSettings( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QAudioEncoderSettings
+   $METHODS$
+      :bitRate()                                          -> nInt
+      :channelCount()                                     -> nInt
+      :codec()                                            -> cQString
+      :encodingMode()                                     -> nQMultimedia_EncodingMode
+      :encodingOption( cOption )                          -> oQVariant
+      :isNull()                                           -> lBool
+      :quality()                                          -> nQMultimedia_EncodingQuality
+      :sampleRate()                                       -> nInt
+      :setBitRate( nRate )                                -> NIL
+      :setChannelCount( nChannels )                       -> NIL
+      :setCodec( cCodec )                                 -> NIL
+      :setEncodingMode( nMode )                           -> NIL
+      :setEncodingOption( cOption, oQVariant )            -> NIL
+      :setQuality( nQuality )                             -> NIL
+      :setSampleRate( nRate )                             -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtmultimedia
+   $END$
+ */

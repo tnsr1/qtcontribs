@@ -1,0 +1,44 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QGraphicsSceneEvent()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qgraphicssceneevent.html
+   $ONELINER$
+      Creates a new QGraphicsSceneEvent object.
+   $INHERITS$
+      QEvent
+   $SYNTAX$
+      QGraphicsSceneEvent( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QGraphicsSceneEvent
+   $METHODS$
+      :widget()                                           -> oQWidget
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

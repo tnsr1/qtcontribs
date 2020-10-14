@@ -1,0 +1,41 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QVBoxLayout()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qvboxlayout.html
+   $ONELINER$
+      Creates a new QVBoxLayout object.
+   $INHERITS$
+      QBoxLayout
+   $SYNTAX$
+      QVBoxLayout( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QVBoxLayout
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

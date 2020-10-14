@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: glossybutton.prg 403 2015-02-13 20:56:02Z bedipritpal $
  */
 
 /*

@@ -1,0 +1,54 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QMediaRecorderControl()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qmediarecordercontrol.html
+   $ONELINER$
+      Creates a new QMediaRecorderControl object.
+   $INHERITS$
+      QMediaControl
+   $SYNTAX$
+      QMediaRecorderControl( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QMediaRecorderControl
+   $METHODS$
+      :applySettings()                                    -> NIL
+      :duration()                                         -> nQint64
+      :isMuted()                                          -> lBool
+      :outputLocation()                                   -> oQUrl
+      :setOutputLocation( oQUrl )                         -> lBool
+      :state()                                            -> nQMediaRecorder_State
+      :status()                                           -> nQMediaRecorder_Status
+      :volume()                                           -> nQreal
+      :setMuted( lMuted )                                 -> NIL
+      :setState( nState )                                 -> NIL
+      :setVolume( nGain )                                 -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtmultimedia
+   $END$
+ */

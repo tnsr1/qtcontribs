@@ -1,0 +1,73 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QGLWidget()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qglwidget.html
+   $ONELINER$
+      Creates a new QGLWidget object.
+   $INHERITS$
+      QWidget
+   $SYNTAX$
+      QGLWidget( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QGLWidget
+   $METHODS$
+      :bindTexture( oQImage, nTarget, nFormat )           -> nGLuint
+      :( oQPixmap, nTarget, nFormat )                     -> nGLuint
+      :( oQImage, nTarget, nFormat, nOptions )            -> nGLuint
+      :( oQPixmap, nTarget, nFormat, nOptions )           -> nGLuint
+      :( cFileName )                                      -> nGLuint
+      :colormap()                                         -> oQGLColormap
+      :context()                                          -> oQGLContext
+      :deleteTexture( nId )                               -> NIL
+      :doneCurrent()                                      -> NIL
+      :doubleBuffer()                                     -> lBool
+      :drawTexture( oQRectF, nTextureId, nTextureTarget )  -> NIL
+      :( oQPointF, nTextureId, nTextureTarget )           -> NIL
+      :format()                                           -> oQGLFormat
+      :grabFrameBuffer( lWithAlpha )                      -> oQImage
+      :isSharing()                                        -> lBool
+      :isValid()                                          -> lBool
+      :makeCurrent()                                      -> NIL
+      :makeOverlayCurrent()                               -> NIL
+      :overlayContext()                                   -> oQGLContext
+      :qglClearColor( oQColor )                           -> NIL
+      :qglColor( oQColor )                                -> NIL
+      :renderPixmap( nW, nH, lUseContext )                -> oQPixmap
+      :renderText( nX, nY, cStr, oQFont )                 -> NIL
+      :( nX, nY, nZ, cStr, oQFont )                       -> NIL
+      :setColormap( oQGLColormap )                        -> NIL
+      :setMouseTracking( lEnable )                        -> NIL
+      :swapBuffers()                                      -> NIL
+      :convertToGLFormat( oQImage )                       -> oQImage
+      :updateGL()                                         -> NIL
+      :updateOverlayGL()                                  -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtopengl
+   $END$
+ */

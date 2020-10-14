@@ -1,0 +1,66 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QSGGeometry()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qsggeometry.html
+   $ONELINER$
+      Creates a new QSGGeometry object.
+   $INHERITS$
+
+   $SYNTAX$
+      QSGGeometry( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QSGGeometry
+   $METHODS$
+      :allocate( nVertexCount, nIndexCount )              -> NIL
+      :attributeCount()                                   -> nInt
+      :drawingMode()                                      -> nGLenum
+      :indexCount()                                       -> nInt
+      :indexData()                                        -> NIL
+      :()                                                 -> NIL
+      :indexDataPattern()                                 -> nDataPattern
+      :indexType()                                        -> nInt
+      :lineWidth()                                        -> nFloat
+      :markIndexDataDirty()                               -> NIL
+      :markVertexDataDirty()                              -> NIL
+      :setDrawingMode( nMode )                            -> NIL
+      :setIndexDataPattern( nP )                          -> NIL
+      :setLineWidth( nWidth )                             -> NIL
+      :setVertexDataPattern( nP )                         -> NIL
+      :sizeOfIndex()                                      -> nInt
+      :sizeOfVertex()                                     -> nInt
+      :vertexCount()                                      -> nInt
+      :vertexData()                                       -> NIL
+      :()                                                 -> NIL
+      :vertexDataPattern()                                -> nDataPattern
+      :updateRectGeometry( oQSGGeometry, oQRectF )        -> NIL
+      :updateTexturedRectGeometry( oQSGGeometry, oQRectF, oQRectF )  -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtquick
+   $END$
+ */

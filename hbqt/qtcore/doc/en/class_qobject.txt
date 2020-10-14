@@ -1,0 +1,70 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QObject()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qobject.html
+   $ONELINER$
+      Creates a new QObject object.
+   $INHERITS$
+
+   $SYNTAX$
+      QObject( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QObject
+   $METHODS$
+      :blockSignals( lBlock )                             -> lBool
+      :children()                                         -> oQList_QObject
+      :dumpObjectInfo()                                   -> NIL
+      :dumpObjectTree()                                   -> NIL
+      :dynamicPropertyNames()                             -> oQList_QByteArray>
+      :event( oQEvent )                                   -> lBool
+      :eventFilter( oQObject, oQEvent )                   -> lBool
+      :inherits( cClassName )                             -> lBool
+      :installEventFilter( oQObject )                     -> NIL
+      :isWidgetType()                                     -> lBool
+      :isWindowType()                                     -> lBool
+      :killTimer( nId )                                   -> NIL
+      :metaObject()                                       -> oQMetaObject
+      :moveToThread( oQThread )                           -> NIL
+      :objectName()                                       -> cQString
+      :parent()                                           -> oQObject
+      :property( cName )                                  -> oQVariant
+      :removeEventFilter( oQObject )                      -> NIL
+      :setObjectName( cName )                             -> NIL
+      :setParent( oQObject )                              -> NIL
+      :setProperty( cName, oQVariant )                    -> lBool
+      :signalsBlocked()                                   -> lBool
+      :startTimer( nInterval )                            -> nInt
+      :thread()                                           -> oQThread
+      :tr( cSourceText, cDisambiguation, nN )             -> cQString
+      :trUtf8( cSourceText, cDisambiguation, nN )         -> cQString
+      :deleteLater()                                      -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtcore
+   $END$
+ */

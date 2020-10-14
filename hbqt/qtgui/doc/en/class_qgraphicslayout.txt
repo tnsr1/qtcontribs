@@ -1,0 +1,53 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QGraphicsLayout()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qgraphicslayout.html
+   $ONELINER$
+      Creates a new QGraphicsLayout object.
+   $INHERITS$
+      QGraphicsLayoutItem
+   $SYNTAX$
+      QGraphicsLayout( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QGraphicsLayout
+   $METHODS$
+      :activate()                                         -> NIL
+      :count()                                            -> nInt
+      :invalidate()                                       -> NIL
+      :isActivated()                                      -> lBool
+      :itemAt( nI )                                       -> oQGraphicsLayoutItem
+      :removeAt( nIndex )                                 -> NIL
+      :setContentsMargins( nLeft, nTop, nRight, nBottom )  -> NIL
+      :widgetEvent( oQEvent )                             -> NIL
+      :instantInvalidatePropagation()                     -> lBool
+      :setInstantInvalidatePropagation( lEnable )         -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

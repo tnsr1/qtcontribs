@@ -1,0 +1,76 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QFile()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qfile.html
+   $ONELINER$
+      Creates a new QFile object.
+   $INHERITS$
+      QIODevice
+   $SYNTAX$
+      QFile( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QFile
+   $METHODS$
+      :atEnd()                                            -> lBool
+      :close()                                            -> NIL
+      :copy( cNewName )                                   -> lBool
+      :error()                                            -> nFileError
+      :exists()                                           -> lBool
+      :fileName()                                         -> cQString
+      :flush()                                            -> lBool
+      :handle()                                           -> nInt
+      :isSequential()                                     -> lBool
+      :link( cLinkName )                                  -> lBool
+      :map( nOffset, nSize, nFlags )                      -> cUchar
+      :open( nMode )                                      -> lBool
+      :( nFd, nMode )                                     -> lBool
+      :permissions()                                      -> nPermissions
+      :remove()                                           -> lBool
+      :rename( cNewName )                                 -> lBool
+      :resize( nSz )                                      -> lBool
+      :setFileName( cName )                               -> NIL
+      :setPermissions( nPermissions )                     -> lBool
+      :size()                                             -> nQint64
+      :symLinkTarget()                                    -> cQString
+      :unsetError()                                       -> NIL
+      :( cFileName, cNewName )                            -> lBool
+      :decodeName( cLocalFileName )                       -> cQString
+      :encodeName( cFileName )                            -> oQByteArray
+      :( cFileName )                                      -> lBool
+      :( cFileName, cLinkName )                           -> lBool
+      :( cFileName )                                      -> nPermissions
+      :( cFileName )                                      -> lBool
+      :( cOldName, cNewName )                             -> lBool
+      :( cFileName, nSz )                                 -> lBool
+      :( cFileName, nPermissions )                        -> lBool
+      :( cFileName )                                      -> cQString
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtcore
+   $END$
+ */

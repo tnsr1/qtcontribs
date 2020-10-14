@@ -1,0 +1,56 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QVideoWidgetControl()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qvideowidgetcontrol.html
+   $ONELINER$
+      Creates a new QVideoWidgetControl object.
+   $INHERITS$
+      QMediaControl
+   $SYNTAX$
+      QVideoWidgetControl( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QVideoWidgetControl
+   $METHODS$
+      :aspectRatioMode()                                  -> nQt_AspectRatioMode
+      :brightness()                                       -> nInt
+      :contrast()                                         -> nInt
+      :hue()                                              -> nInt
+      :isFullScreen()                                     -> lBool
+      :saturation()                                       -> nInt
+      :setAspectRatioMode( nMode )                        -> NIL
+      :setBrightness( nBrightness )                       -> NIL
+      :setContrast( nContrast )                           -> NIL
+      :setFullScreen( lFullScreen )                       -> NIL
+      :setHue( nHue )                                     -> NIL
+      :setSaturation( nSaturation )                       -> NIL
+      :videoWidget()                                      -> oQWidget
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtmultimediawidgets
+   $END$
+ */

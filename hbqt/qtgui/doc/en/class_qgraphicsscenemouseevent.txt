@@ -1,0 +1,57 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QGraphicsSceneMouseEvent()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qgraphicsscenemouseevent.html
+   $ONELINER$
+      Creates a new QGraphicsSceneMouseEvent object.
+   $INHERITS$
+      QGraphicsSceneEvent
+   $SYNTAX$
+      QGraphicsSceneMouseEvent( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QGraphicsSceneMouseEvent
+   $METHODS$
+      :button()                                           -> nQt_MouseButton
+      :buttonDownPos( nButton )                           -> oQPointF
+      :buttonDownScenePos( nButton )                      -> oQPointF
+      :buttonDownScreenPos( nButton )                     -> oQPoint
+      :buttons()                                          -> nQt_MouseButtons
+      :flags()                                            -> nQt_MouseEventFlags
+      :lastPos()                                          -> oQPointF
+      :lastScenePos()                                     -> oQPointF
+      :lastScreenPos()                                    -> oQPoint
+      :modifiers()                                        -> nQt_KeyboardModifiers
+      :pos()                                              -> oQPointF
+      :scenePos()                                         -> oQPointF
+      :screenPos()                                        -> oQPoint
+      :source()                                           -> nQt_MouseEventSource
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

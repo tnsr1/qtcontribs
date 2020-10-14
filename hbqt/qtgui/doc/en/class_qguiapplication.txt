@@ -1,0 +1,87 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QGuiApplication()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.0/qguiapplication.html
+   $ONELINER$
+      Creates a new QGuiApplication object.
+   $INHERITS$
+      QCoreApplication
+   $SYNTAX$
+      QGuiApplication( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QGuiApplication
+   $METHODS$
+      :devicePixelRatio()                                 -> nQreal
+      :isSavingSession()                                  -> lBool
+      :isSessionRestored()                                -> lBool
+      :sessionId()                                        -> cQString
+      :sessionKey()                                       -> cQString
+      :notify( oQObject, oQEvent )                        -> lBool
+      :allWindows()                                       -> oQList_QWindow
+      :applicationDisplayName()                           -> cQString
+      :applicationState()                                 -> nQt_ApplicationState
+      :changeOverrideCursor( oQCursor )                   -> NIL
+      :clipboard()                                        -> oQClipboard
+      :desktopSettingsAware()                             -> lBool
+      :exec()                                             -> nInt
+      :focusObject()                                      -> oQObject
+      :focusWindow()                                      -> oQWindow
+      :font()                                             -> oQFont
+      :inputMethod()                                      -> oQInputMethod
+      :isLeftToRight()                                    -> lBool
+      :isRightToLeft()                                    -> lBool
+      :keyboardModifiers()                                -> nQt_KeyboardModifiers
+      :layoutDirection()                                  -> nQt_LayoutDirection
+      :modalWindow()                                      -> oQWindow
+      :mouseButtons()                                     -> nQt_MouseButtons
+      :overrideCursor()                                   -> oQCursor
+      :palette()                                          -> oQPalette
+      :platformName()                                     -> cQString
+      :primaryScreen()                                    -> oQScreen
+      :queryKeyboardModifiers()                           -> nQt_KeyboardModifiers
+      :quitOnLastWindowClosed()                           -> lBool
+      :restoreOverrideCursor()                            -> NIL
+      :screens()                                          -> oQList_QScreen
+      :setApplicationDisplayName( cName )                 -> NIL
+      :setDesktopSettingsAware( lOn )                     -> NIL
+      :setFont( oQFont )                                  -> NIL
+      :setLayoutDirection( nDirection )                   -> NIL
+      :setOverrideCursor( oQCursor )                      -> NIL
+      :setPalette( oQPalette )                            -> NIL
+      :setQuitOnLastWindowClosed( lQuit )                 -> NIL
+      :setWindowIcon( oQIcon )                            -> NIL
+      :styleHints()                                       -> oQStyleHints
+      :sync()                                             -> NIL
+      :topLevelAt( oQPoint )                              -> oQWindow
+      :topLevelWindows()                                  -> oQList_QWindow
+      :windowIcon()                                       -> oQIcon
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.0 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

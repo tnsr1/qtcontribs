@@ -1,0 +1,82 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QCoreApplication()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qcoreapplication.html
+   $ONELINER$
+      Creates a new QCoreApplication object.
+   $INHERITS$
+      QObject
+   $SYNTAX$
+      QCoreApplication( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QCoreApplication
+   $METHODS$
+      :notify( oQObject, oQEvent )                        -> lBool
+      :addLibraryPath( cPath )                            -> NIL
+      :applicationDirPath()                               -> cQString
+      :applicationFilePath()                              -> cQString
+      :applicationName()                                  -> cQString
+      :applicationPid()                                   -> nQint64
+      :applicationVersion()                               -> cQString
+      :arguments()                                        -> oQStringList
+      :closingDown()                                      -> lBool
+      :exec()                                             -> nInt
+      :exit( nReturnCode )                                -> NIL
+      :flush()                                            -> NIL
+      :hasPendingEvents()                                 -> lBool
+      :installTranslator( oQTranslator )                  -> NIL
+      :instance()                                         -> oQCoreApplication
+      :libraryPaths()                                     -> oQStringList
+      :organizationDomain()                               -> cQString
+      :organizationName()                                 -> cQString
+      :postEvent( oQObject, oQEvent )                     -> NIL
+      :( oQObject, oQEvent, nPriority )                   -> NIL
+      :processEvents( nFlags )                            -> NIL
+      :( nFlags, nMaxtime )                               -> NIL
+      :removeLibraryPath( cPath )                         -> NIL
+      :removePostedEvents( oQObject )                     -> NIL
+      :( oQObject, nEventType )                           -> NIL
+      :removeTranslator( oQTranslator )                   -> NIL
+      :sendEvent( oQObject, oQEvent )                     -> lBool
+      :sendPostedEvents( oQObject, nEvent_type )          -> NIL
+      :()                                                 -> NIL
+      :setApplicationName( cApplication )                 -> NIL
+      :setApplicationVersion( cVersion )                  -> NIL
+      :setAttribute( nAttribute, lOn )                    -> NIL
+      :setLibraryPaths( oQStringList )                    -> NIL
+      :setOrganizationDomain( cOrgDomain )                -> NIL
+      :setOrganizationName( cOrgName )                    -> NIL
+      :startingUp()                                       -> lBool
+      :testAttribute( nAttribute )                        -> lBool
+      :translate( cContext, cSourceText, cDisambiguation, nEncoding )  -> cQString
+      :quit()                                             -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtcore
+   $END$
+ */

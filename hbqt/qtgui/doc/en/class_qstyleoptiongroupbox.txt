@@ -1,0 +1,49 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QStyleOptionGroupBox()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qstyleoptiongroupbox.html
+   $ONELINER$
+      Creates a new QStyleOptionGroupBox object.
+   $INHERITS$
+      QStyleOptionComplex
+   $SYNTAX$
+      QStyleOptionGroupBox( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QStyleOptionGroupBox
+   $METHODS$
+      :features()                                         -> nQStyleOptionFrameV2_FrameFeatures
+      :lineWidth()                                        -> nInt
+      :midLineWidth()                                     -> nInt
+      :text()                                             -> cQString
+      :textAlignment()                                    -> nQt_Alignment
+      :textColor()                                        -> oQColor
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

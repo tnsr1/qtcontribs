@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: gt_in_qt.prg 380 2014-11-19 23:42:23Z bedipritpal $
  */
 
 /*

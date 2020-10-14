@@ -1,0 +1,48 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QPlaceSearchResult()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.5/qplacesearchresult.html
+   $ONELINER$
+      Creates a new QPlaceSearchResult object.
+   $INHERITS$
+
+   $SYNTAX$
+      QPlaceSearchResult( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QPlaceSearchResult
+   $METHODS$
+      :icon()                                             -> oQPlaceIcon
+      :setIcon( oQPlaceIcon )                             -> NIL
+      :setTitle( cTitle )                                 -> NIL
+      :title()                                            -> cQString
+      :type()                                             -> nSearchResultType
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.5 or upper
+   $FILES$
+      Library: hbqtlocation
+   $END$
+ */

@@ -1,0 +1,44 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QMediaNetworkAccessControl()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qmedianetworkaccesscontrol.html
+   $ONELINER$
+      Creates a new QMediaNetworkAccessControl object.
+   $INHERITS$
+      QMediaControl
+   $SYNTAX$
+      QMediaNetworkAccessControl( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QMediaNetworkAccessControl
+   $METHODS$
+      :currentConfiguration()                             -> oQNetworkConfiguration
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtmultimedia
+   $END$
+ */

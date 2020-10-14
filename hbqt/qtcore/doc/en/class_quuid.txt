@@ -1,0 +1,55 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QUuid()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/quuid.html
+   $ONELINER$
+      Creates a new QUuid object.
+   $INHERITS$
+
+   $SYNTAX$
+      QUuid( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QUuid
+   $METHODS$
+      :isNull()                                           -> lBool
+      :toByteArray()                                      -> oQByteArray
+      :toRfc4122()                                        -> oQByteArray
+      :toString()                                         -> cQString
+      :variant()                                          -> nQUuid_Variant
+      :version()                                          -> nQUuid_Version
+      :createUuid()                                       -> oQUuid
+      :createUuidV3( oQUuid, oQByteArray )                -> oQUuid
+      :( oQUuid, cBaseData )                              -> oQUuid
+      :createUuidV5( oQUuid, oQByteArray )                -> oQUuid
+      :( oQUuid, cBaseData )                              -> oQUuid
+      :fromRfc4122( oQByteArray )                         -> oQUuid
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtcore
+   $END$
+ */

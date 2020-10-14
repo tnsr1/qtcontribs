@@ -1,0 +1,57 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QGLFramebufferObject()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qglframebufferobject.html
+   $ONELINER$
+      Creates a new QGLFramebufferObject object.
+   $INHERITS$
+      QPaintDevice
+   $SYNTAX$
+      QGLFramebufferObject( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QGLFramebufferObject
+   $METHODS$
+      :bind()                                             -> lBool
+      :drawTexture( oQRectF, nTextureId, nTextureTarget )  -> NIL
+      :( oQPointF, nTextureId, nTextureTarget )           -> NIL
+      :format()                                           -> oQGLFramebufferObjectFormat
+      :handle()                                           -> nGLuint
+      :isBound()                                          -> lBool
+      :isValid()                                          -> lBool
+      :release()                                          -> lBool
+      :size()                                             -> oQSize
+      :texture()                                          -> nGLuint
+      :toImage()                                          -> oQImage
+      :paintEngine()                                      -> oQPaintEngine
+      :hasOpenGLFramebufferBlit()                         -> lBool
+      :hasOpenGLFramebufferObjects()                      -> lBool
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtopengl
+   $END$
+ */

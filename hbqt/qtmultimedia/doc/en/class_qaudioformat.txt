@@ -1,0 +1,56 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QAudioFormat()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.6/qaudioformat.html
+   $ONELINER$
+      Creates a new QAudioFormat object.
+   $INHERITS$
+
+   $SYNTAX$
+      QAudioFormat( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QAudioFormat
+   $METHODS$
+      :byteOrder()                                        -> nQAudioFormat_Endian
+      :channelCount()                                     -> nInt
+      :codec()                                            -> cQString
+      :isValid()                                          -> lBool
+      :sampleRate()                                       -> nInt
+      :sampleSize()                                       -> nInt
+      :sampleType()                                       -> nQAudioFormat_SampleType
+      :setByteOrder( nByteOrder )                         -> NIL
+      :setChannelCount( nChannels )                       -> NIL
+      :setCodec( cCodec )                                 -> NIL
+      :setSampleRate( nSamplerate )                       -> NIL
+      :setSampleSize( nSampleSize )                       -> NIL
+      :setSampleType( nSampleType )                       -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.6 or upper
+   $FILES$
+      Library: hbqtmultimedia
+   $END$
+ */

@@ -1,0 +1,47 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QPlaceUser()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.5/qplaceuser.html
+   $ONELINER$
+      Creates a new QPlaceUser object.
+   $INHERITS$
+
+   $SYNTAX$
+      QPlaceUser( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QPlaceUser
+   $METHODS$
+      :name()                                             -> cQString
+      :setName( cName )                                   -> NIL
+      :setUserId( cIdentifier )                           -> NIL
+      :userId()                                           -> cQString
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.5 or upper
+   $FILES$
+      Library: hbqtlocation
+   $END$
+ */

@@ -1,0 +1,50 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QPanGesture()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.6/qpangesture.html
+   $ONELINER$
+      Creates a new QPanGesture object.
+   $INHERITS$
+      QGesture
+   $SYNTAX$
+      QPanGesture( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QPanGesture
+   $METHODS$
+      :acceleration()                                     -> nQreal
+      :delta()                                            -> oQPointF
+      :lastOffset()                                       -> oQPointF
+      :offset()                                           -> oQPointF
+      :setAcceleration( nValue )                          -> NIL
+      :setLastOffset( oQPointF )                          -> NIL
+      :setOffset( oQPointF )                              -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.6 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

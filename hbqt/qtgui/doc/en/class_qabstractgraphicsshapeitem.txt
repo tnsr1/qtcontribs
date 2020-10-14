@@ -1,0 +1,47 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QAbstractGraphicsShapeItem()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qabstractgraphicsshapeitem.html
+   $ONELINER$
+      Creates a new QAbstractGraphicsShapeItem object.
+   $INHERITS$
+      QGraphicsItem
+   $SYNTAX$
+      QAbstractGraphicsShapeItem( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QAbstractGraphicsShapeItem
+   $METHODS$
+      :brush()                                            -> oQBrush
+      :pen()                                              -> oQPen
+      :setBrush( oQBrush )                                -> NIL
+      :setPen( oQPen )                                    -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

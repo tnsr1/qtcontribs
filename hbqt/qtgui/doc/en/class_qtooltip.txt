@@ -1,0 +1,51 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QToolTip()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qtooltip.html
+   $ONELINER$
+      Creates a new QToolTip object.
+   $INHERITS$
+
+   $SYNTAX$
+      QToolTip( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QToolTip
+   $METHODS$
+      :font()                                             -> oQFont
+      :hideText()                                         -> NIL
+      :isVisible()                                        -> lBool
+      :palette()                                          -> oQPalette
+      :setFont( oQFont )                                  -> NIL
+      :setPalette( oQPalette )                            -> NIL
+      :showText( oQPoint, cText, oQWidget, oQRect )       -> NIL
+      :text()                                             -> cQString
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

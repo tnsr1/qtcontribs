@@ -1,0 +1,46 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QDomNotation()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qdomnotation.html
+   $ONELINER$
+      Creates a new QDomNotation object.
+   $INHERITS$
+      QDomNode
+   $SYNTAX$
+      QDomNotation( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QDomNotation
+   $METHODS$
+      :nodeType()                                         -> nQDomNode_NodeType
+      :publicId()                                         -> cQString
+      :systemId()                                         -> cQString
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtopengl
+   $END$
+ */

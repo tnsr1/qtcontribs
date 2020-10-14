@@ -1,0 +1,50 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QEvent()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qevent.html
+   $ONELINER$
+      Creates a new QEvent object.
+   $INHERITS$
+
+   $SYNTAX$
+      QEvent( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QEvent
+   $METHODS$
+      :accept()                                           -> NIL
+      :ignore()                                           -> NIL
+      :isAccepted()                                       -> lBool
+      :setAccepted( lAccepted )                           -> NIL
+      :spontaneous()                                      -> lBool
+      :type()                                             -> nType
+      :registerEventType( nHint )                         -> nInt
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtcore
+   $END$
+ */

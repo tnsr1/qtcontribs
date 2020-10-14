@@ -1,0 +1,61 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QInputMethod()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.0/qinputmethod.html
+   $ONELINER$
+      Creates a new QInputMethod object.
+   $INHERITS$
+      QObject
+   $SYNTAX$
+      QInputMethod( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QInputMethod
+   $METHODS$
+      :cursorRectangle()                                  -> oQRectF
+      :inputDirection()                                   -> nQt_LayoutDirection
+      :inputItemRectangle()                               -> oQRectF
+      :inputItemTransform()                               -> oQTransform
+      :isAnimating()                                      -> lBool
+      :isVisible()                                        -> lBool
+      :keyboardRectangle()                                -> oQRectF
+      :locale()                                           -> oQLocale
+      :setInputItemRectangle( oQRectF )                   -> NIL
+      :setInputItemTransform( oQTransform )               -> NIL
+      :setVisible( lVisible )                             -> NIL
+      :queryFocusObject( nQuery, oQVariant )              -> oQVariant
+      :commit()                                           -> NIL
+      :hide()                                             -> NIL
+      :invokeAction( nA, nCursorPosition )                -> NIL
+      :reset()                                            -> NIL
+      :show()                                             -> NIL
+      :update( nQueries )                                 -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.0 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

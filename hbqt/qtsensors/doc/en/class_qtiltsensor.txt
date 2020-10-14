@@ -1,0 +1,45 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QTiltSensor()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qtiltsensor.html
+   $ONELINER$
+      Creates a new QTiltSensor object.
+   $INHERITS$
+      QSensor
+   $SYNTAX$
+      QTiltSensor( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QTiltSensor
+   $METHODS$
+      :calibrate()                                        -> NIL
+      :reading()                                          -> oQTiltReading
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtandroid
+   $END$
+ */

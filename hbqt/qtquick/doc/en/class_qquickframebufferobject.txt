@@ -1,0 +1,45 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QQuickFramebufferObject()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qquickframebufferobject.html
+   $ONELINER$
+      Creates a new QQuickFramebufferObject object.
+   $INHERITS$
+      QQuickItem
+   $SYNTAX$
+      QQuickFramebufferObject( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QQuickFramebufferObject
+   $METHODS$
+      :setTextureFollowsItemSize( lFollows )              -> NIL
+      :textureFollowsItemSize()                           -> lBool
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtquick
+   $END$
+ */

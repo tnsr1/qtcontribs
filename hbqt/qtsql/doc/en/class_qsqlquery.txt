@@ -1,0 +1,79 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QSqlQuery()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qsqlquery.html
+   $ONELINER$
+      Creates a new QSqlQuery object.
+   $INHERITS$
+
+   $SYNTAX$
+      QSqlQuery( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QSqlQuery
+   $METHODS$
+      :addBindValue( oQVariant, nParamType )              -> NIL
+      :at()                                               -> nInt
+      :bindValue( cPlaceholder, oQVariant, nParamType )   -> NIL
+      :( nPos, oQVariant, nParamType )                    -> NIL
+      :boundValue( cPlaceholder )                         -> oQVariant
+      :( nPos )                                           -> oQVariant
+      :clear()                                            -> NIL
+      :driver()                                           -> oQSqlDriver
+      :exec( cQuery )                                     -> lBool
+      :()                                                 -> lBool
+      :execBatch( nMode )                                 -> lBool
+      :executedQuery()                                    -> cQString
+      :finish()                                           -> NIL
+      :first()                                            -> lBool
+      :isActive()                                         -> lBool
+      :isForwardOnly()                                    -> lBool
+      :isNull( nField )                                   -> lBool
+      :isSelect()                                         -> lBool
+      :isValid()                                          -> lBool
+      :last()                                             -> lBool
+      :lastError()                                        -> oQSqlError
+      :lastInsertId()                                     -> oQVariant
+      :lastQuery()                                        -> cQString
+      :next()                                             -> lBool
+      :nextResult()                                       -> lBool
+      :numRowsAffected()                                  -> nInt
+      :numericalPrecisionPolicy()                         -> nQSql_NumericalPrecisionPolicy
+      :prepare( cQuery )                                  -> lBool
+      :previous()                                         -> lBool
+      :record()                                           -> oQSqlRecord
+      :result()                                           -> oQSqlResult
+      :seek( nIndex, lRelative )                          -> lBool
+      :setForwardOnly( lForward )                         -> NIL
+      :setNumericalPrecisionPolicy( nPrecisionPolicy )    -> NIL
+      :size()                                             -> nInt
+      :value( nIndex )                                    -> oQVariant
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtsql
+   $END$
+ */

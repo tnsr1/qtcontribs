@@ -1,0 +1,59 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QOpenGLBuffer()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.0/qopenglbuffer.html
+   $ONELINER$
+      Creates a new QOpenGLBuffer object.
+   $INHERITS$
+
+   $SYNTAX$
+      QOpenGLBuffer( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QOpenGLBuffer
+   $METHODS$
+      :allocate( nData, nCount )                          -> NIL
+      :( nCount )                                         -> NIL
+      :bind()                                             -> lBool
+      :bufferId()                                         -> nGLuint
+      :create()                                           -> lBool
+      :destroy()                                          -> NIL
+      :isCreated()                                        -> lBool
+      :map( nAccess )                                     -> NIL
+      :read( nOffset, nData, nCount )                     -> lBool
+      :release()                                          -> NIL
+      :setUsagePattern( nValue )                          -> NIL
+      :size()                                             -> nInt
+      :type()                                             -> nQOpenGLBuffer_Type
+      :unmap()                                            -> lBool
+      :usagePattern()                                     -> nQOpenGLBuffer_UsagePattern
+      :write( nOffset, nData, nCount )                    -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.0 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

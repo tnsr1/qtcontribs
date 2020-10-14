@@ -1,0 +1,106 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QDomNode()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qdomnode.html
+   $ONELINER$
+      Creates a new QDomNode object.
+   $INHERITS$
+
+   $SYNTAX$
+      QDomNode( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QDomNode
+   $METHODS$
+      :appendChild( oQDomNode )                           -> oQDomNode
+      :attributes()                                       -> oQDomNamedNodeMap
+      :childNodes()                                       -> oQDomNodeList
+      :clear()                                            -> NIL
+      :cloneNode( lDeep )                                 -> oQDomNode
+      :columnNumber()                                     -> nInt
+      :firstChild()                                       -> oQDomNode
+      :firstChildElement( cTagName )                      -> oQDomElement
+      :hasAttributes()                                    -> lBool
+      :hasChildNodes()                                    -> lBool
+      :insertAfter( oQDomNode, oQDomNode )                -> oQDomNode
+      :insertBefore( oQDomNode, oQDomNode )               -> oQDomNode
+      :isAttr()                                           -> lBool
+      :isCDATASection()                                   -> lBool
+      :isCharacterData()                                  -> lBool
+      :isComment()                                        -> lBool
+      :isDocument()                                       -> lBool
+      :isDocumentFragment()                               -> lBool
+      :isDocumentType()                                   -> lBool
+      :isElement()                                        -> lBool
+      :isEntity()                                         -> lBool
+      :isEntityReference()                                -> lBool
+      :isNotation()                                       -> lBool
+      :isNull()                                           -> lBool
+      :isProcessingInstruction()                          -> lBool
+      :isSupported( cFeature, cVersion )                  -> lBool
+      :isText()                                           -> lBool
+      :lastChild()                                        -> oQDomNode
+      :lastChildElement( cTagName )                       -> oQDomElement
+      :lineNumber()                                       -> nInt
+      :localName()                                        -> cQString
+      :namedItem( cName )                                 -> oQDomNode
+      :namespaceURI()                                     -> cQString
+      :nextSibling()                                      -> oQDomNode
+      :nextSiblingElement( cTagName )                     -> oQDomElement
+      :nodeName()                                         -> cQString
+      :nodeType()                                         -> nNodeType
+      :nodeValue()                                        -> cQString
+      :normalize()                                        -> NIL
+      :ownerDocument()                                    -> oQDomDocument
+      :parentNode()                                       -> oQDomNode
+      :prefix()                                           -> cQString
+      :previousSibling()                                  -> oQDomNode
+      :previousSiblingElement( cTagName )                 -> oQDomElement
+      :removeChild( oQDomNode )                           -> oQDomNode
+      :replaceChild( oQDomNode, oQDomNode )               -> oQDomNode
+      :save( oQTextStream, nIndent )                      -> NIL
+      :( oQTextStream, nIndent, nEncodingPolicy )         -> NIL
+      :setNodeValue( cV )                                 -> NIL
+      :setPrefix( cPre )                                  -> NIL
+      :toAttr()                                           -> oQDomAttr
+      :toCDATASection()                                   -> oQDomCDATASection
+      :toCharacterData()                                  -> oQDomCharacterData
+      :toComment()                                        -> oQDomComment
+      :toDocument()                                       -> oQDomDocument
+      :toDocumentFragment()                               -> oQDomDocumentFragment
+      :toDocumentType()                                   -> oQDomDocumentType
+      :toElement()                                        -> oQDomElement
+      :toEntity()                                         -> oQDomEntity
+      :toEntityReference()                                -> oQDomEntityReference
+      :toNotation()                                       -> oQDomNotation
+      :toProcessingInstruction()                          -> oQDomProcessingInstruction
+      :toText()                                           -> oQDomText
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtopengl
+   $END$
+ */

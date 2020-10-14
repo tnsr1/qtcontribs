@@ -1,0 +1,60 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      HBQGraphicsScene()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/hbqgraphicsscene.html
+   $ONELINER$
+      Creates a new HBQGraphicsScene object.
+   $INHERITS$
+      QGraphicsScene
+   $SYNTAX$
+      HBQGraphicsScene( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type HBQGraphicsScene
+   $METHODS$
+      :hbSetBlock( xBlock )                               -> NIL
+      :hbClearBlock()                                     -> NIL
+      :orientation()                                      -> nInt
+      :setOrientation( nOrientation )                     -> NIL
+      :geometry()                                         -> oQRectF
+      :setGeometry( oQRectF )                             -> NIL
+      :magnetArea()                                       -> nInt
+      :setMagnetArea( nMagnetArea )                       -> NIL
+      :showGrid()                                         -> lBool
+      :setLeftMagnet( lMagneted )                         -> NIL
+      :setRightMagnet( lMagneted )                        -> NIL
+      :setTopMagnet( lMagneted )                          -> NIL
+      :setBottomMagnet( lMagneted )                       -> NIL
+      :setHorizontalMagnet( lMagneted )                   -> NIL
+      :setVerticalMagnet( lMagneted )                     -> NIL
+      :setShowGrid( lShowGrid )                           -> NIL
+      :setSceneSize( oQSize )                             -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

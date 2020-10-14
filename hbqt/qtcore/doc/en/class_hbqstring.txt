@@ -1,0 +1,183 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      HBQString()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/hbqstring.html
+   $ONELINER$
+      Creates a new HBQString object.
+   $INHERITS$
+
+   $SYNTAX$
+      HBQString( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type HBQString
+   $METHODS$
+      :append( cStr )                                     -> cQString
+      :( oQStringRef )                                    -> cQString
+      :( oQLatin1String )                                 -> cQString
+      :( oQByteArray )                                    -> cQString
+      :( oQChar )                                         -> cQString
+      :arg( cA, nFieldWidth, oQChar )                     -> cQString
+      :( cA1, cA2 )                                       -> cQString
+      :( cA1, cA2, cA3 )                                  -> cQString
+      :( cA1, cA2, cA3, cA4 )                             -> cQString
+      :( cA1, cA2, cA3, cA4, cA5 )                        -> cQString
+      :( cA1, cA2, cA3, cA4, cA5, cA6 )                   -> cQString
+      :( cA1, cA2, cA3, cA4, cA5, cA6, cA7 )              -> cQString
+      :( cA1, cA2, cA3, cA4, cA5, cA6, cA7, cA8 )         -> cQString
+      :( cA1, cA2, cA3, cA4, cA5, cA6, cA7, cA8, cA9 )    -> cQString
+      :( nA, nFieldWidth, nBase, oQChar )                 -> cQString
+      :( oQChar, nFieldWidth, oQChar )                    -> cQString
+      :at( nPosition )                                    -> oQChar
+      :capacity()                                         -> nInt
+      :chop( nN )                                         -> NIL
+      :clear()                                            -> NIL
+      :compare( cOther )                                  -> nInt
+      :( cOther, nCs )                                    -> nInt
+      :( oQLatin1String, nCs )                            -> nInt
+      :( oQStringRef, nCs )                               -> nInt
+      :constData()                                        -> oQChar
+      :count( cStr, nCs )                                 -> nInt
+      :( oQChar, nCs )                                    -> nInt
+      :( oQRegExp )                                       -> nInt
+      :()                                                 -> nInt
+      :data()                                             -> oQChar
+      :endsWith( cS, nCs )                                -> lBool
+      :( oQLatin1String, nCs )                            -> lBool
+      :( oQChar, nCs )                                    -> lBool
+      :fill( oQChar, nSize )                              -> cQString
+      :indexOf( cStr, nFrom, nCs )                        -> nInt
+      :( oQLatin1String, nFrom, nCs )                     -> nInt
+      :( oQChar, nFrom, nCs )                             -> nInt
+      :( oQRegExp, nFrom )                                -> nInt
+      :( oQRegExp, nFrom )                                -> nInt
+      :insert( nPosition, cStr )                          -> cQString
+      :( nPosition, oQLatin1String )                      -> cQString
+      :( nPosition, oQChar, nSize )                       -> cQString
+      :( nPosition, oQChar )                              -> cQString
+      :isEmpty()                                          -> lBool
+      :isNull()                                           -> lBool
+      :lastIndexOf( cStr, nFrom, nCs )                    -> nInt
+      :( oQLatin1String, nFrom, nCs )                     -> nInt
+      :( oQChar, nFrom, nCs )                             -> nInt
+      :( oQRegExp, nFrom )                                -> nInt
+      :( oQRegExp, nFrom )                                -> nInt
+      :left( nN )                                         -> cQString
+      :leftJustified( nWidth, oQChar, lTruncate )         -> cQString
+      :leftRef( nN )                                      -> oQStringRef
+      :length()                                           -> nInt
+      :localeAwareCompare( oQStringRef )                  -> nInt
+      :( cOther )                                         -> nInt
+      :mid( nPosition, nN )                               -> cQString
+      :midRef( nPosition, nN )                            -> oQStringRef
+      :normalized( nMode )                                -> cQString
+      :( nMode, nVersion )                                -> cQString
+      :prepend( cStr )                                    -> cQString
+      :( oQLatin1String )                                 -> cQString
+      :( oQByteArray )                                    -> cQString
+      :( oQChar )                                         -> cQString
+      :push_back( cOther )                                -> NIL
+      :( oQChar )                                         -> NIL
+      :push_front( cOther )                               -> NIL
+      :( oQChar )                                         -> NIL
+      :remove( nPosition, nN )                            -> cQString
+      :( oQChar, nCs )                                    -> cQString
+      :( cStr, nCs )                                      -> cQString
+      :( oQRegExp )                                       -> cQString
+      :repeated( nTimes )                                 -> cQString
+      :replace( nPosition, nN, cAfter )                   -> cQString
+      :( nPosition, nN, oQChar, nSize )                   -> cQString
+      :( nPosition, nN, oQChar )                          -> cQString
+      :( cBefore, cAfter, nCs )                           -> cQString
+      :( oQChar, nBlen, oQChar, nAlen, nCs )              -> cQString
+      :( oQChar, cAfter, nCs )                            -> cQString
+      :( oQChar, oQChar, nCs )                            -> cQString
+      :( oQLatin1String, oQLatin1String, nCs )            -> cQString
+      :( oQLatin1String, cAfter, nCs )                    -> cQString
+      :( cBefore, oQLatin1String, nCs )                   -> cQString
+      :( oQChar, oQLatin1String, nCs )                    -> cQString
+      :( oQRegExp, cAfter )                               -> cQString
+      :reserve( nSize )                                   -> NIL
+      :resize( nSize )                                    -> NIL
+      :right( nN )                                        -> cQString
+      :rightJustified( nWidth, oQChar, lTruncate )        -> cQString
+      :rightRef( nN )                                     -> oQStringRef
+      :section( oQChar, nStart, nEnd, nFlags )            -> cQString
+      :( cSep, nStart, nEnd, nFlags )                     -> cQString
+      :( oQRegExp, nStart, nEnd, nFlags )                 -> cQString
+      :setNum( nN, nBase )                                -> cQString
+      :setUnicode( oQChar, nSize )                        -> cQString
+      :setUtf16( @nUnicode, nSize )                       -> cQString
+      :simplified()                                       -> cQString
+      :size()                                             -> nInt
+      :split( cSep, nBehavior, nCs )                      -> oQStringList
+      :( oQChar, nBehavior, nCs )                         -> oQStringList
+      :( oQRegExp, nBehavior )                            -> oQStringList
+      :squeeze()                                          -> NIL
+      :startsWith( cS, nCs )                              -> lBool
+      :( oQLatin1String, nCs )                            -> lBool
+      :( oQChar, nCs )                                    -> lBool
+      :toAscii()                                          -> oQByteArray
+      :toCaseFolded()                                     -> cQString
+      :toDouble( @lOk )                                   -> nDouble
+      :toFloat( @lOk )                                    -> nFloat
+      :toInt( @lOk, nBase )                               -> nInt
+      :toLatin1()                                         -> oQByteArray
+      :toLocal8Bit()                                      -> oQByteArray
+      :toLong( @lOk, nBase )                              -> nLong
+      :toLongLong( @lOk, nBase )                          -> nQlonglong
+      :toLower()                                          -> cQString
+      :toShort( @lOk, nBase )                             -> nShort
+      :toUInt( @lOk, nBase )                              -> nUint
+      :toULong( @lOk, nBase )                             -> nUlong
+      :toULongLong( @lOk, nBase )                         -> nQulonglong
+      :toUShort( @lOk, nBase )                            -> nUshort
+      :toUpper()                                          -> cQString
+      :toUtf8()                                           -> oQByteArray
+      :trimmed()                                          -> cQString
+      :truncate( nPosition )                              -> NIL
+      :unicode()                                          -> oQChar
+      :( cS1, cS2, nCs )                                  -> nInt
+      :( cS1, cS2 )                                       -> nInt
+      :( cS1, oQLatin1String, nCs )                       -> nInt
+      :( oQLatin1String, cS2, nCs )                       -> nInt
+      :( cS1, oQStringRef, nCs )                          -> nInt
+      :fromAscii( cStr, nSize )                           -> cQString
+      :fromLatin1( cStr, nSize )                          -> cQString
+      :fromLocal8Bit( cStr, nSize )                       -> cQString
+      :fromRawData( oQChar, nSize )                       -> cQString
+      :fromUcs4( @nUnicode, nSize )                       -> cQString
+      :fromUtf8( cStr, nSize )                            -> cQString
+      :fromUtf16( @nUnicode, nSize )                      -> cQString
+      :( cS1, cS2 )                                       -> nInt
+      :( cS1, oQStringRef )                               -> nInt
+      :number( nN, nBase )                                -> cQString
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtcore
+   $END$
+ */

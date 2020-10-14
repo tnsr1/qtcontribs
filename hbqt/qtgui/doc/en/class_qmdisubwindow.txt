@@ -1,0 +1,57 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QMdiSubWindow()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qmdisubwindow.html
+   $ONELINER$
+      Creates a new QMdiSubWindow object.
+   $INHERITS$
+      QWidget
+   $SYNTAX$
+      QMdiSubWindow( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QMdiSubWindow
+   $METHODS$
+      :isShaded()                                         -> lBool
+      :keyboardPageStep()                                 -> nInt
+      :keyboardSingleStep()                               -> nInt
+      :mdiArea()                                          -> oQMdiArea
+      :setKeyboardPageStep( nStep )                       -> NIL
+      :setKeyboardSingleStep( nStep )                     -> NIL
+      :setOption( nOption, lOn )                          -> NIL
+      :setSystemMenu( oQMenu )                            -> NIL
+      :setWidget( oQWidget )                              -> NIL
+      :systemMenu()                                       -> oQMenu
+      :testOption( nOption )                              -> lBool
+      :widget()                                           -> oQWidget
+      :showShaded()                                       -> NIL
+      :showSystemMenu()                                   -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

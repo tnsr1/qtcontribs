@@ -1,0 +1,82 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QTreeWidget()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qtreewidget.html
+   $ONELINER$
+      Creates a new QTreeWidget object.
+   $INHERITS$
+      QTreeView
+   $SYNTAX$
+      QTreeWidget( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QTreeWidget
+   $METHODS$
+      :addTopLevelItem( oQTreeWidgetItem )                -> NIL
+      :closePersistentEditor( oQTreeWidgetItem, nColumn )  -> NIL
+      :columnCount()                                      -> nInt
+      :currentColumn()                                    -> nInt
+      :currentItem()                                      -> oQTreeWidgetItem
+      :editItem( oQTreeWidgetItem, nColumn )              -> NIL
+      :findItems( cText, nFlags, nColumn )                -> oQList_QTreeWidgetItem
+      :headerItem()                                       -> oQTreeWidgetItem
+      :indexOfTopLevelItem( oQTreeWidgetItem )            -> nInt
+      :insertTopLevelItem( nIndex, oQTreeWidgetItem )     -> NIL
+      :invisibleRootItem()                                -> oQTreeWidgetItem
+      :isFirstItemColumnSpanned( oQTreeWidgetItem )       -> lBool
+      :itemAbove( oQTreeWidgetItem )                      -> oQTreeWidgetItem
+      :itemAt( oQPoint )                                  -> oQTreeWidgetItem
+      :( nX, nY )                                         -> oQTreeWidgetItem
+      :itemBelow( oQTreeWidgetItem )                      -> oQTreeWidgetItem
+      :itemWidget( oQTreeWidgetItem, nColumn )            -> oQWidget
+      :openPersistentEditor( oQTreeWidgetItem, nColumn )  -> NIL
+      :removeItemWidget( oQTreeWidgetItem, nColumn )      -> NIL
+      :selectedItems()                                    -> oQList_QTreeWidgetItem
+      :setColumnCount( nColumns )                         -> NIL
+      :setCurrentItem( oQTreeWidgetItem )                 -> NIL
+      :( oQTreeWidgetItem, nColumn )                      -> NIL
+      :( oQTreeWidgetItem, nColumn, nCommand )            -> NIL
+      :setFirstItemColumnSpanned( oQTreeWidgetItem, lSpan )  -> NIL
+      :setHeaderItem( oQTreeWidgetItem )                  -> NIL
+      :setHeaderLabel( cLabel )                           -> NIL
+      :setHeaderLabels( oQStringList )                    -> NIL
+      :setItemWidget( oQTreeWidgetItem, nColumn, oQWidget )  -> NIL
+      :sortColumn()                                       -> nInt
+      :sortItems( nColumn, nOrder )                       -> NIL
+      :takeTopLevelItem( nIndex )                         -> oQTreeWidgetItem
+      :topLevelItem( nIndex )                             -> oQTreeWidgetItem
+      :topLevelItemCount()                                -> nInt
+      :visualItemRect( oQTreeWidgetItem )                 -> oQRect
+      :clear()                                            -> NIL
+      :collapseItem( oQTreeWidgetItem )                   -> NIL
+      :expandItem( oQTreeWidgetItem )                     -> NIL
+      :scrollToItem( oQTreeWidgetItem, nHint )            -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

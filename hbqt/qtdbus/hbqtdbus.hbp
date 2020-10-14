@@ -1,5 +1,5 @@
 #
-# $Id$
+# $Id: hbqtdbus.hbp 435 2016-11-16 16:36:11Z bedipritpal $
 #
 
 {allwin|os2}-stop='QtDBus is only available for Unix...'

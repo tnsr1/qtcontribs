@@ -1,0 +1,51 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QRegularExpressionMatchIterator()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.9/qregularexpressionmatchiterator.html
+   $ONELINER$
+      Creates a new QRegularExpressionMatchIterator object.
+   $INHERITS$
+
+   $SYNTAX$
+      QRegularExpressionMatchIterator( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QRegularExpressionMatchIterator
+   $METHODS$
+      :hasNext()                                          -> lBool
+      :isValid()                                          -> lBool
+      :matchOptions()                                     -> nQRegularExpression_MatchOptions
+      :matchType()                                        -> nQRegularExpression_MatchType
+      :next()                                             -> oQRegularExpressionMatch
+      :peekNext()                                         -> oQRegularExpressionMatch
+      :regularExpression()                                -> oQRegularExpression
+      :swap( oQRegularExpressionMatchIterator )           -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.9 or upper
+   $FILES$
+      Library: hbqtcore
+   $END$
+ */

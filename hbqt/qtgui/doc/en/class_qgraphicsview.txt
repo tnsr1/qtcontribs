@@ -1,0 +1,119 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QGraphicsView()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qgraphicsview.html
+   $ONELINER$
+      Creates a new QGraphicsView object.
+   $INHERITS$
+      QAbstractScrollArea
+   $SYNTAX$
+      QGraphicsView( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QGraphicsView
+   $METHODS$
+      :alignment()                                        -> nQt_Alignment
+      :backgroundBrush()                                  -> oQBrush
+      :cacheMode()                                        -> nCacheMode
+      :centerOn( oQPointF )                               -> NIL
+      :( nX, nY )                                         -> NIL
+      :( oQGraphicsItem )                                 -> NIL
+      :dragMode()                                         -> nDragMode
+      :ensureVisible( oQRectF, nXmargin, nYmargin )       -> NIL
+      :( nX, nY, nW, nH, nXmargin, nYmargin )             -> NIL
+      :( oQGraphicsItem, nXmargin, nYmargin )             -> NIL
+      :fitInView( oQRectF, nAspectRatioMode )             -> NIL
+      :( nX, nY, nW, nH, nAspectRatioMode )               -> NIL
+      :( oQGraphicsItem, nAspectRatioMode )               -> NIL
+      :foregroundBrush()                                  -> oQBrush
+      :isInteractive()                                    -> lBool
+      :itemAt( oQPoint )                                  -> oQGraphicsItem
+      :( nX, nY )                                         -> oQGraphicsItem
+      :items()                                            -> oQList_QGraphicsItem
+      :( oQPoint )                                        -> oQList_QGraphicsItem
+      :( nX, nY )                                         -> oQList_QGraphicsItem
+      :( nX, nY, nW, nH, nMode )                          -> oQList_QGraphicsItem
+      :( oQRect, nMode )                                  -> oQList_QGraphicsItem
+      :( oQPolygon, nMode )                               -> oQList_QGraphicsItem
+      :( oQPainterPath, nMode )                           -> oQList_QGraphicsItem
+      :mapFromScene( oQPointF )                           -> oQPoint
+      :( oQRectF )                                        -> oQPolygon
+      :( oQPolygonF )                                     -> oQPolygon
+      :( oQPainterPath )                                  -> oQPainterPath
+      :( nX, nY )                                         -> oQPoint
+      :( nX, nY, nW, nH )                                 -> oQPolygon
+      :mapToScene( oQPoint )                              -> oQPointF
+      :( oQRect )                                         -> oQPolygonF
+      :( oQPolygon )                                      -> oQPolygonF
+      :( oQPainterPath )                                  -> oQPainterPath
+      :( nX, nY )                                         -> oQPointF
+      :( nX, nY, nW, nH )                                 -> oQPolygonF
+      :matrix()                                           -> oQMatrix
+      :optimizationFlags()                                -> nOptimizationFlags
+      :render( oQPainter, oQRectF, oQRect, nAspectRatioMode )  -> NIL
+      :renderHints()                                      -> nQPainter_RenderHints
+      :resetCachedContent()                               -> NIL
+      :resetMatrix()                                      -> NIL
+      :resetTransform()                                   -> NIL
+      :resizeAnchor()                                     -> nViewportAnchor
+      :rotate( nAngle )                                   -> NIL
+      :rubberBandSelectionMode()                          -> nQt_ItemSelectionMode
+      :scale( nSx, nSy )                                  -> NIL
+      :scene()                                            -> oQGraphicsScene
+      :sceneRect()                                        -> oQRectF
+      :setAlignment( nAlignment )                         -> NIL
+      :setBackgroundBrush( oQBrush )                      -> NIL
+      :setCacheMode( nMode )                              -> NIL
+      :setDragMode( nMode )                               -> NIL
+      :setForegroundBrush( oQBrush )                      -> NIL
+      :setInteractive( lAllowed )                         -> NIL
+      :setMatrix( oQMatrix, lCombine )                    -> NIL
+      :setOptimizationFlag( nFlag, lEnabled )             -> NIL
+      :setOptimizationFlags( nFlags )                     -> NIL
+      :setRenderHint( nHint, lEnabled )                   -> NIL
+      :setRenderHints( nHints )                           -> NIL
+      :setResizeAnchor( nAnchor )                         -> NIL
+      :setRubberBandSelectionMode( nMode )                -> NIL
+      :setScene( oQGraphicsScene )                        -> NIL
+      :setSceneRect( oQRectF )                            -> NIL
+      :( nX, nY, nW, nH )                                 -> NIL
+      :setTransform( oQTransform, lCombine )              -> NIL
+      :setTransformationAnchor( nAnchor )                 -> NIL
+      :setViewportUpdateMode( nMode )                     -> NIL
+      :shear( nSh, nSv )                                  -> NIL
+      :transform()                                        -> oQTransform
+      :transformationAnchor()                             -> nViewportAnchor
+      :translate( nDx, nDy )                              -> NIL
+      :viewportTransform()                                -> oQTransform
+      :viewportUpdateMode()                               -> nViewportUpdateMode
+      :invalidateScene( oQRectF, nLayers )                -> NIL
+      :updateSceneRect( oQRectF )                         -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

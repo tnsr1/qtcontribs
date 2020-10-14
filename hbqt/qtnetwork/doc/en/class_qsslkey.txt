@@ -1,0 +1,51 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QSslKey()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qsslkey.html
+   $ONELINER$
+      Creates a new QSslKey object.
+   $INHERITS$
+
+   $SYNTAX$
+      QSslKey( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QSslKey
+   $METHODS$
+      :algorithm()                                        -> nQSsl_KeyAlgorithm
+      :clear()                                            -> NIL
+      :isNull()                                           -> lBool
+      :length()                                           -> nInt
+      :swap( oQSslKey )                                   -> NIL
+      :toDer( oQByteArray )                               -> oQByteArray
+      :toPem( oQByteArray )                               -> oQByteArray
+      :type()                                             -> nQSsl_KeyType
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtnetwork
+   $END$
+ */

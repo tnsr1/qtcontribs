@@ -1,0 +1,48 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QPlaceContentReply()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.5/qplacecontentreply.html
+   $ONELINER$
+      Creates a new QPlaceContentReply object.
+   $INHERITS$
+      QPlaceReply
+   $SYNTAX$
+      QPlaceContentReply( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QPlaceContentReply
+   $METHODS$
+      :nextPageRequest()                                  -> oQPlaceContentRequest
+      :previousPageRequest()                              -> oQPlaceContentRequest
+      :request()                                          -> oQPlaceContentRequest
+      :totalCount()                                       -> nInt
+      :type()                                             -> nQPlaceReply_Type
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.5 or upper
+   $FILES$
+      Library: hbqtlocation
+   $END$
+ */

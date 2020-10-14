@@ -1,0 +1,55 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QNetworkConfiguration()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.7/qnetworkconfiguration.html
+   $ONELINER$
+      Creates a new QNetworkConfiguration object.
+   $INHERITS$
+
+   $SYNTAX$
+      QNetworkConfiguration( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QNetworkConfiguration
+   $METHODS$
+      :bearerType()                                       -> nBearerType
+      :bearerTypeFamily()                                 -> nBearerType
+      :bearerTypeName()                                   -> cQString
+      :children()                                         -> oQList_QNetworkConfiguration>
+      :identifier()                                       -> cQString
+      :isRoamingAvailable()                               -> lBool
+      :isValid()                                          -> lBool
+      :name()                                             -> cQString
+      :purpose()                                          -> nPurpose
+      :state()                                            -> nStateFlags
+      :swap( oQNetworkConfiguration )                     -> NIL
+      :type()                                             -> nType
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.7 or upper
+   $FILES$
+      Library: hbqtnetwork
+   $END$
+ */

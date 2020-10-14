@@ -1,0 +1,54 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QBoxSet()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.7/qboxset.html
+   $ONELINER$
+      Creates a new QBoxSet object.
+   $INHERITS$
+      QObject
+   $SYNTAX$
+      QBoxSet( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QBoxSet
+   $METHODS$
+      :append( nValue )                                   -> NIL
+      :at( nIndex )                                       -> nQreal
+      :brush()                                            -> oQBrush
+      :clear()                                            -> NIL
+      :count()                                            -> nInt
+      :label()                                            -> cQString
+      :pen()                                              -> oQPen
+      :setBrush( oQBrush )                                -> NIL
+      :setLabel( cLabel )                                 -> NIL
+      :setPen( oQPen )                                    -> NIL
+      :setValue( nIndex, nValue )                         -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.7 or upper
+   $FILES$
+      Library: hbqtcharts
+   $END$
+ */

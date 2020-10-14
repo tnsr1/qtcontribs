@@ -1,0 +1,45 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QPaintEvent()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qpaintevent.html
+   $ONELINER$
+      Creates a new QPaintEvent object.
+   $INHERITS$
+      QEvent
+   $SYNTAX$
+      QPaintEvent( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QPaintEvent
+   $METHODS$
+      :rect()                                             -> oQRect
+      :region()                                           -> oQRegion
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

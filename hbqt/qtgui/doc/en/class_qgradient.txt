@@ -1,0 +1,49 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QGradient()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qgradient.html
+   $ONELINER$
+      Creates a new QGradient object.
+   $INHERITS$
+
+   $SYNTAX$
+      QGradient( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QGradient
+   $METHODS$
+      :coordinateMode()                                   -> nCoordinateMode
+      :setColorAt( nPosition, oQColor )                   -> NIL
+      :setCoordinateMode( nMode )                         -> NIL
+      :setSpread( nMethod )                               -> NIL
+      :spread()                                           -> nSpread
+      :type()                                             -> nType
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

@@ -1,0 +1,73 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QCamera()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qcamera.html
+   $ONELINER$
+      Creates a new QCamera object.
+   $INHERITS$
+      QMediaObject
+   $SYNTAX$
+      QCamera( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QCamera
+   $METHODS$
+      :captureMode()                                      -> nCaptureModes
+      :error()                                            -> nError
+      :errorString()                                      -> cQString
+      :exposure()                                         -> oQCameraExposure
+      :focus()                                            -> oQCameraFocus
+      :imageProcessing()                                  -> oQCameraImageProcessing
+      :isCaptureModeSupported( nMode )                    -> lBool
+      :lockStatus()                                       -> nQCamera_LockStatus
+      :( nLockType )                                      -> nQCamera_LockStatus
+      :requestedLocks()                                   -> nQCamera_LockTypes
+      :setViewfinder( oQVideoWidget )                     -> NIL
+      :( oQGraphicsVideoItem )                            -> NIL
+      :( oQAbstractVideoSurface )                         -> NIL
+      :setViewfinderSettings( oQCameraViewfinderSettings )  -> NIL
+      :state()                                            -> nState
+      :status()                                           -> nStatus
+      :supportedLocks()                                   -> nLockTypes
+      :supportedViewfinderResolutions( oQCameraViewfinderSettings )  -> oQList_QSize>
+      :supportedViewfinderSettings( oQCameraViewfinderSettings )  -> oQList_QCameraViewfinderSettings>
+      :viewfinderSettings()                               -> oQCameraViewfinderSettings
+      :availability()                                     -> nQMultimedia_AvailabilityStatus
+      :load()                                             -> NIL
+      :searchAndLock()                                    -> NIL
+      :( nLocks )                                         -> NIL
+      :setCaptureMode( nMode )                            -> NIL
+      :start()                                            -> NIL
+      :stop()                                             -> NIL
+      :unload()                                           -> NIL
+      :unlock()                                           -> NIL
+      :( nLocks )                                         -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtmultimedia
+   $END$
+ */

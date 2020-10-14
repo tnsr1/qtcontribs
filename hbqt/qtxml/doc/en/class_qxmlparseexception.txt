@@ -1,0 +1,48 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QXmlParseException()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qxmlparseexception.html
+   $ONELINER$
+      Creates a new QXmlParseException object.
+   $INHERITS$
+
+   $SYNTAX$
+      QXmlParseException( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QXmlParseException
+   $METHODS$
+      :columnNumber()                                     -> nInt
+      :lineNumber()                                       -> nInt
+      :message()                                          -> cQString
+      :publicId()                                         -> cQString
+      :systemId()                                         -> cQString
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtopengl
+   $END$
+ */

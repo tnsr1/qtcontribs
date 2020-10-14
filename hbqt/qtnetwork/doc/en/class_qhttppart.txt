@@ -1,0 +1,48 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QHttpPart()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.8/qhttppart.html
+   $ONELINER$
+      Creates a new QHttpPart object.
+   $INHERITS$
+
+   $SYNTAX$
+      QHttpPart( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QHttpPart
+   $METHODS$
+      :setBody( oQByteArray )                             -> NIL
+      :setBodyDevice( oQIODevice )                        -> NIL
+      :setHeader( nHeader, oQVariant )                    -> NIL
+      :setRawHeader( oQByteArray, oQByteArray )           -> NIL
+      :swap( oQHttpPart )                                 -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.8 or upper
+   $FILES$
+      Library: hbqtnetwork
+   $END$
+ */

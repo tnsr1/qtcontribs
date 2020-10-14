@@ -1,0 +1,58 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QDialogButtonBox()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qdialogbuttonbox.html
+   $ONELINER$
+      Creates a new QDialogButtonBox object.
+   $INHERITS$
+      QWidget
+   $SYNTAX$
+      QDialogButtonBox( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QDialogButtonBox
+   $METHODS$
+      :addButton( oQAbstractButton, nRole )               -> NIL
+      :( cText, nRole )                                   -> oQPushButton
+      :( nButton )                                        -> oQPushButton
+      :button( nWhich )                                   -> oQPushButton
+      :buttonRole( oQAbstractButton )                     -> nButtonRole
+      :buttons()                                          -> oQList_QAbstractButton
+      :centerButtons()                                    -> lBool
+      :clear()                                            -> NIL
+      :orientation()                                      -> nQt_Orientation
+      :removeButton( oQAbstractButton )                   -> NIL
+      :setCenterButtons( lCenter )                        -> NIL
+      :setOrientation( nOrientation )                     -> NIL
+      :setStandardButtons( nButtons )                     -> NIL
+      :standardButton( oQAbstractButton )                 -> nStandardButton
+      :standardButtons()                                  -> nStandardButtons
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

@@ -1,0 +1,48 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QCameraImageCaptureControl()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qcameraimagecapturecontrol.html
+   $ONELINER$
+      Creates a new QCameraImageCaptureControl object.
+   $INHERITS$
+      QMediaControl
+   $SYNTAX$
+      QCameraImageCaptureControl( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QCameraImageCaptureControl
+   $METHODS$
+      :cancelCapture()                                    -> NIL
+      :capture( cFileName )                               -> nInt
+      :driveMode()                                        -> nQCameraImageCapture_DriveMode
+      :isReadyForCapture()                                -> lBool
+      :setDriveMode( nMode )                              -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtmultimedia
+   $END$
+ */

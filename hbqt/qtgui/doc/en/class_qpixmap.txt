@@ -1,0 +1,84 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QPixmap()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qpixmap.html
+   $ONELINER$
+      Creates a new QPixmap object.
+   $INHERITS$
+      QPaintDevice
+   $SYNTAX$
+      QPixmap( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QPixmap
+   $METHODS$
+      :alphaChannel()                                     -> oQPixmap
+      :cacheKey()                                         -> nQint64
+      :convertFromImage( oQImage, nFlags )                -> lBool
+      :copy( oQRect )                                     -> oQPixmap
+      :( nX, nY, nWidth, nHeight )                        -> oQPixmap
+      :createHeuristicMask( lClipTight )                  -> oQBitmap
+      :createMaskFromColor( oQColor, nMode )              -> oQBitmap
+      :( oQColor )                                        -> oQBitmap
+      :depth()                                            -> nInt
+      :detach()                                           -> NIL
+      :fill( oQPaintDevice, oQPoint, oQColor, oQWidget )  -> NIL
+      :hasAlpha()                                         -> lBool
+      :hasAlphaChannel()                                  -> lBool
+      :height()                                           -> nInt
+      :isNull()                                           -> lBool
+      :isQBitmap()                                        -> lBool
+      :load( cFileName, cFormat, nFlags )                 -> lBool
+      :loadFromData( cData, nLen, cFormat, nFlags )       -> lBool
+      :( oQByteArray, cFormat, nFlags )                   -> lBool
+      :mask()                                             -> oQBitmap
+      :rect()                                             -> oQRect
+      :save( cFileName, cFormat, nQuality )               -> lBool
+      :( oQIODevice, cFormat, nQuality )                  -> lBool
+      :scaled( nWidth, nHeight, nAspectRatioMode, nTransformMode )  -> oQPixmap
+      :( oQSize, nAspectRatioMode, nTransformMode )       -> oQPixmap
+      :scaledToHeight( nHeight, nMode )                   -> oQPixmap
+      :scaledToWidth( nWidth, nMode )                     -> oQPixmap
+      :setAlphaChannel( oQPixmap )                        -> NIL
+      :scroll( nDx, nDy, nX, nY, nWidth, nHeight, oQRegion )  -> NIL
+      :( nDx, nDy, oQRect, oQRegion )                     -> NIL
+      :setMask( oQBitmap )                                -> NIL
+      :size()                                             -> oQSize
+      :toImage()                                          -> oQImage
+      :transformed( oQTransform, nMode )                  -> oQPixmap
+      :( oQMatrix, nMode )                                -> oQPixmap
+      :width()                                            -> nInt
+      :defaultDepth()                                     -> nInt
+      :fromImage( oQImage, nFlags )                       -> oQPixmap
+      :grabWidget( oQWidget, nX, nY, nWidth, nHeight, oQObject )  -> oQPixmap
+      :trueMatrix( oQTransform, nWidth, nHeight )         -> oQTransform
+      :( oQMatrix, nW, nH )                               -> oQMatrix
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

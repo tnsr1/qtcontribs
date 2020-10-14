@@ -1,0 +1,67 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QCommandLineParser()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.2/qcommandlineparser.html
+   $ONELINER$
+      Creates a new QCommandLineParser object.
+   $INHERITS$
+
+   $SYNTAX$
+      QCommandLineParser( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QCommandLineParser
+   $METHODS$
+      :addHelpOption()                                    -> oQCommandLineOption
+      :addOption( oQCommandLineOption )                   -> lBool
+      :addPositionalArgument( cName, cDescription, cSyntax )  -> NIL
+      :addVersionOption()                                 -> oQCommandLineOption
+      :applicationDescription()                           -> cQString
+      :clearPositionalArguments()                         -> NIL
+      :errorText()                                        -> cQString
+      :helpText()                                         -> cQString
+      :isSet( cName )                                     -> lBool
+      :( oQCommandLineOption )                            -> lBool
+      :optionNames()                                      -> oQStringList
+      :parse( oQStringList )                              -> lBool
+      :positionalArguments()                              -> oQStringList
+      :process( oQStringList )                            -> NIL
+      :( oQCoreApplication )                              -> NIL
+      :setApplicationDescription( cDescription )          -> NIL
+      :setSingleDashWordOptionMode( nSingleDashWordOptionMode )  -> NIL
+      :showHelp( nExitCode )                              -> NIL
+      :showVersion()                                      -> NIL
+      :unknownOptionNames()                               -> oQStringList
+      :value( cOptionName )                               -> cQString
+      :( oQCommandLineOption )                            -> cQString
+      :values( cOptionName )                              -> oQStringList
+      :( oQCommandLineOption )                            -> oQStringList
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.2 or upper
+   $FILES$
+      Library: hbqtcore
+   $END$
+ */

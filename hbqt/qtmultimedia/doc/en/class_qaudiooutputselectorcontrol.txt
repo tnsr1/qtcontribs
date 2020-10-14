@@ -1,0 +1,47 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QAudioOutputSelectorControl()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qaudiooutputselectorcontrol.html
+   $ONELINER$
+      Creates a new QAudioOutputSelectorControl object.
+   $INHERITS$
+      QMediaControl
+   $SYNTAX$
+      QAudioOutputSelectorControl( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QAudioOutputSelectorControl
+   $METHODS$
+      :activeOutput()                                     -> cQString
+      :defaultOutput()                                    -> cQString
+      :outputDescription( cName )                         -> cQString
+      :setActiveOutput( cName )                           -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtmultimedia
+   $END$
+ */

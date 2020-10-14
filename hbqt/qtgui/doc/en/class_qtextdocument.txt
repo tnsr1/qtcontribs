@@ -1,0 +1,110 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QTextDocument()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qtextdocument.html
+   $ONELINER$
+      Creates a new QTextDocument object.
+   $INHERITS$
+      QObject
+   $SYNTAX$
+      QTextDocument( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QTextDocument
+   $METHODS$
+      :addResource( nType, oQUrl, oQVariant )             -> NIL
+      :adjustSize()                                       -> NIL
+      :begin()                                            -> oQTextBlock
+      :blockCount()                                       -> nInt
+      :characterAt( nPos )                                -> oQChar
+      :characterCount()                                   -> nInt
+      :clear()                                            -> NIL
+      :clone( oQObject )                                  -> oQTextDocument
+      :defaultFont()                                      -> oQFont
+      :defaultStyleSheet()                                -> cQString
+      :defaultTextOption()                                -> oQTextOption
+      :documentLayout()                                   -> oQAbstractTextDocumentLayout
+      :documentMargin()                                   -> nQreal
+      :drawContents( oQPainter, oQRectF )                 -> NIL
+      :end()                                              -> oQTextBlock
+      :find( cSubString, oQTextCursor, nOptions )         -> oQTextCursor
+      :( oQRegExp, oQTextCursor, nOptions )               -> oQTextCursor
+      :( cSubString, nPosition, nOptions )                -> oQTextCursor
+      :( oQRegExp, nPosition, nOptions )                  -> oQTextCursor
+      :findBlock( nPos )                                  -> oQTextBlock
+      :findBlockByLineNumber( nLineNumber )               -> oQTextBlock
+      :findBlockByNumber( nBlockNumber )                  -> oQTextBlock
+      :firstBlock()                                       -> oQTextBlock
+      :idealWidth()                                       -> nQreal
+      :indentWidth()                                      -> nQreal
+      :isEmpty()                                          -> lBool
+      :isModified()                                       -> lBool
+      :isRedoAvailable()                                  -> lBool
+      :isUndoAvailable()                                  -> lBool
+      :isUndoRedoEnabled()                                -> lBool
+      :lastBlock()                                        -> oQTextBlock
+      :lineCount()                                        -> nInt
+      :markContentsDirty( nPosition, nLength )            -> NIL
+      :maximumBlockCount()                                -> nInt
+      :metaInformation( nInfo )                           -> cQString
+      :object( nObjectIndex )                             -> oQTextObject
+      :objectForFormat( oQTextFormat )                    -> oQTextObject
+      :pageCount()                                        -> nInt
+      :pageSize()                                         -> oQSizeF
+      :print( oQPrinter )                                 -> NIL
+      :redo( oQTextCursor )                               -> NIL
+      :resource( nType, oQUrl )                           -> oQVariant
+      :revision()                                         -> nInt
+      :rootFrame()                                        -> oQTextFrame
+      :setDefaultFont( oQFont )                           -> NIL
+      :setDefaultStyleSheet( cSheet )                     -> NIL
+      :setDefaultTextOption( oQTextOption )               -> NIL
+      :setDocumentLayout( oQAbstractTextDocumentLayout )  -> NIL
+      :setDocumentMargin( nMargin )                       -> NIL
+      :setHtml( cHtml )                                   -> NIL
+      :setIndentWidth( nWidth )                           -> NIL
+      :setMaximumBlockCount( nMaximum )                   -> NIL
+      :setMetaInformation( nInfo, cString )               -> NIL
+      :setPageSize( oQSizeF )                             -> NIL
+      :setPlainText( cText )                              -> NIL
+      :setTextWidth( nWidth )                             -> NIL
+      :setUndoRedoEnabled( lEnable )                      -> NIL
+      :setUseDesignMetrics( lB )                          -> NIL
+      :size()                                             -> oQSizeF
+      :textWidth()                                        -> nQreal
+      :toHtml( oQByteArray )                              -> cQString
+      :toPlainText()                                      -> cQString
+      :undo( oQTextCursor )                               -> NIL
+      :useDesignMetrics()                                 -> lBool
+      :()                                                 -> NIL
+      :setModified( lM )                                  -> NIL
+      :()                                                 -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

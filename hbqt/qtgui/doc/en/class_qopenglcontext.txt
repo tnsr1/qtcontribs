@@ -1,0 +1,66 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QOpenGLContext()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.0/qopenglcontext.html
+   $ONELINER$
+      Creates a new QOpenGLContext object.
+   $INHERITS$
+      QObject
+   $SYNTAX$
+      QOpenGLContext( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QOpenGLContext
+   $METHODS$
+      :create()                                           -> lBool
+      :defaultFramebufferObject()                         -> nGLuint
+      :doneCurrent()                                      -> NIL
+      :format()                                           -> oQSurfaceFormat
+      :hasExtension( oQByteArray )                        -> lBool
+      :isOpenGLES()                                       -> lBool
+      :isValid()                                          -> lBool
+      :makeCurrent( oQSurface )                           -> lBool
+      :nativeHandle()                                     -> oQVariant
+      :screen()                                           -> oQScreen
+      :setFormat( oQSurfaceFormat )                       -> NIL
+      :setNativeHandle( oQVariant )                       -> NIL
+      :setScreen( oQScreen )                              -> NIL
+      :setShareContext( oQOpenGLContext )                 -> NIL
+      :shareContext()                                     -> oQOpenGLContext
+      :surface()                                          -> oQSurface
+      :swapBuffers( oQSurface )                           -> NIL
+      :areSharing( oQOpenGLContext, oQOpenGLContext )     -> lBool
+      :currentContext()                                   -> oQOpenGLContext
+      :globalShareContext()                               -> oQOpenGLContext
+      :openGLModuleHandle()                               -> NIL
+      :openGLModuleType()                                 -> nOpenGLModuleType
+      :supportsThreadedOpenGL()                           -> lBool
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.0 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

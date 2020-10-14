@@ -1,5 +1,5 @@
 #
-# $Id$
+# $Id: hbqtwidgets.hbp 476 2020-02-20 03:23:57Z bedipritpal $
 #
 
 -3rd=hbide_version=1.0
@@ -20,11 +20,13 @@
 -o../../lib/${hb_plat}/${hb_comp}${hb_build}/${hb_targetname}
 -workdir=${hb_work}/${hb_plat}/${hb_comp}${hb_build}/${hb_targetname}
 
+
 -i..\hbqt\qtcore\
 
-
 ..\hbqt\hbqt.hbc
+
 hbct.hbc
+hbmxml.hbc
 
 -instfile=inc:hbtoqt.ch
 -instfile=inc:hbqtstd.ch
@@ -64,6 +66,9 @@ scripts.prg
 parselogs.prg
 signature.prg
 keyboard.prg
+timeouts.prg
+httpclient.prg
+imageeditor.prg
 
 hbqtwidgets.qrc
 

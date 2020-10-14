@@ -1,0 +1,48 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QBuffer()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qbuffer.html
+   $ONELINER$
+      Creates a new QBuffer object.
+   $INHERITS$
+      QIODevice
+   $SYNTAX$
+      QBuffer( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QBuffer
+   $METHODS$
+      :buffer()                                           -> oQByteArray
+      :data()                                             -> oQByteArray
+      :setBuffer( oQByteArray )                           -> NIL
+      :setData( cData, nSize )                            -> NIL
+      :( oQByteArray )                                    -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtcore
+   $END$
+ */

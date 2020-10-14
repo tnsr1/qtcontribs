@@ -1,0 +1,57 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QCameraImageProcessing()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qcameraimageprocessing.html
+   $ONELINER$
+      Creates a new QCameraImageProcessing object.
+   $INHERITS$
+      QObject
+   $SYNTAX$
+      QCameraImageProcessing( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QCameraImageProcessing
+   $METHODS$
+      :contrast()                                         -> nQreal
+      :denoisingLevel()                                   -> nQreal
+      :isAvailable()                                      -> lBool
+      :isWhiteBalanceModeSupported( nMode )               -> lBool
+      :manualWhiteBalance()                               -> nQreal
+      :saturation()                                       -> nQreal
+      :setContrast( nValue )                              -> NIL
+      :setDenoisingLevel( nLevel )                        -> NIL
+      :setManualWhiteBalance( nColorTemperature )         -> NIL
+      :setSaturation( nValue )                            -> NIL
+      :setSharpeningLevel( nLevel )                       -> NIL
+      :setWhiteBalanceMode( nMode )                       -> NIL
+      :sharpeningLevel()                                  -> nQreal
+      :whiteBalanceMode()                                 -> nQCameraImageProcessing_WhiteBalanceMode
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtmultimedia
+   $END$
+ */

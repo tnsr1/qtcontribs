@@ -1,0 +1,46 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QCameraCaptureDestinationControl()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qcameracapturedestinationcontrol.html
+   $ONELINER$
+      Creates a new QCameraCaptureDestinationControl object.
+   $INHERITS$
+      QMediaControl
+   $SYNTAX$
+      QCameraCaptureDestinationControl( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QCameraCaptureDestinationControl
+   $METHODS$
+      :captureDestination()                               -> nQCameraImageCapture_CaptureDestinations
+      :isCaptureDestinationSupported( nDestination )      -> lBool
+      :setCaptureDestination( nDestination )              -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtmultimedia
+   $END$
+ */

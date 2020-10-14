@@ -1,0 +1,61 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QHttpHeader()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qhttpheader.html
+   $ONELINER$
+      Creates a new QHttpHeader object.
+   $INHERITS$
+
+   $SYNTAX$
+      QHttpHeader( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QHttpHeader
+   $METHODS$
+      :addValue( cKey, cValue )                           -> NIL
+      :allValues( cKey )                                  -> oQStringList
+      :contentLength()                                    -> nUint
+      :contentType()                                      -> cQString
+      :hasContentLength()                                 -> lBool
+      :hasContentType()                                   -> lBool
+      :hasKey( cKey )                                     -> lBool
+      :isValid()                                          -> lBool
+      :keys()                                             -> oQStringList
+      :majorVersion()                                     -> nInt
+      :minorVersion()                                     -> nInt
+      :removeAllValues( cKey )                            -> NIL
+      :removeValue( cKey )                                -> NIL
+      :setContentLength( nLen )                           -> NIL
+      :setContentType( cType )                            -> NIL
+      :setValue( cKey, cValue )                           -> NIL
+      :toString()                                         -> cQString
+      :value( cKey )                                      -> cQString
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtnetwork
+   $END$
+ */

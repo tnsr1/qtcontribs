@@ -1,0 +1,45 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QHolsterReading()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qholsterreading.html
+   $ONELINER$
+      Creates a new QHolsterReading object.
+   $INHERITS$
+      QSensorReading
+   $SYNTAX$
+      QHolsterReading( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QHolsterReading
+   $METHODS$
+      :holstered()                                        -> lBool
+      :setHolstered( lHolstered )                         -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtandroid
+   $END$
+ */

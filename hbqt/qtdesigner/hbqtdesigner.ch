@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: hbqtdesigner.ch 12 2012-10-04 07:48:25Z bedipritpal $
  */
 
 /*

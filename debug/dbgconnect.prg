@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: dbgconnect.prg 362 2014-09-26 09:38:40Z bedipritpal $
  */
 
 /*

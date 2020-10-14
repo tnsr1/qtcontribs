@@ -1,0 +1,106 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QLocale()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qlocale.html
+   $ONELINER$
+      Creates a new QLocale object.
+   $INHERITS$
+
+   $SYNTAX$
+      QLocale( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QLocale
+   $METHODS$
+      :amText()                                           -> cQString
+      :bcp47Name()                                        -> cQString
+      :country()                                          -> nCountry
+      :createSeparatedList( oQStringList )                -> cQString
+      :currencySymbol( nFormat )                          -> cQString
+      :dateFormat( nFormat )                              -> cQString
+      :dateTimeFormat( nFormat )                          -> cQString
+      :dayName( nDay, nType )                             -> cQString
+      :decimalPoint()                                     -> oQChar
+      :exponential()                                      -> oQChar
+      :firstDayOfWeek()                                   -> nQt_DayOfWeek
+      :groupSeparator()                                   -> oQChar
+      :language()                                         -> nLanguage
+      :measurementSystem()                                -> nMeasurementSystem
+      :monthName( nMonth, nType )                         -> cQString
+      :name()                                             -> cQString
+      :nativeCountryName()                                -> cQString
+      :nativeLanguageName()                               -> cQString
+      :negativeSign()                                     -> oQChar
+      :numberOptions()                                    -> nNumberOptions
+      :percent()                                          -> oQChar
+      :pmText()                                           -> cQString
+      :positiveSign()                                     -> oQChar
+      :quoteString( cStr, nStyle )                        -> cQString
+      :( oQStringRef, nStyle )                            -> cQString
+      :script()                                           -> nScript
+      :setNumberOptions( nOptions )                       -> NIL
+      :standaloneDayName( nDay, nType )                   -> cQString
+      :standaloneMonthName( nMonth, nType )               -> cQString
+      :textDirection()                                    -> nQt_LayoutDirection
+      :toCurrencyString( nValue, cSymbol )                -> cQString
+      :timeFormat( nFormat )                              -> cQString
+      :toDate( cString, nFormat )                         -> oQDate
+      :( cString, cFormat )                               -> oQDate
+      :toDateTime( cString, nFormat )                     -> oQDateTime
+      :( cString, cFormat )                               -> oQDateTime
+      :toDouble( cS, @lOk )                               -> nDouble
+      :toFloat( cS, @lOk )                                -> nFloat
+      :toInt( cS, @lOk )                                  -> nInt
+      :toLongLong( cS, @lOk )                             -> nQlonglong
+      :toLower( cStr )                                    -> cQString
+      :toShort( cS, @lOk )                                -> nShort
+      :toString( oQDate, cFormat )                        -> cQString
+      :( oQDate, nFormat )                                -> cQString
+      :( oQTime, cFormat )                                -> cQString
+      :( oQTime, nFormat )                                -> cQString
+      :( oQDateTime, nFormat )                            -> cQString
+      :( oQDateTime, cFormat )                            -> cQString
+      :( nI )                                             -> cQString
+      :toTime( cString, nFormat )                         -> oQTime
+      :( cString, cFormat )                               -> oQTime
+      :toUInt( cS, @lOk )                                 -> nUint
+      :toULongLong( cS, @lOk )                            -> nQlonglong
+      :toUShort( cS, @lOk )                               -> nUshort
+      :toUpper( cStr )                                    -> cQString
+      :uiLanguages()                                      -> oQStringList
+      :zeroDigit()                                        -> oQChar
+      :c()                                                -> oQLocale
+      :countryToString( nCountry )                        -> cQString
+      :languageToString( nLanguage )                      -> cQString
+      :scriptToString( nScript )                          -> cQString
+      :setDefault( oQLocale )                             -> NIL
+      :system()                                           -> oQLocale
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtcore
+   $END$
+ */

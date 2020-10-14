@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: hilighter.prg 438 2016-11-24 19:46:24Z bedipritpal $
  */
 
 /*

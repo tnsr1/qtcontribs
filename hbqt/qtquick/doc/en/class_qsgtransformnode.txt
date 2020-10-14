@@ -1,0 +1,45 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QSGTransformNode()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qsgtransformnode.html
+   $ONELINER$
+      Creates a new QSGTransformNode object.
+   $INHERITS$
+      QSGNode
+   $SYNTAX$
+      QSGTransformNode( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QSGTransformNode
+   $METHODS$
+      :matrix()                                           -> oQMatrix4x4
+      :setMatrix( oQMatrix4x4 )                           -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtquick
+   $END$
+ */

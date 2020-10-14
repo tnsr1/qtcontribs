@@ -1,0 +1,46 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QQmlFileSelector()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qqmlfileselector.html
+   $ONELINER$
+      Creates a new QQmlFileSelector object.
+   $INHERITS$
+      QObject
+   $SYNTAX$
+      QQmlFileSelector( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QQmlFileSelector
+   $METHODS$
+      :setExtraSelectors( oQStringList )                  -> NIL
+      :setSelector( oQFileSelector )                      -> NIL
+      :get( oQQmlEngine )                                 -> oQQmlFileSelector
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtqml
+   $END$
+ */

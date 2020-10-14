@@ -1,0 +1,53 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QLogValueAxis()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.7/qlogvalueaxis.html
+   $ONELINER$
+      Creates a new QLogValueAxis object.
+   $INHERITS$
+      QAbstractAxis
+   $SYNTAX$
+      QLogValueAxis( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QLogValueAxis
+   $METHODS$
+      :base()                                             -> nQreal
+      :labelFormat()                                      -> cQString
+      :max()                                              -> nQreal
+      :min()                                              -> nQreal
+      :setBase( nBase )                                   -> NIL
+      :setLabelFormat( cFormat )                          -> NIL
+      :setMax( nMax )                                     -> NIL
+      :setMin( nMin )                                     -> NIL
+      :setRange( nMin, nMax )                             -> NIL
+      :type()                                             -> nAxisType
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.7 or upper
+   $FILES$
+      Library: hbqtcharts
+   $END$
+ */

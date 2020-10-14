@@ -1,0 +1,47 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QSslError()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qsslerror.html
+   $ONELINER$
+      Creates a new QSslError object.
+   $INHERITS$
+
+   $SYNTAX$
+      QSslError( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QSslError
+   $METHODS$
+      :certificate()                                      -> oQSslCertificate
+      :error()                                            -> nSslError
+      :errorString()                                      -> cQString
+      :swap( oQSslError )                                 -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtnetwork
+   $END$
+ */

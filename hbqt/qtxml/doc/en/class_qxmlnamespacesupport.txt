@@ -1,0 +1,51 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QXmlNamespaceSupport()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qxmlnamespacesupport.html
+   $ONELINER$
+      Creates a new QXmlNamespaceSupport object.
+   $INHERITS$
+
+   $SYNTAX$
+      QXmlNamespaceSupport( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QXmlNamespaceSupport
+   $METHODS$
+      :popContext()                                       -> NIL
+      :prefix( cUri )                                     -> cQString
+      :prefixes()                                         -> oQStringList
+      :( cUri )                                           -> oQStringList
+      :pushContext()                                      -> NIL
+      :reset()                                            -> NIL
+      :setPrefix( cPre, cUri )                            -> NIL
+      :uri( cPrefix )                                     -> cQString
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtopengl
+   $END$
+ */

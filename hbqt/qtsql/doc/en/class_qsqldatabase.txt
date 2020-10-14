@@ -1,0 +1,82 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QSqlDatabase()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qsqldatabase.html
+   $ONELINER$
+      Creates a new QSqlDatabase object.
+   $INHERITS$
+
+   $SYNTAX$
+      QSqlDatabase( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QSqlDatabase
+   $METHODS$
+      :close()                                            -> NIL
+      :commit()                                           -> lBool
+      :connectOptions()                                   -> cQString
+      :connectionName()                                   -> cQString
+      :databaseName()                                     -> cQString
+      :driver()                                           -> oQSqlDriver
+      :driverName()                                       -> cQString
+      :exec( cQuery )                                     -> oQSqlQuery
+      :hostName()                                         -> cQString
+      :isOpen()                                           -> lBool
+      :isOpenError()                                      -> lBool
+      :isValid()                                          -> lBool
+      :lastError()                                        -> oQSqlError
+      :open()                                             -> lBool
+      :( cUser, cPassword )                               -> lBool
+      :password()                                         -> cQString
+      :port()                                             -> nInt
+      :primaryIndex( cTablename )                         -> oQSqlIndex
+      :record( cTablename )                               -> oQSqlRecord
+      :rollback()                                         -> lBool
+      :setConnectOptions( cOptions )                      -> NIL
+      :setDatabaseName( cName )                           -> NIL
+      :setHostName( cHost )                               -> NIL
+      :setPassword( cPassword )                           -> NIL
+      :setPort( nPort )                                   -> NIL
+      :setUserName( cName )                               -> NIL
+      :tables( nType )                                    -> oQStringList
+      :transaction()                                      -> lBool
+      :userName()                                         -> cQString
+      :addDatabase( cType, cConnectionName )              -> oQSqlDatabase
+      :( oQSqlDriver, cConnectionName )                   -> oQSqlDatabase
+      :cloneDatabase( oQSqlDatabase, cConnectionName )    -> oQSqlDatabase
+      :connectionNames()                                  -> oQStringList
+      :contains( cConnectionName )                        -> lBool
+      :database( cConnectionName, lOpen )                 -> oQSqlDatabase
+      :drivers()                                          -> oQStringList
+      :isDriverAvailable( cName )                         -> lBool
+      :registerSqlDriver( cName, oQSqlDriverCreatorBase )  -> NIL
+      :removeDatabase( cConnectionName )                  -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtsql
+   $END$
+ */

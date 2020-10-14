@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: hbqt_hbqgraphicsitem.h 475 2020-02-20 03:07:47Z bedipritpal $
  */
 
 /*
@@ -150,7 +150,7 @@
 
 bool __hbqGraphicsAllowResizeInPlace();
 bool __hbqGraphicsAllowMovement();
-
+bool __hbqGraphicsCanMoveItems();
 
 class HBQGraphicsItem : public QGraphicsItem
 {

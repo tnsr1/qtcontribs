@@ -1,0 +1,47 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QTextObject()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qtextobject.html
+   $ONELINER$
+      Creates a new QTextObject object.
+   $INHERITS$
+      QObject
+   $SYNTAX$
+      QTextObject( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QTextObject
+   $METHODS$
+      :document()                                         -> oQTextDocument
+      :format()                                           -> oQTextFormat
+      :formatIndex()                                      -> nInt
+      :objectIndex()                                      -> nInt
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

@@ -1,0 +1,53 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QAbstractPrintDialog()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qabstractprintdialog.html
+   $ONELINER$
+      Creates a new QAbstractPrintDialog object.
+   $INHERITS$
+      QDialog
+   $SYNTAX$
+      QAbstractPrintDialog( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QAbstractPrintDialog
+   $METHODS$
+      :exec()                                             -> nInt
+      :fromPage()                                         -> nInt
+      :maxPage()                                          -> nInt
+      :minPage()                                          -> nInt
+      :printRange()                                       -> nPrintRange
+      :printer()                                          -> oQPrinter
+      :setFromTo( nFrom, nTo )                            -> NIL
+      :setMinMax( nMin, nMax )                            -> NIL
+      :setPrintRange( nRange )                            -> NIL
+      :toPage()                                           -> nInt
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

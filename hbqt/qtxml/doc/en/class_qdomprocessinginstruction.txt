@@ -1,0 +1,47 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QDomProcessingInstruction()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qdomprocessinginstruction.html
+   $ONELINER$
+      Creates a new QDomProcessingInstruction object.
+   $INHERITS$
+      QDomNode
+   $SYNTAX$
+      QDomProcessingInstruction( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QDomProcessingInstruction
+   $METHODS$
+      :data()                                             -> cQString
+      :nodeType()                                         -> nQDomNode_NodeType
+      :setData( cD )                                      -> NIL
+      :target()                                           -> cQString
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtopengl
+   $END$
+ */

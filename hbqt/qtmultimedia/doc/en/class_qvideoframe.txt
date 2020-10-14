@@ -1,0 +1,68 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QVideoFrame()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.6/qvideoframe.html
+   $ONELINER$
+      Creates a new QVideoFrame object.
+   $INHERITS$
+
+   $SYNTAX$
+      QVideoFrame( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QVideoFrame
+   $METHODS$
+      :bits()                                             -> cUchar
+      :()                                                 -> cUchar
+      :bytesPerLine()                                     -> nInt
+      :endTime()                                          -> nQint64
+      :fieldType()                                        -> nFieldType
+      :handle()                                           -> oQVariant
+      :handleType()                                       -> nQAbstractVideoBuffer_HandleType
+      :height()                                           -> nInt
+      :isMapped()                                         -> lBool
+      :isReadable()                                       -> lBool
+      :isValid()                                          -> lBool
+      :isWritable()                                       -> lBool
+      :map( nMode )                                       -> lBool
+      :mapMode()                                          -> nQAbstractVideoBuffer_MapMode
+      :mappedBytes()                                      -> nInt
+      :pixelFormat()                                      -> nPixelFormat
+      :setEndTime( nTime )                                -> NIL
+      :setFieldType( nField )                             -> NIL
+      :setStartTime( nTime )                              -> NIL
+      :size()                                             -> oQSize
+      :startTime()                                        -> nQint64
+      :unmap()                                            -> NIL
+      :width()                                            -> nInt
+      :imageFormatFromPixelFormat( nFormat )              -> nQImage_Format
+      :pixelFormatFromImageFormat( nFormat )              -> nPixelFormat
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.6 or upper
+   $FILES$
+      Library: hbqtmultimedia
+   $END$
+ */

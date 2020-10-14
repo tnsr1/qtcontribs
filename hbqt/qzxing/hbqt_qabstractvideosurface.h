@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: hbqt_qabstractvideosurface.h 420 2015-11-13 23:48:34Z bedipritpal $
  */
 
 /*

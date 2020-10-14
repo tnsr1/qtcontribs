@@ -1,0 +1,60 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QAudioInput()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.6/qaudioinput.html
+   $ONELINER$
+      Creates a new QAudioInput object.
+   $INHERITS$
+      QObject
+   $SYNTAX$
+      QAudioInput( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QAudioInput
+   $METHODS$
+      :bufferSize()                                       -> nInt
+      :bytesReady()                                       -> nInt
+      :elapsedUSecs()                                     -> nQint64
+      :error()                                            -> nQAudio_Error
+      :format()                                           -> oQAudioFormat
+      :notifyInterval()                                   -> nInt
+      :periodSize()                                       -> nInt
+      :processedUSecs()                                   -> nQint64
+      :reset()                                            -> NIL
+      :resume()                                           -> NIL
+      :setBufferSize( nValue )                            -> NIL
+      :setNotifyInterval( nMs )                           -> NIL
+      :start( oQIODevice )                                -> NIL
+      :()                                                 -> oQIODevice
+      :state()                                            -> nQAudio_State
+      :stop()                                             -> NIL
+      :suspend()                                          -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.6 or upper
+   $FILES$
+      Library: hbqtmultimedia
+   $END$
+ */

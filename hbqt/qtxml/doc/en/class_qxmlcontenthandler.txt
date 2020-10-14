@@ -1,0 +1,55 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QXmlContentHandler()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qxmlcontenthandler.html
+   $ONELINER$
+      Creates a new QXmlContentHandler object.
+   $INHERITS$
+
+   $SYNTAX$
+      QXmlContentHandler( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QXmlContentHandler
+   $METHODS$
+      :characters( cCh )                                  -> lBool
+      :endDocument()                                      -> lBool
+      :endElement( cNamespaceURI, cLocalName, cQName )    -> lBool
+      :endPrefixMapping( cPrefix )                        -> lBool
+      :errorString()                                      -> cQString
+      :ignorableWhitespace( cCh )                         -> lBool
+      :processingInstruction( cTarget, cData )            -> lBool
+      :setDocumentLocator( oQXmlLocator )                 -> NIL
+      :skippedEntity( cName )                             -> lBool
+      :startDocument()                                    -> lBool
+      :startElement( cNamespaceURI, cLocalName, cQName, oQXmlAttributes )  -> lBool
+      :startPrefixMapping( cPrefix, cUri )                -> lBool
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtopengl
+   $END$
+ */

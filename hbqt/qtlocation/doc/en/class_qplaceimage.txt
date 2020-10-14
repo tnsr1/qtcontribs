@@ -1,0 +1,49 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QPlaceImage()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.5/qplaceimage.html
+   $ONELINER$
+      Creates a new QPlaceImage object.
+   $INHERITS$
+      QPlaceContent
+   $SYNTAX$
+      QPlaceImage( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QPlaceImage
+   $METHODS$
+      :imageId()                                          -> cQString
+      :mimeType()                                         -> cQString
+      :setImageId( cIdentifier )                          -> NIL
+      :setMimeType( cType )                               -> NIL
+      :setUrl( oQUrl )                                    -> NIL
+      :url()                                              -> oQUrl
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.5 or upper
+   $FILES$
+      Library: hbqtlocation
+   $END$
+ */

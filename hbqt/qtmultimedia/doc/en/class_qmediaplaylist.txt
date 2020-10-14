@@ -1,0 +1,70 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QMediaPlaylist()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qmediaplaylist.html
+   $ONELINER$
+      Creates a new QMediaPlaylist object.
+   $INHERITS$
+      QObject, QMediaBindableInterface
+   $SYNTAX$
+      QMediaPlaylist( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QMediaPlaylist
+   $METHODS$
+      :addMedia( oQMediaContent )                         -> lBool
+      :clear()                                            -> lBool
+      :currentIndex()                                     -> nInt
+      :currentMedia()                                     -> oQMediaContent
+      :error()                                            -> nQMediaPlaylist_Error
+      :errorString()                                      -> cQString
+      :insertMedia( nPos, oQMediaContent )                -> lBool
+      :isEmpty()                                          -> lBool
+      :isReadOnly()                                       -> lBool
+      :load( oQNetworkRequest, cFormat )                  -> NIL
+      :( oQUrl, cFormat )                                 -> NIL
+      :( oQIODevice, cFormat )                            -> NIL
+      :media( nIndex )                                    -> oQMediaContent
+      :mediaCount()                                       -> nInt
+      :nextIndex( nSteps )                                -> nInt
+      :playbackMode()                                     -> nQMediaPlaylist_PlaybackMode
+      :previousIndex( nSteps )                            -> nInt
+      :removeMedia( nPos )                                -> lBool
+      :( nStart, nEnd )                                   -> lBool
+      :save( oQUrl, cFormat )                             -> lBool
+      :( oQIODevice, cFormat )                            -> lBool
+      :setPlaybackMode( nMode )                           -> NIL
+      :mediaObject()                                      -> oQMediaObject
+      :next()                                             -> NIL
+      :previous()                                         -> NIL
+      :setCurrentIndex( nPlaylistPosition )               -> NIL
+      :shuffle()                                          -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtmultimedia
+   $END$
+ */

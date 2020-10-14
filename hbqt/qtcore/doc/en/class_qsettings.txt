@@ -1,0 +1,74 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QSettings()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qsettings.html
+   $ONELINER$
+      Creates a new QSettings object.
+   $INHERITS$
+      QObject
+   $SYNTAX$
+      QSettings( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QSettings
+   $METHODS$
+      :allKeys()                                          -> oQStringList
+      :applicationName()                                  -> cQString
+      :beginGroup( cPrefix )                              -> NIL
+      :beginReadArray( cPrefix )                          -> nInt
+      :beginWriteArray( cPrefix, nSize )                  -> NIL
+      :childGroups()                                      -> oQStringList
+      :childKeys()                                        -> oQStringList
+      :clear()                                            -> NIL
+      :contains( cKey )                                   -> lBool
+      :endArray()                                         -> NIL
+      :endGroup()                                         -> NIL
+      :fallbacksEnabled()                                 -> lBool
+      :fileName()                                         -> cQString
+      :format()                                           -> nFormat
+      :group()                                            -> cQString
+      :iniCodec()                                         -> oQTextCodec
+      :isWritable()                                       -> lBool
+      :organizationName()                                 -> cQString
+      :remove( cKey )                                     -> NIL
+      :scope()                                            -> nScope
+      :setArrayIndex( nI )                                -> NIL
+      :setFallbacksEnabled( lB )                          -> NIL
+      :setIniCodec( oQTextCodec )                         -> NIL
+      :( cCodecName )                                     -> NIL
+      :setValue( cKey, oQVariant )                        -> NIL
+      :status()                                           -> nStatus
+      :sync()                                             -> NIL
+      :value( cKey, oQVariant )                           -> oQVariant
+      :defaultFormat()                                    -> nFormat
+      :setDefaultFormat( nFormat )                        -> NIL
+      :setPath( nFormat, nScope, cPath )                  -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtcore
+   $END$
+ */

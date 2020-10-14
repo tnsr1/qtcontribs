@@ -1,0 +1,41 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QPieModelMapper()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.7/qpiemodelmapper.html
+   $ONELINER$
+      Creates a new QPieModelMapper object.
+   $INHERITS$
+      QObject
+   $SYNTAX$
+      QPieModelMapper( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QPieModelMapper
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.7 or upper
+   $FILES$
+      Library: hbqtcharts
+   $END$
+ */

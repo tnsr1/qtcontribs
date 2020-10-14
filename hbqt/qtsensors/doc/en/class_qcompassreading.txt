@@ -1,0 +1,47 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QCompassReading()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qcompassreading.html
+   $ONELINER$
+      Creates a new QCompassReading object.
+   $INHERITS$
+      QSensorReading
+   $SYNTAX$
+      QCompassReading( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QCompassReading
+   $METHODS$
+      :azimuth()                                          -> nQreal
+      :calibrationLevel()                                 -> nQreal
+      :setAzimuth( nAzimuth )                             -> NIL
+      :setCalibrationLevel( nCalibrationLevel )           -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtandroid
+   $END$
+ */

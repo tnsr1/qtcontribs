@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: hbqt_init.cpp 412 2015-06-30 20:59:14Z bedipritpal $
  */
 
 /*

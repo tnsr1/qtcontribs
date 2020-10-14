@@ -1,0 +1,54 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QHostAddress()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qhostaddress.html
+   $ONELINER$
+      Creates a new QHostAddress object.
+   $INHERITS$
+
+   $SYNTAX$
+      QHostAddress( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QHostAddress
+   $METHODS$
+      :clear()                                            -> NIL
+      :isInSubnet( oQHostAddress, nNetmask )              -> lBool
+      :isLoopback()                                       -> lBool
+      :isNull()                                           -> lBool
+      :protocol()                                         -> nQAbstractSocket_NetworkLayerProtocol
+      :scopeId()                                          -> cQString
+      :setAddress( nIp4Addr )                             -> NIL
+      :( cAddress )                                       -> lBool
+      :setScopeId( cId )                                  -> NIL
+      :toIPv4Address()                                    -> nQuint32
+      :toString()                                         -> cQString
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtnetwork
+   $END$
+ */

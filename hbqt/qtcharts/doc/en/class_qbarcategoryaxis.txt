@@ -1,0 +1,58 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QBarCategoryAxis()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.7/qbarcategoryaxis.html
+   $ONELINER$
+      Creates a new QBarCategoryAxis object.
+   $INHERITS$
+      QAbstractAxis
+   $SYNTAX$
+      QBarCategoryAxis( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QBarCategoryAxis
+   $METHODS$
+      :append( oQStringList )                             -> NIL
+      :( cCategory )                                      -> NIL
+      :at( nIndex )                                       -> cQString
+      :categories()                                       -> oQStringList
+      :clear()                                            -> NIL
+      :count()                                            -> nInt
+      :insert( nIndex, cCategory )                        -> NIL
+      :max()                                              -> cQString
+      :min()                                              -> cQString
+      :remove( cCategory )                                -> NIL
+      :replace( cOldCategory, cNewCategory )              -> NIL
+      :setCategories( oQStringList )                      -> NIL
+      :setMax( cMax )                                     -> NIL
+      :setMin( cMin )                                     -> NIL
+      :setRange( cMinCategory, cMaxCategory )             -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.7 or upper
+   $FILES$
+      Library: hbqtcharts
+   $END$
+ */

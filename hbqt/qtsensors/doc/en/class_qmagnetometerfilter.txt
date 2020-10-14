@@ -1,0 +1,44 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QMagnetometerFilter()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qmagnetometerfilter.html
+   $ONELINER$
+      Creates a new QMagnetometerFilter object.
+   $INHERITS$
+      QSensorFilter
+   $SYNTAX$
+      QMagnetometerFilter( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QMagnetometerFilter
+   $METHODS$
+      :filter( oQMagnetometerReading )                    -> lBool
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtandroid
+   $END$
+ */

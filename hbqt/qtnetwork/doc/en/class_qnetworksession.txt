@@ -1,0 +1,63 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QNetworkSession()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.7/qnetworksession.html
+   $ONELINER$
+      Creates a new QNetworkSession object.
+   $INHERITS$
+
+   $SYNTAX$
+      QNetworkSession( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QNetworkSession
+   $METHODS$
+      :activeTime()                                       -> nQuint64
+      :bytesReceived()                                    -> nQuint64
+      :bytesWritten()                                     -> nQuint64
+      :configuration()                                    -> oQNetworkConfiguration
+      :error()                                            -> nSessionError
+      :errorString()                                      -> cQString
+      :interface()                                        -> oQNetworkInterface
+      :isOpen()                                           -> lBool
+      :sessionProperty( cKey )                            -> oQVariant
+      :setSessionProperty( cKey, oQVariant )              -> NIL
+      :state()                                            -> nState
+      :usagePolicies()                                    -> nQNetworkSession_UsagePolicies
+      :waitForOpened( nMsecs )                            -> lBool
+      :accept()                                           -> NIL
+      :close()                                            -> NIL
+      :ignore()                                           -> NIL
+      :migrate()                                          -> NIL
+      :open()                                             -> NIL
+      :reject()                                           -> NIL
+      :stop()                                             -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.7 or upper
+   $FILES$
+      Library: hbqtnetwork
+   $END$
+ */

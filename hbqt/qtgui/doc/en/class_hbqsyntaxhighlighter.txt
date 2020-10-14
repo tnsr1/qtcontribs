@@ -1,0 +1,56 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      HBQSyntaxHighlighter()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/hbqsyntaxhighlighter.html
+   $ONELINER$
+      Creates a new HBQSyntaxHighlighter object.
+   $INHERITS$
+      QSyntaxHighlighter
+   $SYNTAX$
+      HBQSyntaxHighlighter( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type HBQSyntaxHighlighter
+   $METHODS$
+      :hbSetMultiLineCommentFormat( oQTextCharFormat )    -> NIL
+      :hbSetSingleLineCommentFormat( oQTextCharFormat )   -> NIL
+      :hbSetRule( cName, cPattern, oQTextCharFormat )     -> NIL
+      :hbSetFormat( cName, oQTextCharFormat )             -> NIL
+      :hbSetFormatColumnSelection( nStart, nCount, oQColor )  -> NIL
+      :hbSetRuleWithRegExp( cName, oQRegExp, oQTextCharFormat )  -> NIL
+      :hbSetEditor( oHBQPlainTextEdit )                   -> NIL
+      :( oQPlainTextEdit )                                -> NIL
+      :hbSetInitialized( lInit )                          -> NIL
+      :hbSetType( nTy )                                   -> NIL
+      :hbClear()                                          -> NIL
+      :rehighlight()                                      -> NIL
+      :rehighlightBlock( oQTextBlock )                    -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

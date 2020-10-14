@@ -1,0 +1,53 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QQuickView()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qquickview.html
+   $ONELINER$
+      Creates a new QQuickView object.
+   $INHERITS$
+      QQuickWindow
+   $SYNTAX$
+      QQuickView( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QQuickView
+   $METHODS$
+      :engine()                                           -> oQQmlEngine
+      :errors()                                           -> oQList_QQmlError>
+      :initialSize()                                      -> oQSize
+      :resizeMode()                                       -> nResizeMode
+      :rootContext()                                      -> oQQmlContext
+      :rootObject()                                       -> oQQuickItem
+      :setResizeMode( nResizeMode )                       -> NIL
+      :source()                                           -> oQUrl
+      :status()                                           -> nStatus
+      :setSource( oQUrl )                                 -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtquick
+   $END$
+ */

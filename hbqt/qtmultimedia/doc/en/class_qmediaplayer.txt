@@ -1,0 +1,73 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QMediaPlayer()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qmediaplayer.html
+   $ONELINER$
+      Creates a new QMediaPlayer object.
+   $INHERITS$
+      QMediaObject
+   $SYNTAX$
+      QMediaPlayer( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QMediaPlayer
+   $METHODS$
+      :bufferStatus()                                     -> nInt
+      :currentMedia()                                     -> oQMediaContent
+      :currentNetworkConfiguration()                      -> oQNetworkConfiguration
+      :duration()                                         -> nQint64
+      :error()                                            -> nQMediaPlayer_Error
+      :errorString()                                      -> cQString
+      :isAudioAvailable()                                 -> lBool
+      :isMuted()                                          -> lBool
+      :isSeekable()                                       -> lBool
+      :isVideoAvailable()                                 -> lBool
+      :media()                                            -> oQMediaContent
+      :mediaStatus()                                      -> nQMediaPlayer_MediaStatus
+      :playbackRate()                                     -> nQreal
+      :playlist()                                         -> oQMediaPlaylist
+      :position()                                         -> nQint64
+      :setVideoOutput( oQVideoWidget )                    -> NIL
+      :( oQGraphicsVideoItem )                            -> NIL
+      :( oQAbstractVideoSurface )                         -> NIL
+      :state()                                            -> nState
+      :volume()                                           -> nInt
+      :availability()                                     -> nQMultimedia_AvailabilityStatus
+      :pause()                                            -> NIL
+      :play()                                             -> NIL
+      :setMedia( oQMediaContent, oQIODevice )             -> NIL
+      :setMuted( lMuted )                                 -> NIL
+      :setPlaybackRate( nRate )                           -> NIL
+      :setPlaylist( oQMediaPlaylist )                     -> NIL
+      :setPosition( nPosition )                           -> NIL
+      :setVolume( nVolume )                               -> NIL
+      :stop()                                             -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtmultimedia
+   $END$
+ */

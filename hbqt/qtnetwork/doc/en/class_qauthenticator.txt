@@ -1,0 +1,51 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QAuthenticator()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qauthenticator.html
+   $ONELINER$
+      Creates a new QAuthenticator object.
+   $INHERITS$
+
+   $SYNTAX$
+      QAuthenticator( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QAuthenticator
+   $METHODS$
+      :isNull()                                           -> lBool
+      :option( cOpt )                                     -> oQVariant
+      :password()                                         -> cQString
+      :realm()                                            -> cQString
+      :setOption( cOpt, oQVariant )                       -> NIL
+      :setPassword( cPassword )                           -> NIL
+      :setUser( cUser )                                   -> NIL
+      :user()                                             -> cQString
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtnetwork
+   $END$
+ */

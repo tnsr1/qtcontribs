@@ -1,0 +1,62 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QNetworkReply()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qnetworkreply.html
+   $ONELINER$
+      Creates a new QNetworkReply object.
+   $INHERITS$
+      QIODevice
+   $SYNTAX$
+      QNetworkReply( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QNetworkReply
+   $METHODS$
+      :attribute( nCode )                                 -> oQVariant
+      :error()                                            -> nNetworkError
+      :hasRawHeader( oQByteArray )                        -> lBool
+      :header( nHeader )                                  -> oQVariant
+      :isFinished()                                       -> lBool
+      :isRunning()                                        -> lBool
+      :manager()                                          -> oQNetworkAccessManager
+      :operation()                                        -> nQNetworkAccessManager_Operation
+      :rawHeader( oQByteArray )                           -> oQByteArray
+      :rawHeaderList()                                    -> oQList_QByteArray>
+      :readBufferSize()                                   -> nQint64
+      :request()                                          -> oQNetworkRequest
+      :setReadBufferSize( nSize )                         -> NIL
+      :setSslConfiguration( oQSslConfiguration )          -> NIL
+      :sslConfiguration()                                 -> oQSslConfiguration
+      :url()                                              -> oQUrl
+      :close()                                            -> NIL
+      :abort()                                            -> NIL
+      :ignoreSslErrors()                                  -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtnetwork
+   $END$
+ */

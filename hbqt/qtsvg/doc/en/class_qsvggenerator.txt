@@ -1,0 +1,59 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QSvgGenerator()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qsvggenerator.html
+   $ONELINER$
+      Creates a new QSvgGenerator object.
+   $INHERITS$
+      QPaintDevice
+   $SYNTAX$
+      QSvgGenerator( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QSvgGenerator
+   $METHODS$
+      :description()                                      -> cQString
+      :fileName()                                         -> cQString
+      :outputDevice()                                     -> oQIODevice
+      :resolution()                                       -> nInt
+      :setDescription( cDescription )                     -> NIL
+      :setFileName( cFileName )                           -> NIL
+      :setOutputDevice( oQIODevice )                      -> NIL
+      :setResolution( nDpi )                              -> NIL
+      :setSize( oQSize )                                  -> NIL
+      :setTitle( cTitle )                                 -> NIL
+      :setViewBox( oQRect )                               -> NIL
+      :( oQRectF )                                        -> NIL
+      :size()                                             -> oQSize
+      :title()                                            -> cQString
+      :viewBox()                                          -> oQRect
+      :viewBoxF()                                         -> oQRectF
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtsvg
+   $END$
+ */

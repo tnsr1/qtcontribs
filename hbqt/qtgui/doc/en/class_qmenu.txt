@@ -1,0 +1,76 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QMenu()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qmenu.html
+   $ONELINER$
+      Creates a new QMenu object.
+   $INHERITS$
+      QWidget
+   $SYNTAX$
+      QMenu( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QMenu
+   $METHODS$
+      :actionAt( oQPoint )                                -> oQAction
+      :actionGeometry( oQAction )                         -> oQRect
+      :activeAction()                                     -> oQAction
+      :addAction( cText )                                 -> oQAction
+      :( oQIcon, cText )                                  -> oQAction
+      :( cText, oQObject, cMember, oQKeySequence )        -> oQAction
+      :( oQIcon, cText, oQObject, cMember, oQKeySequence )  -> oQAction
+      :( oQAction )                                       -> NIL
+      :addMenu( oQMenu )                                  -> oQAction
+      :( cTitle )                                         -> oQMenu
+      :( oQIcon, cTitle )                                 -> oQMenu
+      :addSeparator()                                     -> oQAction
+      :clear()                                            -> NIL
+      :defaultAction()                                    -> oQAction
+      :exec()                                             -> oQAction
+      :( oQPoint, oQAction )                              -> oQAction
+      :hideTearOffMenu()                                  -> NIL
+      :icon()                                             -> oQIcon
+      :insertMenu( oQAction, oQMenu )                     -> oQAction
+      :insertSeparator( oQAction )                        -> oQAction
+      :isEmpty()                                          -> lBool
+      :isTearOffEnabled()                                 -> lBool
+      :isTearOffMenuVisible()                             -> lBool
+      :menuAction()                                       -> oQAction
+      :popup( oQPoint, oQAction )                         -> NIL
+      :separatorsCollapsible()                            -> lBool
+      :setActiveAction( oQAction )                        -> NIL
+      :setDefaultAction( oQAction )                       -> NIL
+      :setIcon( oQIcon )                                  -> NIL
+      :setSeparatorsCollapsible( lCollapse )              -> NIL
+      :setTearOffEnabled( lBool )                         -> NIL
+      :setTitle( cTitle )                                 -> NIL
+      :title()                                            -> cQString
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

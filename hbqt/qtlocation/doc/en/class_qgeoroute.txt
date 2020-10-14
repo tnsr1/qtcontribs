@@ -1,0 +1,58 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QGeoRoute()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.5/qgeoroute.html
+   $ONELINER$
+      Creates a new QGeoRoute object.
+   $INHERITS$
+
+   $SYNTAX$
+      QGeoRoute( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QGeoRoute
+   $METHODS$
+      :bounds()                                           -> oQGeoRectangle
+      :distance()                                         -> nQreal
+      :firstRouteSegment()                                -> oQGeoRouteSegment
+      :path()                                             -> oQList_QGeoCoordinate>
+      :request()                                          -> oQGeoRouteRequest
+      :routeId()                                          -> cQString
+      :setBounds( oQGeoRectangle )                        -> NIL
+      :setDistance( nDistance )                           -> NIL
+      :setFirstRouteSegment( oQGeoRouteSegment )          -> NIL
+      :setRequest( oQGeoRouteRequest )                    -> NIL
+      :setRouteId( cId )                                  -> NIL
+      :setTravelMode( nMode )                             -> NIL
+      :setTravelTime( nSecs )                             -> NIL
+      :travelMode()                                       -> nQGeoRouteRequest_TravelMode
+      :travelTime()                                       -> nInt
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.5 or upper
+   $FILES$
+      Library: hbqtlocation
+   $END$
+ */

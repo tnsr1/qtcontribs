@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: hbqtgui.h 34 2012-10-13 21:57:41Z bedipritpal $
  */
 
 #ifndef __HBQTGUI_H

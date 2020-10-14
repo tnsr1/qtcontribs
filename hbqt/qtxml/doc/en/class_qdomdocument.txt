@@ -1,0 +1,71 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QDomDocument()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qdomdocument.html
+   $ONELINER$
+      Creates a new QDomDocument object.
+   $INHERITS$
+      QDomNode
+   $SYNTAX$
+      QDomDocument( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QDomDocument
+   $METHODS$
+      :createAttribute( cName )                           -> oQDomAttr
+      :createAttributeNS( cNsURI, cQName )                -> oQDomAttr
+      :createCDATASection( cValue )                       -> oQDomCDATASection
+      :createComment( cValue )                            -> oQDomComment
+      :createDocumentFragment()                           -> oQDomDocumentFragment
+      :createElement( cTagName )                          -> oQDomElement
+      :createElementNS( cNsURI, cQName )                  -> oQDomElement
+      :createEntityReference( cName )                     -> oQDomEntityReference
+      :createProcessingInstruction( cTarget, cData )      -> oQDomProcessingInstruction
+      :createTextNode( cValue )                           -> oQDomText
+      :doctype()                                          -> oQDomDocumentType
+      :documentElement()                                  -> oQDomElement
+      :elementById( cElementId )                          -> oQDomElement
+      :elementsByTagName( cTagname )                      -> oQDomNodeList
+      :elementsByTagNameNS( cNsURI, cLocalName )          -> oQDomNodeList
+      :implementation()                                   -> oQDomImplementation
+      :importNode( oQDomNode, lDeep )                     -> oQDomNode
+      :nodeType()                                         -> nQDomNode_NodeType
+      :setContent( oQByteArray, lNamespaceProcessing, cErrorMsg, @nErrorLine, @nErrorColumn )  -> lBool
+      :( cText, lNamespaceProcessing, cErrorMsg, @nErrorLine, @nErrorColumn )  -> lBool
+      :( oQIODevice, lNamespaceProcessing, cErrorMsg, @nErrorLine, @nErrorColumn )  -> lBool
+      :( oQXmlInputSource, lNamespaceProcessing, cErrorMsg, @nErrorLine, @nErrorColumn )  -> lBool
+      :( cText, cErrorMsg, @nErrorLine, @nErrorColumn )   -> lBool
+      :( oQByteArray, cErrorMsg, @nErrorLine, @nErrorColumn )  -> lBool
+      :( oQIODevice, cErrorMsg, @nErrorLine, @nErrorColumn )  -> lBool
+      :( oQXmlInputSource, oQXmlReader, cErrorMsg, @nErrorLine, @nErrorColumn )  -> lBool
+      :toByteArray( nIndent )                             -> oQByteArray
+      :toString( nIndent )                                -> cQString
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtopengl
+   $END$
+ */

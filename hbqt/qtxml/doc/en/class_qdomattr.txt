@@ -1,0 +1,49 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QDomAttr()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qdomattr.html
+   $ONELINER$
+      Creates a new QDomAttr object.
+   $INHERITS$
+      QDomNode
+   $SYNTAX$
+      QDomAttr( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QDomAttr
+   $METHODS$
+      :name()                                             -> cQString
+      :nodeType()                                         -> nQDomNode_NodeType
+      :ownerElement()                                     -> oQDomElement
+      :setValue( cV )                                     -> NIL
+      :specified()                                        -> lBool
+      :value()                                            -> cQString
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtopengl
+   $END$
+ */

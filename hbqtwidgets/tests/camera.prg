@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: camera.prg 310 2014-06-02 01:38:30Z bedipritpal $
  */
 
 /*

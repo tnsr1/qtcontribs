@@ -1,0 +1,64 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QGLContext()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qglcontext.html
+   $ONELINER$
+      Creates a new QGLContext object.
+   $INHERITS$
+
+   $SYNTAX$
+      QGLContext( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QGLContext
+   $METHODS$
+      :bindTexture( oQImage, nTarget, nFormat, nOptions )  -> nGLuint
+      :( cFileName )                                      -> nGLuint
+      :( oQImage, nTarget, nFormat )                      -> nGLuint
+      :( oQPixmap, nTarget, nFormat )                     -> nGLuint
+      :( oQPixmap, nTarget, nFormat, nOptions )           -> nGLuint
+      :create( oQGLContext )                              -> lBool
+      :deleteTexture( nId )                               -> NIL
+      :device()                                           -> oQPaintDevice
+      :doneCurrent()                                      -> NIL
+      :drawTexture( oQRectF, nTextureId, nTextureTarget )  -> NIL
+      :( oQPointF, nTextureId, nTextureTarget )           -> NIL
+      :format()                                           -> oQGLFormat
+      :getProcAddress( cProc )                            -> NIL
+      :isSharing()                                        -> lBool
+      :isValid()                                          -> lBool
+      :makeCurrent()                                      -> NIL
+      :overlayTransparentColor()                          -> oQColor
+      :requestedFormat()                                  -> oQGLFormat
+      :reset()                                            -> NIL
+      :setFormat( oQGLFormat )                            -> NIL
+      :swapBuffers()                                      -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtopengl
+   $END$
+ */

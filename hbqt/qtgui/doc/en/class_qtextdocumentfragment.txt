@@ -1,0 +1,50 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QTextDocumentFragment()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qtextdocumentfragment.html
+   $ONELINER$
+      Creates a new QTextDocumentFragment object.
+   $INHERITS$
+
+   $SYNTAX$
+      QTextDocumentFragment( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QTextDocumentFragment
+   $METHODS$
+      :isEmpty()                                          -> lBool
+      :toHtml( oQByteArray )                              -> cQString
+      :()                                                 -> cQString
+      :toPlainText()                                      -> cQString
+      :fromHtml( cText )                                  -> oQTextDocumentFragment
+      :( cText, oQTextDocument )                          -> oQTextDocumentFragment
+      :fromPlainText( cPlainText )                        -> oQTextDocumentFragment
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

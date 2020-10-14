@@ -1,0 +1,71 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QToolBar()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qtoolbar.html
+   $ONELINER$
+      Creates a new QToolBar object.
+   $INHERITS$
+      QWidget
+   $SYNTAX$
+      QToolBar( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QToolBar
+   $METHODS$
+      :actionAt( oQPoint )                                -> oQAction
+      :( nX, nY )                                         -> oQAction
+      :addAction( oQAction )                              -> NIL
+      :( cText )                                          -> oQAction
+      :( oQIcon, cText )                                  -> oQAction
+      :( cText, oQObject, cMember )                       -> oQAction
+      :( oQIcon, cText, oQObject, cMember )               -> oQAction
+      :addSeparator()                                     -> oQAction
+      :addWidget( oQWidget )                              -> oQAction
+      :allowedAreas()                                     -> nQt_ToolBarAreas
+      :clear()                                            -> NIL
+      :iconSize()                                         -> oQSize
+      :insertSeparator( oQAction )                        -> oQAction
+      :insertWidget( oQAction, oQWidget )                 -> oQAction
+      :isAreaAllowed( nArea )                             -> lBool
+      :isFloatable()                                      -> lBool
+      :isFloating()                                       -> lBool
+      :isMovable()                                        -> lBool
+      :orientation()                                      -> nQt_Orientation
+      :setAllowedAreas( nAreas )                          -> NIL
+      :setFloatable( lFloatable )                         -> NIL
+      :setMovable( lMovable )                             -> NIL
+      :setOrientation( nOrientation )                     -> NIL
+      :toggleViewAction()                                 -> oQAction
+      :toolButtonStyle()                                  -> nQt_ToolButtonStyle
+      :widgetForAction( oQAction )                        -> oQWidget
+      :setIconSize( oQSize )                              -> NIL
+      :setToolButtonStyle( nToolButtonStyle )             -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

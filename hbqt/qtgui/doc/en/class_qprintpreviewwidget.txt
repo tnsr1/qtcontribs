@@ -1,0 +1,65 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QPrintPreviewWidget()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qprintpreviewwidget.html
+   $ONELINER$
+      Creates a new QPrintPreviewWidget object.
+   $INHERITS$
+      QWidget
+   $SYNTAX$
+      QPrintPreviewWidget( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QPrintPreviewWidget
+   $METHODS$
+      :currentPage()                                      -> nInt
+      :orientation()                                      -> nQPrinter_Orientation
+      :pageCount()                                        -> nInt
+      :viewMode()                                         -> nViewMode
+      :zoomFactor()                                       -> nQreal
+      :zoomMode()                                         -> nZoomMode
+      :fitInView()                                        -> NIL
+      :fitToWidth()                                       -> NIL
+      :print()                                            -> NIL
+      :setAllPagesViewMode()                              -> NIL
+      :setCurrentPage( nPage )                            -> NIL
+      :setFacingPagesViewMode()                           -> NIL
+      :setLandscapeOrientation()                          -> NIL
+      :setOrientation( nOrientation )                     -> NIL
+      :setPortraitOrientation()                           -> NIL
+      :setSinglePageViewMode()                            -> NIL
+      :setViewMode( nMode )                               -> NIL
+      :setZoomFactor( nFactor )                           -> NIL
+      :setZoomMode( nZoomMode )                           -> NIL
+      :updatePreview()                                    -> NIL
+      :zoomIn( nFactor )                                  -> NIL
+      :zoomOut( nFactor )                                 -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

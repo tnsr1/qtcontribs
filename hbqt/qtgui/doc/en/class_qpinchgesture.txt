@@ -1,0 +1,65 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QPinchGesture()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.6/qpinchgesture.html
+   $ONELINER$
+      Creates a new QPinchGesture object.
+   $INHERITS$
+      QGesture
+   $SYNTAX$
+      QPinchGesture( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QPinchGesture
+   $METHODS$
+      :centerPoint()                                      -> oQPointF
+      :changeFlags()                                      -> nChangeFlags
+      :lastCenterPoint()                                  -> oQPointF
+      :lastRotationAngle()                                -> nQreal
+      :lastScaleFactor()                                  -> nQreal
+      :rotationAngle()                                    -> nQreal
+      :scaleFactor()                                      -> nQreal
+      :setCenterPoint( oQPointF )                         -> NIL
+      :setChangeFlags( nValue )                           -> NIL
+      :setLastCenterPoint( oQPointF )                     -> NIL
+      :setLastRotationAngle( nValue )                     -> NIL
+      :setLastScaleFactor( nValue )                       -> NIL
+      :setRotationAngle( nValue )                         -> NIL
+      :setScaleFactor( nValue )                           -> NIL
+      :setStartCenterPoint( oQPointF )                    -> NIL
+      :setTotalChangeFlags( nValue )                      -> NIL
+      :setTotalRotationAngle( nValue )                    -> NIL
+      :setTotalScaleFactor( nValue )                      -> NIL
+      :startCenterPoint()                                 -> oQPointF
+      :totalChangeFlags()                                 -> nChangeFlags
+      :totalRotationAngle()                               -> nQreal
+      :totalScaleFactor()                                 -> nQreal
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.6 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

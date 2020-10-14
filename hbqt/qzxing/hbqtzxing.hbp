@@ -1,5 +1,5 @@
 #
-# $Id$
+# $Id: hbqtzxing.hbp 392 2015-01-23 21:14:12Z bedipritpal $
 #
 
 {__ios__}-stop='ZXing is not available for ios...'

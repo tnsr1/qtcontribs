@@ -1,0 +1,47 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QSGClipNode()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qsgclipnode.html
+   $ONELINER$
+      Creates a new QSGClipNode object.
+   $INHERITS$
+      QSGBasicGeometryNode
+   $SYNTAX$
+      QSGClipNode( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QSGClipNode
+   $METHODS$
+      :clipRect()                                         -> oQRectF
+      :isRectangular()                                    -> lBool
+      :setClipRect( oQRectF )                             -> NIL
+      :setIsRectangular( lRectHint )                      -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtquick
+   $END$
+ */

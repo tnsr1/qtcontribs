@@ -1,0 +1,44 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QQmlAbstractUrlInterceptor()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qqmlabstracturlinterceptor.html
+   $ONELINER$
+      Creates a new QQmlAbstractUrlInterceptor object.
+   $INHERITS$
+
+   $SYNTAX$
+      QQmlAbstractUrlInterceptor( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QQmlAbstractUrlInterceptor
+   $METHODS$
+      :intercept( oQUrl, nType )                          -> oQUrl
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtqml
+   $END$
+ */

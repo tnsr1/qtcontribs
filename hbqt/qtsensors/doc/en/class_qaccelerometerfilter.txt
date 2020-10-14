@@ -1,0 +1,44 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QAccelerometerFilter()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qaccelerometerfilter.html
+   $ONELINER$
+      Creates a new QAccelerometerFilter object.
+   $INHERITS$
+      QSensorFilter
+   $SYNTAX$
+      QAccelerometerFilter( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QAccelerometerFilter
+   $METHODS$
+      :filter( oQAccelerometerReading )                   -> lBool
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtandroid
+   $END$
+ */

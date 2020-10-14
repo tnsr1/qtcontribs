@@ -1,0 +1,51 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QAnimationGroup()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.6/qanimationgroup.html
+   $ONELINER$
+      Creates a new QAnimationGroup object.
+   $INHERITS$
+      QAbstractAnimation
+   $SYNTAX$
+      QAnimationGroup( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QAnimationGroup
+   $METHODS$
+      :addAnimation( oQAbstractAnimation )                -> NIL
+      :animationAt( nIndex )                              -> oQAbstractAnimation
+      :animationCount()                                   -> nInt
+      :clear()                                            -> NIL
+      :indexOfAnimation( oQAbstractAnimation )            -> nInt
+      :insertAnimation( nIndex, oQAbstractAnimation )     -> NIL
+      :removeAnimation( oQAbstractAnimation )             -> NIL
+      :takeAnimation( nIndex )                            -> oQAbstractAnimation
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.6 or upper
+   $FILES$
+      Library: hbqtcore
+   $END$
+ */

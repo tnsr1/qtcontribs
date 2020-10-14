@@ -1,0 +1,49 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QPlaceResult()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.5/qplaceresult.html
+   $ONELINER$
+      Creates a new QPlaceResult object.
+   $INHERITS$
+      QPlaceSearchResult
+   $SYNTAX$
+      QPlaceResult( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QPlaceResult
+   $METHODS$
+      :distance()                                         -> nQreal
+      :isSponsored()                                      -> lBool
+      :place()                                            -> oQPlace
+      :setDistance( nDistance )                           -> NIL
+      :setPlace( oQPlace )                                -> NIL
+      :setSponsored( lSponsored )                         -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.5 or upper
+   $FILES$
+      Library: hbqtlocation
+   $END$
+ */

@@ -1,0 +1,71 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QQmlEngine()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qqmlengine.html
+   $ONELINER$
+      Creates a new QQmlEngine object.
+   $INHERITS$
+      QJSEngine
+   $SYNTAX$
+      QQmlEngine( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QQmlEngine
+   $METHODS$
+      :addImageProvider( cProviderId, oQQmlImageProviderBase )  -> NIL
+      :addImportPath( cPath )                             -> NIL
+      :addNamedBundle( cName, cFileName )                 -> lBool
+      :addPluginPath( cPath )                             -> NIL
+      :baseUrl()                                          -> oQUrl
+      :clearComponentCache()                              -> NIL
+      :imageProvider( cProviderId )                       -> oQQmlImageProviderBase
+      :importPathList()                                   -> oQStringList
+      :incubationController()                             -> oQQmlIncubationController
+      :networkAccessManager()                             -> oQNetworkAccessManager
+      :networkAccessManagerFactory()                      -> oQQmlNetworkAccessManagerFactory
+      :offlineStoragePath()                               -> cQString
+      :outputWarningsToStandardError()                    -> lBool
+      :pluginPathList()                                   -> oQStringList
+      :removeImageProvider( cProviderId )                 -> NIL
+      :rootContext()                                      -> oQQmlContext
+      :setBaseUrl( oQUrl )                                -> NIL
+      :setImportPathList( oQStringList )                  -> NIL
+      :setIncubationController( oQQmlIncubationController )  -> NIL
+      :setNetworkAccessManagerFactory( oQQmlNetworkAccessManagerFactory )  -> NIL
+      :setOfflineStoragePath( cDir )                      -> NIL
+      :setOutputWarningsToStandardError( lEnabled )       -> NIL
+      :setPluginPathList( oQStringList )                  -> NIL
+      :trimComponentCache()                               -> NIL
+      :contextForObject( oQObject )                       -> oQQmlContext
+      :objectOwnership( oQObject )                        -> nObjectOwnership
+      :setContextForObject( oQObject, oQQmlContext )      -> NIL
+      :setObjectOwnership( oQObject, nOwnership )         -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtqml
+   $END$
+ */

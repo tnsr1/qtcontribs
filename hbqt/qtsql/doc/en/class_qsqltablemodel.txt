@@ -1,0 +1,67 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QSqlTableModel()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qsqltablemodel.html
+   $ONELINER$
+      Creates a new QSqlTableModel object.
+   $INHERITS$
+      QSqlQueryModel
+   $SYNTAX$
+      QSqlTableModel( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QSqlTableModel
+   $METHODS$
+      :database()                                         -> oQSqlDatabase
+      :editStrategy()                                     -> nEditStrategy
+      :fieldIndex( cFieldName )                           -> nInt
+      :filter()                                           -> cQString
+      :insertRecord( nRow, oQSqlRecord )                  -> lBool
+      :insertRows( nRow, nCount, oQModelIndex )           -> lBool
+      :isDirty( oQModelIndex )                            -> lBool
+      :primaryKey()                                       -> oQSqlIndex
+      :removeColumns( nColumn, nCount, oQModelIndex )     -> lBool
+      :removeRows( nRow, nCount, oQModelIndex )           -> lBool
+      :revertRow( nRow )                                  -> NIL
+      :select()                                           -> lBool
+      :setData( oQModelIndex, oQVariant, nRole )          -> lBool
+      :setEditStrategy( nStrategy )                       -> NIL
+      :setFilter( cFilter )                               -> NIL
+      :setRecord( nRow, oQSqlRecord )                     -> lBool
+      :setSort( nColumn, nOrder )                         -> NIL
+      :setTable( cTableName )                             -> NIL
+      :sort( nColumn, nOrder )                            -> NIL
+      :tableName()                                        -> cQString
+      :revert()                                           -> NIL
+      :revertAll()                                        -> NIL
+      :submit()                                           -> lBool
+      :submitAll()                                        -> lBool
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtsql
+   $END$
+ */

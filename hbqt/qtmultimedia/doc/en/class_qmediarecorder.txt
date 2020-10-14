@@ -1,0 +1,82 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QMediaRecorder()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qmediarecorder.html
+   $ONELINER$
+      Creates a new QMediaRecorder object.
+   $INHERITS$
+      QObject, QMediaBindableInterface
+   $SYNTAX$
+      QMediaRecorder( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QMediaRecorder
+   $METHODS$
+      :actualLocation()                                   -> oQUrl
+      :audioCodecDescription( cCodec )                    -> cQString
+      :audioSettings()                                    -> oQAudioEncoderSettings
+      :availability()                                     -> nQMultimedia_AvailabilityStatus
+      :availableMetaData()                                -> oQStringList
+      :containerDescription( cFormat )                    -> cQString
+      :containerFormat()                                  -> cQString
+      :duration()                                         -> nQint64
+      :error()                                            -> nQMediaRecorder_Error
+      :errorString()                                      -> cQString
+      :isAvailable()                                      -> lBool
+      :isMetaDataAvailable()                              -> lBool
+      :isMetaDataWritable()                               -> lBool
+      :isMuted()                                          -> lBool
+      :metaData( cKey )                                   -> oQVariant
+      :outputLocation()                                   -> oQUrl
+      :setAudioSettings( oQAudioEncoderSettings )         -> NIL
+      :setContainerFormat( cContainer )                   -> NIL
+      :setEncodingSettings( oQAudioEncoderSettings, oQVideoEncoderSettings, cContainer )  -> NIL
+      :setMetaData( cKey, oQVariant )                     -> NIL
+      :setOutputLocation( oQUrl )                         -> lBool
+      :setVideoSettings( oQVideoEncoderSettings )         -> NIL
+      :state()                                            -> nQMediaRecorder_State
+      :status()                                           -> nQMediaRecorder_Status
+      :supportedAudioCodecs()                             -> oQStringList
+      :supportedAudioSampleRates( oQAudioEncoderSettings, @lContinuous )  -> oQList_int>
+      :supportedContainers()                              -> oQStringList
+      :supportedFrameRates( oQVideoEncoderSettings, @lContinuous )  -> oQList_qreal>
+      :supportedResolutions( oQVideoEncoderSettings, @lContinuous )  -> oQList_QSize>
+      :supportedVideoCodecs()                             -> oQStringList
+      :videoCodecDescription( cCodec )                    -> cQString
+      :videoSettings()                                    -> oQVideoEncoderSettings
+      :volume()                                           -> nQreal
+      :mediaObject()                                      -> oQMediaObject
+      :pause()                                            -> NIL
+      :record()                                           -> NIL
+      :setMuted( lMuted )                                 -> NIL
+      :setVolume( nVolume )                               -> NIL
+      :stop()                                             -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtmultimedia
+   $END$
+ */

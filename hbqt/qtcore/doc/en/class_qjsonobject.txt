@@ -1,0 +1,41 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QJsonObject()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.0/qjsonobject.html
+   $ONELINER$
+      Creates a new QJsonObject object.
+   $INHERITS$
+
+   $SYNTAX$
+      QJsonObject( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QJsonObject
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.0 or upper
+   $FILES$
+      Library: hbqtcore
+   $END$
+ */

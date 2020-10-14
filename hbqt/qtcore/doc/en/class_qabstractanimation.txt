@@ -1,0 +1,60 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QAbstractAnimation()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.6/qabstractanimation.html
+   $ONELINER$
+      Creates a new QAbstractAnimation object.
+   $INHERITS$
+      QObject
+   $SYNTAX$
+      QAbstractAnimation( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QAbstractAnimation
+   $METHODS$
+      :currentLoop()                                      -> nInt
+      :currentLoopTime()                                  -> nInt
+      :currentTime()                                      -> nInt
+      :direction()                                        -> nDirection
+      :duration()                                         -> nInt
+      :group()                                            -> oQAnimationGroup
+      :loopCount()                                        -> nInt
+      :setDirection( nDirection )                         -> NIL
+      :setLoopCount( nLoopCount )                         -> NIL
+      :state()                                            -> nState
+      :totalDuration()                                    -> nInt
+      :pause()                                            -> NIL
+      :resume()                                           -> NIL
+      :setCurrentTime( nMsecs )                           -> NIL
+      :setPaused( lPaused )                               -> NIL
+      :start( nPolicy )                                   -> NIL
+      :stop()                                             -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.6 or upper
+   $FILES$
+      Library: hbqtcore
+   $END$
+ */

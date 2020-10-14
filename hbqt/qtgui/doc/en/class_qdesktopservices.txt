@@ -1,0 +1,48 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QDesktopServices()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qdesktopservices.html
+   $ONELINER$
+      Creates a new QDesktopServices object.
+   $INHERITS$
+
+   $SYNTAX$
+      QDesktopServices( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QDesktopServices
+   $METHODS$
+      :displayName( nType )                               -> cQString
+      :openUrl( oQUrl )                                   -> lBool
+      :setUrlHandler( cScheme, oQObject, cMethod )        -> NIL
+      :storageLocation( nType )                           -> cQString
+      :unsetUrlHandler( cScheme )                         -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

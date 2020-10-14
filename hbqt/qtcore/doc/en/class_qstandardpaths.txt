@@ -1,0 +1,50 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QStandardPaths()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.0/qstandardpaths.html
+   $ONELINER$
+      Creates a new QStandardPaths object.
+   $INHERITS$
+
+   $SYNTAX$
+      QStandardPaths( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QStandardPaths
+   $METHODS$
+      :displayName( nType )                               -> cQString
+      :findExecutable( cExecutableName, oQStringList )    -> cQString
+      :locate( nType, cFileName, nOptions )               -> cQString
+      :locateAll( nType, cFileName, nOptions )            -> oQStringList
+      :setTestModeEnabled( lTestMode )                    -> NIL
+      :standardLocations( nType )                         -> oQStringList
+      :writableLocation( nType )                          -> cQString
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.0 or upper
+   $FILES$
+      Library: hbqtcore
+   $END$
+ */

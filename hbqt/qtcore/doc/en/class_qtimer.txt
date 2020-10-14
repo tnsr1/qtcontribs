@@ -1,0 +1,52 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QTimer()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qtimer.html
+   $ONELINER$
+      Creates a new QTimer object.
+   $INHERITS$
+      QObject
+   $SYNTAX$
+      QTimer( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QTimer
+   $METHODS$
+      :interval()                                         -> nInt
+      :isActive()                                         -> lBool
+      :isSingleShot()                                     -> lBool
+      :setInterval( nMsec )                               -> NIL
+      :setSingleShot( lSingleShot )                       -> NIL
+      :timerId()                                          -> nInt
+      :start()                                            -> NIL
+      :stop()                                             -> NIL
+      :( nMsec )                                          -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtcore
+   $END$
+ */

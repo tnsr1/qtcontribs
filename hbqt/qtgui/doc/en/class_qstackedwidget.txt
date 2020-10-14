@@ -1,0 +1,53 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QStackedWidget()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qstackedwidget.html
+   $ONELINER$
+      Creates a new QStackedWidget object.
+   $INHERITS$
+      QFrame
+   $SYNTAX$
+      QStackedWidget( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QStackedWidget
+   $METHODS$
+      :addWidget( oQWidget )                              -> nInt
+      :count()                                            -> nInt
+      :currentIndex()                                     -> nInt
+      :currentWidget()                                    -> oQWidget
+      :indexOf( oQWidget )                                -> nInt
+      :insertWidget( nIndex, oQWidget )                   -> nInt
+      :removeWidget( oQWidget )                           -> NIL
+      :widget( nIndex )                                   -> oQWidget
+      :setCurrentIndex( nIndex )                          -> NIL
+      :setCurrentWidget( oQWidget )                       -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

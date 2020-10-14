@@ -1,0 +1,46 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QShortcutEvent()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qshortcutevent.html
+   $ONELINER$
+      Creates a new QShortcutEvent object.
+   $INHERITS$
+      QEvent
+   $SYNTAX$
+      QShortcutEvent( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QShortcutEvent
+   $METHODS$
+      :isAmbiguous()                                      -> lBool
+      :key()                                              -> oQKeySequence
+      :shortcutId()                                       -> nInt
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

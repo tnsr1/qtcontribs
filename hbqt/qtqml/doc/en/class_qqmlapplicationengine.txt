@@ -1,0 +1,47 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QQmlApplicationEngine()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qqmlapplicationengine.html
+   $ONELINER$
+      Creates a new QQmlApplicationEngine object.
+   $INHERITS$
+      QQmlEngine
+   $SYNTAX$
+      QQmlApplicationEngine( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QQmlApplicationEngine
+   $METHODS$
+      :rootObjects()                                      -> oQList_QObject
+      :load( oQUrl )                                      -> NIL
+      :( cFilePath )                                      -> NIL
+      :loadData( oQByteArray, oQUrl )                     -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtqml
+   $END$
+ */

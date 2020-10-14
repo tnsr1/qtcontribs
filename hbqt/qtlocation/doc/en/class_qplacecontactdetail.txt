@@ -1,0 +1,48 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QPlaceContactDetail()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.5/qplacecontactdetail.html
+   $ONELINER$
+      Creates a new QPlaceContactDetail object.
+   $INHERITS$
+
+   $SYNTAX$
+      QPlaceContactDetail( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QPlaceContactDetail
+   $METHODS$
+      :clear()                                            -> NIL
+      :label()                                            -> cQString
+      :setLabel( cLabel )                                 -> NIL
+      :setValue( cValue )                                 -> NIL
+      :value()                                            -> cQString
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.5 or upper
+   $FILES$
+      Library: hbqtlocation
+   $END$
+ */

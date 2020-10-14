@@ -1,0 +1,44 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QParallelAnimationGroup()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.6/qparallelanimationgroup.html
+   $ONELINER$
+      Creates a new QParallelAnimationGroup object.
+   $INHERITS$
+      QAnimationGroup
+   $SYNTAX$
+      QParallelAnimationGroup( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QParallelAnimationGroup
+   $METHODS$
+      :duration()                                         -> nInt
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.6 or upper
+   $FILES$
+      Library: hbqtcore
+   $END$
+ */

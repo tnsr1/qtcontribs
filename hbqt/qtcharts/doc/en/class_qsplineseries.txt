@@ -1,0 +1,44 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QSplineSeries()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.7/qsplineseries.html
+   $ONELINER$
+      Creates a new QSplineSeries object.
+   $INHERITS$
+      QLineSeries
+   $SYNTAX$
+      QSplineSeries( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QSplineSeries
+   $METHODS$
+      :type()                                             -> nSeriesType
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.7 or upper
+   $FILES$
+      Library: hbqtcharts
+   $END$
+ */

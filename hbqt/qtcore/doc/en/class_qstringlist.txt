@@ -1,0 +1,77 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QStringList()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qstringlist.html
+   $ONELINER$
+      Creates a new QStringList object.
+   $INHERITS$
+      QList
+   $SYNTAX$
+      QStringList( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QStringList
+   $METHODS$
+      :append( cValue )                                   -> NIL
+      :filter( cStr, nCs )                                -> oQStringList
+      :( oQRegExp )                                       -> oQStringList
+      :indexOf( cValue, nFrom )                           -> nInt
+      :( oQRegExp, nFrom )                                -> nInt
+      :( oQRegExp, nFrom )                                -> nInt
+      :join( cSeparator )                                 -> cQString
+      :lastIndexOf( oQRegExp, nFrom )                     -> nInt
+      :( cValue, nFrom )                                  -> nInt
+      :( oQRegExp, nFrom )                                -> nInt
+      :removeDuplicates()                                 -> nInt
+      :replaceInStrings( cBefore, cAfter, nCs )           -> oQStringList
+      :( oQRegExp, cAfter )                               -> oQStringList
+      :sort()                                             -> NIL
+      :at( nI )                                           -> cQString
+      :back()                                             -> cQString
+      :count( cValue )                                    -> nInt
+      :endsWith( cValue )                                 -> lBool
+      :first()                                            -> cQString
+      :front()                                            -> cQString
+      :insert( nI, cValue )                               -> NIL
+      :last()                                             -> cQString
+      :prepend( cValue )                                  -> NIL
+      :push( cValue )                                     -> NIL
+      :push( cValue )                                     -> NIL
+      :removeAll( cValue )                                -> nInt
+      :removeOne( cValue )                                -> lBool
+      :replace( nI, cValue )                              -> NIL
+      :startsWith( cValue )                               -> lBool
+      :takeAt( nI )                                       -> cQString
+      :takeFirst()                                        -> cQString
+      :takeLast()                                         -> cQString
+      :value( nI )                                        -> cQString
+      :( nI, cDefaultValue )                              -> cQString
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtcore
+   $END$
+ */

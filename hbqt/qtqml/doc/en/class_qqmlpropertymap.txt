@@ -1,0 +1,51 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QQmlPropertyMap()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qqmlpropertymap.html
+   $ONELINER$
+      Creates a new QQmlPropertyMap object.
+   $INHERITS$
+      QObject
+   $SYNTAX$
+      QQmlPropertyMap( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QQmlPropertyMap
+   $METHODS$
+      :clear( cKey )                                      -> NIL
+      :contains( cKey )                                   -> lBool
+      :count()                                            -> nInt
+      :insert( cKey, oQVariant )                          -> NIL
+      :isEmpty()                                          -> lBool
+      :keys()                                             -> oQStringList
+      :size()                                             -> nInt
+      :value( cKey )                                      -> oQVariant
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtqml
+   $END$
+ */

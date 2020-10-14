@@ -1,0 +1,49 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QSensorGesture()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qsensorgesture.html
+   $ONELINER$
+      Creates a new QSensorGesture object.
+   $INHERITS$
+      QObject
+   $SYNTAX$
+      QSensorGesture( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QSensorGesture
+   $METHODS$
+      :gestureSignals()                                   -> oQStringList
+      :invalidIds()                                       -> oQStringList
+      :isActive()                                         -> lBool
+      :startDetection()                                   -> NIL
+      :stopDetection()                                    -> NIL
+      :validIds()                                         -> oQStringList
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtandroid
+   $END$
+ */

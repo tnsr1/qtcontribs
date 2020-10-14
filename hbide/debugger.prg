@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: debugger.prg 454 2017-04-19 01:46:33Z bedipritpal $
  */
 
 /* this file adapted for hbide from hwgdebug.prg by alex;(Alexey Zapolski(pepan@mail.ru))

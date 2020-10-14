@@ -1,0 +1,55 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QAudioBuffer()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qaudiobuffer.html
+   $ONELINER$
+      Creates a new QAudioBuffer object.
+   $INHERITS$
+
+   $SYNTAX$
+      QAudioBuffer( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QAudioBuffer
+   $METHODS$
+      :byteCount()                                        -> nInt
+      :constData()                                        -> NIL
+      :data()                                             -> NIL
+      :()                                                 -> NIL
+      :()                                                 -> oT
+      :()                                                 -> oT
+      :duration()                                         -> nQint64
+      :format()                                           -> oQAudioFormat
+      :frameCount()                                       -> nInt
+      :isValid()                                          -> lBool
+      :sampleCount()                                      -> nInt
+      :startTime()                                        -> nQint64
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtmultimedia
+   $END$
+ */

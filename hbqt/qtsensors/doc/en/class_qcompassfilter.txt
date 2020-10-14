@@ -1,0 +1,44 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QCompassFilter()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qcompassfilter.html
+   $ONELINER$
+      Creates a new QCompassFilter object.
+   $INHERITS$
+      QSensorFilter
+   $SYNTAX$
+      QCompassFilter( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QCompassFilter
+   $METHODS$
+      :filter( oQCompassReading )                         -> lBool
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtandroid
+   $END$
+ */

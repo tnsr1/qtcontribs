@@ -1,0 +1,46 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      HBQFlickCharm()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/hbqflickcharm.html
+   $ONELINER$
+      Creates a new HBQFlickCharm object.
+   $INHERITS$
+      QObject
+   $SYNTAX$
+      HBQFlickCharm( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type HBQFlickCharm
+   $METHODS$
+      :activateOn( oQWidget )                             -> NIL
+      :deactivateFrom( oQWidget )                         -> NIL
+      :eventFilter( oQObject, oQEvent )                   -> lBool
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

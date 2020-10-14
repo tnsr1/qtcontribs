@@ -1,0 +1,71 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QQmlProperty()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qqmlproperty.html
+   $ONELINER$
+      Creates a new QQmlProperty object.
+   $INHERITS$
+
+   $SYNTAX$
+      QQmlProperty( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QQmlProperty
+   $METHODS$
+      :connectNotifySignal( oQObject, cSlot )             -> lBool
+      :( oQObject, nMethod )                              -> lBool
+      :hasNotifySignal()                                  -> lBool
+      :index()                                            -> nInt
+      :isDesignable()                                     -> lBool
+      :isProperty()                                       -> lBool
+      :isResettable()                                     -> lBool
+      :isSignalProperty()                                 -> lBool
+      :isValid()                                          -> lBool
+      :isWritable()                                       -> lBool
+      :method()                                           -> oQMetaMethod
+      :name()                                             -> cQString
+      :needsNotifySignal()                                -> lBool
+      :object()                                           -> oQObject
+      :property()                                         -> oQMetaProperty
+      :propertyType()                                     -> nInt
+      :propertyTypeCategory()                             -> nPropertyTypeCategory
+      :propertyTypeName()                                 -> cChar
+      :read()                                             -> oQVariant
+      :reset()                                            -> lBool
+      :type()                                             -> nType
+      :write( oQVariant )                                 -> lBool
+      :( oQObject, cName )                                -> oQVariant
+      :( oQObject, cName, oQQmlContext )                  -> oQVariant
+      :( oQObject, cName, oQQmlEngine )                   -> oQVariant
+      :( oQObject, cName, oQVariant )                     -> lBool
+      :( oQObject, cName, oQVariant, oQQmlContext )       -> lBool
+      :( oQObject, cName, oQVariant, oQQmlEngine )        -> lBool
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtqml
+   $END$
+ */

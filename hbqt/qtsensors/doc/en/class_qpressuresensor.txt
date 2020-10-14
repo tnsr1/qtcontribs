@@ -1,0 +1,44 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QPressureSensor()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qpressuresensor.html
+   $ONELINER$
+      Creates a new QPressureSensor object.
+   $INHERITS$
+      QSensor
+   $SYNTAX$
+      QPressureSensor( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QPressureSensor
+   $METHODS$
+      :reading()                                          -> oQPressureReading
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtandroid
+   $END$
+ */

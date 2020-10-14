@@ -1,0 +1,60 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QLine()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qline.html
+   $ONELINER$
+      Creates a new QLine object.
+   $INHERITS$
+
+   $SYNTAX$
+      QLine( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QLine
+   $METHODS$
+      :p1()                                               -> oQPoint
+      :p2()                                               -> oQPoint
+      :x1()                                               -> nInt
+      :x2()                                               -> nInt
+      :y1()                                               -> nInt
+      :y2()                                               -> nInt
+      :dx()                                               -> nInt
+      :dy()                                               -> nInt
+      :isNull()                                           -> lBool
+      :setP1( oQPoint )                                   -> NIL
+      :setP2( oQPoint )                                   -> NIL
+      :setLine( nX1, nY1, nX2, nY2 )                      -> NIL
+      :setPoints( oQPoint, oQPoint )                      -> NIL
+      :translate( oQPoint )                               -> NIL
+      :( nDx, nDy )                                       -> NIL
+      :translated( oQPoint )                              -> oQLine
+      :( nDx, nDy )                                       -> oQLine
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtcore
+   $END$
+ */

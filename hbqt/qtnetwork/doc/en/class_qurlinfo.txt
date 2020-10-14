@@ -1,0 +1,72 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QUrlInfo()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qurlinfo.html
+   $ONELINER$
+      Creates a new QUrlInfo object.
+   $INHERITS$
+
+   $SYNTAX$
+      QUrlInfo( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QUrlInfo
+   $METHODS$
+      :group()                                            -> cQString
+      :isDir()                                            -> lBool
+      :isExecutable()                                     -> lBool
+      :isFile()                                           -> lBool
+      :isReadable()                                       -> lBool
+      :isSymLink()                                        -> lBool
+      :isValid()                                          -> lBool
+      :isWritable()                                       -> lBool
+      :lastModified()                                     -> oQDateTime
+      :lastRead()                                         -> oQDateTime
+      :name()                                             -> cQString
+      :owner()                                            -> cQString
+      :permissions()                                      -> nInt
+      :setDir( lB )                                       -> NIL
+      :setFile( lB )                                      -> NIL
+      :setGroup( cS )                                     -> NIL
+      :setLastModified( oQDateTime )                      -> NIL
+      :setLastRead( oQDateTime )                          -> NIL
+      :setName( cName )                                   -> NIL
+      :setOwner( cS )                                     -> NIL
+      :setPermissions( nP )                               -> NIL
+      :setReadable( lB )                                  -> NIL
+      :setSize( nSize )                                   -> NIL
+      :setSymLink( lB )                                   -> NIL
+      :setWritable( lB )                                  -> NIL
+      :size()                                             -> nQint64
+      :equal( oQUrlInfo, oQUrlInfo, nSortBy )             -> lBool
+      :greaterThan( oQUrlInfo, oQUrlInfo, nSortBy )       -> lBool
+      :lessThan( oQUrlInfo, oQUrlInfo, nSortBy )          -> lBool
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtnetwork
+   $END$
+ */

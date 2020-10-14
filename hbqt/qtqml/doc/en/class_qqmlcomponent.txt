@@ -1,0 +1,59 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QQmlComponent()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qqmlcomponent.html
+   $ONELINER$
+      Creates a new QQmlComponent object.
+   $INHERITS$
+      QObject
+   $SYNTAX$
+      QQmlComponent( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QQmlComponent
+   $METHODS$
+      :beginCreate( oQQmlContext )                        -> oQObject
+      :completeCreate()                                   -> NIL
+      :create( oQQmlContext )                             -> oQObject
+      :( oQQmlIncubator, oQQmlContext, oQQmlContext )     -> NIL
+      :creationContext()                                  -> oQQmlContext
+      :errors()                                           -> oQList_QQmlError>
+      :isError()                                          -> lBool
+      :isLoading()                                        -> lBool
+      :isNull()                                           -> lBool
+      :isReady()                                          -> lBool
+      :progress()                                         -> nQreal
+      :status()                                           -> nStatus
+      :url()                                              -> oQUrl
+      :loadUrl( oQUrl )                                   -> NIL
+      :( oQUrl, nMode )                                   -> NIL
+      :setData( oQByteArray, oQUrl )                      -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtqml
+   $END$
+ */

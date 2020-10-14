@@ -1,0 +1,51 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QGeoCodeReply()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.5/qgeocodereply.html
+   $ONELINER$
+      Creates a new QGeoCodeReply object.
+   $INHERITS$
+      QObject
+   $SYNTAX$
+      QGeoCodeReply( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QGeoCodeReply
+   $METHODS$
+      :abort()                                            -> NIL
+      :error()                                            -> nError
+      :errorString()                                      -> cQString
+      :isFinished()                                       -> lBool
+      :limit()                                            -> nInt
+      :locations()                                        -> oQList_QGeoLocation>
+      :offset()                                           -> nInt
+      :viewport()                                         -> oQGeoShape
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.5 or upper
+   $FILES$
+      Library: hbqtlocation
+   $END$
+ */

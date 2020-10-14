@@ -1,5 +1,5 @@
 #
-# $Id$
+# $Id: hbqtlocation.hbp 412 2015-06-30 20:59:14Z bedipritpal $
 #
 
 -cflag=-I${HB_WITH_QT}/QtCore

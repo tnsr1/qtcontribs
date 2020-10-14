@@ -1,0 +1,67 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QHttp()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qhttp.html
+   $ONELINER$
+      Creates a new QHttp object.
+   $INHERITS$
+      QObject
+   $SYNTAX$
+      QHttp( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QHttp
+   $METHODS$
+      :bytesAvailable()                                   -> nQint64
+      :clearPendingRequests()                             -> NIL
+      :close()                                            -> nInt
+      :currentDestinationDevice()                         -> oQIODevice
+      :currentId()                                        -> nInt
+      :currentRequest()                                   -> oQHttpRequestHeader
+      :currentSourceDevice()                              -> oQIODevice
+      :error()                                            -> nError
+      :errorString()                                      -> cQString
+      :get( cPath, oQIODevice )                           -> nInt
+      :hasPendingRequests()                               -> lBool
+      :head( cPath )                                      -> nInt
+      :lastResponse()                                     -> oQHttpResponseHeader
+      :post( cPath, oQIODevice, oQIODevice )              -> nInt
+      :( cPath, oQByteArray, oQIODevice )                 -> nInt
+      :readAll()                                          -> oQByteArray
+      :request( oQHttpRequestHeader, oQIODevice, oQIODevice )  -> nInt
+      :( oQHttpRequestHeader, oQByteArray, oQIODevice )   -> nInt
+      :setHost( cHostName, nMode, nPort )                 -> nInt
+      :setProxy( cHost, nPort, cUsername, cPassword )     -> nInt
+      :( oQNetworkProxy )                                 -> nInt
+      :setUser( cUserName, cPassword )                    -> nInt
+      :state()                                            -> nState
+      :abort()                                            -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtnetwork
+   $END$
+ */

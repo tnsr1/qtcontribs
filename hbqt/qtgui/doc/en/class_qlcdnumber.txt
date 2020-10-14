@@ -1,0 +1,62 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QLCDNumber()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qlcdnumber.html
+   $ONELINER$
+      Creates a new QLCDNumber object.
+   $INHERITS$
+      QFrame
+   $SYNTAX$
+      QLCDNumber( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QLCDNumber
+   $METHODS$
+      :checkOverflow( nNum )                              -> lBool
+      :digitCount()                                       -> nInt
+      :intValue()                                         -> nInt
+      :mode()                                             -> nMode
+      :numDigits()                                        -> nInt
+      :segmentStyle()                                     -> nSegmentStyle
+      :setDigitCount( nNumDigits )                        -> NIL
+      :setMode( nMode )                                   -> NIL
+      :setNumDigits( nNDigits )                           -> NIL
+      :setSegmentStyle( nSegmentStyle )                   -> NIL
+      :smallDecimalPoint()                                -> lBool
+      :value()                                            -> nDouble
+      :display( cS )                                      -> NIL
+      :( nNum )                                           -> NIL
+      :setBinMode()                                       -> NIL
+      :setDecMode()                                       -> NIL
+      :setHexMode()                                       -> NIL
+      :setOctMode()                                       -> NIL
+      :setSmallDecimalPoint( lBool )                      -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

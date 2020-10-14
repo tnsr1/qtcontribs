@@ -1,0 +1,73 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QCameraExposure()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qcameraexposure.html
+   $ONELINER$
+      Creates a new QCameraExposure object.
+   $INHERITS$
+      QObject
+   $SYNTAX$
+      QCameraExposure( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QCameraExposure
+   $METHODS$
+      :aperture()                                         -> nQreal
+      :exposureCompensation()                             -> nQreal
+      :exposureMode()                                     -> nExposureMode
+      :flashMode()                                        -> nFlashModes
+      :isAvailable()                                      -> lBool
+      :isExposureModeSupported( nMode )                   -> lBool
+      :isFlashModeSupported( nMode )                      -> lBool
+      :isFlashReady()                                     -> lBool
+      :isMeteringModeSupported( nMode )                   -> lBool
+      :isoSensitivity()                                   -> nInt
+      :meteringMode()                                     -> nMeteringMode
+      :requestedAperture()                                -> nQreal
+      :requestedIsoSensitivity()                          -> nInt
+      :requestedShutterSpeed()                            -> nQreal
+      :setSpotMeteringPoint( oQPointF )                   -> NIL
+      :shutterSpeed()                                     -> nQreal
+      :spotMeteringPoint()                                -> oQPointF
+      :supportedApertures( @lContinuous )                 -> oQList_qreal>
+      :supportedIsoSensitivities( @lContinuous )          -> oQList_int>
+      :supportedShutterSpeeds( @lContinuous )             -> oQList_qreal>
+      :setAutoAperture()                                  -> NIL
+      :setAutoIsoSensitivity()                            -> NIL
+      :setAutoShutterSpeed()                              -> NIL
+      :setExposureCompensation( nEv )                     -> NIL
+      :setExposureMode( nMode )                           -> NIL
+      :setFlashMode( nMode )                              -> NIL
+      :setManualAperture( nAperture )                     -> NIL
+      :setManualIsoSensitivity( nIso )                    -> NIL
+      :setManualShutterSpeed( nSeconds )                  -> NIL
+      :setMeteringMode( nMode )                           -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtmultimedia
+   $END$
+ */

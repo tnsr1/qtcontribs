@@ -1,0 +1,133 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QQuickItem()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qquickitem.html
+   $ONELINER$
+      Creates a new QQuickItem object.
+   $INHERITS$
+      QObject, QQmlParserStatus
+   $SYNTAX$
+      QQuickItem( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QQuickItem
+   $METHODS$
+      :acceptHoverEvents()                                -> lBool
+      :acceptedMouseButtons()                             -> nQt_MouseButtons
+      :activeFocusOnTab()                                 -> lBool
+      :antialiasing()                                     -> lBool
+      :baselineOffset()                                   -> nQreal
+      :childAt( nX, nY )                                  -> oQQuickItem
+      :childItems()                                       -> oQList_QQuickItem
+      :childrenRect()                                     -> oQRectF
+      :clip()                                             -> lBool
+      :contains( oQPointF )                               -> lBool
+      :cursor()                                           -> oQCursor
+      :filtersChildMouseEvents()                          -> lBool
+      :flags()                                            -> nFlags
+      :forceActiveFocus()                                 -> NIL
+      :( nReason )                                        -> NIL
+      :grabMouse()                                        -> NIL
+      :hasActiveFocus()                                   -> lBool
+      :hasFocus()                                         -> lBool
+      :height()                                           -> nQreal
+      :implicitHeight()                                   -> nQreal
+      :implicitWidth()                                    -> nQreal
+      :inputMethodQuery( nQuery )                         -> oQVariant
+      :isEnabled()                                        -> lBool
+      :isFocusScope()                                     -> lBool
+      :isTextureProvider()                                -> lBool
+      :isVisible()                                        -> lBool
+      :keepMouseGrab()                                    -> lBool
+      :keepTouchGrab()                                    -> lBool
+      :mapFromItem( oQQuickItem, oQPointF )               -> oQPointF
+      :mapFromScene( oQPointF )                           -> oQPointF
+      :mapRectFromItem( oQQuickItem, oQRectF )            -> oQRectF
+      :mapRectFromScene( oQRectF )                        -> oQRectF
+      :mapRectToItem( oQQuickItem, oQRectF )              -> oQRectF
+      :mapRectToScene( oQRectF )                          -> oQRectF
+      :mapToItem( oQQuickItem, oQPointF )                 -> oQPointF
+      :mapToScene( oQPointF )                             -> oQPointF
+      :nextItemInFocusChain( lForward )                   -> oQQuickItem
+      :opacity()                                          -> nQreal
+      :parentItem()                                       -> oQQuickItem
+      :polish()                                           -> NIL
+      :resetAntialiasing()                                -> NIL
+      :resetHeight()                                      -> NIL
+      :resetWidth()                                       -> NIL
+      :rotation()                                         -> nQreal
+      :scale()                                            -> nQreal
+      :scopedFocusItem()                                  -> oQQuickItem
+      :setAcceptHoverEvents( lEnabled )                   -> NIL
+      :setAcceptedMouseButtons( nButtons )                -> NIL
+      :setActiveFocusOnTab( lBool )                       -> NIL
+      :setAntialiasing( lBool )                           -> NIL
+      :setBaselineOffset( nQreal )                        -> NIL
+      :setClip( lBool )                                   -> NIL
+      :setCursor( oQCursor )                              -> NIL
+      :setEnabled( lBool )                                -> NIL
+      :setFiltersChildMouseEvents( lFilter )              -> NIL
+      :setFlag( nFlag, lEnabled )                         -> NIL
+      :setFlags( nFlags )                                 -> NIL
+      :setFocus( lBool )                                  -> NIL
+      :( lFocus, nReason )                                -> NIL
+      :setHeight( nQreal )                                -> NIL
+      :setImplicitHeight( nQreal )                        -> NIL
+      :setImplicitWidth( nQreal )                         -> NIL
+      :setKeepMouseGrab( lKeep )                          -> NIL
+      :setKeepTouchGrab( lKeep )                          -> NIL
+      :setOpacity( nQreal )                               -> NIL
+      :setParentItem( oQQuickItem )                       -> NIL
+      :setRotation( nQreal )                              -> NIL
+      :setScale( nQreal )                                 -> NIL
+      :setSmooth( lBool )                                 -> NIL
+      :setState( cQString )                               -> NIL
+      :setTransformOrigin( nTransformOrigin )             -> NIL
+      :setVisible( lBool )                                -> NIL
+      :setWidth( nQreal )                                 -> NIL
+      :setX( nQreal )                                     -> NIL
+      :setY( nQreal )                                     -> NIL
+      :setZ( nQreal )                                     -> NIL
+      :smooth()                                           -> lBool
+      :stackAfter( oQQuickItem )                          -> NIL
+      :stackBefore( oQQuickItem )                         -> NIL
+      :state()                                            -> cQString
+      :transformOrigin()                                  -> nTransformOrigin
+      :ungrabMouse()                                      -> NIL
+      :ungrabTouchPoints()                                -> NIL
+      :unsetCursor()                                      -> NIL
+      :width()                                            -> nQreal
+      :window()                                           -> oQQuickWindow
+      :x()                                                -> nQreal
+      :y()                                                -> nQreal
+      :z()                                                -> nQreal
+      :update()                                           -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtquick
+   $END$
+ */

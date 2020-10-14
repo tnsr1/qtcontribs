@@ -1,0 +1,46 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QCameraViewfinderSettingsControl()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qcameraviewfindersettingscontrol.html
+   $ONELINER$
+      Creates a new QCameraViewfinderSettingsControl object.
+   $INHERITS$
+      QMediaControl
+   $SYNTAX$
+      QCameraViewfinderSettingsControl( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QCameraViewfinderSettingsControl
+   $METHODS$
+      :isViewfinderParameterSupported( nParameter )       -> lBool
+      :setViewfinderParameter( nParameter, oQVariant )    -> NIL
+      :viewfinderParameter( nParameter )                  -> oQVariant
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtmultimedia
+   $END$
+ */

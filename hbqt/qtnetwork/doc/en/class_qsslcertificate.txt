@@ -1,0 +1,66 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QSslCertificate()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qsslcertificate.html
+   $ONELINER$
+      Creates a new QSslCertificate object.
+   $INHERITS$
+
+   $SYNTAX$
+      QSslCertificate( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QSslCertificate
+   $METHODS$
+      :clear()                                            -> NIL
+      :digest( nAlgorithm )                               -> oQByteArray
+      :effectiveDate()                                    -> oQDateTime
+      :expiryDate()                                       -> oQDateTime
+      :extensions()                                       -> oQList_QSslCertificateExtension>
+      :isBlacklisted()                                    -> lBool
+      :isNull()                                           -> lBool
+      :issuerInfo( nSubject )                             -> oQStringList
+      :( oQByteArray )                                    -> oQStringList
+      :issuerInfoAttributes()                             -> oQList_QByteArray>
+      :publicKey()                                        -> oQSslKey
+      :serialNumber()                                     -> oQByteArray
+      :subjectInfo( nSubject )                            -> oQStringList
+      :( oQByteArray )                                    -> oQStringList
+      :subjectInfoAttributes()                            -> oQList_QByteArray>
+      :swap( oQSslCertificate )                           -> NIL
+      :toDer()                                            -> oQByteArray
+      :toPem()                                            -> oQByteArray
+      :toText()                                           -> cQString
+      :version()                                          -> oQByteArray
+      :fromData( oQByteArray, nFormat )                   -> oQList_QSslCertificate>
+      :fromDevice( oQIODevice, nFormat )                  -> oQList_QSslCertificate>
+      :fromPath( cPath, nFormat, nSyntax )                -> oQList_QSslCertificate>
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtnetwork
+   $END$
+ */

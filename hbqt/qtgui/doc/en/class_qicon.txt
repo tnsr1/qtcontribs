@@ -1,0 +1,53 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QIcon()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qicon.html
+   $ONELINER$
+      Creates a new QIcon object.
+   $INHERITS$
+
+   $SYNTAX$
+      QIcon( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QIcon
+   $METHODS$
+      :actualSize( oQSize, nMode, nState )                -> oQSize
+      :addFile( cFileName, oQSize, nMode, nState )        -> NIL
+      :addPixmap( oQPixmap, nMode, nState )               -> NIL
+      :availableSizes( nMode, nState )                    -> oQList_QSize>
+      :cacheKey()                                         -> nQint64
+      :isNull()                                           -> lBool
+      :paint( oQPainter, oQRect, nAlignment, nMode, nState )  -> NIL
+      :( oQPainter, nX, nY, nW, nH, nAlignment, nMode, nState )  -> NIL
+      :pixmap( oQSize, nMode, nState )                    -> oQPixmap
+      :( nW, nH, nMode, nState )                          -> oQPixmap
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

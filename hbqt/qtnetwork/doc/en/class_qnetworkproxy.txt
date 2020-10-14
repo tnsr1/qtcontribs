@@ -1,0 +1,59 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QNetworkProxy()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qnetworkproxy.html
+   $ONELINER$
+      Creates a new QNetworkProxy object.
+   $INHERITS$
+
+   $SYNTAX$
+      QNetworkProxy( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QNetworkProxy
+   $METHODS$
+      :capabilities()                                     -> nCapabilities
+      :hostName()                                         -> cQString
+      :isCachingProxy()                                   -> lBool
+      :isTransparentProxy()                               -> lBool
+      :password()                                         -> cQString
+      :port()                                             -> nQuint16
+      :setCapabilities( nCapabilities )                   -> NIL
+      :setHostName( cHostName )                           -> NIL
+      :setPassword( cPassword )                           -> NIL
+      :setPort( nPort )                                   -> NIL
+      :setType( nType )                                   -> NIL
+      :setUser( cUser )                                   -> NIL
+      :type()                                             -> nQNetworkProxy_ProxyType
+      :user()                                             -> cQString
+      :applicationProxy()                                 -> oQNetworkProxy
+      :setApplicationProxy( oQNetworkProxy )              -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtnetwork
+   $END$
+ */

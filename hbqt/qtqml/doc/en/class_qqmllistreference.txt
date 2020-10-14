@@ -1,0 +1,56 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QQmlListReference()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qqmllistreference.html
+   $ONELINER$
+      Creates a new QQmlListReference object.
+   $INHERITS$
+
+   $SYNTAX$
+      QQmlListReference( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QQmlListReference
+   $METHODS$
+      :append( oQObject )                                 -> lBool
+      :at( nIndex )                                       -> oQObject
+      :canAppend()                                        -> lBool
+      :canAt()                                            -> lBool
+      :canClear()                                         -> lBool
+      :canCount()                                         -> lBool
+      :clear()                                            -> lBool
+      :count()                                            -> nInt
+      :isManipulable()                                    -> lBool
+      :isReadable()                                       -> lBool
+      :isValid()                                          -> lBool
+      :listElementType()                                  -> oQMetaObject
+      :object()                                           -> oQObject
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtqml
+   $END$
+ */

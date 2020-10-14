@@ -1,0 +1,51 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QTouchDevice()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.0/qtouchdevice.html
+   $ONELINER$
+      Creates a new QTouchDevice object.
+   $INHERITS$
+
+   $SYNTAX$
+      QTouchDevice( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QTouchDevice
+   $METHODS$
+      :capabilities()                                     -> nCapabilities
+      :maximumTouchPoints()                               -> nInt
+      :name()                                             -> cQString
+      :setCapabilities( nCaps )                           -> NIL
+      :setMaximumTouchPoints( nMax )                      -> NIL
+      :setName( cName )                                   -> NIL
+      :setType( nDevType )                                -> NIL
+      :type()                                             -> nDeviceType
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.0 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

@@ -1,5 +1,5 @@
    /*
- * $Id$
+ * $Id: messages.prg 475 2020-02-20 03:07:47Z bedipritpal $
  */
 
 /*
@@ -814,7 +814,7 @@ METHOD HbQtChat:buildToolbar( oLayout )
       :create( oLayout )
    ENDWITH
    WITH OBJECT ::oToolbar
-      :addToolbarButton( "Back"    , "Back"    , "prv_undo"   , {|| ::hide() } )
+      :addToolbarButton( "Back"    , "Back"    , "brw-left"   , {|| ::hide() } )
       :addSeparator( "S_1" )
       :addToolbarButton( "Topic"   , "Topic"   , "vz-topic"   , {|| ::cMode := "Topic", ::initiateTopicOrReply( "Originate" ) } )
       :addToolbarButton( "Collapse", "Collapse", "vz-collapse", {|| ::collapseTopics() } )

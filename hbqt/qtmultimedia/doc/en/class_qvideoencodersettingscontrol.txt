@@ -1,0 +1,49 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QVideoEncoderSettingsControl()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qvideoencodersettingscontrol.html
+   $ONELINER$
+      Creates a new QVideoEncoderSettingsControl object.
+   $INHERITS$
+      QMediaControl
+   $SYNTAX$
+      QVideoEncoderSettingsControl( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QVideoEncoderSettingsControl
+   $METHODS$
+      :setVideoSettings( oQVideoEncoderSettings )         -> NIL
+      :supportedFrameRates( oQVideoEncoderSettings, @lContinuous )  -> oQList_qreal>
+      :supportedResolutions( oQVideoEncoderSettings, @lContinuous )  -> oQList_QSize>
+      :supportedVideoCodecs()                             -> oQStringList
+      :videoCodecDescription( cCodec )                    -> cQString
+      :videoSettings()                                    -> oQVideoEncoderSettings
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtmultimedia
+   $END$
+ */

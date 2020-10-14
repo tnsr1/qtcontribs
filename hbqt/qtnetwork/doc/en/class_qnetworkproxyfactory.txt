@@ -1,0 +1,48 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QNetworkProxyFactory()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qnetworkproxyfactory.html
+   $ONELINER$
+      Creates a new QNetworkProxyFactory object.
+   $INHERITS$
+
+   $SYNTAX$
+      QNetworkProxyFactory( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QNetworkProxyFactory
+   $METHODS$
+      :queryProxy( oQNetworkProxyQuery )                  -> oQList_QNetworkProxy>
+      :proxyForQuery( oQNetworkProxyQuery )               -> oQList_QNetworkProxy>
+      :setApplicationProxyFactory( oQNetworkProxyFactory )  -> NIL
+      :setUseSystemConfiguration( lEnable )               -> NIL
+      :systemProxyForQuery( oQNetworkProxyQuery )         -> oQList_QNetworkProxy>
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtnetwork
+   $END$
+ */

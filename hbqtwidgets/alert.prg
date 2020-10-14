@@ -155,7 +155,7 @@ STATIC FUNCTION  __hbqtAlert( cMsg, aOptions, cColorNorm, cColorHigh, nDelay, cT
          :setFocusPolicy( Qt_StrongFocus )
          :setFont( QFont( "Courier", iif( __hbqtIsMobile(), __hbqtPixelsByDPI( 12 ), 10 ) ) )
          :setStyleSheet( "" )
-         :setStyleSheet( __hbqtCSSFromColorString( cColorHigh ) + "border-radius: 5px;" )
+         :setStyleSheet( __hbqtCSSFromColorString( cColorHigh ) + "border-radius: 5px; padding: 10px; font-size: 15px;" )
          :connect( "clicked()", BuildButtonBlock( @nResult, cBtn:__enumIndex(), oDlg ) )
          :connect( QEvent_KeyPress, {|oKeyEvent| Navigate( oKeyEvent, aOptions, aButtons, oFocus ) } )
       ENDWITH
@@ -424,32 +424,37 @@ FUNCTION HbQtMsgbox( cMsg, cTitle, cnBGround, nTimeout, nX, nY )
    cMsg := strtran( cMsg, chr( 10 ), "<br />" )
 
    WITH OBJECT oMB := QMessageBox( __hbqtAppWidget() )
+      :setStandardButtons( QMessageBox_NoButton )
       :setText( /* "<b>" + */ cMsg /* + "</b>" */ )
       :setIcon( QMessageBox_Information )
-      :setWindowFlags( Qt_Dialog )
+      :setWindowFlags( Qt_Dialog +  Qt_FramelessWindowHint )
       :setWindowTitle( cTitle )
       IF HB_ISSTRING( cnBGround )
-         :setStyleSheet( "background-color: " + cnBGround + ";" )
+         :setStyleSheet( "margin: 20px; border: 1px solid black; border-radius: 10px; color: white; background-color: " + cnBGround + ";" )
       ELSEIF HB_ISNUMERIC( cnBGround )
-         :setStyleSheet( "background-color: " + QColor( cnBGround ):name() + ";" )
+         :setStyleSheet( "margin: 20px; border: 1px solid black; border-radius: 10px; color: white; background-color: " + QColor( cnBGround ):name() + ";" )
       ELSEIF HB_ISOBJECT( cnBGround )
-         :setStyleSheet( "background-color: " + cnBGround:name() + ";" )
+         :setStyleSheet( "margin: 20px; border: 1px solid black; border-radius: 10px; color: white; background-color: " + cnBGround:name() + ";" )
       ENDIF
       IF HB_ISNUMERIC( nX ) .AND. HB_ISNUMERIC( nY )
          :move( nX, nY )
+      ELSE
+         :adjustSize()
+         :move( ( :parent:width() - :width() ) / 2, ( :parent:height() - :height() ) / 2 )
       ENDIF
-   ENDWITH 
+      :connect( QEvent_MouseButtonPress, {|| oMB:done( 0 ) } )
+   ENDWITH
    IF HB_ISNUMERIC( nTimeout ) .AND. nTimeout > 0
       WITH OBJECT oTimer := QTimer()
          :setInterval( nTimeout * 1000 )
          :setSingleShot( .T. )
          :connect( "timeout()", {|| oMB:done( 0 ) } )
-      ENDWITH 
+      ENDWITH
       oTimer:start()
    ENDIF
    oMB:exec()
    oMB:setParent( QWidget() )
-   
+
    RETURN NIL
 
 

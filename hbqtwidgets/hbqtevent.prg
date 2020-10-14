@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: hbqtevent.prg 274 2013-12-19 23:43:47Z bedipritpal $
  */
 
 /*

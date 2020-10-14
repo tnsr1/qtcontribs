@@ -1,0 +1,62 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QRegularExpressionMatch()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.9/qregularexpressionmatch.html
+   $ONELINER$
+      Creates a new QRegularExpressionMatch object.
+   $INHERITS$
+
+   $SYNTAX$
+      QRegularExpressionMatch( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QRegularExpressionMatch
+   $METHODS$
+      :captured( nNth )                                   -> cQString
+      :( cName )                                          -> cQString
+      :capturedEnd( nNth )                                -> nInt
+      :( cName )                                          -> nInt
+      :capturedLength( nNth )                             -> nInt
+      :( cName )                                          -> nInt
+      :capturedRef( nNth )                                -> oQStringRef
+      :( cName )                                          -> oQStringRef
+      :capturedStart( nNth )                              -> nInt
+      :( cName )                                          -> nInt
+      :capturedTexts()                                    -> oQStringList
+      :hasMatch()                                         -> lBool
+      :hasPartialMatch()                                  -> lBool
+      :isValid()                                          -> lBool
+      :lastCapturedIndex()                                -> nInt
+      :matchOptions()                                     -> nQRegularExpression_MatchOptions
+      :matchType()                                        -> nQRegularExpression_MatchType
+      :regularExpression()                                -> oQRegularExpression
+      :swap( oQRegularExpressionMatch )                   -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.9 or upper
+   $FILES$
+      Library: hbqtcore
+   $END$
+ */

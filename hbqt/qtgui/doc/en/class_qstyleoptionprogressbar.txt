@@ -1,0 +1,49 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QStyleOptionProgressBar()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qstyleoptionprogressbar.html
+   $ONELINER$
+      Creates a new QStyleOptionProgressBar object.
+   $INHERITS$
+      QStyleOption
+   $SYNTAX$
+      QStyleOptionProgressBar( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QStyleOptionProgressBar
+   $METHODS$
+      :maximum()                                          -> nInt
+      :minimum()                                          -> nInt
+      :progress()                                         -> nInt
+      :text()                                             -> cQString
+      :textAlignment()                                    -> nQt_Alignment
+      :textVisible()                                      -> lBool
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

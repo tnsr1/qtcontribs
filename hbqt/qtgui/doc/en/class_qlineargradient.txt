@@ -1,0 +1,49 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QLinearGradient()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qlineargradient.html
+   $ONELINER$
+      Creates a new QLinearGradient object.
+   $INHERITS$
+      QGradient
+   $SYNTAX$
+      QLinearGradient( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QLinearGradient
+   $METHODS$
+      :finalStop()                                        -> oQPointF
+      :setFinalStop( oQPointF )                           -> NIL
+      :( nX, nY )                                         -> NIL
+      :setStart( oQPointF )                               -> NIL
+      :( nX, nY )                                         -> NIL
+      :start()                                            -> oQPointF
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

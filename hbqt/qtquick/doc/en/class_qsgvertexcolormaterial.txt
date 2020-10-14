@@ -1,0 +1,41 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QSGVertexColorMaterial()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qsgvertexcolormaterial.html
+   $ONELINER$
+      Creates a new QSGVertexColorMaterial object.
+   $INHERITS$
+      QSGMaterial
+   $SYNTAX$
+      QSGVertexColorMaterial( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QSGVertexColorMaterial
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtquick
+   $END$
+ */

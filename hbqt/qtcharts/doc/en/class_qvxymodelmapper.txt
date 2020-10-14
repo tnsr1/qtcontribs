@@ -1,0 +1,55 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QVXYModelMapper()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.7/qvxymodelmapper.html
+   $ONELINER$
+      Creates a new QVXYModelMapper object.
+   $INHERITS$
+      QXYModelMapper
+   $SYNTAX$
+      QVXYModelMapper( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QVXYModelMapper
+   $METHODS$
+      :firstRow()                                         -> nInt
+      :model()                                            -> oQAbstractItemModel
+      :rowCount()                                         -> nInt
+      :series()                                           -> oQXYSeries
+      :setFirstRow( nFirstRow )                           -> NIL
+      :setModel( oQAbstractItemModel )                    -> NIL
+      :setRowCount( nRowCount )                           -> NIL
+      :setSeries( oQXYSeries )                            -> NIL
+      :setXColumn( nXColumn )                             -> NIL
+      :setYColumn( nYColumn )                             -> NIL
+      :xColumn()                                          -> nInt
+      :yColumn()                                          -> nInt
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.7 or upper
+   $FILES$
+      Library: hbqtcharts
+   $END$
+ */

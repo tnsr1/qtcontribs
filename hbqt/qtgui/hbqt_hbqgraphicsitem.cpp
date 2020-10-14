@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: hbqt_hbqgraphicsitem.cpp 475 2020-02-20 03:07:47Z bedipritpal $
  */
 
 /*
@@ -595,7 +595,7 @@ void HBQGraphicsItem::keyPressEvent( QKeyEvent * event )
 
 void HBQGraphicsItem::mouseMoveEvent( QGraphicsSceneMouseEvent * event )
 {
-   if( event->buttons() == Qt::LeftButton && ! m_isLocked )
+   if( event->buttons() == Qt::LeftButton && ! m_isLocked && __hbqGraphicsCanMoveItems() )
    {
       if( iResizeMode == RESIZE_MODE_FIXED )
       {

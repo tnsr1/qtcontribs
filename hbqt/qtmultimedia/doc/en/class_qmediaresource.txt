@@ -1,0 +1,66 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QMediaResource()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qmediaresource.html
+   $ONELINER$
+      Creates a new QMediaResource object.
+   $INHERITS$
+
+   $SYNTAX$
+      QMediaResource( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QMediaResource
+   $METHODS$
+      :audioBitRate()                                     -> nInt
+      :audioCodec()                                       -> cQString
+      :channelCount()                                     -> nInt
+      :dataSize()                                         -> nQint64
+      :isNull()                                           -> lBool
+      :language()                                         -> cQString
+      :mimeType()                                         -> cQString
+      :request()                                          -> oQNetworkRequest
+      :resolution()                                       -> oQSize
+      :sampleRate()                                       -> nInt
+      :setAudioBitRate( nRate )                           -> NIL
+      :setAudioCodec( cCodec )                            -> NIL
+      :setChannelCount( nChannels )                       -> NIL
+      :setDataSize( nSize )                               -> NIL
+      :setLanguage( cLanguage )                           -> NIL
+      :setResolution( oQSize )                            -> NIL
+      :( nWidth, nHeight )                                -> NIL
+      :setSampleRate( nSampleRate )                       -> NIL
+      :setVideoBitRate( nRate )                           -> NIL
+      :setVideoCodec( cCodec )                            -> NIL
+      :url()                                              -> oQUrl
+      :videoBitRate()                                     -> nInt
+      :videoCodec()                                       -> cQString
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtmultimedia
+   $END$
+ */

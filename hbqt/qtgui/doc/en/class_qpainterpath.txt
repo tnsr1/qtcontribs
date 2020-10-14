@@ -1,0 +1,98 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QPainterPath()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qpainterpath.html
+   $ONELINER$
+      Creates a new QPainterPath object.
+   $INHERITS$
+
+   $SYNTAX$
+      QPainterPath( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QPainterPath
+   $METHODS$
+      :addEllipse( oQRectF )                              -> NIL
+      :( nX, nY, nWidth, nHeight )                        -> NIL
+      :( oQPointF, nRx, nRy )                             -> NIL
+      :addPath( oQPainterPath )                           -> NIL
+      :addPolygon( oQPolygonF )                           -> NIL
+      :addRect( oQRectF )                                 -> NIL
+      :( nX, nY, nWidth, nHeight )                        -> NIL
+      :addRegion( oQRegion )                              -> NIL
+      :addRoundedRect( oQRectF, nXRadius, nYRadius, nMode )  -> NIL
+      :( nX, nY, nW, nH, nXRadius, nYRadius, nMode )      -> NIL
+      :addText( oQPointF, oQFont, cText )                 -> NIL
+      :( nX, nY, oQFont, cText )                          -> NIL
+      :angleAtPercent( nT )                               -> nQreal
+      :arcMoveTo( oQRectF, nAngle )                       -> NIL
+      :( nX, nY, nWidth, nHeight, nAngle )                -> NIL
+      :arcTo( oQRectF, nStartAngle, nSweepLength )        -> NIL
+      :( nX, nY, nWidth, nHeight, nStartAngle, nSweepLength )  -> NIL
+      :boundingRect()                                     -> oQRectF
+      :closeSubpath()                                     -> NIL
+      :connectPath( oQPainterPath )                       -> NIL
+      :contains( oQPointF )                               -> lBool
+      :( oQRectF )                                        -> lBool
+      :( oQPainterPath )                                  -> lBool
+      :controlPointRect()                                 -> oQRectF
+      :cubicTo( oQPointF, oQPointF, oQPointF )            -> NIL
+      :( nC1X, nC1Y, nC2X, nC2Y, nEndPointX, nEndPointY )  -> NIL
+      :currentPosition()                                  -> oQPointF
+      :elementCount()                                     -> nInt
+      :fillRule()                                         -> nQt_FillRule
+      :intersected( oQPainterPath )                       -> oQPainterPath
+      :intersects( oQRectF )                              -> lBool
+      :( oQPainterPath )                                  -> lBool
+      :isEmpty()                                          -> lBool
+      :length()                                           -> nQreal
+      :lineTo( oQPointF )                                 -> NIL
+      :( nX, nY )                                         -> NIL
+      :moveTo( oQPointF )                                 -> NIL
+      :( nX, nY )                                         -> NIL
+      :percentAtLength( nLen )                            -> nQreal
+      :pointAtPercent( nT )                               -> oQPointF
+      :quadTo( oQPointF, oQPointF )                       -> NIL
+      :( nCx, nCy, nEndPointX, nEndPointY )               -> NIL
+      :setElementPositionAt( nIndex, nX, nY )             -> NIL
+      :setFillRule( nFillRule )                           -> NIL
+      :simplified()                                       -> oQPainterPath
+      :slopeAtPercent( nT )                               -> nQreal
+      :subtracted( oQPainterPath )                        -> oQPainterPath
+      :toFillPolygon( oQTransform )                       -> oQPolygonF
+      :( oQMatrix )                                       -> oQPolygonF
+      :toFillPolygons( oQTransform )                      -> oQList_QPolygonF>
+      :( oQMatrix )                                       -> oQList_QPolygonF>
+      :toReversed()                                       -> oQPainterPath
+      :toSubpathPolygons( oQTransform )                   -> oQList_QPolygonF>
+      :( oQMatrix )                                       -> oQList_QPolygonF>
+      :united( oQPainterPath )                            -> oQPainterPath
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

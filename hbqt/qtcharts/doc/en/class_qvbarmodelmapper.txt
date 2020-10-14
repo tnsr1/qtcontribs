@@ -1,0 +1,55 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QVBarModelMapper()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.7/qvbarmodelmapper.html
+   $ONELINER$
+      Creates a new QVBarModelMapper object.
+   $INHERITS$
+      QBarModelMapper
+   $SYNTAX$
+      QVBarModelMapper( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QVBarModelMapper
+   $METHODS$
+      :firstBarSetColumn()                                -> nInt
+      :firstRow()                                         -> nInt
+      :lastBarSetColumn()                                 -> nInt
+      :model()                                            -> oQAbstractItemModel
+      :rowCount()                                         -> nInt
+      :series()                                           -> oQAbstractBarSeries
+      :setFirstBarSetColumn( nFirstBarSetColumn )         -> NIL
+      :setFirstRow( nFirstRow )                           -> NIL
+      :setLastBarSetColumn( nLastBarSetColumn )           -> NIL
+      :setModel( oQAbstractItemModel )                    -> NIL
+      :setRowCount( nRowCount )                           -> NIL
+      :setSeries( oQAbstractBarSeries )                   -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.7 or upper
+   $FILES$
+      Library: hbqtcharts
+   $END$
+ */

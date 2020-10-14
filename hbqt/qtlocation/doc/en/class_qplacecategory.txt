@@ -1,0 +1,52 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QPlaceCategory()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.5/qplacecategory.html
+   $ONELINER$
+      Creates a new QPlaceCategory object.
+   $INHERITS$
+
+   $SYNTAX$
+      QPlaceCategory( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QPlaceCategory
+   $METHODS$
+      :categoryId()                                       -> cQString
+      :icon()                                             -> oQPlaceIcon
+      :isEmpty()                                          -> lBool
+      :name()                                             -> cQString
+      :setCategoryId( cIdentifier )                       -> NIL
+      :setIcon( oQPlaceIcon )                             -> NIL
+      :setName( cName )                                   -> NIL
+      :setVisibility( nVisibility )                       -> NIL
+      :visibility()                                       -> nQLocation_Visibility
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.5 or upper
+   $FILES$
+      Library: hbqtlocation
+   $END$
+ */

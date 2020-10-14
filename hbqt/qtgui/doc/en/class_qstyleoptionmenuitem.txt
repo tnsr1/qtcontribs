@@ -1,0 +1,53 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QStyleOptionMenuItem()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qstyleoptionmenuitem.html
+   $ONELINER$
+      Creates a new QStyleOptionMenuItem object.
+   $INHERITS$
+      QStyleOption
+   $SYNTAX$
+      QStyleOptionMenuItem( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QStyleOptionMenuItem
+   $METHODS$
+      :checkType()                                        -> nCheckType
+      :checked()                                          -> lBool
+      :font()                                             -> oQFont
+      :icon()                                             -> oQIcon
+      :maxIconWidth()                                     -> nInt
+      :menuHasCheckableItems()                            -> lBool
+      :menuItemType()                                     -> nMenuItemType
+      :menuRect()                                         -> oQRect
+      :tabWidth()                                         -> nInt
+      :text()                                             -> cQString
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

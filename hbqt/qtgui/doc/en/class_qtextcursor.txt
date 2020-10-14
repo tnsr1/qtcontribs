@@ -1,0 +1,101 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QTextCursor()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qtextcursor.html
+   $ONELINER$
+      Creates a new QTextCursor object.
+   $INHERITS$
+
+   $SYNTAX$
+      QTextCursor( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QTextCursor
+   $METHODS$
+      :anchor()                                           -> nInt
+      :atBlockEnd()                                       -> lBool
+      :atBlockStart()                                     -> lBool
+      :atEnd()                                            -> lBool
+      :atStart()                                          -> lBool
+      :beginEditBlock()                                   -> NIL
+      :block()                                            -> oQTextBlock
+      :blockCharFormat()                                  -> oQTextCharFormat
+      :blockFormat()                                      -> oQTextBlockFormat
+      :blockNumber()                                      -> nInt
+      :charFormat()                                       -> oQTextCharFormat
+      :clearSelection()                                   -> NIL
+      :columnNumber()                                     -> nInt
+      :createList( oQTextListFormat )                     -> oQTextList
+      :( nStyle )                                         -> oQTextList
+      :currentFrame()                                     -> oQTextFrame
+      :currentList()                                      -> oQTextList
+      :deleteChar()                                       -> NIL
+      :deletePreviousChar()                               -> NIL
+      :document()                                         -> oQTextDocument
+      :endEditBlock()                                     -> NIL
+      :hasComplexSelection()                              -> lBool
+      :hasSelection()                                     -> lBool
+      :insertBlock()                                      -> NIL
+      :( oQTextBlockFormat )                              -> NIL
+      :( oQTextBlockFormat, oQTextCharFormat )            -> NIL
+      :insertFragment( oQTextDocumentFragment )           -> NIL
+      :insertFrame( oQTextFrameFormat )                   -> oQTextFrame
+      :insertHtml( cHtml )                                -> NIL
+      :insertImage( cName )                               -> NIL
+      :( oQTextImageFormat )                              -> NIL
+      :( oQTextImageFormat, nAlignment )                  -> NIL
+      :( oQImage, cName )                                 -> NIL
+      :insertList( oQTextListFormat )                     -> oQTextList
+      :( nStyle )                                         -> oQTextList
+      :insertText( cText )                                -> NIL
+      :( cText, oQTextCharFormat )                        -> NIL
+      :isCopyOf( oQTextCursor )                           -> lBool
+      :isNull()                                           -> lBool
+      :joinPreviousEditBlock()                            -> NIL
+      :mergeBlockCharFormat( oQTextCharFormat )           -> NIL
+      :mergeBlockFormat( oQTextBlockFormat )              -> NIL
+      :mergeCharFormat( oQTextCharFormat )                -> NIL
+      :movePosition( nOperation, nMode, nN )              -> lBool
+      :position()                                         -> nInt
+      :removeSelectedText()                               -> NIL
+      :select( nSelection )                               -> NIL
+      :selectedTableCells( @nFirstRow, @nNumRows, @nFirstColumn, @nNumColumns )  -> NIL
+      :selectedText()                                     -> cQString
+      :selection()                                        -> oQTextDocumentFragment
+      :selectionEnd()                                     -> nInt
+      :selectionStart()                                   -> nInt
+      :setBlockCharFormat( oQTextCharFormat )             -> NIL
+      :setBlockFormat( oQTextBlockFormat )                -> NIL
+      :setCharFormat( oQTextCharFormat )                  -> NIL
+      :setPosition( nPos, nM )                            -> NIL
+      :setVisualNavigation( lB )                          -> NIL
+      :visualNavigation()                                 -> lBool
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

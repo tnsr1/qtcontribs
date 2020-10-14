@@ -1,0 +1,52 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QSGSimpleTextureNode()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qsgsimpletexturenode.html
+   $ONELINER$
+      Creates a new QSGSimpleTextureNode object.
+   $INHERITS$
+      QSGGeometryNode
+   $SYNTAX$
+      QSGSimpleTextureNode( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QSGSimpleTextureNode
+   $METHODS$
+      :filtering()                                        -> nQSGTexture_Filtering
+      :rect()                                             -> oQRectF
+      :setFiltering( nFiltering )                         -> NIL
+      :setRect( oQRectF )                                 -> NIL
+      :( nX, nY, nW, nH )                                 -> NIL
+      :setTexture( oQSGTexture )                          -> NIL
+      :setTextureCoordinatesTransform( nMode )            -> NIL
+      :texture()                                          -> oQSGTexture
+      :textureCoordinatesTransform()                      -> nTextureCoordinatesTransformMode
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtquick
+   $END$
+ */

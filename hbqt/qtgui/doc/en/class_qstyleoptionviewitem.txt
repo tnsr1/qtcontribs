@@ -1,0 +1,50 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QStyleOptionViewItem()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qstyleoptionviewitem.html
+   $ONELINER$
+      Creates a new QStyleOptionViewItem object.
+   $INHERITS$
+      QStyleOption
+   $SYNTAX$
+      QStyleOptionViewItem( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QStyleOptionViewItem
+   $METHODS$
+      :decorationAlignment()                              -> nQt_Alignment
+      :decorationPosition()                               -> nPosition
+      :decorationSize()                                   -> oQSize
+      :displayAlignment()                                 -> nQt_Alignment
+      :font()                                             -> oQFont
+      :showDecorationSelected()                           -> lBool
+      :textElideMode()                                    -> nQt_TextElideMode
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

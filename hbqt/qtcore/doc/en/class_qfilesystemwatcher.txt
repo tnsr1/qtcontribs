@@ -1,0 +1,49 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QFileSystemWatcher()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qfilesystemwatcher.html
+   $ONELINER$
+      Creates a new QFileSystemWatcher object.
+   $INHERITS$
+      QObject
+   $SYNTAX$
+      QFileSystemWatcher( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QFileSystemWatcher
+   $METHODS$
+      :addPath( cPath )                                   -> NIL
+      :addPaths( oQStringList )                           -> NIL
+      :directories()                                      -> oQStringList
+      :files()                                            -> oQStringList
+      :removePath( cPath )                                -> NIL
+      :removePaths( oQStringList )                        -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtcore
+   $END$
+ */

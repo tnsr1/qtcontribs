@@ -1,0 +1,45 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QVideoRendererControl()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qvideorenderercontrol.html
+   $ONELINER$
+      Creates a new QVideoRendererControl object.
+   $INHERITS$
+      QMediaControl
+   $SYNTAX$
+      QVideoRendererControl( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QVideoRendererControl
+   $METHODS$
+      :setSurface( oQAbstractVideoSurface )               -> NIL
+      :surface()                                          -> oQAbstractVideoSurface
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtmultimedia
+   $END$
+ */

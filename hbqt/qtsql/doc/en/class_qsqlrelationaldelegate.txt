@@ -1,0 +1,41 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QSqlRelationalDelegate()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.0/qsqlrelationaldelegate.html
+   $ONELINER$
+      Creates a new QSqlRelationalDelegate object.
+   $INHERITS$
+
+   $SYNTAX$
+      QSqlRelationalDelegate( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QSqlRelationalDelegate
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.0 or upper
+   $FILES$
+      Library: hbqtsql
+   $END$
+ */

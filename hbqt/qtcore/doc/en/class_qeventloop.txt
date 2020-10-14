@@ -1,0 +1,49 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QEventLoop()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qeventloop.html
+   $ONELINER$
+      Creates a new QEventLoop object.
+   $INHERITS$
+      QObject
+   $SYNTAX$
+      QEventLoop( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QEventLoop
+   $METHODS$
+      :exec( nFlags )                                     -> nInt
+      :exit( nReturnCode )                                -> NIL
+      :isRunning()                                        -> lBool
+      :processEvents( nFlags )                            -> lBool
+      :( nFlags, nMaxTime )                               -> NIL
+      :wakeUp()                                           -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtcore
+   $END$
+ */

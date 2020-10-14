@@ -1,0 +1,57 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QCameraViewfinderSettings()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.5/qcameraviewfindersettings.html
+   $ONELINER$
+      Creates a new QCameraViewfinderSettings object.
+   $INHERITS$
+
+   $SYNTAX$
+      QCameraViewfinderSettings( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QCameraViewfinderSettings
+   $METHODS$
+      :isNull()                                           -> lBool
+      :maximumFrameRate()                                 -> nQreal
+      :minimumFrameRate()                                 -> nQreal
+      :pixelAspectRatio()                                 -> oQSize
+      :pixelFormat()                                      -> nQVideoFrame_PixelFormat
+      :resolution()                                       -> oQSize
+      :setMaximumFrameRate( nRate )                       -> NIL
+      :setMinimumFrameRate( nRate )                       -> NIL
+      :setPixelAspectRatio( oQSize )                      -> NIL
+      :( nHorizontal, nVertical )                         -> NIL
+      :setPixelFormat( nFormat )                          -> NIL
+      :setResolution( oQSize )                            -> NIL
+      :( nWidth, nHeight )                                -> NIL
+      :swap( oQCameraViewfinderSettings )                 -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.5 or upper
+   $FILES$
+      Library: hbqtmultimedia
+   $END$
+ */

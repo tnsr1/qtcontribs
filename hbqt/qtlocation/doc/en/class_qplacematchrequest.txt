@@ -1,0 +1,47 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QPlaceMatchRequest()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.5/qplacematchrequest.html
+   $ONELINER$
+      Creates a new QPlaceMatchRequest object.
+   $INHERITS$
+
+   $SYNTAX$
+      QPlaceMatchRequest( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QPlaceMatchRequest
+   $METHODS$
+      :clear()                                            -> NIL
+      :parameters()                                       -> oQVariantMap
+      :places()                                           -> oQList_QPlace>
+      :setParameters( oQVariantMap )                      -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.5 or upper
+   $FILES$
+      Library: hbqtlocation
+   $END$
+ */

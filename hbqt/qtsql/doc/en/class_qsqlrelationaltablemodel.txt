@@ -1,0 +1,47 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QSqlRelationalTableModel()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qsqlrelationaltablemodel.html
+   $ONELINER$
+      Creates a new QSqlRelationalTableModel object.
+   $INHERITS$
+      QSqlTableModel
+   $SYNTAX$
+      QSqlRelationalTableModel( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QSqlRelationalTableModel
+   $METHODS$
+      :relation( nColumn )                                -> oQSqlRelation
+      :relationModel( nColumn )                           -> oQSqlTableModel
+      :setData( oQModelIndex, oQVariant, nRole )          -> lBool
+      :setRelation( nColumn, oQSqlRelation )              -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtsql
+   $END$
+ */

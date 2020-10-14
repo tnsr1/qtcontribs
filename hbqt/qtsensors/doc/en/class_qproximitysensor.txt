@@ -1,0 +1,44 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QProximitySensor()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qproximitysensor.html
+   $ONELINER$
+      Creates a new QProximitySensor object.
+   $INHERITS$
+      QSensor
+   $SYNTAX$
+      QProximitySensor( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QProximitySensor
+   $METHODS$
+      :reading()                                          -> oQProximityReading
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtandroid
+   $END$
+ */

@@ -1,0 +1,44 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QLightFilter()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qlightfilter.html
+   $ONELINER$
+      Creates a new QLightFilter object.
+   $INHERITS$
+      QSensorFilter
+   $SYNTAX$
+      QLightFilter( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QLightFilter
+   $METHODS$
+      :filter( oQLightReading )                           -> lBool
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtandroid
+   $END$
+ */

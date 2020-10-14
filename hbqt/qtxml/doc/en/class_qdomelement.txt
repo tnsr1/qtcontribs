@@ -1,0 +1,63 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QDomElement()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qdomelement.html
+   $ONELINER$
+      Creates a new QDomElement object.
+   $INHERITS$
+      QDomNode
+   $SYNTAX$
+      QDomElement( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QDomElement
+   $METHODS$
+      :attribute( cName, cDefValue )                      -> cQString
+      :attributeNS( cNsURI, cLocalName, cDefValue )       -> cQString
+      :attributeNode( cName )                             -> oQDomAttr
+      :attributeNodeNS( cNsURI, cLocalName )              -> oQDomAttr
+      :attributes()                                       -> oQDomNamedNodeMap
+      :elementsByTagName( cTagname )                      -> oQDomNodeList
+      :elementsByTagNameNS( cNsURI, cLocalName )          -> oQDomNodeList
+      :hasAttribute( cName )                              -> lBool
+      :hasAttributeNS( cNsURI, cLocalName )               -> lBool
+      :nodeType()                                         -> nQDomNode_NodeType
+      :removeAttribute( cName )                           -> NIL
+      :removeAttributeNS( cNsURI, cLocalName )            -> NIL
+      :removeAttributeNode( oQDomAttr )                   -> oQDomAttr
+      :setAttribute( cName, cValue )                      -> NIL
+      :( cName, nValue )                                  -> NIL
+      :setAttributeNS( cNsURI, cQName, cValue )           -> NIL
+      :( cNsURI, cQName, nValue )                         -> NIL
+      :setTagName( cName )                                -> NIL
+      :tagName()                                          -> cQString
+      :text()                                             -> cQString
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtopengl
+   $END$
+ */

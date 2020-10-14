@@ -1,0 +1,47 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QNetworkCookieJar()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qnetworkcookiejar.html
+   $ONELINER$
+      Creates a new QNetworkCookieJar object.
+   $INHERITS$
+
+   $SYNTAX$
+      QNetworkCookieJar( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QNetworkCookieJar
+   $METHODS$
+      :cookiesForUrl( oQUrl )                             -> oQList_QNetworkCookie>
+      :deleteCookie( oQNetworkCookie )                    -> lBool
+      :insertCookie( oQNetworkCookie )                    -> lBool
+      :updateCookie( oQNetworkCookie )                    -> lBool
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtnetwork
+   $END$
+ */

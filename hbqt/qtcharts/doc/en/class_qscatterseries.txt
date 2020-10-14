@@ -1,0 +1,55 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QScatterSeries()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.7/qscatterseries.html
+   $ONELINER$
+      Creates a new QScatterSeries object.
+   $INHERITS$
+      QXYSeries
+   $SYNTAX$
+      QScatterSeries( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QScatterSeries
+   $METHODS$
+      :borderColor()                                      -> oQColor
+      :brush()                                            -> oQBrush
+      :markerShape()                                      -> nMarkerShape
+      :markerSize()                                       -> nQreal
+      :setBorderColor( oQColor )                          -> NIL
+      :setMarkerShape( nShape )                           -> NIL
+      :setMarkerSize( nSize )                             -> NIL
+      :color()                                            -> oQColor
+      :setBrush( oQBrush )                                -> NIL
+      :setColor( oQColor )                                -> NIL
+      :setPen( oQPen )                                    -> NIL
+      :type()                                             -> nSeriesType
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.7 or upper
+   $FILES$
+      Library: hbqtcharts
+   $END$
+ */

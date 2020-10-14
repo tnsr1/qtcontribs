@@ -1,0 +1,64 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QQuickPaintedItem()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qquickpainteditem.html
+   $ONELINER$
+      Creates a new QQuickPaintedItem object.
+   $INHERITS$
+      QQuickItem
+   $SYNTAX$
+      QQuickPaintedItem( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QQuickPaintedItem
+   $METHODS$
+      :antialiasing()                                     -> lBool
+      :contentsBoundingRect()                             -> oQRectF
+      :contentsScale()                                    -> nQreal
+      :contentsSize()                                     -> oQSize
+      :fillColor()                                        -> oQColor
+      :mipmap()                                           -> lBool
+      :opaquePainting()                                   -> lBool
+      :paint( oQPainter )                                 -> NIL
+      :performanceHints()                                 -> nPerformanceHints
+      :renderTarget()                                     -> nRenderTarget
+      :resetContentsSize()                                -> NIL
+      :setAntialiasing( lEnable )                         -> NIL
+      :setContentsScale( nQreal )                         -> NIL
+      :setContentsSize( oQSize )                          -> NIL
+      :setFillColor( oQColor )                            -> NIL
+      :setMipmap( lEnable )                               -> NIL
+      :setOpaquePainting( lOpaque )                       -> NIL
+      :setPerformanceHint( nHint, lEnabled )              -> NIL
+      :setPerformanceHints( nHints )                      -> NIL
+      :setRenderTarget( nTarget )                         -> NIL
+      :update( oQRect )                                   -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtquick
+   $END$
+ */

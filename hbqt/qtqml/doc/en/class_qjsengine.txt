@@ -1,0 +1,50 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QJSEngine()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qjsengine.html
+   $ONELINER$
+      Creates a new QJSEngine object.
+   $INHERITS$
+      QObject
+   $SYNTAX$
+      QJSEngine( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QJSEngine
+   $METHODS$
+      :collectGarbage()                                   -> NIL
+      :evaluate( cProgram, cFileName, nLineNumber )       -> oQJSValue
+      :globalObject()                                     -> oQJSValue
+      :newArray( nLength )                                -> oQJSValue
+      :newObject()                                        -> oQJSValue
+      :newQObject( oQObject )                             -> oQJSValue
+      :toScriptValue( xValue )                            -> oQJSValue
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtqml
+   $END$
+ */

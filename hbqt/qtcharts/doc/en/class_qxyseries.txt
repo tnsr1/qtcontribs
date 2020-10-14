@@ -1,0 +1,76 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QXYSeries()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.7/qxyseries.html
+   $ONELINER$
+      Creates a new QXYSeries object.
+   $INHERITS$
+      QAbstractSeries
+   $SYNTAX$
+      QXYSeries( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QXYSeries
+   $METHODS$
+      :append( nX, nY )                                   -> NIL
+      :( oQPointF )                                       -> NIL
+      :at( nIndex )                                       -> oQPointF
+      :brush()                                            -> oQBrush
+      :clear()                                            -> NIL
+      :color()                                            -> oQColor
+      :count()                                            -> nInt
+      :insert( nIndex, oQPointF )                         -> NIL
+      :pen()                                              -> oQPen
+      :pointLabelsClipping()                              -> lBool
+      :pointLabelsColor()                                 -> oQColor
+      :pointLabelsFont()                                  -> oQFont
+      :pointLabelsFormat()                                -> cQString
+      :pointLabelsVisible()                               -> lBool
+      :points()                                           -> oQList_QPointF>
+      :pointsVisible()                                    -> lBool
+      :remove( nX, nY )                                   -> NIL
+      :( oQPointF )                                       -> NIL
+      :( nIndex )                                         -> NIL
+      :removePoints( nIndex, nCount )                     -> NIL
+      :replace( nOldX, nOldY, nNewX, nNewY )              -> NIL
+      :( oQPointF, oQPointF )                             -> NIL
+      :( nIndex, nNewX, nNewY )                           -> NIL
+      :( nIndex, oQPointF )                               -> NIL
+      :setBrush( oQBrush )                                -> NIL
+      :setColor( oQColor )                                -> NIL
+      :setPen( oQPen )                                    -> NIL
+      :setPointLabelsClipping( lEnabled )                 -> NIL
+      :setPointLabelsColor( oQColor )                     -> NIL
+      :setPointLabelsFont( oQFont )                       -> NIL
+      :setPointLabelsFormat( cFormat )                    -> NIL
+      :setPointLabelsVisible( lVisible )                  -> NIL
+      :setPointsVisible( lVisible )                       -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.7 or upper
+   $FILES$
+      Library: hbqtcharts
+   $END$
+ */

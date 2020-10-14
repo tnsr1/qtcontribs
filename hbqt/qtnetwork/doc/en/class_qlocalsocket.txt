@@ -1,0 +1,68 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QLocalSocket()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qlocalsocket.html
+   $ONELINER$
+      Creates a new QLocalSocket object.
+   $INHERITS$
+      QIODevice
+   $SYNTAX$
+      QLocalSocket( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QLocalSocket
+   $METHODS$
+      :abort()                                            -> NIL
+      :connectToServer( nOpenMode )                       -> NIL
+      :( cName, nOpenMode )                               -> NIL
+      :disconnectFromServer()                             -> NIL
+      :error()                                            -> nLocalSocketError
+      :flush()                                            -> lBool
+      :fullServerName()                                   -> cQString
+      :isValid()                                          -> lBool
+      :open( nOpenMode )                                  -> lBool
+      :readBufferSize()                                   -> nQint64
+      :serverName()                                       -> cQString
+      :setReadBufferSize( nSize )                         -> NIL
+      :setServerName( cName )                             -> NIL
+      :setSocketDescriptor( nSocketDescriptor, nSocketState, nOpenMode )  -> lBool
+      :socketDescriptor()                                 -> nQintptr
+      :state()                                            -> nLocalSocketState
+      :waitForConnected( nMsecs )                         -> lBool
+      :waitForDisconnected( nMsecs )                      -> lBool
+      :bytesAvailable()                                   -> nQint64
+      :bytesToWrite()                                     -> nQint64
+      :canReadLine()                                      -> lBool
+      :close()                                            -> NIL
+      :isSequential()                                     -> lBool
+      :waitForBytesWritten( nMsecs )                      -> lBool
+      :waitForReadyRead( nMsecs )                         -> lBool
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtnetwork
+   $END$
+ */

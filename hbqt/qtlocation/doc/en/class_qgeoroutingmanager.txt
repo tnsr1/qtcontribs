@@ -1,0 +1,57 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QGeoRoutingManager()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.5/qgeoroutingmanager.html
+   $ONELINER$
+      Creates a new QGeoRoutingManager object.
+   $INHERITS$
+      QObject
+   $SYNTAX$
+      QGeoRoutingManager( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QGeoRoutingManager
+   $METHODS$
+      :calculateRoute( oQGeoRouteRequest )                -> oQGeoRouteReply
+      :locale()                                           -> oQLocale
+      :managerName()                                      -> cQString
+      :managerVersion()                                   -> nInt
+      :measurementSystem()                                -> nQLocale_MeasurementSystem
+      :setLocale( oQLocale )                              -> NIL
+      :setMeasurementSystem( nSystem )                    -> NIL
+      :supportedFeatureTypes()                            -> nQGeoRouteRequest_FeatureTypes
+      :supportedFeatureWeights()                          -> nQGeoRouteRequest_FeatureWeights
+      :supportedManeuverDetails()                         -> nQGeoRouteRequest_ManeuverDetails
+      :supportedRouteOptimizations()                      -> nQGeoRouteRequest_RouteOptimizations
+      :supportedSegmentDetails()                          -> nQGeoRouteRequest_SegmentDetails
+      :supportedTravelModes()                             -> nQGeoRouteRequest_TravelModes
+      :updateRoute( oQGeoRoute, oQGeoCoordinate )         -> oQGeoRouteReply
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.5 or upper
+   $FILES$
+      Library: hbqtlocation
+   $END$
+ */

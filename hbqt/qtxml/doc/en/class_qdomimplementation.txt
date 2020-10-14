@@ -1,0 +1,49 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QDomImplementation()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qdomimplementation.html
+   $ONELINER$
+      Creates a new QDomImplementation object.
+   $INHERITS$
+
+   $SYNTAX$
+      QDomImplementation( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QDomImplementation
+   $METHODS$
+      :createDocument( cNsURI, cQName, oQDomDocumentType )  -> oQDomDocument
+      :createDocumentType( cQName, cPublicId, cSystemId )  -> oQDomDocumentType
+      :hasFeature( cFeature, cVersion )                   -> lBool
+      :isNull()                                           -> lBool
+      :invalidDataPolicy()                                -> nInvalidDataPolicy
+      :setInvalidDataPolicy( nPolicy )                    -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtopengl
+   $END$
+ */

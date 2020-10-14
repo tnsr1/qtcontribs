@@ -1,0 +1,45 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QXmlLocator()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qxmllocator.html
+   $ONELINER$
+      Creates a new QXmlLocator object.
+   $INHERITS$
+
+   $SYNTAX$
+      QXmlLocator( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QXmlLocator
+   $METHODS$
+      :columnNumber()                                     -> nInt
+      :lineNumber()                                       -> nInt
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtopengl
+   $END$
+ */

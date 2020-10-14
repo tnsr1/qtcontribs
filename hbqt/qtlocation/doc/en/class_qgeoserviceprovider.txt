@@ -1,0 +1,56 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QGeoServiceProvider()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.5/qgeoserviceprovider.html
+   $ONELINER$
+      Creates a new QGeoServiceProvider object.
+   $INHERITS$
+      QObject
+   $SYNTAX$
+      QGeoServiceProvider( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QGeoServiceProvider
+   $METHODS$
+      :error()                                            -> nError
+      :errorString()                                      -> cQString
+      :geocodingFeatures()                                -> nGeocodingFeatures
+      :geocodingManager()                                 -> oQGeoCodingManager
+      :mappingFeatures()                                  -> nMappingFeatures
+      :placeManager()                                     -> oQPlaceManager
+      :placesFeatures()                                   -> nPlacesFeatures
+      :routingFeatures()                                  -> nRoutingFeatures
+      :routingManager()                                   -> oQGeoRoutingManager
+      :setAllowExperimental( lAllow )                     -> NIL
+      :setLocale( oQLocale )                              -> NIL
+      :setParameters( oQVariantMap )                      -> NIL
+      :availableServiceProviders()                        -> oQStringList
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.5 or upper
+   $FILES$
+      Library: hbqtlocation
+   $END$
+ */

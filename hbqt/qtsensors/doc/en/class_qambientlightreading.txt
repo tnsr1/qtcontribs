@@ -1,0 +1,45 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QAmbientLightReading()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qambientlightreading.html
+   $ONELINER$
+      Creates a new QAmbientLightReading object.
+   $INHERITS$
+      QSensorReading
+   $SYNTAX$
+      QAmbientLightReading( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QAmbientLightReading
+   $METHODS$
+      :lightLevel()                                       -> nLightLevel
+      :setLightLevel( nLightLevel )                       -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtandroid
+   $END$
+ */

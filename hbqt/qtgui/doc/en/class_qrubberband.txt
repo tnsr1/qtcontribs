@@ -1,0 +1,50 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QRubberBand()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.8/qrubberband.html
+   $ONELINER$
+      Creates a new QRubberBand object.
+   $INHERITS$
+      QWidget
+   $SYNTAX$
+      QRubberBand( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QRubberBand
+   $METHODS$
+      :move( nX, nY )                                     -> NIL
+      :( oQPoint )                                        -> NIL
+      :resize( nWidth, nHeight )                          -> NIL
+      :( oQSize )                                         -> NIL
+      :setGeometry( oQRect )                              -> NIL
+      :( nX, nY, nWidth, nHeight )                        -> NIL
+      :shape()                                            -> nShape
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.8 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

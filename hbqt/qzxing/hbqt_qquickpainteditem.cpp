@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: hbqt_qquickpainteditem.cpp 414 2015-07-30 23:52:01Z bedipritpal $
  */
 
 /*

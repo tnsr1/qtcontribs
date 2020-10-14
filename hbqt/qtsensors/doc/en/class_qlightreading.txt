@@ -1,0 +1,45 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QLightReading()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qlightreading.html
+   $ONELINER$
+      Creates a new QLightReading object.
+   $INHERITS$
+      QSensorReading
+   $SYNTAX$
+      QLightReading( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QLightReading
+   $METHODS$
+      :lux()                                              -> nQreal
+      :setLux( nLux )                                     -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtandroid
+   $END$
+ */

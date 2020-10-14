@@ -1,0 +1,61 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QItemSelectionModel()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qitemselectionmodel.html
+   $ONELINER$
+      Creates a new QItemSelectionModel object.
+   $INHERITS$
+      QObject
+   $SYNTAX$
+      QItemSelectionModel( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QItemSelectionModel
+   $METHODS$
+      :columnIntersectsSelection( nColumn, oQModelIndex )  -> lBool
+      :currentIndex()                                     -> oQModelIndex
+      :hasSelection()                                     -> lBool
+      :isColumnSelected( nColumn, oQModelIndex )          -> lBool
+      :isRowSelected( nRow, oQModelIndex )                -> lBool
+      :isSelected( oQModelIndex )                         -> lBool
+      :model()                                            -> oQAbstractItemModel
+      :rowIntersectsSelection( nRow, oQModelIndex )       -> lBool
+      :selectedColumns( nRow )                            -> oQList_ QModelIndex >
+      :selectedIndexes()                                  -> oQList_ QModelIndex >
+      :selectedRows( nColumn )                            -> oQList_ QModelIndex >
+      :selection()                                        -> oQItemSelection
+      :clear()                                            -> NIL
+      :clearSelection()                                   -> NIL
+      :reset()                                            -> NIL
+      :select( oQModelIndex, nCommand )                   -> NIL
+      :( oQItemSelection, nCommand )                      -> NIL
+      :setCurrentIndex( oQModelIndex, nCommand )          -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

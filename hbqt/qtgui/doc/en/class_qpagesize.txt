@@ -1,0 +1,69 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QPageSize()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qpagesize.html
+   $ONELINER$
+      Creates a new QPageSize object.
+   $INHERITS$
+
+   $SYNTAX$
+      QPageSize( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QPageSize
+   $METHODS$
+      :definitionSize()                                   -> oQSizeF
+      :definitionUnits()                                  -> nUnit
+      :id()                                               -> nQPageSize_PageSizeId
+      :isEquivalentTo( oQPageSize )                       -> lBool
+      :isValid()                                          -> lBool
+      :key()                                              -> cQString
+      :name()                                             -> cQString
+      :rect( nUnits )                                     -> oQRectF
+      :rectPixels( nResolution )                          -> oQRect
+      :rectPoints()                                       -> oQRect
+      :size( nUnits )                                     -> oQSizeF
+      :sizePixels( nResolution )                          -> oQSize
+      :sizePoints()                                       -> oQSize
+      :swap( oQPageSize )                                 -> NIL
+      :windowsId()                                        -> nInt
+      :( nPageSizeId )                                    -> oQSizeF
+      :( nPageSizeId )                                    -> nUnit
+      :( oQSize, nMatchPolicy )                           -> nQPageSize_PageSizeId
+      :( oQSizeF, nUnits, nMatchPolicy )                  -> nQPageSize_PageSizeId
+      :( nWindowsId )                                     -> nQPageSize_PageSizeId
+      :( nPageSizeId )                                    -> cQString
+      :( nPageSizeId )                                    -> cQString
+      :( nPageSizeId, nUnits )                            -> oQSizeF
+      :( nPageSizeId, nResolution )                       -> oQSize
+      :( nPageSizeId )                                    -> oQSize
+      :( nPageSizeId )                                    -> nInt
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

@@ -1,0 +1,63 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QMimeData()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qmimedata.html
+   $ONELINER$
+      Creates a new QMimeData object.
+   $INHERITS$
+      QObject
+   $SYNTAX$
+      QMimeData( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QMimeData
+   $METHODS$
+      :clear()                                            -> NIL
+      :colorData()                                        -> oQVariant
+      :data( cMimeType )                                  -> oQByteArray
+      :formats()                                          -> oQStringList
+      :hasColor()                                         -> lBool
+      :hasFormat( cMimeType )                             -> lBool
+      :hasHtml()                                          -> lBool
+      :hasImage()                                         -> lBool
+      :hasText()                                          -> lBool
+      :hasUrls()                                          -> lBool
+      :html()                                             -> cQString
+      :imageData()                                        -> oQImage
+      :removeFormat( cMimeType )                          -> NIL
+      :setColorData( oQVariant )                          -> NIL
+      :setData( cMimeType, oQByteArray )                  -> NIL
+      :setHtml( cHtml )                                   -> NIL
+      :setImageData( oQVariant )                          -> NIL
+      :setText( cText )                                   -> NIL
+      :text()                                             -> cQString
+      :urls()                                             -> oQList_QUrl>
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtcore
+   $END$
+ */

@@ -1,0 +1,67 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QSqlField()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qsqlfield.html
+   $ONELINER$
+      Creates a new QSqlField object.
+   $INHERITS$
+
+   $SYNTAX$
+      QSqlField( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QSqlField
+   $METHODS$
+      :clear()                                            -> NIL
+      :defaultValue()                                     -> oQVariant
+      :isAutoValue()                                      -> lBool
+      :isGenerated()                                      -> lBool
+      :isNull()                                           -> lBool
+      :isReadOnly()                                       -> lBool
+      :isValid()                                          -> lBool
+      :length()                                           -> nInt
+      :name()                                             -> cQString
+      :precision()                                        -> nInt
+      :requiredStatus()                                   -> nRequiredStatus
+      :setAutoValue( lAutoVal )                           -> NIL
+      :setDefaultValue( oQVariant )                       -> NIL
+      :setGenerated( lGen )                               -> NIL
+      :setLength( nFieldLength )                          -> NIL
+      :setName( cName )                                   -> NIL
+      :setPrecision( nPrecision )                         -> NIL
+      :setReadOnly( lReadOnly )                           -> NIL
+      :setRequired( lRequired )                           -> NIL
+      :setRequiredStatus( nRequired )                     -> NIL
+      :setType( nType )                                   -> NIL
+      :setValue( oQVariant )                              -> NIL
+      :type()                                             -> nQVariant_Type
+      :value()                                            -> oQVariant
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtsql
+   $END$
+ */

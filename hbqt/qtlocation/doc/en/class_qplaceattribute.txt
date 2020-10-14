@@ -1,0 +1,48 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QPlaceAttribute()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.5/qplaceattribute.html
+   $ONELINER$
+      Creates a new QPlaceAttribute object.
+   $INHERITS$
+
+   $SYNTAX$
+      QPlaceAttribute( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QPlaceAttribute
+   $METHODS$
+      :isEmpty()                                          -> lBool
+      :label()                                            -> cQString
+      :setLabel( cLabel )                                 -> NIL
+      :setText( cText )                                   -> NIL
+      :text()                                             -> cQString
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.5 or upper
+   $FILES$
+      Library: hbqtlocation
+   $END$
+ */

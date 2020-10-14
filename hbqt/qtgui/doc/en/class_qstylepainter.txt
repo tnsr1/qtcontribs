@@ -1,0 +1,51 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QStylePainter()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qstylepainter.html
+   $ONELINER$
+      Creates a new QStylePainter object.
+   $INHERITS$
+      QPainter
+   $SYNTAX$
+      QStylePainter( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QStylePainter
+   $METHODS$
+      :begin( oQWidget )                                  -> lBool
+      :( oQPaintDevice, oQWidget )                        -> lBool
+      :drawComplexControl( nCc, oQStyleOptionComplex )    -> NIL
+      :drawControl( nCe, oQStyleOption )                  -> NIL
+      :drawItemPixmap( oQRect, nFlags, oQPixmap )         -> NIL
+      :drawItemText( oQRect, nFlags, oQPalette, lEnabled, cText, nTextRole )  -> NIL
+      :drawPrimitive( nPe, oQStyleOption )                -> NIL
+      :style()                                            -> oQStyle
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

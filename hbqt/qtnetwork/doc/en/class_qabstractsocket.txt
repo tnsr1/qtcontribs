@@ -1,0 +1,79 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QAbstractSocket()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qabstractsocket.html
+   $ONELINER$
+      Creates a new QAbstractSocket object.
+   $INHERITS$
+      QIODevice
+   $SYNTAX$
+      QAbstractSocket( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QAbstractSocket
+   $METHODS$
+      :abort()                                            -> NIL
+      :bind( oQHostAddress, nPort, nMode )                -> lBool
+      :( nPort, nMode )                                   -> lBool
+      :connectToHost( oQHostAddress, nPort, nOpenMode )   -> NIL
+      :disconnectFromHost()                               -> NIL
+      :error()                                            -> nSocketError
+      :flush()                                            -> lBool
+      :isValid()                                          -> lBool
+      :localAddress()                                     -> oQHostAddress
+      :localPort()                                        -> nQuint16
+      :pauseMode()                                        -> nPauseModes
+      :peerAddress()                                      -> oQHostAddress
+      :peerName()                                         -> cQString
+      :peerPort()                                         -> nQuint16
+      :proxy()                                            -> oQNetworkProxy
+      :readBufferSize()                                   -> nQint64
+      :resume()                                           -> NIL
+      :setPauseMode( nPauseMode )                         -> NIL
+      :setProxy( oQNetworkProxy )                         -> NIL
+      :setReadBufferSize( nSize )                         -> NIL
+      :setSocketDescriptor( nSocketDescriptor, nSocketState, nOpenMode )  -> lBool
+      :setSocketOption( nOption, oQVariant )              -> NIL
+      :socketDescriptor()                                 -> nQintptr
+      :socketOption( nOption )                            -> oQVariant
+      :socketType()                                       -> nSocketType
+      :state()                                            -> nSocketState
+      :waitForConnected( nMsecs )                         -> lBool
+      :waitForDisconnected( nMsecs )                      -> lBool
+      :atEnd()                                            -> lBool
+      :bytesAvailable()                                   -> nQint64
+      :bytesToWrite()                                     -> nQint64
+      :canReadLine()                                      -> lBool
+      :close()                                            -> NIL
+      :isSequential()                                     -> lBool
+      :waitForBytesWritten( nMsecs )                      -> lBool
+      :waitForReadyRead( nMsecs )                         -> lBool
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtnetwork
+   $END$
+ */

@@ -1,0 +1,48 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QTextListFormat()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qtextlistformat.html
+   $ONELINER$
+      Creates a new QTextListFormat object.
+   $INHERITS$
+      QTextFormat
+   $SYNTAX$
+      QTextListFormat( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QTextListFormat
+   $METHODS$
+      :indent()                                           -> nInt
+      :isValid()                                          -> lBool
+      :setIndent( nIndentation )                          -> NIL
+      :setStyle( nStyle )                                 -> NIL
+      :style()                                            -> nStyle
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

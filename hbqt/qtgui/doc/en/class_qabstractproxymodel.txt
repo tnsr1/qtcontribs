@@ -1,0 +1,49 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QAbstractProxyModel()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qabstractproxymodel.html
+   $ONELINER$
+      Creates a new QAbstractProxyModel object.
+   $INHERITS$
+      QAbstractItemModel
+   $SYNTAX$
+      QAbstractProxyModel( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QAbstractProxyModel
+   $METHODS$
+      :mapFromSource( oQModelIndex )                      -> oQModelIndex
+      :mapSelectionFromSource( oQItemSelection )          -> oQItemSelection
+      :mapSelectionToSource( oQItemSelection )            -> oQItemSelection
+      :mapToSource( oQModelIndex )                        -> oQModelIndex
+      :setSourceModel( oQAbstractItemModel )              -> NIL
+      :sourceModel()                                      -> oQAbstractItemModel
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

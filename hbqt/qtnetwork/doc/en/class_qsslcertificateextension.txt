@@ -1,0 +1,49 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QSslCertificateExtension()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.0/qsslcertificateextension.html
+   $ONELINER$
+      Creates a new QSslCertificateExtension object.
+   $INHERITS$
+
+   $SYNTAX$
+      QSslCertificateExtension( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QSslCertificateExtension
+   $METHODS$
+      :isCritical()                                       -> lBool
+      :isSupported()                                      -> lBool
+      :name()                                             -> cQString
+      :oid()                                              -> cQString
+      :swap( oQSslCertificateExtension )                  -> NIL
+      :value()                                            -> oQVariant
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.0 or upper
+   $FILES$
+      Library: hbqtnetwork
+   $END$
+ */

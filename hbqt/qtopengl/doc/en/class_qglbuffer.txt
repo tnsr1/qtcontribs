@@ -1,0 +1,59 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QGLBuffer()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.7/qglbuffer.html
+   $ONELINER$
+      Creates a new QGLBuffer object.
+   $INHERITS$
+
+   $SYNTAX$
+      QGLBuffer( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QGLBuffer
+   $METHODS$
+      :allocate( nData, nCount )                          -> NIL
+      :( nCount )                                         -> NIL
+      :bind()                                             -> lBool
+      :bufferId()                                         -> nGLuint
+      :create()                                           -> lBool
+      :destroy()                                          -> NIL
+      :isCreated()                                        -> lBool
+      :map( nAccess )                                     -> NIL
+      :read( nOffset, nData, nCount )                     -> lBool
+      :release()                                          -> NIL
+      :setUsagePattern( nValue )                          -> NIL
+      :size()                                             -> nInt
+      :type()                                             -> nQGLBuffer_Type
+      :unmap()                                            -> lBool
+      :usagePattern()                                     -> nQGLBuffer_UsagePattern
+      :write( nOffset, nData, nCount )                    -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.7 or upper
+   $FILES$
+      Library: hbqtopengl
+   $END$
+ */

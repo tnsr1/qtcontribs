@@ -1,0 +1,63 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QTextBrowser()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qtextbrowser.html
+   $ONELINER$
+      Creates a new QTextBrowser object.
+   $INHERITS$
+      QTextEdit
+   $SYNTAX$
+      QTextBrowser( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QTextBrowser
+   $METHODS$
+      :backwardHistoryCount()                             -> nInt
+      :clearHistory()                                     -> NIL
+      :forwardHistoryCount()                              -> nInt
+      :historyTitle( nI )                                 -> cQString
+      :historyUrl( nI )                                   -> oQUrl
+      :isBackwardAvailable()                              -> lBool
+      :isForwardAvailable()                               -> lBool
+      :loadResource( nType, oQUrl )                       -> oQVariant
+      :openExternalLinks()                                -> lBool
+      :openLinks()                                        -> lBool
+      :searchPaths()                                      -> oQStringList
+      :setOpenExternalLinks( lOpen )                      -> NIL
+      :setOpenLinks( lOpen )                              -> NIL
+      :setSearchPaths( oQStringList )                     -> NIL
+      :source()                                           -> oQUrl
+      :backward()                                         -> NIL
+      :forward()                                          -> NIL
+      :home()                                             -> NIL
+      :reload()                                           -> NIL
+      :setSource( oQUrl )                                 -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

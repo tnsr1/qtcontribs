@@ -1,0 +1,53 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QDialog()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qdialog.html
+   $ONELINER$
+      Creates a new QDialog object.
+   $INHERITS$
+      QWidget
+   $SYNTAX$
+      QDialog( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QDialog
+   $METHODS$
+      :isSizeGripEnabled()                                -> lBool
+      :result()                                           -> nInt
+      :setModal( lModal )                                 -> NIL
+      :setResult( nI )                                    -> NIL
+      :setSizeGripEnabled( lBool )                        -> NIL
+      :accept()                                           -> NIL
+      :done( nR )                                         -> NIL
+      :exec()                                             -> nInt
+      :open()                                             -> NIL
+      :reject()                                           -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

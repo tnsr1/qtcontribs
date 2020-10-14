@@ -1,0 +1,57 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QClipboard()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qclipboard.html
+   $ONELINER$
+      Creates a new QClipboard object.
+   $INHERITS$
+      QObject
+   $SYNTAX$
+      QClipboard( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QClipboard
+   $METHODS$
+      :clear( nMode )                                     -> NIL
+      :image( nMode )                                     -> oQImage
+      :mimeData( nMode )                                  -> oQMimeData
+      :ownsClipboard()                                    -> lBool
+      :ownsFindBuffer()                                   -> lBool
+      :ownsSelection()                                    -> lBool
+      :pixmap( nMode )                                    -> oQPixmap
+      :setImage( oQImage, nMode )                         -> NIL
+      :setMimeData( oQMimeData, nMode )                   -> NIL
+      :setPixmap( oQPixmap, nMode )                       -> NIL
+      :setText( cText, nMode )                            -> NIL
+      :supportsFindBuffer()                               -> lBool
+      :supportsSelection()                                -> lBool
+      :text( nMode )                                      -> cQString
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

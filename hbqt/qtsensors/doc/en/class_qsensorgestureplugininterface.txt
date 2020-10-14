@@ -1,0 +1,46 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QSensorGesturePluginInterface()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qsensorgestureplugininterface.html
+   $ONELINER$
+      Creates a new QSensorGesturePluginInterface object.
+   $INHERITS$
+      QObject
+   $SYNTAX$
+      QSensorGesturePluginInterface( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QSensorGesturePluginInterface
+   $METHODS$
+      :createRecognizers()                                -> oQList_QSensorGestureRecognizer
+      :name()                                             -> cQString
+      :supportedIds()                                     -> oQStringList
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtandroid
+   $END$
+ */

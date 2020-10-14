@@ -1,0 +1,48 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QTouchEvent()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.0/qtouchevent.html
+   $ONELINER$
+      Creates a new QTouchEvent object.
+   $INHERITS$
+      QInputEvent
+   $SYNTAX$
+      QTouchEvent( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QTouchEvent
+   $METHODS$
+      :device()                                           -> oQTouchDevice
+      :target()                                           -> oQObject
+      :touchPointStates()                                 -> nQt_TouchPointStates
+      :touchPoints()                                      -> oQList_ void * >
+      :window()                                           -> oQWindow
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.0 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

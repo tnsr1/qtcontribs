@@ -1,0 +1,47 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QGraphicsColorizeEffect()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.6/qgraphicscolorizeeffect.html
+   $ONELINER$
+      Creates a new QGraphicsColorizeEffect object.
+   $INHERITS$
+      QGraphicsEffect
+   $SYNTAX$
+      QGraphicsColorizeEffect( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QGraphicsColorizeEffect
+   $METHODS$
+      :color()                                            -> oQColor
+      :strength()                                         -> nQreal
+      :setColor( oQColor )                                -> NIL
+      :setStrength( nStrength )                           -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.6 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

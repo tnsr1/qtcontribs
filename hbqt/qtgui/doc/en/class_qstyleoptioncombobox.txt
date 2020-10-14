@@ -1,0 +1,49 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QStyleOptionComboBox()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qstyleoptioncombobox.html
+   $ONELINER$
+      Creates a new QStyleOptionComboBox object.
+   $INHERITS$
+      QStyleOption
+   $SYNTAX$
+      QStyleOptionComboBox( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QStyleOptionComboBox
+   $METHODS$
+      :currentIcon()                                      -> oQIcon
+      :currentText()                                      -> cQString
+      :editable()                                         -> lBool
+      :frame()                                            -> lBool
+      :iconSize()                                         -> oQSize
+      :popupRect()                                        -> oQRect
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

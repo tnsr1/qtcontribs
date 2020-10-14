@@ -1,0 +1,45 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QGenericArgument()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qgenericargument.html
+   $ONELINER$
+      Creates a new QGenericArgument object.
+   $INHERITS$
+
+   $SYNTAX$
+      QGenericArgument( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QGenericArgument
+   $METHODS$
+      :data()                                             -> NIL
+      :name()                                             -> cChar
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtcore
+   $END$
+ */

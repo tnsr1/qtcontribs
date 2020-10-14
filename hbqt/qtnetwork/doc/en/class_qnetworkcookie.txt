@@ -1,0 +1,63 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QNetworkCookie()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qnetworkcookie.html
+   $ONELINER$
+      Creates a new QNetworkCookie object.
+   $INHERITS$
+
+   $SYNTAX$
+      QNetworkCookie( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QNetworkCookie
+   $METHODS$
+      :domain()                                           -> cQString
+      :expirationDate()                                   -> oQDateTime
+      :hasSameIdentifier( oQNetworkCookie )               -> lBool
+      :isHttpOnly()                                       -> lBool
+      :isSecure()                                         -> lBool
+      :isSessionCookie()                                  -> lBool
+      :name()                                             -> oQByteArray
+      :normalize( oQUrl )                                 -> NIL
+      :path()                                             -> cQString
+      :setDomain( cDomain )                               -> NIL
+      :setExpirationDate( oQDateTime )                    -> NIL
+      :setHttpOnly( lEnable )                             -> NIL
+      :setName( oQByteArray )                             -> NIL
+      :setPath( cPath )                                   -> NIL
+      :setSecure( lEnable )                               -> NIL
+      :setValue( oQByteArray )                            -> NIL
+      :swap( oQNetworkCookie )                            -> NIL
+      :toRawForm( nForm )                                 -> oQByteArray
+      :value()                                            -> oQByteArray
+      :parseCookies( oQByteArray )                        -> oQList_QNetworkCookie>
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtnetwork
+   $END$
+ */

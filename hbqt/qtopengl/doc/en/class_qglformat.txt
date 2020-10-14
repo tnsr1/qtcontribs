@@ -1,0 +1,97 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QGLFormat()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qglformat.html
+   $ONELINER$
+      Creates a new QGLFormat object.
+   $INHERITS$
+
+   $SYNTAX$
+      QGLFormat( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QGLFormat
+   $METHODS$
+      :accum()                                            -> lBool
+      :accumBufferSize()                                  -> nInt
+      :alpha()                                            -> lBool
+      :alphaBufferSize()                                  -> nInt
+      :blueBufferSize()                                   -> nInt
+      :depth()                                            -> lBool
+      :depthBufferSize()                                  -> nInt
+      :directRendering()                                  -> lBool
+      :doubleBuffer()                                     -> lBool
+      :greenBufferSize()                                  -> nInt
+      :hasOverlay()                                       -> lBool
+      :majorVersion()                                     -> nInt
+      :minorVersion()                                     -> nInt
+      :plane()                                            -> nInt
+      :profile()                                          -> nOpenGLContextProfile
+      :redBufferSize()                                    -> nInt
+      :rgba()                                             -> lBool
+      :sampleBuffers()                                    -> lBool
+      :samples()                                          -> nInt
+      :setAccum( lEnable )                                -> NIL
+      :setAccumBufferSize( nSize )                        -> NIL
+      :setAlpha( lEnable )                                -> NIL
+      :setAlphaBufferSize( nSize )                        -> NIL
+      :setBlueBufferSize( nSize )                         -> NIL
+      :setDepth( lEnable )                                -> NIL
+      :setDepthBufferSize( nSize )                        -> NIL
+      :setDirectRendering( lEnable )                      -> NIL
+      :setDoubleBuffer( lEnable )                         -> NIL
+      :setGreenBufferSize( nSize )                        -> NIL
+      :setOption( nOpt )                                  -> NIL
+      :setOverlay( lEnable )                              -> NIL
+      :setPlane( nPlane )                                 -> NIL
+      :setProfile( nProfile )                             -> NIL
+      :setRedBufferSize( nSize )                          -> NIL
+      :setRgba( lEnable )                                 -> NIL
+      :setSampleBuffers( lEnable )                        -> NIL
+      :setSamples( nNumSamples )                          -> NIL
+      :setStencil( lEnable )                              -> NIL
+      :setStencilBufferSize( nSize )                      -> NIL
+      :setStereo( lEnable )                               -> NIL
+      :setSwapInterval( nInterval )                       -> NIL
+      :setVersion( nMajor, nMinor )                       -> NIL
+      :stencil()                                          -> lBool
+      :stencilBufferSize()                                -> nInt
+      :stereo()                                           -> lBool
+      :swapInterval()                                     -> nInt
+      :testOption( nOpt )                                 -> lBool
+      :defaultFormat()                                    -> oQGLFormat
+      :defaultOverlayFormat()                             -> oQGLFormat
+      :hasOpenGL()                                        -> lBool
+      :hasOpenGLOverlays()                                -> lBool
+      :openGLVersionFlags()                               -> nOpenGLVersionFlags
+      :setDefaultFormat( oQGLFormat )                     -> NIL
+      :setDefaultOverlayFormat( oQGLFormat )              -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtopengl
+   $END$
+ */

@@ -1,0 +1,47 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QQuickTextureFactory()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qquicktexturefactory.html
+   $ONELINER$
+      Creates a new QQuickTextureFactory object.
+   $INHERITS$
+      QObject
+   $SYNTAX$
+      QQuickTextureFactory( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QQuickTextureFactory
+   $METHODS$
+      :createTexture( oQQuickWindow )                     -> oQSGTexture
+      :image()                                            -> oQImage
+      :textureByteCount()                                 -> nInt
+      :textureSize()                                      -> oQSize
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtquick
+   $END$
+ */

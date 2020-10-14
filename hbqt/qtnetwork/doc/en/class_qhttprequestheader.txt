@@ -1,0 +1,48 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QHttpRequestHeader()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qhttprequestheader.html
+   $ONELINER$
+      Creates a new QHttpRequestHeader object.
+   $INHERITS$
+      QHttpHeader
+   $SYNTAX$
+      QHttpRequestHeader( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QHttpRequestHeader
+   $METHODS$
+      :majorVersion()                                     -> nInt
+      :method()                                           -> cQString
+      :minorVersion()                                     -> nInt
+      :path()                                             -> cQString
+      :setRequest( cMethod, cPath, nMajorVer, nMinorVer )  -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtnetwork
+   $END$
+ */

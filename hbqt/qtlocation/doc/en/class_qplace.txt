@@ -1,0 +1,78 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QPlace()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.5/qplace.html
+   $ONELINER$
+      Creates a new QPlace object.
+   $INHERITS$
+
+   $SYNTAX$
+      QPlace( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QPlace
+   $METHODS$
+      :appendContactDetail( cContactType, oQPlaceContactDetail )  -> NIL
+      :attribution()                                      -> cQString
+      :categories()                                       -> oQList_QPlaceCategory>
+      :contactDetails( cContactType )                     -> oQList_QPlaceContactDetail>
+      :contactTypes()                                     -> oQStringList
+      :detailsFetched()                                   -> lBool
+      :extendedAttribute( cAttributeType )                -> oQPlaceAttribute
+      :extendedAttributeTypes()                           -> oQStringList
+      :icon()                                             -> oQPlaceIcon
+      :isEmpty()                                          -> lBool
+      :location()                                         -> oQGeoLocation
+      :name()                                             -> cQString
+      :placeId()                                          -> cQString
+      :primaryEmail()                                     -> cQString
+      :primaryFax()                                       -> cQString
+      :primaryPhone()                                     -> cQString
+      :primaryWebsite()                                   -> oQUrl
+      :ratings()                                          -> oQPlaceRatings
+      :removeContactDetails( cContactType )               -> NIL
+      :removeExtendedAttribute( cAttributeType )          -> NIL
+      :setAttribution( cAttribution )                     -> NIL
+      :setCategory( oQPlaceCategory )                     -> NIL
+      :setDetailsFetched( lFetched )                      -> NIL
+      :setExtendedAttribute( cAttributeType, oQPlaceAttribute )  -> NIL
+      :setIcon( oQPlaceIcon )                             -> NIL
+      :setLocation( oQGeoLocation )                       -> NIL
+      :setName( cName )                                   -> NIL
+      :setPlaceId( cIdentifier )                          -> NIL
+      :setRatings( oQPlaceRatings )                       -> NIL
+      :setSupplier( oQPlaceSupplier )                     -> NIL
+      :setTotalContentCount( nType, nTotalCount )         -> NIL
+      :setVisibility( nVisibility )                       -> NIL
+      :supplier()                                         -> oQPlaceSupplier
+      :totalContentCount( nType )                         -> nInt
+      :visibility()                                       -> nQLocation_Visibility
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.5 or upper
+   $FILES$
+      Library: hbqtlocation
+   $END$
+ */

@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: uisrcmanager.prg 434 2016-11-09 02:32:49Z bedipritpal $
  */
 
 /*
@@ -896,7 +896,7 @@ METHOD IdeUISrcManager:buildClassSkeleton( cCls, cUiName )
    LOCAL cClsC := cCls + ":"
 
    aadd( aSrc, '/*' )
-   aadd( aSrc, ' * $Id$' )
+   aadd( aSrc, ' * $Id: uisrcmanager.prg 434 2016-11-09 02:32:49Z bedipritpal $' )
    aadd( aSrc, ' */' )
    aadd( aSrc, '' )
    aadd( aSrc, '/*' )

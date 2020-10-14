@@ -1,0 +1,52 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QCommandLineOption()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.2/qcommandlineoption.html
+   $ONELINER$
+      Creates a new QCommandLineOption object.
+   $INHERITS$
+
+   $SYNTAX$
+      QCommandLineOption( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QCommandLineOption
+   $METHODS$
+      :defaultValues()                                    -> oQStringList
+      :description()                                      -> cQString
+      :names()                                            -> oQStringList
+      :setDefaultValue( cDefaultValue )                   -> NIL
+      :setDefaultValues( oQStringList )                   -> NIL
+      :setDescription( cDescription )                     -> NIL
+      :setValueName( cValueName )                         -> NIL
+      :swap( oQCommandLineOption )                        -> NIL
+      :valueName()                                        -> cQString
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.2 or upper
+   $FILES$
+      Library: hbqtcore
+   $END$
+ */

@@ -1,0 +1,95 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QSslSocket()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qsslsocket.html
+   $ONELINER$
+      Creates a new QSslSocket object.
+   $INHERITS$
+      QTcpSocket
+   $SYNTAX$
+      QSslSocket( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QSslSocket
+   $METHODS$
+      :abort()                                            -> NIL
+      :addCaCertificate( oQSslCertificate )               -> NIL
+      :addCaCertificates( cPath, nFormat, nSyntax )       -> lBool
+      :caCertificates()                                   -> oQList_QSslCertificate>
+      :ciphers()                                          -> oQList_QSslCipher>
+      :connectToHostEncrypted( cHostName, nPort, nMode )  -> NIL
+      :( cHostName, nPort, cSslPeerName, nMode )          -> NIL
+      :encryptedBytesAvailable()                          -> nQint64
+      :encryptedBytesToWrite()                            -> nQint64
+      :flush()                                            -> lBool
+      :isEncrypted()                                      -> lBool
+      :localCertificate()                                 -> oQSslCertificate
+      :localCertificateChain()                            -> oQList_QSslCertificate>
+      :mode()                                             -> nSslMode
+      :peerCertificate()                                  -> oQSslCertificate
+      :peerCertificateChain()                             -> oQList_QSslCertificate>
+      :peerVerifyDepth()                                  -> nInt
+      :peerVerifyMode()                                   -> nQSslSocket_PeerVerifyMode
+      :peerVerifyName()                                   -> cQString
+      :privateKey()                                       -> oQSslKey
+      :protocol()                                         -> nQSsl_SslProtocol
+      :sessionCipher()                                    -> oQSslCipher
+      :setCiphers( cCiphers )                             -> NIL
+      :setLocalCertificate( oQSslCertificate )            -> NIL
+      :( cPath, nFormat )                                 -> NIL
+      :setPeerVerifyDepth( nDepth )                       -> NIL
+      :setPeerVerifyMode( nMode )                         -> NIL
+      :setPeerVerifyName( cHostName )                     -> NIL
+      :setPrivateKey( oQSslKey )                          -> NIL
+      :( cFileName, nAlgorithm, nFormat, oQByteArray )    -> NIL
+      :setProtocol( nProtocol )                           -> NIL
+      :setSslConfiguration( oQSslConfiguration )          -> NIL
+      :sslConfiguration()                                 -> oQSslConfiguration
+      :sslErrors()                                        -> oQList_QSslError>
+      :waitForEncrypted( nMsecs )                         -> lBool
+      :atEnd()                                            -> lBool
+      :bytesAvailable()                                   -> nQint64
+      :bytesToWrite()                                     -> nQint64
+      :canReadLine()                                      -> lBool
+      :close()                                            -> NIL
+      :resume()                                           -> NIL
+      :setReadBufferSize( nSize )                         -> NIL
+      :setSocketDescriptor( nSocketDescriptor, nState, nOpenMode )  -> lBool
+      :setSocketOption( nOption, oQVariant )              -> NIL
+      :socketOption( nOption )                            -> oQVariant
+      :waitForBytesWritten( nMsecs )                      -> lBool
+      :waitForConnected( nMsecs )                         -> lBool
+      :waitForDisconnected( nMsecs )                      -> lBool
+      :waitForReadyRead( nMsecs )                         -> lBool
+      :ignoreSslErrors()                                  -> NIL
+      :startClientEncryption()                            -> NIL
+      :startServerEncryption()                            -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtnetwork
+   $END$
+ */

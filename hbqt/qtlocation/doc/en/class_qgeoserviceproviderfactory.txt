@@ -1,0 +1,46 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QGeoServiceProviderFactory()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.5/qgeoserviceproviderfactory.html
+   $ONELINER$
+      Creates a new QGeoServiceProviderFactory object.
+   $INHERITS$
+
+   $SYNTAX$
+      QGeoServiceProviderFactory( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QGeoServiceProviderFactory
+   $METHODS$
+      :createGeocodingManagerEngine( oQVariantMap, @nError, cErrorString )  -> oQGeoCodingManagerEngine
+      :createPlaceManagerEngine( oQVariantMap, @nError, cErrorString )  -> oQPlaceManagerEngine
+      :createRoutingManagerEngine( oQVariantMap, @nError, cErrorString )  -> oQGeoRoutingManagerEngine
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.5 or upper
+   $FILES$
+      Library: hbqtlocation
+   $END$
+ */

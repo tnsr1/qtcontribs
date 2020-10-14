@@ -1,0 +1,61 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QSGTexture()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qsgtexture.html
+   $ONELINER$
+      Creates a new QSGTexture object.
+   $INHERITS$
+
+   $SYNTAX$
+      QSGTexture( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QSGTexture
+   $METHODS$
+      :bind()                                             -> NIL
+      :convertToNormalizedSourceRect( oQRectF )           -> oQRectF
+      :filtering()                                        -> nQSGTexture_Filtering
+      :hasAlphaChannel()                                  -> lBool
+      :hasMipmaps()                                       -> lBool
+      :horizontalWrapMode()                               -> nQSGTexture_WrapMode
+      :isAtlasTexture()                                   -> lBool
+      :mipmapFiltering()                                  -> nQSGTexture_Filtering
+      :normalizedTextureSubRect()                         -> oQRectF
+      :removedFromAtlas()                                 -> oQSGTexture
+      :setFiltering( nFilter )                            -> NIL
+      :setHorizontalWrapMode( nHwrap )                    -> NIL
+      :setMipmapFiltering( nFilter )                      -> NIL
+      :setVerticalWrapMode( nVwrap )                      -> NIL
+      :textureId()                                        -> nInt
+      :textureSize()                                      -> oQSize
+      :updateBindOptions( lForce )                        -> NIL
+      :verticalWrapMode()                                 -> nQSGTexture_WrapMode
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtquick
+   $END$
+ */

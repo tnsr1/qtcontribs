@@ -1,0 +1,54 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QTextTableFormat()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qtexttableformat.html
+   $ONELINER$
+      Creates a new QTextTableFormat object.
+   $INHERITS$
+      QTextFrameFormat
+   $SYNTAX$
+      QTextTableFormat( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QTextTableFormat
+   $METHODS$
+      :alignment()                                        -> nQt_Alignment
+      :cellPadding()                                      -> nQreal
+      :cellSpacing()                                      -> nQreal
+      :clearColumnWidthConstraints()                      -> NIL
+      :columns()                                          -> nInt
+      :headerRowCount()                                   -> nInt
+      :isValid()                                          -> lBool
+      :setAlignment( nAlignment )                         -> NIL
+      :setCellPadding( nPadding )                         -> NIL
+      :setCellSpacing( nSpacing )                         -> NIL
+      :setHeaderRowCount( nCount )                        -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

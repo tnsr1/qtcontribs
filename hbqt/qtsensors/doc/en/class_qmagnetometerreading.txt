@@ -1,0 +1,51 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QMagnetometerReading()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qmagnetometerreading.html
+   $ONELINER$
+      Creates a new QMagnetometerReading object.
+   $INHERITS$
+      QSensorReading
+   $SYNTAX$
+      QMagnetometerReading( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QMagnetometerReading
+   $METHODS$
+      :calibrationLevel()                                 -> nQreal
+      :setCalibrationLevel( nCalibrationLevel )           -> NIL
+      :setX( nX )                                         -> NIL
+      :setY( nY )                                         -> NIL
+      :setZ( nZ )                                         -> NIL
+      :x()                                                -> nQreal
+      :y()                                                -> nQreal
+      :z()                                                -> nQreal
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtandroid
+   $END$
+ */

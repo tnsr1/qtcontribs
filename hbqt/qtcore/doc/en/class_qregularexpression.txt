@@ -1,0 +1,57 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QRegularExpression()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.9/qregularexpression.html
+   $ONELINER$
+      Creates a new QRegularExpression object.
+   $INHERITS$
+
+   $SYNTAX$
+      QRegularExpression( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QRegularExpression
+   $METHODS$
+      :captureCount()                                     -> nInt
+      :errorString()                                      -> cQString
+      :globalMatch( cSubject, nOffset, nMatchType, nMatchOptions )  -> oQRegularExpressionMatchIterator
+      :isValid()                                          -> lBool
+      :match( cSubject, nOffset, nMatchType, nMatchOptions )  -> oQRegularExpressionMatch
+      :namedCaptureGroups()                               -> oQStringList
+      :optimize()                                         -> NIL
+      :pattern()                                          -> cQString
+      :patternErrorOffset()                               -> nInt
+      :patternOptions()                                   -> nPatternOptions
+      :setPattern( cPattern )                             -> NIL
+      :setPatternOptions( nOptions )                      -> NIL
+      :swap( oQRegularExpression )                        -> NIL
+      :escape( cStr )                                     -> cQString
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.9 or upper
+   $FILES$
+      Library: hbqtcore
+   $END$
+ */

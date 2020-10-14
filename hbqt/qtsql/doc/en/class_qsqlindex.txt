@@ -1,0 +1,51 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QSqlIndex()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qsqlindex.html
+   $ONELINER$
+      Creates a new QSqlIndex object.
+   $INHERITS$
+      QSqlRecord
+   $SYNTAX$
+      QSqlIndex( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QSqlIndex
+   $METHODS$
+      :append( oQSqlField )                               -> NIL
+      :( oQSqlField, lDesc )                              -> NIL
+      :cursorName()                                       -> cQString
+      :isDescending( nI )                                 -> lBool
+      :name()                                             -> cQString
+      :setCursorName( cCursorName )                       -> NIL
+      :setDescending( nI, lDesc )                         -> NIL
+      :setName( cName )                                   -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtsql
+   $END$
+ */

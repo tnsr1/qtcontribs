@@ -1,0 +1,48 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QLibraryInfo()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qlibraryinfo.html
+   $ONELINER$
+      Creates a new QLibraryInfo object.
+   $INHERITS$
+
+   $SYNTAX$
+      QLibraryInfo( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QLibraryInfo
+   $METHODS$
+      :buildDate()                                        -> oQDate
+      :buildKey()                                         -> cQString
+      :licensedProducts()                                 -> cQString
+      :licensee()                                         -> cQString
+      :location( nLoc )                                   -> cQString
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtcore
+   $END$
+ */

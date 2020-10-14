@@ -1,0 +1,47 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QScrollerProperties()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.0/qscrollerproperties.html
+   $ONELINER$
+      Creates a new QScrollerProperties object.
+   $INHERITS$
+
+   $SYNTAX$
+      QScrollerProperties( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QScrollerProperties
+   $METHODS$
+      :scrollMetric( nMetric )                            -> oQVariant
+      :setScrollMetric( nMetric, oQVariant )              -> NIL
+      :setDefaultScrollerProperties( oQScrollerProperties )  -> NIL
+      :unsetDefaultScrollerProperties()                   -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.0 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

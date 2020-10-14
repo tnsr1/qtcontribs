@@ -1,0 +1,53 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QSslCipher()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qsslcipher.html
+   $ONELINER$
+      Creates a new QSslCipher object.
+   $INHERITS$
+
+   $SYNTAX$
+      QSslCipher( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QSslCipher
+   $METHODS$
+      :authenticationMethod()                             -> cQString
+      :encryptionMethod()                                 -> cQString
+      :isNull()                                           -> lBool
+      :keyExchangeMethod()                                -> cQString
+      :name()                                             -> cQString
+      :protocol()                                         -> nQSsl_SslProtocol
+      :protocolString()                                   -> cQString
+      :supportedBits()                                    -> nInt
+      :swap( oQSslCipher )                                -> NIL
+      :usedBits()                                         -> nInt
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtnetwork
+   $END$
+ */

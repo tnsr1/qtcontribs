@@ -1,0 +1,67 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QSortFilterProxyModel()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qsortfilterproxymodel.html
+   $ONELINER$
+      Creates a new QSortFilterProxyModel object.
+   $INHERITS$
+      QAbstractProxyModel
+   $SYNTAX$
+      QSortFilterProxyModel( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QSortFilterProxyModel
+   $METHODS$
+      :dynamicSortFilter()                                -> lBool
+      :filterCaseSensitivity()                            -> nQt_CaseSensitivity
+      :filterKeyColumn()                                  -> nInt
+      :filterRegExp()                                     -> oQRegExp
+      :filterRole()                                       -> nInt
+      :isSortLocaleAware()                                -> lBool
+      :mapFromSource( oQModelIndex )                      -> oQModelIndex
+      :mapToSource( oQModelIndex )                        -> oQModelIndex
+      :setDynamicSortFilter( lEnable )                    -> NIL
+      :setFilterCaseSensitivity( nCs )                    -> NIL
+      :setFilterKeyColumn( nColumn )                      -> NIL
+      :setFilterRegExp( oQRegExp )                        -> NIL
+      :setFilterRole( nRole )                             -> NIL
+      :setSortCaseSensitivity( nCs )                      -> NIL
+      :setSortLocaleAware( lOn )                          -> NIL
+      :setSortRole( nRole )                               -> NIL
+      :sortCaseSensitivity()                              -> nQt_CaseSensitivity
+      :sortColumn()                                       -> nInt
+      :sortOrder()                                        -> nQt_SortOrder
+      :sortRole()                                         -> nInt
+      :invalidate()                                       -> NIL
+      :setFilterFixedString( cPattern )                   -> NIL
+      :( cPattern )                                       -> NIL
+      :setFilterWildcard( cPattern )                      -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

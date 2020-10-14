@@ -1,0 +1,53 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QSqlError()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qsqlerror.html
+   $ONELINER$
+      Creates a new QSqlError object.
+   $INHERITS$
+
+   $SYNTAX$
+      QSqlError( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QSqlError
+   $METHODS$
+      :databaseText()                                     -> cQString
+      :driverText()                                       -> cQString
+      :isValid()                                          -> lBool
+      :number()                                           -> nInt
+      :setDatabaseText( cDatabaseText )                   -> NIL
+      :setDriverText( cDriverText )                       -> NIL
+      :setNumber( nNumber )                               -> NIL
+      :setType( nType )                                   -> NIL
+      :text()                                             -> cQString
+      :type()                                             -> nErrorType
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtsql
+   $END$
+ */

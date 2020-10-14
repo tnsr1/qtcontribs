@@ -1,5 +1,5 @@
  /*
- * $Id$
+ * $Id: calculator.prg 314 2014-07-02 15:47:52Z bedipritpal $
  */
 
  /*

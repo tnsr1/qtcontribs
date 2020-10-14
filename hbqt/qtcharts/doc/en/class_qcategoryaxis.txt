@@ -1,0 +1,53 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QCategoryAxis()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.7/qcategoryaxis.html
+   $ONELINER$
+      Creates a new QCategoryAxis object.
+   $INHERITS$
+      QValueAxis
+   $SYNTAX$
+      QCategoryAxis( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QCategoryAxis
+   $METHODS$
+      :append( cCategoryLabel, nCategoryEndValue )        -> NIL
+      :categoriesLabels()                                 -> oQStringList
+      :count()                                            -> nInt
+      :endValue( cCategoryLabel )                         -> nQreal
+      :labelsPosition()                                   -> nQCategoryAxis_AxisLabelsPosition
+      :remove( cCategoryLabel )                           -> NIL
+      :replaceLabel( cOldLabel, cNewLabel )               -> NIL
+      :setLabelsPosition( nPosition )                     -> NIL
+      :setStartValue( nMin )                              -> NIL
+      :startValue( cCategoryLabel )                       -> nQreal
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.7 or upper
+   $FILES$
+      Library: hbqtcharts
+   $END$
+ */

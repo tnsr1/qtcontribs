@@ -1,0 +1,75 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QJSValue()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qjsvalue.html
+   $ONELINER$
+      Creates a new QJSValue object.
+   $INHERITS$
+
+   $SYNTAX$
+      QJSValue( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QJSValue
+   $METHODS$
+      :deleteProperty( cName )                            -> lBool
+      :equals( oQJSValue )                                -> lBool
+      :hasOwnProperty( cName )                            -> lBool
+      :hasProperty( cName )                               -> lBool
+      :isArray()                                          -> lBool
+      :isBool()                                           -> lBool
+      :isCallable()                                       -> lBool
+      :isDate()                                           -> lBool
+      :isError()                                          -> lBool
+      :isNull()                                           -> lBool
+      :isNumber()                                         -> lBool
+      :isObject()                                         -> lBool
+      :isQObject()                                        -> lBool
+      :isRegExp()                                         -> lBool
+      :isString()                                         -> lBool
+      :isUndefined()                                      -> lBool
+      :isVariant()                                        -> lBool
+      :property( cName )                                  -> oQJSValue
+      :( nArrayIndex )                                    -> oQJSValue
+      :prototype()                                        -> oQJSValue
+      :setProperty( cName, oQJSValue )                    -> NIL
+      :( nArrayIndex, oQJSValue )                         -> NIL
+      :setPrototype( oQJSValue )                          -> NIL
+      :strictlyEquals( oQJSValue )                        -> lBool
+      :toBool()                                           -> lBool
+      :toDateTime()                                       -> oQDateTime
+      :toInt()                                            -> nQint32
+      :toNumber()                                         -> nDouble
+      :toQObject()                                        -> oQObject
+      :toString()                                         -> cQString
+      :toUInt()                                           -> nQuint32
+      :toVariant()                                        -> oQVariant
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtqml
+   $END$
+ */

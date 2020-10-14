@@ -1,0 +1,46 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QAudioInputSelectorControl()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qaudioinputselectorcontrol.html
+   $ONELINER$
+      Creates a new QAudioInputSelectorControl object.
+   $INHERITS$
+      QMediaControl
+   $SYNTAX$
+      QAudioInputSelectorControl( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QAudioInputSelectorControl
+   $METHODS$
+      :activeInput()                                      -> cQString
+      :defaultInput()                                     -> cQString
+      :inputDescription( cName )                          -> cQString
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtmultimedia
+   $END$
+ */

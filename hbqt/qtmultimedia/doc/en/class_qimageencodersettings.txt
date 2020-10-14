@@ -1,0 +1,53 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QImageEncoderSettings()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qimageencodersettings.html
+   $ONELINER$
+      Creates a new QImageEncoderSettings object.
+   $INHERITS$
+
+   $SYNTAX$
+      QImageEncoderSettings( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QImageEncoderSettings
+   $METHODS$
+      :codec()                                            -> cQString
+      :encodingOption( cOption )                          -> oQVariant
+      :isNull()                                           -> lBool
+      :quality()                                          -> nQMultimedia_EncodingQuality
+      :resolution()                                       -> oQSize
+      :setCodec( cCodec )                                 -> NIL
+      :setEncodingOption( cOption, oQVariant )            -> NIL
+      :setQuality( nQuality )                             -> NIL
+      :setResolution( oQSize )                            -> NIL
+      :( nWidth, nHeight )                                -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtmultimedia
+   $END$
+ */

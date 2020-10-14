@@ -1,0 +1,41 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QTimeEdit()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qtimeedit.html
+   $ONELINER$
+      Creates a new QTimeEdit object.
+   $INHERITS$
+      QDateTimeEdit
+   $SYNTAX$
+      QTimeEdit( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QTimeEdit
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

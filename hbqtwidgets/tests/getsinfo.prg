@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: getsinfo.prg 206 2013-04-16 01:31:12Z bedipritpal $
  */
 
 /*

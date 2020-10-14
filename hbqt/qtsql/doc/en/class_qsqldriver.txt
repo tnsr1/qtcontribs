@@ -1,0 +1,63 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QSqlDriver()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qsqldriver.html
+   $ONELINER$
+      Creates a new QSqlDriver object.
+   $INHERITS$
+      QObject
+   $SYNTAX$
+      QSqlDriver( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QSqlDriver
+   $METHODS$
+      :beginTransaction()                                 -> lBool
+      :close()                                            -> NIL
+      :commitTransaction()                                -> lBool
+      :createResult()                                     -> oQSqlResult
+      :escapeIdentifier( cIdentifier, nType )             -> cQString
+      :formatValue( oQSqlField, lTrimStrings )            -> cQString
+      :handle()                                           -> oQVariant
+      :hasFeature( nFeature )                             -> lBool
+      :isOpen()                                           -> lBool
+      :isOpenError()                                      -> lBool
+      :lastError()                                        -> oQSqlError
+      :open( cDb, cUser, cPassword, cHost, nPort, cOptions )  -> lBool
+      :primaryIndex( cTableName )                         -> oQSqlIndex
+      :record( cTableName )                               -> oQSqlRecord
+      :rollbackTransaction()                              -> lBool
+      :sqlStatement( nType, cTableName, oQSqlRecord, lPreparedStatement )  -> cQString
+      :subscribeToNotification( cName )                   -> lBool
+      :subscribedToNotifications()                        -> oQStringList
+      :tables( nTableType )                               -> oQStringList
+      :unsubscribeFromNotification( cName )               -> lBool
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtsql
+   $END$
+ */

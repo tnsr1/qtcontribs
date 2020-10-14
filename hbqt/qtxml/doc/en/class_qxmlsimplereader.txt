@@ -1,0 +1,65 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QXmlSimpleReader()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qxmlsimplereader.html
+   $ONELINER$
+      Creates a new QXmlSimpleReader object.
+   $INHERITS$
+      QXmlReader
+   $SYNTAX$
+      QXmlSimpleReader( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QXmlSimpleReader
+   $METHODS$
+      :parse( oQXmlInputSource, lIncremental )            -> lBool
+      :parseContinue()                                    -> lBool
+      :DTDHandler()                                       -> oQXmlDTDHandler
+      :contentHandler()                                   -> oQXmlContentHandler
+      :declHandler()                                      -> oQXmlDeclHandler
+      :entityResolver()                                   -> oQXmlEntityResolver
+      :errorHandler()                                     -> oQXmlErrorHandler
+      :feature( cName, @lOk )                             -> lBool
+      :hasFeature( cName )                                -> lBool
+      :hasProperty( cName )                               -> lBool
+      :lexicalHandler()                                   -> oQXmlLexicalHandler
+      :( oQXmlInputSource )                               -> lBool
+      :( oQXmlInputSource )                               -> lBool
+      :property( cName, @lOk )                            -> NIL
+      :setContentHandler( oQXmlContentHandler )           -> NIL
+      :setDTDHandler( oQXmlDTDHandler )                   -> NIL
+      :setDeclHandler( oQXmlDeclHandler )                 -> NIL
+      :setEntityResolver( oQXmlEntityResolver )           -> NIL
+      :setErrorHandler( oQXmlErrorHandler )               -> NIL
+      :setFeature( cName, lEnable )                       -> NIL
+      :setLexicalHandler( oQXmlLexicalHandler )           -> NIL
+      :setProperty( cName, nValue )                       -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtopengl
+   $END$
+ */

@@ -1,0 +1,58 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QSqlQueryModel()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qsqlquerymodel.html
+   $ONELINER$
+      Creates a new QSqlQueryModel object.
+   $INHERITS$
+      QAbstractTableModel
+   $SYNTAX$
+      QSqlQueryModel( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QSqlQueryModel
+   $METHODS$
+      :canFetchMore( oQModelIndex )                       -> lBool
+      :clear()                                            -> NIL
+      :data( oQModelIndex, nRole )                        -> oQVariant
+      :fetchMore( oQModelIndex )                          -> NIL
+      :headerData( nSection, nOrientation, nRole )        -> oQVariant
+      :insertColumns( nColumn, nCount, oQModelIndex )     -> lBool
+      :lastError()                                        -> oQSqlError
+      :query()                                            -> oQSqlQuery
+      :record( nRow )                                     -> oQSqlRecord
+      :()                                                 -> oQSqlRecord
+      :removeColumns( nColumn, nCount, oQModelIndex )     -> lBool
+      :rowCount( oQModelIndex )                           -> nInt
+      :setHeaderData( nSection, nOrientation, oQVariant, nRole )  -> lBool
+      :setQuery( oQSqlQuery )                             -> NIL
+      :( cQuery, oQSqlDatabase )                          -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtsql
+   $END$
+ */

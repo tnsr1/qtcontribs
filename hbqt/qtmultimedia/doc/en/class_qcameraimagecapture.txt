@@ -1,0 +1,61 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QCameraImageCapture()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qcameraimagecapture.html
+   $ONELINER$
+      Creates a new QCameraImageCapture object.
+   $INHERITS$
+      QObject, QMediaBindableInterface
+   $SYNTAX$
+      QCameraImageCapture( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QCameraImageCapture
+   $METHODS$
+      :availability()                                     -> nQMultimedia_AvailabilityStatus
+      :bufferFormat()                                     -> nQVideoFrame_PixelFormat
+      :captureDestination()                               -> nQCameraImageCapture_CaptureDestinations
+      :encodingSettings()                                 -> oQImageEncoderSettings
+      :error()                                            -> nQCameraImageCapture_Error
+      :errorString()                                      -> cQString
+      :imageCodecDescription( cCodec )                    -> cQString
+      :isAvailable()                                      -> lBool
+      :isCaptureDestinationSupported( nDestination )      -> lBool
+      :isReadyForCapture()                                -> lBool
+      :setBufferFormat( nFormat )                         -> NIL
+      :setCaptureDestination( nDestination )              -> NIL
+      :setEncodingSettings( oQImageEncoderSettings )      -> NIL
+      :supportedImageCodecs()                             -> oQStringList
+      :supportedResolutions( oQImageEncoderSettings, @lContinuous )  -> oQList_QSize>
+      :mediaObject()                                      -> oQMediaObject
+      :cancelCapture()                                    -> NIL
+      :capture( cFile )                                   -> nInt
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtmultimedia
+   $END$
+ */

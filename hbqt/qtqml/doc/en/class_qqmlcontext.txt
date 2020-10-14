@@ -1,0 +1,55 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QQmlContext()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qqmlcontext.html
+   $ONELINER$
+      Creates a new QQmlContext object.
+   $INHERITS$
+      QObject
+   $SYNTAX$
+      QQmlContext( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QQmlContext
+   $METHODS$
+      :baseUrl()                                          -> oQUrl
+      :contextObject()                                    -> oQObject
+      :contextProperty( cName )                           -> oQVariant
+      :engine()                                           -> oQQmlEngine
+      :isValid()                                          -> lBool
+      :nameForObject( oQObject )                          -> cQString
+      :parentContext()                                    -> oQQmlContext
+      :resolvedUrl( oQUrl )                               -> oQUrl
+      :setBaseUrl( oQUrl )                                -> NIL
+      :setContextObject( oQObject )                       -> NIL
+      :setContextProperty( cName, oQObject )              -> NIL
+      :( cName, oQVariant )                               -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtqml
+   $END$
+ */

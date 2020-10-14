@@ -1,0 +1,62 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QTextTable()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.8/qtexttable.html
+   $ONELINER$
+      Creates a new QTextTable object.
+   $INHERITS$
+      QTextFrame
+   $SYNTAX$
+      QTextTable( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QTextTable
+   $METHODS$
+      :appendColumns( nCount )                            -> NIL
+      :appendRows( nCount )                               -> NIL
+      :cellAt( nRow, nColumn )                            -> oQTextTableCell
+      :( nPosition )                                      -> oQTextTableCell
+      :( oQTextCursor )                                   -> oQTextTableCell
+      :columns()                                          -> nInt
+      :format()                                           -> oQTextTableFormat
+      :insertColumns( nIndex, nColumns )                  -> NIL
+      :insertRows( nIndex, nRows )                        -> NIL
+      :mergeCells( nRow, nColumn, nNumRows, nNumCols )    -> NIL
+      :( oQTextCursor )                                   -> NIL
+      :removeColumns( nIndex, nColumns )                  -> NIL
+      :removeRows( nIndex, nRows )                        -> NIL
+      :resize( nRows, nColumns )                          -> NIL
+      :rowEnd( oQTextCursor )                             -> oQTextCursor
+      :rowStart( oQTextCursor )                           -> oQTextCursor
+      :rows()                                             -> nInt
+      :setFormat( oQTextTableFormat )                     -> NIL
+      :splitCell( nRow, nColumn, nNumRows, nNumCols )     -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.8 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

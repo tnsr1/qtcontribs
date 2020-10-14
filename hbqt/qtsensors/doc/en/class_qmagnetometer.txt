@@ -1,0 +1,46 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QMagnetometer()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qmagnetometer.html
+   $ONELINER$
+      Creates a new QMagnetometer object.
+   $INHERITS$
+      QSensor
+   $SYNTAX$
+      QMagnetometer( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QMagnetometer
+   $METHODS$
+      :reading()                                          -> oQMagnetometerReading
+      :returnGeoValues()                                  -> lBool
+      :setReturnGeoValues( lReturnGeoValues )             -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtandroid
+   $END$
+ */

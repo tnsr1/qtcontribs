@@ -1,0 +1,45 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QCameraCaptureBufferFormatControl()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qcameracapturebufferformatcontrol.html
+   $ONELINER$
+      Creates a new QCameraCaptureBufferFormatControl object.
+   $INHERITS$
+      QMediaControl
+   $SYNTAX$
+      QCameraCaptureBufferFormatControl( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QCameraCaptureBufferFormatControl
+   $METHODS$
+      :bufferFormat()                                     -> nQVideoFrame_PixelFormat
+      :setBufferFormat( nFormat )                         -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtmultimedia
+   $END$
+ */

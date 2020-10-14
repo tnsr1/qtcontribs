@@ -1,5 +1,5 @@
 #
-# $Id$
+# $Id: hbqtbluetooth.hbp 392 2015-01-23 21:14:12Z bedipritpal $
 #
 
 {__ios__}-stop='QtBluetooth is not available for ios...'

@@ -1,0 +1,49 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QMediaTimeInterval()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qmediatimeinterval.html
+   $ONELINER$
+      Creates a new QMediaTimeInterval object.
+   $INHERITS$
+
+   $SYNTAX$
+      QMediaTimeInterval( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QMediaTimeInterval
+   $METHODS$
+      :contains( nTime )                                  -> lBool
+      :end()                                              -> nQint64
+      :isNormal()                                         -> lBool
+      :normalized()                                       -> oQMediaTimeInterval
+      :start()                                            -> nQint64
+      :translated( nOffset )                              -> oQMediaTimeInterval
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtmultimedia
+   $END$
+ */

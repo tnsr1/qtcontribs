@@ -1,0 +1,53 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QSGOpaqueTextureMaterial()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qsgopaquetexturematerial.html
+   $ONELINER$
+      Creates a new QSGOpaqueTextureMaterial object.
+   $INHERITS$
+      QSGMaterial
+   $SYNTAX$
+      QSGOpaqueTextureMaterial( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QSGOpaqueTextureMaterial
+   $METHODS$
+      :filtering()                                        -> nQSGTexture_Filtering
+      :horizontalWrapMode()                               -> nQSGTexture_WrapMode
+      :mipmapFiltering()                                  -> nQSGTexture_Filtering
+      :setFiltering( nFiltering )                         -> NIL
+      :setHorizontalWrapMode( nMode )                     -> NIL
+      :setMipmapFiltering( nFiltering )                   -> NIL
+      :setTexture( oQSGTexture )                          -> NIL
+      :setVerticalWrapMode( nMode )                       -> NIL
+      :texture()                                          -> oQSGTexture
+      :verticalWrapMode()                                 -> nQSGTexture_WrapMode
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtquick
+   $END$
+ */

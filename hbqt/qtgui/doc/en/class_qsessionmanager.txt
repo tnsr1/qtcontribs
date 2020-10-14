@@ -1,0 +1,59 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QSessionManager()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qsessionmanager.html
+   $ONELINER$
+      Creates a new QSessionManager object.
+   $INHERITS$
+      QObject
+   $SYNTAX$
+      QSessionManager( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QSessionManager
+   $METHODS$
+      :allowsErrorInteraction()                           -> lBool
+      :allowsInteraction()                                -> lBool
+      :cancel()                                           -> NIL
+      :discardCommand()                                   -> oQStringList
+      :isPhase2()                                         -> lBool
+      :release()                                          -> NIL
+      :requestPhase2()                                    -> NIL
+      :restartCommand()                                   -> oQStringList
+      :restartHint()                                      -> nRestartHint
+      :sessionId()                                        -> cQString
+      :sessionKey()                                       -> cQString
+      :setDiscardCommand( oQStringList )                  -> NIL
+      :setManagerProperty( cName, oQStringList )          -> NIL
+      :( cName, cValue )                                  -> NIL
+      :setRestartCommand( oQStringList )                  -> NIL
+      :setRestartHint( nHint )                            -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: hbqtcolumn.prg 410 2015-05-28 01:05:31Z bedipritpal $
  */
 
 /*

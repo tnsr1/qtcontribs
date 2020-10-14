@@ -1,0 +1,77 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QPieSlice()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.7/qpieslice.html
+   $ONELINER$
+      Creates a new QPieSlice object.
+   $INHERITS$
+      QObject
+   $SYNTAX$
+      QPieSlice( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QPieSlice
+   $METHODS$
+      :angleSpan()                                        -> nQreal
+      :borderColor()                                      -> oQColor
+      :borderWidth()                                      -> nInt
+      :brush()                                            -> oQBrush
+      :color()                                            -> oQColor
+      :explodeDistanceFactor()                            -> nQreal
+      :isExploded()                                       -> lBool
+      :isLabelVisible()                                   -> lBool
+      :label()                                            -> cQString
+      :labelArmLengthFactor()                             -> nQreal
+      :labelBrush()                                       -> oQBrush
+      :labelColor()                                       -> oQColor
+      :labelFont()                                        -> oQFont
+      :labelPosition()                                    -> nLabelPosition
+      :pen()                                              -> oQPen
+      :percentage()                                       -> nQreal
+      :series()                                           -> oQPieSeries
+      :setBorderColor( oQColor )                          -> NIL
+      :setBorderWidth( nWidth )                           -> NIL
+      :setBrush( oQBrush )                                -> NIL
+      :setColor( oQColor )                                -> NIL
+      :setExplodeDistanceFactor( nFactor )                -> NIL
+      :setExploded( lExploded )                           -> NIL
+      :setLabel( cLabel )                                 -> NIL
+      :setLabelArmLengthFactor( nFactor )                 -> NIL
+      :setLabelBrush( oQBrush )                           -> NIL
+      :setLabelColor( oQColor )                           -> NIL
+      :setLabelFont( oQFont )                             -> NIL
+      :setLabelPosition( nPosition )                      -> NIL
+      :setLabelVisible( lVisible )                        -> NIL
+      :setPen( oQPen )                                    -> NIL
+      :setValue( nValue )                                 -> NIL
+      :startAngle()                                       -> nQreal
+      :value()                                            -> nQreal
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.7 or upper
+   $FILES$
+      Library: hbqtcharts
+   $END$
+ */

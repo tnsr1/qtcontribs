@@ -1,0 +1,176 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QGLShaderProgram()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.6/qglshaderprogram.html
+   $ONELINER$
+      Creates a new QGLShaderProgram object.
+   $INHERITS$
+      QObject
+   $SYNTAX$
+      QGLShaderProgram( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QGLShaderProgram
+   $METHODS$
+      :addShader( oQGLShader )                            -> lBool
+      :addShaderFromSourceCode( nType, oQByteArray )      -> lBool
+      :( nType, cSource )                                 -> lBool
+      :addShaderFromSourceFile( nType, cFileName )        -> lBool
+      :attributeLocation( oQByteArray )                   -> nInt
+      :( cName )                                          -> nInt
+      :bind()                                             -> lBool
+      :bindAttributeLocation( oQByteArray, nLocation )    -> NIL
+      :( cName, nLocation )                               -> NIL
+      :disableAttributeArray( nLocation )                 -> NIL
+      :( cName )                                          -> NIL
+      :enableAttributeArray( nLocation )                  -> NIL
+      :( cName )                                          -> NIL
+      :geometryInputType()                                -> nGLenum
+      :geometryOutputType()                               -> nGLenum
+      :geometryOutputVertexCount()                        -> nInt
+      :isLinked()                                         -> lBool
+      :link()                                             -> lBool
+      :log()                                              -> cQString
+      :maxGeometryOutputVertices()                        -> nInt
+      :programId()                                        -> nGLuint
+      :release()                                          -> NIL
+      :removeAllShaders()                                 -> NIL
+      :removeShader( oQGLShader )                         -> NIL
+      :setAttributeArray( nLocation, @nValues, nTupleSize, nStride )  -> NIL
+      :( nLocation, oQVector2D, nStride )                 -> NIL
+      :( nLocation, oQVector3D, nStride )                 -> NIL
+      :( nLocation, oQVector4D, nStride )                 -> NIL
+      :( nLocation, nType, nValues, nTupleSize, nStride )  -> NIL
+      :( cName, @nValues, nTupleSize, nStride )           -> NIL
+      :( cName, oQVector2D, nStride )                     -> NIL
+      :( cName, oQVector3D, nStride )                     -> NIL
+      :( cName, oQVector4D, nStride )                     -> NIL
+      :( cName, nType, nValues, nTupleSize, nStride )     -> NIL
+      :setAttributeBuffer( nLocation, nType, nOffset, nTupleSize, nStride )  -> NIL
+      :( cName, nType, nOffset, nTupleSize, nStride )     -> NIL
+      :setAttributeValue( nLocation, nValue )             -> NIL
+      :( nLocation, nX, nY )                              -> NIL
+      :( nLocation, nX, nY, nZ )                          -> NIL
+      :( nLocation, nX, nY, nZ, nW )                      -> NIL
+      :( nLocation, oQVector2D )                          -> NIL
+      :( nLocation, oQVector3D )                          -> NIL
+      :( nLocation, oQVector4D )                          -> NIL
+      :( nLocation, oQColor )                             -> NIL
+      :( nLocation, @nValues, nColumns, nRows )           -> NIL
+      :( cName, nValue )                                  -> NIL
+      :( cName, nX, nY )                                  -> NIL
+      :( cName, nX, nY, nZ )                              -> NIL
+      :( cName, nX, nY, nZ, nW )                          -> NIL
+      :( cName, oQVector2D )                              -> NIL
+      :( cName, oQVector3D )                              -> NIL
+      :( cName, oQVector4D )                              -> NIL
+      :( cName, oQColor )                                 -> NIL
+      :( cName, @nValues, nColumns, nRows )               -> NIL
+      :setGeometryInputType( nInputType )                 -> NIL
+      :setGeometryOutputType( nOutputType )               -> NIL
+      :setGeometryOutputVertexCount( nCount )             -> NIL
+      :setUniformValue( cName, oQPointF )                 -> NIL
+      :( cName, oQSize )                                  -> NIL
+      :( cName, oQSizeF )                                 -> NIL
+      :( cName, oQMatrix2x2 )                             -> NIL
+      :( cName, oQMatrix2x3 )                             -> NIL
+      :( cName, oQMatrix2x4 )                             -> NIL
+      :( cName, oQMatrix3x2 )                             -> NIL
+      :( cName, oQMatrix3x3 )                             -> NIL
+      :( cName, oQMatrix3x4 )                             -> NIL
+      :( cName, oQMatrix4x2 )                             -> NIL
+      :( cName, oQMatrix4x3 )                             -> NIL
+      :( cName, oQMatrix4x4 )                             -> NIL
+      :( cName, oQTransform )                             -> NIL
+      :( nLocation, nValue )                              -> NIL
+      :( nLocation, nX, nY )                              -> NIL
+      :( nLocation, nX, nY, nZ )                          -> NIL
+      :( nLocation, nX, nY, nZ, nW )                      -> NIL
+      :( nLocation, oQVector2D )                          -> NIL
+      :( nLocation, oQVector3D )                          -> NIL
+      :( nLocation, oQVector4D )                          -> NIL
+      :( nLocation, oQColor )                             -> NIL
+      :( nLocation, oQPoint )                             -> NIL
+      :( nLocation, oQPointF )                            -> NIL
+      :( nLocation, oQSize )                              -> NIL
+      :( nLocation, oQSizeF )                             -> NIL
+      :( nLocation, oQMatrix2x2 )                         -> NIL
+      :( nLocation, oQMatrix2x3 )                         -> NIL
+      :( nLocation, oQMatrix2x4 )                         -> NIL
+      :( nLocation, oQMatrix3x2 )                         -> NIL
+      :( nLocation, oQMatrix3x3 )                         -> NIL
+      :( nLocation, oQMatrix3x4 )                         -> NIL
+      :( nLocation, oQMatrix4x2 )                         -> NIL
+      :( nLocation, oQMatrix4x3 )                         -> NIL
+      :( nLocation, oQMatrix4x4 )                         -> NIL
+      :( nLocation, oQTransform )                         -> NIL
+      :( cName, nValue )                                  -> NIL
+      :( cName, nX, nY )                                  -> NIL
+      :( cName, nX, nY, nZ )                              -> NIL
+      :( cName, nX, nY, nZ, nW )                          -> NIL
+      :( cName, oQVector2D )                              -> NIL
+      :( cName, oQVector3D )                              -> NIL
+      :( cName, oQVector4D )                              -> NIL
+      :( cName, oQColor )                                 -> NIL
+      :( cName, oQPoint )                                 -> NIL
+      :setUniformValueArray( nLocation, @nValues, nCount, nTupleSize )  -> NIL
+      :( nLocation, @nValues, nCount )                    -> NIL
+      :( nLocation, oQVector2D, nCount )                  -> NIL
+      :( nLocation, oQVector3D, nCount )                  -> NIL
+      :( nLocation, oQVector4D, nCount )                  -> NIL
+      :( nLocation, oQMatrix2x2, nCount )                 -> NIL
+      :( nLocation, oQMatrix2x3, nCount )                 -> NIL
+      :( nLocation, oQMatrix2x4, nCount )                 -> NIL
+      :( nLocation, oQMatrix3x2, nCount )                 -> NIL
+      :( nLocation, oQMatrix3x3, nCount )                 -> NIL
+      :( nLocation, oQMatrix3x4, nCount )                 -> NIL
+      :( nLocation, oQMatrix4x2, nCount )                 -> NIL
+      :( nLocation, oQMatrix4x3, nCount )                 -> NIL
+      :( nLocation, oQMatrix4x4, nCount )                 -> NIL
+      :( cName, @nValues, nCount )                        -> NIL
+      :( cName, @nValues, nCount, nTupleSize )            -> NIL
+      :( cName, oQVector2D, nCount )                      -> NIL
+      :( cName, oQVector3D, nCount )                      -> NIL
+      :( cName, oQVector4D, nCount )                      -> NIL
+      :( cName, oQMatrix2x2, nCount )                     -> NIL
+      :( cName, oQMatrix2x3, nCount )                     -> NIL
+      :( cName, oQMatrix2x4, nCount )                     -> NIL
+      :( cName, oQMatrix3x2, nCount )                     -> NIL
+      :( cName, oQMatrix3x3, nCount )                     -> NIL
+      :( cName, oQMatrix3x4, nCount )                     -> NIL
+      :( cName, oQMatrix4x2, nCount )                     -> NIL
+      :( cName, oQMatrix4x3, nCount )                     -> NIL
+      :( cName, oQMatrix4x4, nCount )                     -> NIL
+      :shaders()                                          -> oQList_QGLShader
+      :uniformLocation( oQByteArray )                     -> nInt
+      :( cName )                                          -> nInt
+      :hasOpenGLShaderPrograms( oQGLContext )             -> lBool
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.6 or upper
+   $FILES$
+      Library: hbqtopengl
+   $END$
+ */

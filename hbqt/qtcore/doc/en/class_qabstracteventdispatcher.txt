@@ -1,0 +1,53 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QAbstractEventDispatcher()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qabstracteventdispatcher.html
+   $ONELINER$
+      Creates a new QAbstractEventDispatcher object.
+   $INHERITS$
+      QObject
+   $SYNTAX$
+      QAbstractEventDispatcher( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QAbstractEventDispatcher
+   $METHODS$
+      :flush()                                            -> NIL
+      :hasPendingEvents()                                 -> lBool
+      :interrupt()                                        -> NIL
+      :processEvents( nFlags )                            -> lBool
+      :registerSocketNotifier( oQSocketNotifier )         -> NIL
+      :unregisterSocketNotifier( oQSocketNotifier )       -> NIL
+      :unregisterTimer( nTimerId )                        -> lBool
+      :unregisterTimers( oQObject )                       -> lBool
+      :wakeUp()                                           -> NIL
+      :instance( oQThread )                               -> oQAbstractEventDispatcher
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtcore
+   $END$
+ */

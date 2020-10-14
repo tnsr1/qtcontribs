@@ -1,0 +1,48 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QDnsMailExchangeRecord()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.0/qdnsmailexchangerecord.html
+   $ONELINER$
+      Creates a new QDnsMailExchangeRecord object.
+   $INHERITS$
+
+   $SYNTAX$
+      QDnsMailExchangeRecord( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QDnsMailExchangeRecord
+   $METHODS$
+      :exchange()                                         -> cQString
+      :name()                                             -> cQString
+      :preference()                                       -> nQuint16
+      :swap( oQDnsMailExchangeRecord )                    -> NIL
+      :timeToLive()                                       -> nQuint32
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.0 or upper
+   $FILES$
+      Library: hbqtnetwork
+   $END$
+ */

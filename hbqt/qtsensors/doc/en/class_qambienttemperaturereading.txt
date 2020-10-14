@@ -1,0 +1,45 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QAmbientTemperatureReading()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qambienttemperaturereading.html
+   $ONELINER$
+      Creates a new QAmbientTemperatureReading object.
+   $INHERITS$
+      QSensorReading
+   $SYNTAX$
+      QAmbientTemperatureReading( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QAmbientTemperatureReading
+   $METHODS$
+      :setTemperature( nTemperature )                     -> NIL
+      :temperature()                                      -> nQreal
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtandroid
+   $END$
+ */

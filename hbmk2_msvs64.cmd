@@ -2,11 +2,11 @@ rem .\copy_inc.sh
 
 SET HB_QT_MAJOR_VER=5
 
-SET HB_WITH_QT=c:\Qt\5.10.0\msvc2017_64\include\
+SET HB_WITH_QT=c:\Qt\5.15.1\msvc2019_64\include\
 
-SET HB_QTPATH=c:\Qt\5.10.0\msvc2017_64\bin\
+SET HB_QTPATH=c:\Qt\5.15.1\msvc2019_64\bin\
 
-SET LD_LIBRARY_PATH=c:\Qt\5.10.0\msvc2017_64\lib\
+SET LD_LIBRARY_PATH=c:\Qt\5.15.1\msvc2019_64\lib\
 
 rem SET QTCONTRIBS_REBUILD=yes
 
@@ -21,12 +21,12 @@ SET HB_PLATFORM=win
 SET HB_COMPILER=msvc64
 
 rem cd "c:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\"
-cd "c:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Auxiliary\Build"
-call vcvars64.bat
+cd "c:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\Build\"
+call vcvarsall.bat x64 10.0.18362.0 -vcvars_ver=14.27 
 
 
-SET PATH=c:\harbour\bin\;c:\harbour\include\;c:\harbour\lib\win\msvc64\;c:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\bin\";%PATH%
-
+SET PATH=c:\harbour\bin\;c:\harbour\include\;c:\harbour\lib\win\msvc64\;%PATH%
+rem c:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\bin\";
 
 cd c:\dev\qtcontribs
 
@@ -46,7 +46,7 @@ rem copy c:\dev\qtcontribs\hbqt\qtgui\hbqtgui.ch c:\dev\qtcontribs\hbxbp\*.*
 rem copy c:\dev\qtcontribs\hbxbp\xbp.ch c:\dev\qtcontribs\hbide\*.*
 
 
-hbmk2.exe qtcontribs57.hbp -pic -Lc:\dev\lib\win\msvc64 -Lc:\Qt\5.10.0\msvc2017_64\lib -trace >log.txt
+hbmk2.exe qtcontribs57.hbp -pic -Lc:\dev\lib\win\msvc64 -Lc:\Qt\5.15.1\msvc2019_64\lib -trace >log.txt
 
 
 

@@ -1,0 +1,103 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QChart()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.7/qchart.html
+   $ONELINER$
+      Creates a new QChart object.
+   $INHERITS$
+      QGraphicsWidget
+   $SYNTAX$
+      QChart( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QChart
+   $METHODS$
+      :addAxis( oQAbstractAxis, nAlignment )              -> NIL
+      :addSeries( oQAbstractSeries )                      -> NIL
+      :animationDuration()                                -> nInt
+      :animationEasingCurve()                             -> oQEasingCurve
+      :animationOptions()                                 -> nAnimationOptions
+      :axes( nOrientation, oQAbstractSeries )             -> oQList_QAbstractAxis
+      :axisX( oQAbstractSeries )                          -> oQAbstractAxis
+      :axisY( oQAbstractSeries )                          -> oQAbstractAxis
+      :backgroundBrush()                                  -> oQBrush
+      :backgroundPen()                                    -> oQPen
+      :backgroundRoundness()                              -> nQreal
+      :chartType()                                        -> nChartType
+      :createDefaultAxes()                                -> NIL
+      :isBackgroundVisible()                              -> lBool
+      :isDropShadowEnabled()                              -> lBool
+      :isPlotAreaBackgroundVisible()                      -> lBool
+      :isZoomed()                                         -> lBool
+      :legend()                                           -> oQLegend
+      :locale()                                           -> oQLocale
+      :localizeNumbers()                                  -> lBool
+      :mapToPosition( oQPointF, oQAbstractSeries )        -> oQPointF
+      :mapToValue( oQPointF, oQAbstractSeries )           -> oQPointF
+      :margins()                                          -> oQMargins
+      :plotArea()                                         -> oQRectF
+      :plotAreaBackgroundBrush()                          -> oQBrush
+      :plotAreaBackgroundPen()                            -> oQPen
+      :removeAllSeries()                                  -> NIL
+      :removeAxis( oQAbstractAxis )                       -> NIL
+      :removeSeries( oQAbstractSeries )                   -> NIL
+      :scroll( nDx, nDy )                                 -> NIL
+      :series()                                           -> oQList_QAbstractSeries
+      :setAnimationDuration( nMsecs )                     -> NIL
+      :setAnimationEasingCurve( oQEasingCurve )           -> NIL
+      :setAnimationOptions( nOptions )                    -> NIL
+      :setAxisX( oQAbstractAxis, oQAbstractSeries )       -> NIL
+      :setAxisY( oQAbstractAxis, oQAbstractSeries )       -> NIL
+      :setBackgroundBrush( oQBrush )                      -> NIL
+      :setBackgroundPen( oQPen )                          -> NIL
+      :setBackgroundRoundness( nDiameter )                -> NIL
+      :setBackgroundVisible( lVisible )                   -> NIL
+      :setDropShadowEnabled( lEnabled )                   -> NIL
+      :setLocale( oQLocale )                              -> NIL
+      :setLocalizeNumbers( lLocalize )                    -> NIL
+      :setMargins( oQMargins )                            -> NIL
+      :setPlotAreaBackgroundBrush( oQBrush )              -> NIL
+      :setPlotAreaBackgroundPen( oQPen )                  -> NIL
+      :setPlotAreaBackgroundVisible( lVisible )           -> NIL
+      :setTheme( nTheme )                                 -> NIL
+      :setTitle( cTitle )                                 -> NIL
+      :setTitleBrush( oQBrush )                           -> NIL
+      :setTitleFont( oQFont )                             -> NIL
+      :theme()                                            -> nQChart_ChartTheme
+      :title()                                            -> cQString
+      :titleBrush()                                       -> oQBrush
+      :titleFont()                                        -> oQFont
+      :zoom( nFactor )                                    -> NIL
+      :zoomIn()                                           -> NIL
+      :( oQRectF )                                        -> NIL
+      :zoomOut()                                          -> NIL
+      :zoomReset()                                        -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.7 or upper
+   $FILES$
+      Library: hbqtcharts
+   $END$
+ */

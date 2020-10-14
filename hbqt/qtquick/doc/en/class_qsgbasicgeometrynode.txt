@@ -1,0 +1,46 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QSGBasicGeometryNode()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qsgbasicgeometrynode.html
+   $ONELINER$
+      Creates a new QSGBasicGeometryNode object.
+   $INHERITS$
+      QGSNode
+   $SYNTAX$
+      QSGBasicGeometryNode( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QSGBasicGeometryNode
+   $METHODS$
+      :geometry()                                         -> oQSGGeometry
+      :()                                                 -> oQSGGeometry
+      :setGeometry( oQSGGeometry )                        -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtquick
+   $END$
+ */

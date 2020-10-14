@@ -1,0 +1,53 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QItemDelegate()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qitemdelegate.html
+   $ONELINER$
+      Creates a new QItemDelegate object.
+   $INHERITS$
+      QAbstractItemDelegate
+   $SYNTAX$
+      QItemDelegate( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QItemDelegate
+   $METHODS$
+      :hasClipping()                                      -> lBool
+      :itemEditorFactory()                                -> oQItemEditorFactory
+      :setClipping( lClip )                               -> NIL
+      :setItemEditorFactory( oQItemEditorFactory )        -> NIL
+      :createEditor( oQWidget, oQStyleOptionViewItem, oQModelIndex )  -> oQWidget
+      :paint( oQPainter, oQStyleOptionViewItem, oQModelIndex )  -> NIL
+      :setEditorData( oQWidget, oQModelIndex )            -> NIL
+      :setModelData( oQWidget, oQAbstractItemModel, oQModelIndex )  -> NIL
+      :sizeHint( oQStyleOptionViewItem, oQModelIndex )    -> oQSize
+      :updateEditorGeometry( oQWidget, oQStyleOptionViewItem, oQModelIndex )  -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

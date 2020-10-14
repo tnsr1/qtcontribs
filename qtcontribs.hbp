@@ -1,5 +1,5 @@
 #
-# $Id$
+# $Id: qtcontribs.hbp 475 2020-02-20 03:07:47Z bedipritpal $
 #
 
 -hbcontainer
@@ -33,7 +33,7 @@ hbqt/qtbluetooth/hbqtbluetooth.hbp
 hbqt/qtqml/hbqtqml.hbp
 hbqt/qtquick/hbqtquick.hbp
 hbqt/qtsensors/hbqtsensors.hbp
-hbqt/qtwebkit/hbqtwebkit.hbp
+#hbqt/qtwebkit/hbqtwebkit.hbp
 hbqt/qtdesigner/hbqtdesigner.hbp
 hbqt/qzxing/hbqtzxing.hbp
 

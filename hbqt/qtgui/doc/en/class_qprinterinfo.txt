@@ -1,0 +1,62 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QPrinterInfo()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qprinterinfo.html
+   $ONELINER$
+      Creates a new QPrinterInfo object.
+   $INHERITS$
+
+   $SYNTAX$
+      QPrinterInfo( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QPrinterInfo
+   $METHODS$
+      :defaultPageSize()                                  -> oQPageSize
+      :description()                                      -> cQString
+      :isDefault()                                        -> lBool
+      :isNull()                                           -> lBool
+      :isRemote()                                         -> lBool
+      :location()                                         -> cQString
+      :makeAndModel()                                     -> cQString
+      :maximumPhysicalPageSize()                          -> oQPageSize
+      :minimumPhysicalPageSize()                          -> oQPageSize
+      :printerName()                                      -> cQString
+      :state()                                            -> nQPrinter_PrinterState
+      :supportedPageSizes()                               -> oQList_QPageSize>
+      :supportedResolutions()                             -> oQList_int>
+      :supportsCustomPageSizes()                          -> lBool
+      :availablePrinterNames()                            -> oQStringList
+      :availablePrinters()                                -> oQList_QPrinterInfo>
+      :defaultPrinter()                                   -> oQPrinterInfo
+      :defaultPrinterName()                               -> cQString
+      :printerInfo( cPrinterName )                        -> oQPrinterInfo
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

@@ -1,0 +1,83 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QSensor()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qsensor.html
+   $ONELINER$
+      Creates a new QSensor object.
+   $INHERITS$
+      QObject
+   $SYNTAX$
+      QSensor( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QSensor
+   $METHODS$
+      :addFilter( oQSensorFilter )                        -> NIL
+      :axesOrientationMode()                              -> nAxesOrientationMode
+      :bufferSize()                                       -> nInt
+      :connectToBackend()                                 -> lBool
+      :currentOrientation()                               -> nInt
+      :dataRate()                                         -> nInt
+      :description()                                      -> cQString
+      :efficientBufferSize()                              -> nInt
+      :error()                                            -> nInt
+      :filters()                                          -> oQList_QSensorFilter
+      :identifier()                                       -> oQByteArray
+      :isActive()                                         -> lBool
+      :isAlwaysOn()                                       -> lBool
+      :isBusy()                                           -> lBool
+      :isConnectedToBackend()                             -> lBool
+      :isFeatureSupported( nFeature )                     -> lBool
+      :maxBufferSize()                                    -> nInt
+      :outputRange()                                      -> nInt
+      :reading()                                          -> oQSensorReading
+      :removeFilter( oQSensorFilter )                     -> NIL
+      :setActive( lActive )                               -> NIL
+      :setAlwaysOn( lAlwaysOn )                           -> NIL
+      :setAxesOrientationMode( nAxesOrientationMode )     -> NIL
+      :setBufferSize( nBufferSize )                       -> NIL
+      :setCurrentOrientation( nCurrentOrientation )       -> NIL
+      :setDataRate( nRate )                               -> NIL
+      :setEfficientBufferSize( nEfficientBufferSize )     -> NIL
+      :setIdentifier( oQByteArray )                       -> NIL
+      :setMaxBufferSize( nMaxBufferSize )                 -> NIL
+      :setOutputRange( nIndex )                           -> NIL
+      :setSkipDuplicates( lSkipDuplicates )               -> NIL
+      :setUserOrientation( nUserOrientation )             -> NIL
+      :skipDuplicates()                                   -> lBool
+      :type()                                             -> oQByteArray
+      :userOrientation()                                  -> nInt
+      :defaultSensorForType( oQByteArray )                -> oQByteArray
+      :sensorTypes()                                      -> oQList_QByteArray>
+      :sensorsForType( oQByteArray )                      -> oQList_QByteArray>
+      :start()                                            -> lBool
+      :stop()                                             -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtandroid
+   $END$
+ */

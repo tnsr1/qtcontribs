@@ -1,0 +1,45 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      HBQAbstractVideoSurface()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/hbqabstractvideosurface.html
+   $ONELINER$
+      Creates a new HBQAbstractVideoSurface object.
+   $INHERITS$
+      QAbstractVideoSurface
+   $SYNTAX$
+      HBQAbstractVideoSurface( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type HBQAbstractVideoSurface
+   $METHODS$
+      :start( oQVideoSurfaceFormat )                      -> lBool
+      :registerQMLTypes()                                 -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbQZXing
+   $END$
+ */

@@ -1,0 +1,47 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QDnsDomainNameRecord()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.1/qdnsdomainnamerecord.html
+   $ONELINER$
+      Creates a new QDnsDomainNameRecord object.
+   $INHERITS$
+
+   $SYNTAX$
+      QDnsDomainNameRecord( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QDnsDomainNameRecord
+   $METHODS$
+      :name()                                             -> cQString
+      :swap( oQDnsDomainNameRecord )                      -> NIL
+      :timeToLive()                                       -> nQuint32
+      :value()                                            -> cQString
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.1 or upper
+   $FILES$
+      Library: hbqtnetwork
+   $END$
+ */

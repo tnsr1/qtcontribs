@@ -1,0 +1,61 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QGLPixelBuffer()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qglpixelbuffer.html
+   $ONELINER$
+      Creates a new QGLPixelBuffer object.
+   $INHERITS$
+      QPaintDevice
+   $SYNTAX$
+      QGLPixelBuffer( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QGLPixelBuffer
+   $METHODS$
+      :bindTexture( oQImage, nTarget )                    -> nGLuint
+      :( oQPixmap, nTarget )                              -> nGLuint
+      :( cFileName )                                      -> nGLuint
+      :bindToDynamicTexture( nTexture_id )                -> lBool
+      :deleteTexture( nTexture_id )                       -> NIL
+      :doneCurrent()                                      -> lBool
+      :drawTexture( oQRectF, nTextureId, nTextureTarget )  -> NIL
+      :( oQPointF, nTextureId, nTextureTarget )           -> NIL
+      :format()                                           -> oQGLFormat
+      :generateDynamicTexture()                           -> nGLuint
+      :isValid()                                          -> lBool
+      :makeCurrent()                                      -> lBool
+      :releaseFromDynamicTexture()                        -> NIL
+      :size()                                             -> oQSize
+      :toImage()                                          -> oQImage
+      :updateDynamicTexture( nTexture_id )                -> NIL
+      :paintEngine()                                      -> oQPaintEngine
+      :hasOpenGLPbuffers()                                -> lBool
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtopengl
+   $END$
+ */

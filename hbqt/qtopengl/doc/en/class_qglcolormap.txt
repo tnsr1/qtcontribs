@@ -1,0 +1,52 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QGLColormap()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qglcolormap.html
+   $ONELINER$
+      Creates a new QGLColormap object.
+   $INHERITS$
+
+   $SYNTAX$
+      QGLColormap( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QGLColormap
+   $METHODS$
+      :entryColor( nIdx )                                 -> oQColor
+      :entryRgb( nIdx )                                   -> nQRgb
+      :find( nColor )                                     -> nInt
+      :findNearest( nColor )                              -> nInt
+      :isEmpty()                                          -> lBool
+      :setEntries( nCount, @nColors, nBase )              -> NIL
+      :setEntry( nIdx, nColor )                           -> NIL
+      :( nIdx, oQColor )                                  -> NIL
+      :size()                                             -> nInt
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtopengl
+   $END$
+ */

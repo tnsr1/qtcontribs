@@ -1,0 +1,69 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QLegend()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.7/qlegend.html
+   $ONELINER$
+      Creates a new QLegend object.
+   $INHERITS$
+      QGraphicsWidget
+   $SYNTAX$
+      QLegend( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QLegend
+   $METHODS$
+      :alignment()                                        -> nQt_Alignment
+      :attachToChart()                                    -> NIL
+      :borderColor()                                      -> oQColor
+      :brush()                                            -> oQBrush
+      :color()                                            -> oQColor
+      :detachFromChart()                                  -> NIL
+      :font()                                             -> oQFont
+      :isAttachedToChart()                                -> lBool
+      :isBackgroundVisible()                              -> lBool
+      :labelBrush()                                       -> oQBrush
+      :labelColor()                                       -> oQColor
+      :markers( oQAbstractSeries )                        -> oQList_QLegendMarker
+      :pen()                                              -> oQPen
+      :reverseMarkers()                                   -> lBool
+      :setAlignment( nAlignment )                         -> NIL
+      :setBackgroundVisible( lVisible )                   -> NIL
+      :setBorderColor( oQColor )                          -> NIL
+      :setBrush( oQBrush )                                -> NIL
+      :setColor( oQColor )                                -> NIL
+      :setFont( oQFont )                                  -> NIL
+      :setLabelBrush( oQBrush )                           -> NIL
+      :setLabelColor( oQColor )                           -> NIL
+      :setPen( oQPen )                                    -> NIL
+      :setReverseMarkers( lReverseMarkers )               -> NIL
+      :setShowToolTips( lShow )                           -> NIL
+      :showToolTips()                                     -> lBool
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.7 or upper
+   $FILES$
+      Library: hbqtcharts
+   $END$
+ */

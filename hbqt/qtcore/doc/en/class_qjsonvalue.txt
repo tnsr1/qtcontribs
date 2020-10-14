@@ -1,0 +1,60 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QJsonValue()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.0/qjsonvalue.html
+   $ONELINER$
+      Creates a new QJsonValue object.
+   $INHERITS$
+
+   $SYNTAX$
+      QJsonValue( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QJsonValue
+   $METHODS$
+      :isArray()                                          -> lBool
+      :isBool()                                           -> lBool
+      :isDouble()                                         -> lBool
+      :isNull()                                           -> lBool
+      :isObject()                                         -> lBool
+      :isString()                                         -> lBool
+      :isUndefined()                                      -> lBool
+      :toArray( oQJsonArray )                             -> oQJsonArray
+      :()                                                 -> oQJsonArray
+      :toBool( lDefaultValue )                            -> lBool
+      :toDouble( nDefaultValue )                          -> nDouble
+      :toInt( nDefaultValue )                             -> nInt
+      :toObject( oQJsonObject )                           -> oQJsonObject
+      :()                                                 -> oQJsonObject
+      :toString( cDefaultValue )                          -> cQString
+      :toVariant()                                        -> oQVariant
+      :type()                                             -> nType
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.0 or upper
+   $FILES$
+      Library: hbqtcore
+   $END$
+ */

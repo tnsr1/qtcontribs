@@ -1,0 +1,51 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QOpenGLWidget()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.4/qopenglwidget.html
+   $ONELINER$
+      Creates a new QOpenGLWidget object.
+   $INHERITS$
+      QWidget
+   $SYNTAX$
+      QOpenGLWidget( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QOpenGLWidget
+   $METHODS$
+      :context()                                          -> oQOpenGLContext
+      :defaultFramebufferObject()                         -> nGLuint
+      :doneCurrent()                                      -> NIL
+      :format()                                           -> oQSurfaceFormat
+      :grabFramebuffer()                                  -> oQImage
+      :isValid()                                          -> lBool
+      :makeCurrent()                                      -> NIL
+      :setFormat( oQSurfaceFormat )                       -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.4 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

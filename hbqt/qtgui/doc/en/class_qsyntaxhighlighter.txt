@@ -1,0 +1,46 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QSyntaxHighlighter()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qsyntaxhighlighter.html
+   $ONELINER$
+      Creates a new QSyntaxHighlighter object.
+   $INHERITS$
+      QObject
+   $SYNTAX$
+      QSyntaxHighlighter( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QSyntaxHighlighter
+   $METHODS$
+      :document()                                         -> oQTextDocument
+      :setDocument( oQTextDocument )                      -> NIL
+      :rehighlight()                                      -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

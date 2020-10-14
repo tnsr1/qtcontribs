@@ -1,0 +1,76 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QDate()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qdate.html
+   $ONELINER$
+      Creates a new QDate object.
+   $INHERITS$
+
+   $SYNTAX$
+      QDate( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QDate
+   $METHODS$
+      :addDays( nNdays )                                  -> oQDate
+      :addMonths( nNmonths )                              -> oQDate
+      :addYears( nNyears )                                -> oQDate
+      :day()                                              -> nInt
+      :dayOfWeek()                                        -> nInt
+      :dayOfYear()                                        -> nInt
+      :daysInMonth()                                      -> nInt
+      :daysInYear()                                       -> nInt
+      :daysTo( oQDate )                                   -> nInt
+      :getDate( @nYear, @nMonth, @nDay )                  -> NIL
+      :isNull()                                           -> lBool
+      :isValid()                                          -> lBool
+      :month()                                            -> nInt
+      :setDate( nYear, nMonth, nDay )                     -> lBool
+      :toJulianDay()                                      -> nInt
+      :toString( cFormat )                                -> cQString
+      :( nFormat )                                        -> cQString
+      :weekNumber( @nYearNumber )                         -> nInt
+      :year()                                             -> nInt
+      :currentDate()                                      -> oQDate
+      :fromJulianDay( nJd )                               -> oQDate
+      :fromString( cString, nFormat )                     -> oQDate
+      :( cString, cFormat )                               -> oQDate
+      :isLeapYear( nYear )                                -> lBool
+      :( nYear, nMonth, nDay )                            -> lBool
+      :longDayName( nWeekday )                            -> cQString
+      :( nWeekday, nType )                                -> cQString
+      :longMonthName( nMonth )                            -> cQString
+      :( nMonth, nType )                                  -> cQString
+      :shortDayName( nWeekday )                           -> cQString
+      :( nWeekday, nType )                                -> cQString
+      :shortMonthName( nMonth )                           -> cQString
+      :( nMonth, nType )                                  -> cQString
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtcore
+   $END$
+ */

@@ -1,0 +1,50 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QPlaceContent()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.5/qplacecontent.html
+   $ONELINER$
+      Creates a new QPlaceContent object.
+   $INHERITS$
+
+   $SYNTAX$
+      QPlaceContent( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QPlaceContent
+   $METHODS$
+      :attribution()                                      -> cQString
+      :setAttribution( cAttribution )                     -> NIL
+      :setSupplier( oQPlaceSupplier )                     -> NIL
+      :setUser( oQPlaceUser )                             -> NIL
+      :supplier()                                         -> oQPlaceSupplier
+      :type()                                             -> nQPlaceContent_Type
+      :user()                                             -> oQPlaceUser
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.5 or upper
+   $FILES$
+      Library: hbqtlocation
+   $END$
+ */

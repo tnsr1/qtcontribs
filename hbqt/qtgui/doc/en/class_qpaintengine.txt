@@ -1,0 +1,66 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QPaintEngine()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qpaintengine.html
+   $ONELINER$
+      Creates a new QPaintEngine object.
+   $INHERITS$
+
+   $SYNTAX$
+      QPaintEngine( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QPaintEngine
+   $METHODS$
+      :begin( oQPaintDevice )                             -> lBool
+      :drawEllipse( oQRectF )                             -> NIL
+      :( oQRect )                                         -> NIL
+      :drawImage( oQRectF, oQImage, oQRectF, nFlags )     -> NIL
+      :drawLines( oQLineF, nLineCount )                   -> NIL
+      :( oQLine, nLineCount )                             -> NIL
+      :drawPath( oQPainterPath )                          -> NIL
+      :drawPixmap( oQRectF, oQPixmap, oQRectF )           -> NIL
+      :drawPoints( oQPointF, nPointCount )                -> NIL
+      :( oQPoint, nPointCount )                           -> NIL
+      :drawPolygon( oQPointF, nPointCount, nMode )        -> NIL
+      :( oQPoint, nPointCount, nMode )                    -> NIL
+      :drawRects( oQRectF, nRectCount )                   -> NIL
+      :( oQRect, nRectCount )                             -> NIL
+      :drawTextItem( oQPointF, oQTextItem )               -> NIL
+      :drawTiledPixmap( oQRectF, oQPixmap, oQPointF )     -> NIL
+      :end()                                              -> lBool
+      :hasFeature( nFeature )                             -> lBool
+      :isActive()                                         -> lBool
+      :paintDevice()                                      -> oQPaintDevice
+      :painter()                                          -> oQPainter
+      :setActive( lState )                                -> NIL
+      :type()                                             -> nType
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

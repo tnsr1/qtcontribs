@@ -1,0 +1,44 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QQmlNetworkAccessManagerFactory()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qqmlnetworkaccessmanagerfactory.html
+   $ONELINER$
+      Creates a new QQmlNetworkAccessManagerFactory object.
+   $INHERITS$
+
+   $SYNTAX$
+      QQmlNetworkAccessManagerFactory( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QQmlNetworkAccessManagerFactory
+   $METHODS$
+      :create( oQObject )                                 -> oQNetworkAccessManager
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtqml
+   $END$
+ */

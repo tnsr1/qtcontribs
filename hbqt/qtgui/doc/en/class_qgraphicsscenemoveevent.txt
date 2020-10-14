@@ -1,0 +1,45 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QGraphicsSceneMoveEvent()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qgraphicsscenemoveevent.html
+   $ONELINER$
+      Creates a new QGraphicsSceneMoveEvent object.
+   $INHERITS$
+      QGraphicsSceneEvent
+   $SYNTAX$
+      QGraphicsSceneMoveEvent( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QGraphicsSceneMoveEvent
+   $METHODS$
+      :newPos()                                           -> oQPointF
+      :oldPos()                                           -> oQPointF
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

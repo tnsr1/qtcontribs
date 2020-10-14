@@ -1,0 +1,47 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QSqlRelation()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.0/qsqlrelation.html
+   $ONELINER$
+      Creates a new QSqlRelation object.
+   $INHERITS$
+
+   $SYNTAX$
+      QSqlRelation( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QSqlRelation
+   $METHODS$
+      :displayColumn()                                    -> cQString
+      :indexColumn()                                      -> cQString
+      :isValid()                                          -> lBool
+      :tableName()                                        -> cQString
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.0 or upper
+   $FILES$
+      Library: hbqtsql
+   $END$
+ */

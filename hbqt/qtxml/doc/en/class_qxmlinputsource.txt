@@ -1,0 +1,49 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QXmlInputSource()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qxmlinputsource.html
+   $ONELINER$
+      Creates a new QXmlInputSource object.
+   $INHERITS$
+
+   $SYNTAX$
+      QXmlInputSource( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QXmlInputSource
+   $METHODS$
+      :data()                                             -> cQString
+      :fetchData()                                        -> NIL
+      :next()                                             -> oQChar
+      :reset()                                            -> NIL
+      :setData( cDat )                                    -> NIL
+      :( oQByteArray )                                    -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtopengl
+   $END$
+ */

@@ -1,0 +1,50 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QGeoCodingManagerEngine()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.5/qgeocodingmanagerengine.html
+   $ONELINER$
+      Creates a new QGeoCodingManagerEngine object.
+   $INHERITS$
+      QObject
+   $SYNTAX$
+      QGeoCodingManagerEngine( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QGeoCodingManagerEngine
+   $METHODS$
+      :geocode( oQGeoAddress, oQGeoShape )                -> oQGeoCodeReply
+      :( cAddress, nLimit, nOffset, oQGeoShape )          -> oQGeoCodeReply
+      :locale()                                           -> oQLocale
+      :managerName()                                      -> cQString
+      :managerVersion()                                   -> nInt
+      :reverseGeocode( oQGeoCoordinate, oQGeoShape )      -> oQGeoCodeReply
+      :setLocale( oQLocale )                              -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.5 or upper
+   $FILES$
+      Library: hbqtlocation
+   $END$
+ */

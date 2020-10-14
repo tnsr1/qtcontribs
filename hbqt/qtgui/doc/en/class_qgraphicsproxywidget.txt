@@ -1,0 +1,47 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QGraphicsProxyWidget()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qgraphicsproxywidget.html
+   $ONELINER$
+      Creates a new QGraphicsProxyWidget object.
+   $INHERITS$
+      QGraphicsWidget
+   $SYNTAX$
+      QGraphicsProxyWidget( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QGraphicsProxyWidget
+   $METHODS$
+      :createProxyForChildWidget( oQWidget )              -> oQGraphicsProxyWidget
+      :setWidget( oQWidget )                              -> NIL
+      :subWidgetRect( oQWidget )                          -> oQRectF
+      :widget()                                           -> oQWidget
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

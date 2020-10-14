@@ -1,0 +1,50 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QGraphicsSceneWheelEvent()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qgraphicsscenewheelevent.html
+   $ONELINER$
+      Creates a new QGraphicsSceneWheelEvent object.
+   $INHERITS$
+      QGraphicsSceneEvent
+   $SYNTAX$
+      QGraphicsSceneWheelEvent( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QGraphicsSceneWheelEvent
+   $METHODS$
+      :buttons()                                          -> nQt_MouseButtons
+      :delta()                                            -> nInt
+      :modifiers()                                        -> nQt_KeyboardModifiers
+      :orientation()                                      -> nQt_Orientation
+      :pos()                                              -> oQPointF
+      :scenePos()                                         -> oQPointF
+      :screenPos()                                        -> oQPoint
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

@@ -1,0 +1,55 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QAudioDeviceInfo()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.6/qaudiodeviceinfo.html
+   $ONELINER$
+      Creates a new QAudioDeviceInfo object.
+   $INHERITS$
+
+   $SYNTAX$
+      QAudioDeviceInfo( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QAudioDeviceInfo
+   $METHODS$
+      :deviceName()                                       -> cQString
+      :isFormatSupported( oQAudioFormat )                 -> lBool
+      :isNull()                                           -> lBool
+      :nearestFormat( oQAudioFormat )                     -> oQAudioFormat
+      :preferredFormat()                                  -> oQAudioFormat
+      :supportedChannelCounts()                           -> oQList_int>
+      :supportedCodecs()                                  -> oQStringList
+      :supportedSampleRates()                             -> oQList_int>
+      :supportedSampleSizes()                             -> oQList_int>
+      :availableDevices( nMode )                          -> oQList_QAudioDeviceInfo>
+      :defaultInputDevice()                               -> oQAudioDeviceInfo
+      :defaultOutputDevice()                              -> oQAudioDeviceInfo
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.6 or upper
+   $FILES$
+      Library: hbqtmultimedia
+   $END$
+ */

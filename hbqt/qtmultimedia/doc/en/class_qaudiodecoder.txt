@@ -1,0 +1,59 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QAudioDecoder()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qaudiodecoder.html
+   $ONELINER$
+      Creates a new QAudioDecoder object.
+   $INHERITS$
+      QMediaObject
+   $SYNTAX$
+      QAudioDecoder( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QAudioDecoder
+   $METHODS$
+      :audioFormat()                                      -> oQAudioFormat
+      :bufferAvailable()                                  -> lBool
+      :duration()                                         -> nQint64
+      :error()                                            -> nError
+      :errorString()                                      -> cQString
+      :position()                                         -> nQint64
+      :read()                                             -> oQAudioBuffer
+      :setAudioFormat( oQAudioFormat )                    -> NIL
+      :setSourceDevice( oQIODevice )                      -> NIL
+      :setSourceFilename( cFileName )                     -> NIL
+      :sourceDevice()                                     -> oQIODevice
+      :sourceFilename()                                   -> cQString
+      :state()                                            -> nState
+      :hasSupport( cMimeType, oQStringList )              -> nQMultimedia_SupportEstimate
+      :start()                                            -> NIL
+      :stop()                                             -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtmultimedia
+   $END$
+ */

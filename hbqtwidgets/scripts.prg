@@ -1,5 +1,5 @@
                /*
- * $Id$
+ * $Id: scripts.prg 471 2019-04-04 23:42:20Z bedipritpal $
  */
 
 /*
@@ -441,7 +441,9 @@ METHOD HbQtScripts:newScript()
 
    ::cCurScriptName := "new..."
    ::oUI:labelSourceName:setText( ::cCurScriptName )
-   ::oHbQtEditor:setSource( cNew )
+   //::oHbQtEditor:setSource( cNew )
+   
+   HB_SYMBOL_UNUSED( cNew )
    RETURN Self
 
 

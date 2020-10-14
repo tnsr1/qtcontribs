@@ -1,0 +1,44 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QAmbientLightSensor()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qambientlightsensor.html
+   $ONELINER$
+      Creates a new QAmbientLightSensor object.
+   $INHERITS$
+      QSensor
+   $SYNTAX$
+      QAmbientLightSensor( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QAmbientLightSensor
+   $METHODS$
+      :reading()                                          -> oQAmbientLightReading
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtandroid
+   $END$
+ */

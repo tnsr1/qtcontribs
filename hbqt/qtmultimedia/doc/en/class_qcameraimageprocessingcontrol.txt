@@ -1,0 +1,47 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QCameraImageProcessingControl()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qcameraimageprocessingcontrol.html
+   $ONELINER$
+      Creates a new QCameraImageProcessingControl object.
+   $INHERITS$
+      QMediaControl
+   $SYNTAX$
+      QCameraImageProcessingControl( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QCameraImageProcessingControl
+   $METHODS$
+      :isParameterSupported( nParameter )                 -> lBool
+      :isParameterValueSupported( nParameter, oQVariant )  -> lBool
+      :parameter( nParameter )                            -> oQVariant
+      :setParameter( nParameter, oQVariant )              -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtmultimedia
+   $END$
+ */

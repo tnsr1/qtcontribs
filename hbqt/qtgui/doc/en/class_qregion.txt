@@ -1,0 +1,61 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QRegion()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qregion.html
+   $ONELINER$
+      Creates a new QRegion object.
+   $INHERITS$
+
+   $SYNTAX$
+      QRegion( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QRegion
+   $METHODS$
+      :boundingRect()                                     -> oQRect
+      :contains( oQPoint )                                -> lBool
+      :( oQRect )                                         -> lBool
+      :intersected( oQRegion )                            -> oQRegion
+      :( oQRect )                                         -> oQRegion
+      :intersects( oQRegion )                             -> lBool
+      :( oQRect )                                         -> lBool
+      :isEmpty()                                          -> lBool
+      :numRects()                                         -> nInt
+      :setRects( oQRect, nNumber )                        -> NIL
+      :subtracted( oQRegion )                             -> oQRegion
+      :translate( nDx, nDy )                              -> NIL
+      :( oQPoint )                                        -> NIL
+      :translated( nDx, nDy )                             -> oQRegion
+      :( oQPoint )                                        -> oQRegion
+      :united( oQRegion )                                 -> oQRegion
+      :( oQRect )                                         -> oQRegion
+      :xored( oQRegion )                                  -> oQRegion
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

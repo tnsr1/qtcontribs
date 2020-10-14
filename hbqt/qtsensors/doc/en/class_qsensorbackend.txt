@@ -1,0 +1,56 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QSensorBackend()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qsensorbackend.html
+   $ONELINER$
+      Creates a new QSensorBackend object.
+   $INHERITS$
+      QObject
+   $SYNTAX$
+      QSensorBackend( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QSensorBackend
+   $METHODS$
+      :addDataRate( nMin, nMax )                          -> NIL
+      :addOutputRange( nMin, nMax, nAccuracy )            -> NIL
+      :isFeatureSupported( nFeature )                     -> lBool
+      :newReadingAvailable()                              -> NIL
+      :reading()                                          -> oQSensorReading
+      :sensor()                                           -> oQSensor
+      :sensorBusy()                                       -> NIL
+      :sensorError( nError )                              -> NIL
+      :sensorStopped()                                    -> NIL
+      :setDataRates( oQSensor )                           -> NIL
+      :setDescription( cDescription )                     -> NIL
+      :start()                                            -> NIL
+      :stop()                                             -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtandroid
+   $END$
+ */

@@ -1,0 +1,50 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QCameraInfo()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qcamerainfo.html
+   $ONELINER$
+      Creates a new QCameraInfo object.
+   $INHERITS$
+
+   $SYNTAX$
+      QCameraInfo( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QCameraInfo
+   $METHODS$
+      :description()                                      -> cQString
+      :deviceName()                                       -> cQString
+      :isNull()                                           -> lBool
+      :orientation()                                      -> nInt
+      :position()                                         -> nQCamera_Position
+      :availableCameras( nPosition )                      -> oQList_QCameraInfo>
+      :defaultCamera()                                    -> oQCameraInfo
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtmultimedia
+   $END$
+ */

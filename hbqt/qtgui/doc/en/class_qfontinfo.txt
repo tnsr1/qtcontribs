@@ -1,0 +1,55 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QFontInfo()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qfontinfo.html
+   $ONELINER$
+      Creates a new QFontInfo object.
+   $INHERITS$
+
+   $SYNTAX$
+      QFontInfo( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QFontInfo
+   $METHODS$
+      :bold()                                             -> lBool
+      :exactMatch()                                       -> lBool
+      :family()                                           -> cQString
+      :fixedPitch()                                       -> lBool
+      :italic()                                           -> lBool
+      :pixelSize()                                        -> nInt
+      :pointSize()                                        -> nInt
+      :pointSizeF()                                       -> nQreal
+      :rawMode()                                          -> lBool
+      :style()                                            -> nQFont_Style
+      :styleHint()                                        -> nQFont_StyleHint
+      :weight()                                           -> nInt
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

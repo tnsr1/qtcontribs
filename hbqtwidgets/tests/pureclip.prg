@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: pureclip.prg 303 2014-05-05 07:01:33Z bedipritpal $
  */
 
 /*

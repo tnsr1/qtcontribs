@@ -1,0 +1,52 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QPushButton()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qpushbutton.html
+   $ONELINER$
+      Creates a new QPushButton object.
+   $INHERITS$
+      QAbstractButton
+   $SYNTAX$
+      QPushButton( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QPushButton
+   $METHODS$
+      :autoDefault()                                      -> lBool
+      :isDefault()                                        -> lBool
+      :isFlat()                                           -> lBool
+      :menu()                                             -> oQMenu
+      :setAutoDefault( lBool )                            -> NIL
+      :setDefault( lBool )                                -> NIL
+      :setFlat( lBool )                                   -> NIL
+      :setMenu( oQMenu )                                  -> NIL
+      :showMenu()                                         -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

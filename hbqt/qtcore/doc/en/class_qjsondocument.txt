@@ -1,0 +1,59 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QJsonDocument()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.0/qjsondocument.html
+   $ONELINER$
+      Creates a new QJsonDocument object.
+   $INHERITS$
+
+   $SYNTAX$
+      QJsonDocument( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QJsonDocument
+   $METHODS$
+      :array()                                            -> oQJsonArray
+      :isArray()                                          -> lBool
+      :isEmpty()                                          -> lBool
+      :isNull()                                           -> lBool
+      :isObject()                                         -> lBool
+      :object()                                           -> oQJsonObject
+      :rawData( @nSize )                                  -> cChar
+      :setArray( oQJsonArray )                            -> NIL
+      :setObject( oQJsonObject )                          -> NIL
+      :toBinaryData()                                     -> oQByteArray
+      :toJson( nFormat )                                  -> oQByteArray
+      :toVariant()                                        -> oQVariant
+      :fromBinaryData( oQByteArray, nValidation )         -> oQJsonDocument
+      :fromJson( oQByteArray, oQJsonParseError )          -> oQJsonDocument
+      :fromRawData( cData, nSize, nValidation )           -> oQJsonDocument
+      :fromVariant( oQVariant )                           -> oQJsonDocument
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.0 or upper
+   $FILES$
+      Library: hbqtcore
+   $END$
+ */

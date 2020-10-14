@@ -1,5 +1,5 @@
    /*
- * $Id$
+ * $Id: hbqtbrowse.prg 475 2020-02-20 03:07:47Z bedipritpal $
  */
 
 /*
@@ -705,6 +705,8 @@ PROTECTED:
    //
    DATA   oActCopySel
    DATA   oActCellMemo
+   DATA   oActRefreshAll
+   DATA   oActRefreshCurrent
    //
    DATA   oActAddColumn
    DATA   oActDelColumn
@@ -875,6 +877,8 @@ METHOD HbQtBrowse:destroy()
    ::oActStop                  := NIL
    ::oActCopySel               := NIL
    ::oActCellMemo              := NIL
+   ::oActRefreshAll            := NIL
+   ::oActRefreshCurrent        := NIL
    ::oActAddColumn             := NIL
    ::oActDelColumn             := NIL
    ::oAddColumnsButton         := NIL
@@ -3923,7 +3927,7 @@ METHOD HbQtBrowse:buildToolbar()
 
    WITH OBJECT ::oToolbar := QToolBar( ::oWidget )
       :setOrientation( Qt_Horizontal )
-      :setIconSize( QSize( 12,12 ) )
+      :setIconSize( QSize( __hbqtPixelsByDPI( 12 ), __hbqtPixelsByDPI( 12 ) ) )
       :setMovable( .F. )
       :setFloatable( .F. )
       :setFocusPolicy( Qt_NoFocus )
@@ -3957,11 +3961,14 @@ METHOD HbQtBrowse:buildToolbar()
 
    WITH OBJECT ::oToolbarLeft := QToolBar( ::oWidget )
       :setOrientation( Qt_Vertical )
-      :setIconSize( QSize( 12,12 ) )
+      :setIconSize( QSize( __hbqtPixelsByDPI( 12 ), __hbqtPixelsByDPI( 12 ) ) )
       :setMovable( .F. )
       :setFloatable( .F. )
       :setFocusPolicy( Qt_NoFocus )
       //
+      :addAction( ::oActRefreshAll )
+      :addAction( ::oActRefreshCurrent )
+      :addSeparator()
       :addAction( ::oActPanHome )
       :addAction( ::oActLeft )
       :addAction( ::oActRight )
@@ -4209,6 +4216,20 @@ METHOD HbQtBrowse:buildActions()
       :setTooltip( "Show Cell Contents as Memo" )
       :connect( "triggered()", {|| ::showCellContents() } )
    ENDWITH
+
+   WITH OBJECT ::oActRefreshAll := QAction( ::oWidget )
+      :setText( "Refresh All Data Rows" )
+      :setIcon( QIcon( __hbqtImage( "refresh" ) ) )
+      :setTooltip( "Refresh All Data Rows" )
+      :connect( "triggered()", {|| ::refreshAll() } )
+   ENDWITH
+
+   WITH OBJECT ::oActRefreshCurrent := QAction( ::oWidget )
+      :setText( "Refresh Highlighted Data Row" )
+      :setIcon( QIcon( __hbqtImage( "view_refresh" ) ) )
+      :setTooltip( "Refresh Highlighted Data Row" )
+      :connect( "triggered()", {|| ::refreshCurrent() } )
+   ENDWITH
    RETURN Self
 
 
@@ -4331,6 +4352,8 @@ METHOD HbQtBrowse:print( cPrinter, lOpenPrintDialog )
             oPrinter := QPrinter( oList:at( i ) )
          ENDIF
       NEXT
+   ELSEIF HB_ISOBJECT( cPrinter )
+      oPrinter := cPrinter
    ENDIF
 
 #if 0    /* Not known yet, application crashed IF QPrintDialog is opened and returned printer is used */
@@ -4352,7 +4375,7 @@ METHOD HbQtBrowse:print( cPrinter, lOpenPrintDialog )
    IF Empty( oPrinter )
       oPrinter := QPrinter()
       oPrinter:setOutputFormat( QPrinter_PdfFormat )     /* Until issue WITH QPrintDialog() is resolved, Printing will CREATE a .PDF file on disk */
-      oPrinter:setPageOrientation( QPrinter_Portrait )
+      oPrinter:setPageOrientation( QPrinter_Landscape )
 #ifndef __HB_QT_MAJOR_VER_4__
       oPrinter:setPageSize( QPageSize( QPrinter_A4 ) )
 #endif
@@ -4365,24 +4388,22 @@ METHOD HbQtBrowse:print( cPrinter, lOpenPrintDialog )
       oDlg:setParent( QWidget() )
    ENDIF
 #endif
-
    RETURN Self
 
 
 METHOD HbQtBrowse:printPreview( oPrinter )
-   LOCAL oDlg
 
    ::oPenBlack := QPen( Qt_black, 1, Qt_SolidLine, Qt_SquareCap, Qt_BevelJoin )
 
-   oDlg := QPrintPreviewDialog( oPrinter )
-   oDlg:connect( "paintRequested(QPrinter*)", {|p| ::paintRequested( p ) } )
+   WITH OBJECT QPrintPreviewDialog( oPrinter )
+      :connect( "paintRequested(QPrinter*)", {|p| ::paintRequested( p ) } )
 
-   oDlg:setWindowTitle( "TBrowse Printed" )
-   oDlg:move( 20, 20 )
-   oDlg:resize( 400, 600 )
-   oDlg:exec()
-// oDlg:setParent( QWidget() )
-
+      :setWindowTitle( "TBrowse Printed" )
+      :move( 20, 20 )
+      :resize( 400, 600 )
+      //
+      :exec()
+   ENDWITH
    RETURN NIL
 
 

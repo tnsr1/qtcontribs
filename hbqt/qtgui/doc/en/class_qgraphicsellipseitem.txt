@@ -1,0 +1,50 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QGraphicsEllipseItem()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qgraphicsellipseitem.html
+   $ONELINER$
+      Creates a new QGraphicsEllipseItem object.
+   $INHERITS$
+      QAbstractGraphicsShapeItem
+   $SYNTAX$
+      QGraphicsEllipseItem( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QGraphicsEllipseItem
+   $METHODS$
+      :rect()                                             -> oQRectF
+      :setRect( oQRectF )                                 -> NIL
+      :( nX, nY, nWidth, nHeight )                        -> NIL
+      :setSpanAngle( nAngle )                             -> NIL
+      :setStartAngle( nAngle )                            -> NIL
+      :spanAngle()                                        -> nInt
+      :startAngle()                                       -> nInt
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

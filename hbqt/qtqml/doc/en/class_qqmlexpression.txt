@@ -1,0 +1,58 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QQmlExpression()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qqmlexpression.html
+   $ONELINER$
+      Creates a new QQmlExpression object.
+   $INHERITS$
+      QObject
+   $SYNTAX$
+      QQmlExpression( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QQmlExpression
+   $METHODS$
+      :clearError()                                       -> NIL
+      :columnNumber()                                     -> nInt
+      :context()                                          -> oQQmlContext
+      :engine()                                           -> oQQmlEngine
+      :error()                                            -> oQQmlError
+      :evaluate( @lValueIsUndefined )                     -> oQVariant
+      :expression()                                       -> cQString
+      :hasError()                                         -> lBool
+      :lineNumber()                                       -> nInt
+      :notifyOnValueChanged()                             -> lBool
+      :scopeObject()                                      -> oQObject
+      :setExpression( cExpression )                       -> NIL
+      :setNotifyOnValueChanged( lNotifyOnChange )         -> NIL
+      :setSourceLocation( cUrl, nLine, nColumn )          -> NIL
+      :sourceFile()                                       -> cQString
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtqml
+   $END$
+ */

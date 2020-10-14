@@ -1,0 +1,48 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QSensorManager()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qsensormanager.html
+   $ONELINER$
+      Creates a new QSensorManager object.
+   $INHERITS$
+
+   $SYNTAX$
+      QSensorManager( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QSensorManager
+   $METHODS$
+      :createBackend( oQSensor )                          -> oQSensorBackend
+      :isBackendRegistered( oQByteArray, oQByteArray )    -> lBool
+      :registerBackend( oQByteArray, oQByteArray, oQSensorBackendFactory )  -> NIL
+      :setDefaultBackend( oQByteArray, oQByteArray )      -> NIL
+      :unregisterBackend( oQByteArray, oQByteArray )      -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtandroid
+   $END$
+ */

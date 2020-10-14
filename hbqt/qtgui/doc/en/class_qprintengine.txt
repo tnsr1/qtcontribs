@@ -1,0 +1,49 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QPrintEngine()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qprintengine.html
+   $ONELINER$
+      Creates a new QPrintEngine object.
+   $INHERITS$
+
+   $SYNTAX$
+      QPrintEngine( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QPrintEngine
+   $METHODS$
+      :abort()                                            -> lBool
+      :metric( nId )                                      -> nInt
+      :newPage()                                          -> lBool
+      :printerState()                                     -> nQPrinter_PrinterState
+      :property( nKey )                                   -> oQVariant
+      :setProperty( nKey, oQVariant )                     -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

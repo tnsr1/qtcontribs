@@ -1,0 +1,62 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QStringRef()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qstringref.html
+   $ONELINER$
+      Creates a new QStringRef object.
+   $INHERITS$
+
+   $SYNTAX$
+      QStringRef( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QStringRef
+   $METHODS$
+      :at( nPosition )                                    -> oQChar
+      :clear()                                            -> NIL
+      :compare( cOther, nCs )                             -> nInt
+      :( oQStringRef, nCs )                               -> nInt
+      :constData()                                        -> oQChar
+      :count()                                            -> nInt
+      :data()                                             -> oQChar
+      :isEmpty()                                          -> lBool
+      :isNull()                                           -> lBool
+      :length()                                           -> nInt
+      :localeAwareCompare( cOther )                       -> nInt
+      :( oQStringRef )                                    -> nInt
+      :position()                                         -> nInt
+      :size()                                             -> nInt
+      :unicode()                                          -> oQChar
+      :( oQStringRef, cS2, nCs )                          -> nInt
+      :( oQStringRef, oQStringRef, nCs )                  -> nInt
+      :( oQStringRef, cS2 )                               -> nInt
+      :( oQStringRef, oQStringRef )                       -> nInt
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtcore
+   $END$
+ */

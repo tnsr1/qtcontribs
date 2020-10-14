@@ -1,0 +1,52 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QSignalMapper()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qsignalmapper.html
+   $ONELINER$
+      Creates a new QSignalMapper object.
+   $INHERITS$
+      QObject
+   $SYNTAX$
+      QSignalMapper( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QSignalMapper
+   $METHODS$
+      :mapping( nId )                                     -> oQObject
+      :( cId )                                            -> oQObject
+      :( oQObject )                                       -> oQObject
+      :removeMappings( oQObject )                         -> NIL
+      :setMapping( oQObject, nId )                        -> NIL
+      :( oQObject, cText )                                -> NIL
+      :( oQObject, oQObject )                             -> NIL
+      :map()                                              -> NIL
+      :( oQObject )                                       -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtcore
+   $END$
+ */

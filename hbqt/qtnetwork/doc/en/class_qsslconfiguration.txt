@@ -1,0 +1,68 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QSslConfiguration()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qsslconfiguration.html
+   $ONELINER$
+      Creates a new QSslConfiguration object.
+   $INHERITS$
+
+   $SYNTAX$
+      QSslConfiguration( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QSslConfiguration
+   $METHODS$
+      :caCertificates()                                   -> oQList_QSslCertificate>
+      :ciphers()                                          -> oQList_QSslCipher>
+      :isNull()                                           -> lBool
+      :localCertificate()                                 -> oQSslCertificate
+      :localCertificateChain()                            -> oQList_QSslCertificate>
+      :peerCertificate()                                  -> oQSslCertificate
+      :peerCertificateChain()                             -> oQList_QSslCertificate>
+      :peerVerifyDepth()                                  -> nInt
+      :peerVerifyMode()                                   -> nQSslSocket_PeerVerifyMode
+      :privateKey()                                       -> oQSslKey
+      :protocol()                                         -> nQSsl_SslProtocol
+      :sessionCipher()                                    -> oQSslCipher
+      :sessionTicket()                                    -> oQByteArray
+      :sessionTicketLifeTimeHint()                        -> nInt
+      :setLocalCertificate( oQSslCertificate )            -> NIL
+      :setPeerVerifyDepth( nDepth )                       -> NIL
+      :setPeerVerifyMode( nMode )                         -> NIL
+      :setPrivateKey( oQSslKey )                          -> NIL
+      :setProtocol( nProtocol )                           -> NIL
+      :setSessionTicket( oQByteArray )                    -> NIL
+      :setSslOption( nOption, lOn )                       -> NIL
+      :swap( oQSslConfiguration )                         -> NIL
+      :testSslOption( nOption )                           -> lBool
+      :defaultConfiguration()                             -> oQSslConfiguration
+      :setDefaultConfiguration( oQSslConfiguration )      -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtnetwork
+   $END$
+ */

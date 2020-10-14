@@ -1,0 +1,98 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QPrinter()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qprinter.html
+   $ONELINER$
+      Creates a new QPrinter object.
+   $INHERITS$
+      QPaintDevice
+   $SYNTAX$
+      QPrinter( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QPrinter
+   $METHODS$
+      :abort()                                            -> lBool
+      :collateCopies()                                    -> lBool
+      :colorMode()                                        -> nColorMode
+      :copyCount()                                        -> nInt
+      :creator()                                          -> cQString
+      :docName()                                          -> cQString
+      :doubleSidedPrinting()                              -> lBool
+      :duplex()                                           -> nDuplexMode
+      :fontEmbeddingEnabled()                             -> lBool
+      :fromPage()                                         -> nInt
+      :fullPage()                                         -> lBool
+      :isValid()                                          -> lBool
+      :outputFileName()                                   -> cQString
+      :outputFormat()                                     -> nOutputFormat
+      :pageLayout()                                       -> oQPageLayout
+      :pageOrder()                                        -> nPageOrder
+      :pageRect( nUnit )                                  -> oQRectF
+      :paperRect( nUnit )                                 -> oQRectF
+      :paperSource()                                      -> nPaperSource
+      :printEngine()                                      -> oQPrintEngine
+      :printProgram()                                     -> cQString
+      :printRange()                                       -> nPrintRange
+      :printerName()                                      -> cQString
+      :printerSelectionOption()                           -> cQString
+      :printerState()                                     -> nPrinterState
+      :resolution()                                       -> nInt
+      :setCollateCopies( lCollate )                       -> NIL
+      :setColorMode( nNewColorMode )                      -> NIL
+      :setCopyCount( nCount )                             -> NIL
+      :setCreator( cCreator )                             -> NIL
+      :setDocName( cName )                                -> NIL
+      :setDoubleSidedPrinting( lDoubleSided )             -> NIL
+      :setDuplex( nDuplex )                               -> NIL
+      :setFontEmbeddingEnabled( lEnable )                 -> NIL
+      :setFromTo( nFrom, nTo )                            -> NIL
+      :setFullPage( lFp )                                 -> NIL
+      :setOutputFileName( cFileName )                     -> NIL
+      :setOutputFormat( nFormat )                         -> NIL
+      :setPageLayout( oQPageLayout )                      -> lBool
+      :setPageMargins( oQMarginsF )                       -> lBool
+      :( oQMarginsF, nUnits )                             -> lBool
+      :setPageOrder( nPageOrder )                         -> NIL
+      :setPageOrientation( nOrientation )                 -> lBool
+      :setPageSize( oQPageSize )                          -> lBool
+      :setPaperSource( nSource )                          -> NIL
+      :setPrintProgram( cPrintProg )                      -> NIL
+      :setPrintRange( nRange )                            -> NIL
+      :setPrinterName( cName )                            -> NIL
+      :setPrinterSelectionOption( cOption )               -> NIL
+      :setResolution( nDpi )                              -> NIL
+      :supportedResolutions()                             -> oQList_int>
+      :supportsMultipleCopies()                           -> lBool
+      :toPage()                                           -> nInt
+      :newPage()                                          -> lBool
+      :paintEngine()                                      -> oQPaintEngine
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

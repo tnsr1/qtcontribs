@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: cls_dbstruct.prg 41 2012-10-25 21:15:00Z bedipritpal $
  */
 
 /*

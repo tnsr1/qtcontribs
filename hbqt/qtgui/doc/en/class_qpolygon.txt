@@ -1,0 +1,56 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QPolygon()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qpolygon.html
+   $ONELINER$
+      Creates a new QPolygon object.
+   $INHERITS$
+
+   $SYNTAX$
+      QPolygon( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QPolygon
+   $METHODS$
+      :boundingRect()                                     -> oQRect
+      :containsPoint( oQPoint, nFillRule )                -> lBool
+      :intersected( oQPolygon )                           -> oQPolygon
+      :point( nIndex, @nX, @nY )                          -> NIL
+      :( nIndex )                                         -> oQPoint
+      :putPoints( nIndex, nNPoints, oQPolygon, nFromIndex )  -> NIL
+      :setPoint( nIndex, nX, nY )                         -> NIL
+      :( nIndex, oQPoint )                                -> NIL
+      :setPoints( nNPoints, @nPoints )                    -> NIL
+      :subtracted( oQPolygon )                            -> oQPolygon
+      :translate( nDx, nDy )                              -> NIL
+      :( oQPoint )                                        -> NIL
+      :united( oQPolygon )                                -> oQPolygon
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

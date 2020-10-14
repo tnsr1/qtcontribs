@@ -1,0 +1,49 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QGyroscopeReading()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qgyroscopereading.html
+   $ONELINER$
+      Creates a new QGyroscopeReading object.
+   $INHERITS$
+      QSensorReading
+   $SYNTAX$
+      QGyroscopeReading( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QGyroscopeReading
+   $METHODS$
+      :setX( nX )                                         -> NIL
+      :setY( nY )                                         -> NIL
+      :setZ( nZ )                                         -> NIL
+      :x()                                                -> nQreal
+      :y()                                                -> nQreal
+      :z()                                                -> nQreal
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtandroid
+   $END$
+ */

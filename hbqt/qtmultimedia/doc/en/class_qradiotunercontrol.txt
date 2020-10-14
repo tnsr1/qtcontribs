@@ -1,0 +1,68 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QRadioTunerControl()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qradiotunercontrol.html
+   $ONELINER$
+      Creates a new QRadioTunerControl object.
+   $INHERITS$
+      QMediaControl
+   $SYNTAX$
+      QRadioTunerControl( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QRadioTunerControl
+   $METHODS$
+      :band()                                             -> nQRadioTuner_Band
+      :cancelSearch()                                     -> NIL
+      :error()                                            -> nQRadioTuner_Error
+      :errorString()                                      -> cQString
+      :frequency()                                        -> nInt
+      :frequencyStep( nBand )                             -> nInt
+      :isAntennaConnected()                               -> lBool
+      :isBandSupported( nBand )                           -> lBool
+      :isMuted()                                          -> lBool
+      :isSearching()                                      -> lBool
+      :isStereo()                                         -> lBool
+      :searchAllStations( nSearchMode )                   -> NIL
+      :searchBackward()                                   -> NIL
+      :searchForward()                                    -> NIL
+      :setBand( nBand )                                   -> NIL
+      :setFrequency( nFrequency )                         -> NIL
+      :setMuted( lMuted )                                 -> NIL
+      :setStereoMode( nMode )                             -> NIL
+      :setVolume( nVolume )                               -> NIL
+      :signalStrength()                                   -> nInt
+      :start()                                            -> NIL
+      :state()                                            -> nQRadioTuner_State
+      :stereoMode()                                       -> nQRadioTuner_StereoMode
+      :stop()                                             -> NIL
+      :volume()                                           -> nInt
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtmultimedia
+   $END$
+ */

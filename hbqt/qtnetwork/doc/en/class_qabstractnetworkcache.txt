@@ -1,0 +1,51 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QAbstractNetworkCache()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qabstractnetworkcache.html
+   $ONELINER$
+      Creates a new QAbstractNetworkCache object.
+   $INHERITS$
+      QObject
+   $SYNTAX$
+      QAbstractNetworkCache( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QAbstractNetworkCache
+   $METHODS$
+      :cacheSize()                                        -> nQint64
+      :data( oQUrl )                                      -> oQIODevice
+      :insert( oQIODevice )                               -> NIL
+      :metaData( oQUrl )                                  -> oQNetworkCacheMetaData
+      :prepare( oQNetworkCacheMetaData )                  -> oQIODevice
+      :remove( oQUrl )                                    -> lBool
+      :updateMetaData( oQNetworkCacheMetaData )           -> NIL
+      :clear()                                            -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtnetwork
+   $END$
+ */

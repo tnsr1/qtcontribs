@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: hbqtcharts.ch 428 2016-10-20 01:05:49Z bedipritpal $
  */
 
 /*

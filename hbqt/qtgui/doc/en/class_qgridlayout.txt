@@ -1,0 +1,81 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QGridLayout()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qgridlayout.html
+   $ONELINER$
+      Creates a new QGridLayout object.
+   $INHERITS$
+      QLayout
+   $SYNTAX$
+      QGridLayout( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QGridLayout
+   $METHODS$
+      :addItem( oQLayoutItem, nRow, nColumn, nRowSpan, nColumnSpan, nAlignment )  -> NIL
+      :addLayout( oQLayout, nRow, nColumn, nAlignment )   -> NIL
+      :( oQLayout, nRow, nColumn, nRowSpan, nColumnSpan, nAlignment )  -> NIL
+      :addWidget( oQWidget, nRow, nColumn, nAlignment )   -> NIL
+      :( oQWidget, nFromRow, nFromColumn, nRowSpan, nColumnSpan, nAlignment )  -> NIL
+      :cellRect( nRow, nColumn )                          -> oQRect
+      :columnCount()                                      -> nInt
+      :columnMinimumWidth( nColumn )                      -> nInt
+      :columnStretch( nColumn )                           -> nInt
+      :getItemPosition( nIndex, @nRow, @nColumn, @nRowSpan, @nColumnSpan )  -> NIL
+      :horizontalSpacing()                                -> nInt
+      :itemAtPosition( nRow, nColumn )                    -> oQLayoutItem
+      :originCorner()                                     -> nQt_Corner
+      :rowCount()                                         -> nInt
+      :rowMinimumHeight( nRow )                           -> nInt
+      :rowStretch( nRow )                                 -> nInt
+      :setColumnMinimumWidth( nColumn, nMinSize )         -> NIL
+      :setColumnStretch( nColumn, nStretch )              -> NIL
+      :setHorizontalSpacing( nSpacing )                   -> NIL
+      :setOriginCorner( nCorner )                         -> NIL
+      :setRowMinimumHeight( nRow, nMinSize )              -> NIL
+      :setRowStretch( nRow, nStretch )                    -> NIL
+      :setSpacing( nSpacing )                             -> NIL
+      :setVerticalSpacing( nSpacing )                     -> NIL
+      :spacing()                                          -> nInt
+      :verticalSpacing()                                  -> nInt
+      :count()                                            -> nInt
+      :expandingDirections()                              -> nQt_Orientations
+      :hasHeightForWidth()                                -> lBool
+      :heightForWidth( nW )                               -> nInt
+      :invalidate()                                       -> NIL
+      :itemAt( nIndex )                                   -> oQLayoutItem
+      :maximumSize()                                      -> oQSize
+      :minimumHeightForWidth( nW )                        -> nInt
+      :minimumSize()                                      -> oQSize
+      :setGeometry( oQRect )                              -> NIL
+      :sizeHint()                                         -> oQSize
+      :takeAt( nIndex )                                   -> oQLayoutItem
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

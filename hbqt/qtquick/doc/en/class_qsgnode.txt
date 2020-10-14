@@ -1,0 +1,63 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QSGNode()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qsgnode.html
+   $ONELINER$
+      Creates a new QSGNode object.
+   $INHERITS$
+
+   $SYNTAX$
+      QSGNode( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QSGNode
+   $METHODS$
+      :appendChildNode( oQSGNode )                        -> NIL
+      :childAtIndex( nI )                                 -> oQSGNode
+      :childCount()                                       -> nInt
+      :firstChild()                                       -> oQSGNode
+      :flags()                                            -> nFlags
+      :insertChildNodeAfter( oQSGNode, oQSGNode )         -> NIL
+      :insertChildNodeBefore( oQSGNode, oQSGNode )        -> NIL
+      :isSubtreeBlocked()                                 -> lBool
+      :lastChild()                                        -> oQSGNode
+      :markDirty( nBits )                                 -> NIL
+      :nextSibling()                                      -> oQSGNode
+      :parent()                                           -> oQSGNode
+      :prependChildNode( oQSGNode )                       -> NIL
+      :preprocess()                                       -> NIL
+      :previousSibling()                                  -> oQSGNode
+      :removeAllChildNodes()                              -> NIL
+      :removeChildNode( oQSGNode )                        -> NIL
+      :setFlag( nF, lEnabled )                            -> NIL
+      :setFlags( nF, lEnabled )                           -> NIL
+      :type()                                             -> nNodeType
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtquick
+   $END$
+ */

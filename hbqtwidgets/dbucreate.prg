@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: dbucreate.prg 439 2016-12-03 00:07:28Z bedipritpal $
  */
 
 /*

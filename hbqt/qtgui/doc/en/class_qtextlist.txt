@@ -1,0 +1,52 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QTextList()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qtextlist.html
+   $ONELINER$
+      Creates a new QTextList object.
+   $INHERITS$
+      QTextBlockGroup
+   $SYNTAX$
+      QTextList( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QTextList
+   $METHODS$
+      :add( oQTextBlock )                                 -> NIL
+      :count()                                            -> nInt
+      :format()                                           -> oQTextListFormat
+      :item( nI )                                         -> oQTextBlock
+      :itemNumber( oQTextBlock )                          -> nInt
+      :itemText( oQTextBlock )                            -> cQString
+      :remove( oQTextBlock )                              -> NIL
+      :removeItem( nI )                                   -> NIL
+      :setFormat( oQTextListFormat )                      -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

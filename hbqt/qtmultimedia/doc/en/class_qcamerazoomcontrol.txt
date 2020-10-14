@@ -1,0 +1,50 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QCameraZoomControl()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qcamerazoomcontrol.html
+   $ONELINER$
+      Creates a new QCameraZoomControl object.
+   $INHERITS$
+      QMediaControl
+   $SYNTAX$
+      QCameraZoomControl( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QCameraZoomControl
+   $METHODS$
+      :currentDigitalZoom()                               -> nQreal
+      :currentOpticalZoom()                               -> nQreal
+      :maximumDigitalZoom()                               -> nQreal
+      :maximumOpticalZoom()                               -> nQreal
+      :requestedDigitalZoom()                             -> nQreal
+      :requestedOpticalZoom()                             -> nQreal
+      :zoomTo( nOptical, nDigital )                       -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtmultimedia
+   $END$
+ */

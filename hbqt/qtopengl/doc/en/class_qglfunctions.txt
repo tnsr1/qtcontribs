@@ -1,0 +1,136 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QGLFunctions()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.8/qglfunctions.html
+   $ONELINER$
+      Creates a new QGLFunctions object.
+   $INHERITS$
+
+   $SYNTAX$
+      QGLFunctions( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QGLFunctions
+   $METHODS$
+      :glActiveTexture( nTexture )                        -> NIL
+      :glAttachShader( nProgram, nShader )                -> NIL
+      :glBindAttribLocation( nProgram, nIndex, cName )    -> NIL
+      :glBindBuffer( nTarget, nBuffer )                   -> NIL
+      :glBindFramebuffer( nTarget, nFramebuffer )         -> NIL
+      :glBindRenderbuffer( nTarget, nRenderbuffer )       -> NIL
+      :glBlendColor( nRed, nGreen, nBlue, nAlpha )        -> NIL
+      :glBlendEquation( nMode )                           -> NIL
+      :glBlendEquationSeparate( nModeRGB, nModeAlpha )    -> NIL
+      :glBlendFuncSeparate( nSrcRGB, nDstRGB, nSrcAlpha, nDstAlpha )  -> NIL
+      :glBufferData( nTarget, nSize, nData, nUsage )      -> NIL
+      :glBufferSubData( nTarget, nOffset, nSize, nData )  -> NIL
+      :glCheckFramebufferStatus( nTarget )                -> nGLenum
+      :glClearDepthf( nDepth )                            -> NIL
+      :glCompileShader( nShader )                         -> NIL
+      :glCompressedTexImage2D( nTarget, nLevel, nInternalformat, nWidth, nHeight, nBorder, nImageSize, nData )  -> NIL
+      :glCompressedTexSubImage2D( nTarget, nLevel, nXoffset, nYoffset, nWidth, nHeight, nFormat, nImageSize, nData )  -> NIL
+      :glCreateProgram()                                  -> nGLuint
+      :glCreateShader( nType )                            -> nGLuint
+      :glDeleteBuffers( nN, @nBuffers )                   -> NIL
+      :glDeleteFramebuffers( nN, @nFramebuffers )         -> NIL
+      :glDeleteProgram( nProgram )                        -> NIL
+      :glDeleteRenderbuffers( nN, @nRenderbuffers )       -> NIL
+      :glDeleteShader( nShader )                          -> NIL
+      :glDepthRangef( nZNear, nZFar )                     -> NIL
+      :glDetachShader( nProgram, nShader )                -> NIL
+      :glDisableVertexAttribArray( nIndex )               -> NIL
+      :glEnableVertexAttribArray( nIndex )                -> NIL
+      :glFramebufferRenderbuffer( nTarget, nAttachment, nRenderbuffertarget, nRenderbuffer )  -> NIL
+      :glFramebufferTexture2D( nTarget, nAttachment, nTextarget, nTexture, nLevel )  -> NIL
+      :glGenBuffers( nN, @nBuffers )                      -> NIL
+      :glGenFramebuffers( nN, @nFramebuffers )            -> NIL
+      :glGenRenderbuffers( nN, @nRenderbuffers )          -> NIL
+      :glGenerateMipmap( nTarget )                        -> NIL
+      :glGetActiveAttrib( nProgram, nIndex, nBufsize, @nLength, @nSize, @nType, cName )  -> NIL
+      :glGetActiveUniform( nProgram, nIndex, nBufsize, @nLength, @nSize, @nType, cName )  -> NIL
+      :glGetAttachedShaders( nProgram, nMaxcount, @nCount, @nShaders )  -> NIL
+      :glGetAttribLocation( nProgram, cName )             -> nInt
+      :glGetBufferParameteriv( nTarget, nPname, @nParams )  -> NIL
+      :glGetFramebufferAttachmentParameteriv( nTarget, nAttachment, nPname, @nParams )  -> NIL
+      :glGetProgramInfoLog( nProgram, nBufsize, @nLength, cInfolog )  -> NIL
+      :glGetProgramiv( nProgram, nPname, @nParams )       -> NIL
+      :glGetRenderbufferParameteriv( nTarget, nPname, @nParams )  -> NIL
+      :glGetShaderInfoLog( nShader, nBufsize, @nLength, cInfolog )  -> NIL
+      :glGetShaderPrecisionFormat( nShadertype, nPrecisiontype, @nRange, @nPrecision )  -> NIL
+      :glGetShaderSource( nShader, nBufsize, @nLength, cSource )  -> NIL
+      :glGetShaderiv( nShader, nPname, @nParams )         -> NIL
+      :glGetUniformLocation( nProgram, cName )            -> nInt
+      :glGetUniformfv( nProgram, nLocation, @nParams )    -> NIL
+      :glGetUniformiv( nProgram, nLocation, @nParams )    -> NIL
+      :glGetVertexAttribfv( nIndex, nPname, @nParams )    -> NIL
+      :glGetVertexAttribiv( nIndex, nPname, @nParams )    -> NIL
+      :glLinkProgram( nProgram )                          -> NIL
+      :glReleaseShaderCompiler()                          -> NIL
+      :glRenderbufferStorage( nTarget, nInternalformat, nWidth, nHeight )  -> NIL
+      :glSampleCoverage( nValue, lInvert )                -> NIL
+      :glShaderBinary( nN, @nShaders, nBinaryformat, nBinary, nLength )  -> NIL
+      :glStencilFuncSeparate( nFace, nFunc, nRef, nMask )  -> NIL
+      :glStencilMaskSeparate( nFace, nMask )              -> NIL
+      :glStencilOpSeparate( nFace, nFail, nZfail, nZpass )  -> NIL
+      :glUniform1f( nLocation, nX )                       -> NIL
+      :glUniform1fv( nLocation, nCount, @nV )             -> NIL
+      :glUniform1i( nLocation, nX )                       -> NIL
+      :glUniform1iv( nLocation, nCount, @nV )             -> NIL
+      :glUniform2f( nLocation, nX, nY )                   -> NIL
+      :glUniform2fv( nLocation, nCount, @nV )             -> NIL
+      :glUniform2i( nLocation, nX, nY )                   -> NIL
+      :glUniform2iv( nLocation, nCount, @nV )             -> NIL
+      :glUniform3f( nLocation, nX, nY, nZ )               -> NIL
+      :glUniform3fv( nLocation, nCount, @nV )             -> NIL
+      :glUniform3i( nLocation, nX, nY, nZ )               -> NIL
+      :glUniform3iv( nLocation, nCount, @nV )             -> NIL
+      :glUniform4f( nLocation, nX, nY, nZ, nW )           -> NIL
+      :glUniform4fv( nLocation, nCount, @nV )             -> NIL
+      :glUniform4i( nLocation, nX, nY, nZ, nW )           -> NIL
+      :glUniform4iv( nLocation, nCount, @nV )             -> NIL
+      :glUniformMatrix2fv( nLocation, nCount, lTranspose, @nValue )  -> NIL
+      :glUniformMatrix3fv( nLocation, nCount, lTranspose, @nValue )  -> NIL
+      :glUniformMatrix4fv( nLocation, nCount, lTranspose, @nValue )  -> NIL
+      :glUseProgram( nProgram )                           -> NIL
+      :glValidateProgram( nProgram )                      -> NIL
+      :glVertexAttrib1f( nIndx, nX )                      -> NIL
+      :glVertexAttrib1fv( nIndx, @nValues )               -> NIL
+      :glVertexAttrib2f( nIndx, nX, nY )                  -> NIL
+      :glVertexAttrib2fv( nIndx, @nValues )               -> NIL
+      :glVertexAttrib3f( nIndx, nX, nY, nZ )              -> NIL
+      :glVertexAttrib3fv( nIndx, @nValues )               -> NIL
+      :glVertexAttrib4f( nIndx, nX, nY, nZ, nW )          -> NIL
+      :glVertexAttrib4fv( nIndx, @nValues )               -> NIL
+      :glVertexAttribPointer( nIndx, nSize, nType, lNormalized, nStride, nPtr )  -> NIL
+      :hasOpenGLFeature( nFeature )                       -> lBool
+      :initializeGLFunctions( oQGLContext )               -> NIL
+      :openGLFeatures()                                   -> nQGLFunctions_OpenGLFeatures
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.8 or upper
+   $FILES$
+      Library: hbqtopengl
+   $END$
+ */

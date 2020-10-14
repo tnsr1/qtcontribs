@@ -1,0 +1,47 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QJSValueIterator()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qjsvalueiterator.html
+   $ONELINER$
+      Creates a new QJSValueIterator object.
+   $INHERITS$
+
+   $SYNTAX$
+      QJSValueIterator( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QJSValueIterator
+   $METHODS$
+      :hasNext()                                          -> lBool
+      :name()                                             -> cQString
+      :next()                                             -> lBool
+      :value()                                            -> oQJSValue
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtqml
+   $END$
+ */

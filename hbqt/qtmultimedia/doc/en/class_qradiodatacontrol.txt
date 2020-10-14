@@ -1,0 +1,52 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QRadioDataControl()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qradiodatacontrol.html
+   $ONELINER$
+      Creates a new QRadioDataControl object.
+   $INHERITS$
+      QMediaControl
+   $SYNTAX$
+      QRadioDataControl( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QRadioDataControl
+   $METHODS$
+      :error()                                            -> nQRadioData_Error
+      :errorString()                                      -> cQString
+      :isAlternativeFrequenciesEnabled()                  -> lBool
+      :programType()                                      -> nQRadioData_ProgramType
+      :programTypeName()                                  -> cQString
+      :radioText()                                        -> cQString
+      :setAlternativeFrequenciesEnabled( lEnabled )       -> NIL
+      :stationId()                                        -> cQString
+      :stationName()                                      -> cQString
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtmultimedia
+   $END$
+ */

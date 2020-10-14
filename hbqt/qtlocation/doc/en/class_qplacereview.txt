@@ -1,0 +1,55 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QPlaceReview()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.5/qplacereview.html
+   $ONELINER$
+      Creates a new QPlaceReview object.
+   $INHERITS$
+      QPlaceContent
+   $SYNTAX$
+      QPlaceReview( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QPlaceReview
+   $METHODS$
+      :dateTime()                                         -> oQDateTime
+      :language()                                         -> cQString
+      :rating()                                           -> nQreal
+      :reviewId()                                         -> cQString
+      :setDateTime( oQDateTime )                          -> NIL
+      :setLanguage( cLanguage )                           -> NIL
+      :setRating( nRating )                               -> NIL
+      :setReviewId( cIdentifier )                         -> NIL
+      :setText( cText )                                   -> NIL
+      :setTitle( cTitle )                                 -> NIL
+      :text()                                             -> cQString
+      :title()                                            -> cQString
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.5 or upper
+   $FILES$
+      Library: hbqtlocation
+   $END$
+ */

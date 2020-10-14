@@ -1,0 +1,52 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QCameraFocusControl()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qcamerafocuscontrol.html
+   $ONELINER$
+      Creates a new QCameraFocusControl object.
+   $INHERITS$
+      QMediaControl
+   $SYNTAX$
+      QCameraFocusControl( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QCameraFocusControl
+   $METHODS$
+      :customFocusPoint()                                 -> oQPointF
+      :focusMode()                                        -> nQCameraFocus_FocusModes
+      :focusPointMode()                                   -> nQCameraFocus_FocusPointMode
+      :focusZones()                                       -> oQList_QCameraFocusZone>
+      :isFocusModeSupported( nMode )                      -> lBool
+      :isFocusPointModeSupported( nMode )                 -> lBool
+      :setCustomFocusPoint( oQPointF )                    -> NIL
+      :setFocusMode( nMode )                              -> NIL
+      :setFocusPointMode( nMode )                         -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtmultimedia
+   $END$
+ */

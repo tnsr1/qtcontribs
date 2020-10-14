@@ -1,0 +1,68 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QSqlRecord()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qsqlrecord.html
+   $ONELINER$
+      Creates a new QSqlRecord object.
+   $INHERITS$
+
+   $SYNTAX$
+      QSqlRecord( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QSqlRecord
+   $METHODS$
+      :append( oQSqlField )                               -> NIL
+      :clear()                                            -> NIL
+      :clearValues()                                      -> NIL
+      :contains( cName )                                  -> lBool
+      :count()                                            -> nInt
+      :field( nIndex )                                    -> oQSqlField
+      :( cName )                                          -> oQSqlField
+      :fieldName( nIndex )                                -> cQString
+      :indexOf( cName )                                   -> nInt
+      :insert( nPos, oQSqlField )                         -> NIL
+      :isEmpty()                                          -> lBool
+      :isGenerated( cName )                               -> lBool
+      :( nIndex )                                         -> lBool
+      :isNull( cName )                                    -> lBool
+      :( nIndex )                                         -> lBool
+      :remove( nPos )                                     -> NIL
+      :replace( nPos, oQSqlField )                        -> NIL
+      :setGenerated( cName, lGenerated )                  -> NIL
+      :( nIndex, lGenerated )                             -> NIL
+      :setNull( nIndex )                                  -> NIL
+      :( cName )                                          -> NIL
+      :setValue( nIndex, oQVariant )                      -> NIL
+      :( cName, oQVariant )                               -> NIL
+      :value( nIndex )                                    -> oQVariant
+      :( cName )                                          -> oQVariant
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtsql
+   $END$
+ */

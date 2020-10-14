@@ -1,5 +1,5 @@
 #
-# $Id$
+# $Id: qtgui.txt 389 2015-01-13 03:24:16Z bedipritpal $
 #
 
 -pflag=-qtver=0x040500

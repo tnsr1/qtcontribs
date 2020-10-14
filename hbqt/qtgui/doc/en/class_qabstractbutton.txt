@@ -1,0 +1,69 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QAbstractButton()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qabstractbutton.html
+   $ONELINER$
+      Creates a new QAbstractButton object.
+   $INHERITS$
+      QWidget
+   $SYNTAX$
+      QAbstractButton( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QAbstractButton
+   $METHODS$
+      :autoExclusive()                                    -> lBool
+      :autoRepeat()                                       -> lBool
+      :autoRepeatDelay()                                  -> nInt
+      :autoRepeatInterval()                               -> nInt
+      :group()                                            -> oQButtonGroup
+      :icon()                                             -> oQIcon
+      :iconSize()                                         -> oQSize
+      :isCheckable()                                      -> lBool
+      :isChecked()                                        -> lBool
+      :isDown()                                           -> lBool
+      :setAutoExclusive( lBool )                          -> NIL
+      :setAutoRepeat( lBool )                             -> NIL
+      :setAutoRepeatDelay( nInt )                         -> NIL
+      :setAutoRepeatInterval( nInt )                      -> NIL
+      :setCheckable( lBool )                              -> NIL
+      :setDown( lBool )                                   -> NIL
+      :setIcon( oQIcon )                                  -> NIL
+      :setShortcut( oQKeySequence )                       -> NIL
+      :setText( cText )                                   -> NIL
+      :shortcut()                                         -> oQKeySequence
+      :text()                                             -> cQString
+      :animateClick( nMsec )                              -> NIL
+      :click()                                            -> NIL
+      :setChecked( lBool )                                -> NIL
+      :setIconSize( oQSize )                              -> NIL
+      :toggle()                                           -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

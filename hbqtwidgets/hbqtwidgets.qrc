@@ -252,7 +252,7 @@
     <file>resources/arrow-bottom-left.png</file>
     <file>resources/arrow-bottom-right.png</file>
     <file>resources/arrow-contract.png</file>
-    <file>resources/arrow-down.png</file> 
+    <file>resources/arrow-down.png</file>
     <file>resources/arrow-expand.png</file>
     <file>resources/arrow-lft.png</file>
     <file>resources/resize.png</file>
@@ -394,26 +394,97 @@
     <file>resources/cancel.png</file>
     <file>resources/refresh.png</file>
     <file>resources/refresh-2.png</file>
+    <file>resources/refresh-3.png</file>
     <file>resources/select-3.png</file>
     <file>resources/camera.png</file>
-    <file>resources/redo-1.png</file> 
+    <file>resources/redo-1.png</file>
     <file>resources/round-green.png</file>
     <file>resources/round-red.png</file>
     <file>resources/round-yellow.png</file>
     <file>resources/round-blue.png</file>
     <file>resources/round-gray.png</file>
     <file>resources/click.wav</file>
-    <file>resources/enter.png</file> 
-    <file>resources/s-yes.png</file> 
-    <file>resources/s-delete.png</file> 
-    <file>resources/s-left.png</file> 
-    <file>resources/s-right.png</file> 
-    <file>resources/s-up.png</file> 
-    <file>resources/s-down.png</file> 
-    <file>resources/s-plus.png</file> 
-    <file>resources/enter-g-w.png</file> 
-    <file>resources/back-g-w.png</file>  
-    <file>resources/clear.png</file>  
-    <file>resources/backspace.png</file>  
+    <file>resources/enter.png</file>
+    <file>resources/s-yes.png</file>
+    <file>resources/s-delete.png</file>
+    <file>resources/s-left.png</file>
+    <file>resources/s-right.png</file>
+    <file>resources/s-up.png</file>
+    <file>resources/s-down.png</file>
+    <file>resources/s-plus.png</file>
+    <file>resources/enter-g-w.png</file>
+    <file>resources/back-g-w.png</file>
+    <file>resources/clear.png</file>
+    <file>resources/backspace.png</file>
+    <file>resources/rotate-left.png</file>
+    <file>resources/crop.png</file>
+    <file>resources/original.png</file>
+    <file>resources/exit-48.png</file>
+    <file>resources/settings.png</file>
+    <file>resources/to-excel.png</file>
+    <file>resources/customer-service.png</file>
+    <file>resources/male.png</file>
+    <file>resources/female.png</file>
+    <file>resources/home.png</file>
+    <file>resources/pdf-document.png</file>
+    <file>resources/cart-1.png</file>
+    <file>resources/cart-2.png</file>
+    <file>resources/cart-3.png</file>
+    <file>resources/cart-4.png</file>
+    <file>resources/cart-5.png</file>
+    <file>resources/credit-card-1.png</file>
+    <file>resources/info-2.png</file>
+    <file>resources/info-3.png</file>
+    <file>resources/mover-1.png</file>
+    <file>resources/mover-2.png</file>
+    <file>resources/info-4.png</file>
+    <file>resources/info-5.png</file>
+    <file>resources/info-6.png</file>
+    <file>resources/info-7.png</file>
+    <file>resources/edit.png</file>
+    <file>resources/chat-1.png</file>
+    <file>resources/properties-1.png</file>
+    <file>resources/data-1.png</file>
+    <file>resources/layers-1.png</file>
+    <file>resources/exit-1.png</file>
+    <file>resources/visuals-1.png</file>
+    <file>resources/visuals-2.png</file>
+    <file>resources/visuals-3.png</file>
+    <file>resources/next-1.png</file>
+    <file>resources/previous-1.png</file>
+    <file>resources/vzl-dataset.png</file>
+    <file>resources/vzl-edit.png</file>
+    <file>resources/vzl-markers.png</file>
+    <file>resources/vzl-navigator.png</file>
+    <file>resources/vzl-properties.png</file>
+    <file>resources/vzl-states.png</file>
+    <file>resources/vzl-visuals.png</file>
+    <file>resources/vzl-zoom-in.png</file>
+    <file>resources/vzl-zoom-out.png</file>
+    <file>resources/vzl-zoom-pixel.png</file>
+    <file>resources/vzl-zoom-whole.png</file>
+    <file>resources/vzl-excel.png</file>
+    <file>resources/vzl-csv.png</file>
+    <file>resources/vzl-sort-az.png</file>
+    <file>resources/vzl-sort-za.png</file>
+    <file>resources/vzl-select.png</file>
+    <file>resources/vzl-table-view.png</file>
+    <file>resources/vzl-row-to-visual.png</file>
+    <file>resources/vzl-arrow-down.png</file>
+    <file>resources/vzl-arrow-bottom.png</file>
+    <file>resources/vzl-arrow-left.png</file>
+    <file>resources/vzl-arrow-leftmost.png</file>
+    <file>resources/vzl-arrow-right.png</file>
+    <file>resources/vzl-arrow-rightmost.png</file>
+    <file>resources/vzl-arrow-up.png</file>
+    <file>resources/vzl-arrow-top.png</file>
+    <file>resources/admin-1.png</file>
+    <file>resources/vzl-refresh.png</file>
+    <file>resources/vzl-layer-leaf.png</file>
+    <file>resources/vzl-del-state.png</file>
+    <file>resources/clean.png</file>
+    <file>resources/scanner-1.png</file>
+    <file>resources/mail-01.png</file>
+    <file>resources/pdf.png</file>
   </qresource>
 </RCC>

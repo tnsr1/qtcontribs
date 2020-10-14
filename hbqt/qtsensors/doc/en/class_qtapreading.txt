@@ -1,0 +1,47 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QTapReading()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qtapreading.html
+   $ONELINER$
+      Creates a new QTapReading object.
+   $INHERITS$
+      QSensorReading
+   $SYNTAX$
+      QTapReading( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QTapReading
+   $METHODS$
+      :isDoubleTap()                                      -> lBool
+      :setDoubleTap( lDoubleTap )                         -> NIL
+      :setTapDirection( nTapDirection )                   -> NIL
+      :tapDirection()                                     -> nTapDirection
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtandroid
+   $END$
+ */

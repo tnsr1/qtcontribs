@@ -1,0 +1,52 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QMargins()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.6/qmargins.html
+   $ONELINER$
+      Creates a new QMargins object.
+   $INHERITS$
+
+   $SYNTAX$
+      QMargins( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QMargins
+   $METHODS$
+      :bottom()                                           -> nInt
+      :isNull()                                           -> lBool
+      :left()                                             -> nInt
+      :right()                                            -> nInt
+      :setBottom( nBottom )                               -> NIL
+      :setLeft( nLeft )                                   -> NIL
+      :setRight( nRight )                                 -> NIL
+      :setTop( nTop )                                     -> NIL
+      :top()                                              -> nInt
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.6 or upper
+   $FILES$
+      Library: hbqtcore
+   $END$
+ */

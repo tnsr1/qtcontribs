@@ -1,0 +1,106 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QImage()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qimage.html
+   $ONELINER$
+      Creates a new QImage object.
+   $INHERITS$
+      QPaintDevice
+   $SYNTAX$
+      QImage( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QImage
+   $METHODS$
+      :allGray()                                          -> lBool
+      :alphaChannel()                                     -> oQImage
+      :bits()                                             -> cUchar
+      :bytesPerLine()                                     -> nInt
+      :cacheKey()                                         -> nQint64
+      :color( nI )                                        -> nQRgb
+      :convertToFormat( nFormat, nFlags )                 -> oQImage
+      :copy( oQRect )                                     -> oQImage
+      :( nX, nY, nWidth, nHeight )                        -> oQImage
+      :createAlphaMask( nFlags )                          -> oQImage
+      :createHeuristicMask( lClipTight )                  -> oQImage
+      :createMaskFromColor( nColor, nMode )               -> oQImage
+      :depth()                                            -> nInt
+      :dotsPerMeterX()                                    -> nInt
+      :dotsPerMeterY()                                    -> nInt
+      :fill( nPixelValue )                                -> NIL
+      :( oQColor )                                        -> NIL
+      :format()                                           -> nFormat
+      :hasAlphaChannel()                                  -> lBool
+      :height()                                           -> nInt
+      :invertPixels( nMode )                              -> NIL
+      :isGrayscale()                                      -> lBool
+      :isNull()                                           -> lBool
+      :load( cFileName, cFormat )                         -> lBool
+      :( oQIODevice, cFormat )                            -> lBool
+      :loadFromData( oQByteArray, cFormat )               -> lBool
+      :mirrored( lHorizontal, lVertical )                 -> oQImage
+      :numBytes()                                         -> nInt
+      :numColors()                                        -> nInt
+      :offset()                                           -> oQPoint
+      :pixel( oQPoint )                                   -> nQRgb
+      :( nX, nY )                                         -> nQRgb
+      :pixelIndex( oQPoint )                              -> nInt
+      :( nX, nY )                                         -> nInt
+      :rect()                                             -> oQRect
+      :rgbSwapped()                                       -> oQImage
+      :save( cFileName, cFormat, nQuality )               -> lBool
+      :( oQIODevice, cFormat, nQuality )                  -> lBool
+      :scaled( oQSize, nAspectRatioMode, nTransformMode )  -> oQImage
+      :( nWidth, nHeight, nAspectRatioMode, nTransformMode )  -> oQImage
+      :scaledToHeight( nHeight, nMode )                   -> oQImage
+      :scaledToWidth( nWidth, nMode )                     -> oQImage
+      :scanLine( nI )                                     -> cUchar
+      :setColor( nIndex, nColorValue )                    -> NIL
+      :setDotsPerMeterX( nX )                             -> NIL
+      :setDotsPerMeterY( nY )                             -> NIL
+      :setNumColors( nNumColors )                         -> NIL
+      :setOffset( oQPoint )                               -> NIL
+      :setPixel( oQPoint, nIndex_or_rgb )                 -> NIL
+      :( nX, nY, nIndex_or_rgb )                          -> NIL
+      :setText( cKey, cText )                             -> NIL
+      :size()                                             -> oQSize
+      :text( cKey )                                       -> cQString
+      :textKeys()                                         -> oQStringList
+      :transformed( oQMatrix, nMode )                     -> oQImage
+      :( oQTransform, nMode )                             -> oQImage
+      :valid( oQPoint )                                   -> lBool
+      :( nX, nY )                                         -> lBool
+      :width()                                            -> nInt
+      :fromData( cData, nSize, cFormat )                  -> oQImage
+      :( oQByteArray, cFormat )                           -> oQImage
+      :trueMatrix( oQMatrix, nWidth, nHeight )            -> oQMatrix
+      :( oQTransform, nWidth, nHeight )                   -> oQTransform
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

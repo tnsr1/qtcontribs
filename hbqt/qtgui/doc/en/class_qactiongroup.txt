@@ -1,0 +1,56 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QActionGroup()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qactiongroup.html
+   $ONELINER$
+      Creates a new QActionGroup object.
+   $INHERITS$
+      QObject
+   $SYNTAX$
+      QActionGroup( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QActionGroup
+   $METHODS$
+      :actions()                                          -> oQList_QAction
+      :addAction( oQAction )                              -> oQAction
+      :( cText )                                          -> oQAction
+      :( oQIcon, cText )                                  -> oQAction
+      :checkedAction()                                    -> oQAction
+      :isEnabled()                                        -> lBool
+      :isExclusive()                                      -> lBool
+      :isVisible()                                        -> lBool
+      :removeAction( oQAction )                           -> NIL
+      :setDisabled( lB )                                  -> NIL
+      :setEnabled( lBool )                                -> NIL
+      :setExclusive( lBool )                              -> NIL
+      :setVisible( lBool )                                -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

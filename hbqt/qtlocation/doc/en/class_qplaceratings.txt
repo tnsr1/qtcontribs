@@ -1,0 +1,50 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QPlaceRatings()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.5/qplaceratings.html
+   $ONELINER$
+      Creates a new QPlaceRatings object.
+   $INHERITS$
+
+   $SYNTAX$
+      QPlaceRatings( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QPlaceRatings
+   $METHODS$
+      :average()                                          -> nQreal
+      :count()                                            -> nInt
+      :isEmpty()                                          -> lBool
+      :maximum()                                          -> nQreal
+      :setAverage( nAverage )                             -> NIL
+      :setCount( nCount )                                 -> NIL
+      :setMaximum( nMax )                                 -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.5 or upper
+   $FILES$
+      Library: hbqtlocation
+   $END$
+ */

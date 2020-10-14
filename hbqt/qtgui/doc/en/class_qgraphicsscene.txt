@@ -1,0 +1,122 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QGraphicsScene()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qgraphicsscene.html
+   $ONELINER$
+      Creates a new QGraphicsScene object.
+   $INHERITS$
+      QObject
+   $SYNTAX$
+      QGraphicsScene( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QGraphicsScene
+   $METHODS$
+      :activeWindow()                                     -> oQGraphicsWidget
+      :addEllipse( oQRectF, oQPen, oQBrush )              -> oQGraphicsEllipseItem
+      :( nX, nY, nW, nH, oQPen, oQBrush )                 -> oQGraphicsEllipseItem
+      :addItem( oQGraphicsItem )                          -> NIL
+      :addLine( oQLineF, oQPen )                          -> oQGraphicsLineItem
+      :( nX1, nY1, nX2, nY2, oQPen )                      -> oQGraphicsLineItem
+      :addPath( oQPainterPath, oQPen, oQBrush )           -> oQGraphicsPathItem
+      :addPixmap( oQPixmap )                              -> oQGraphicsPixmapItem
+      :addPolygon( oQPolygonF, oQPen, oQBrush )           -> oQGraphicsPolygonItem
+      :addRect( oQRectF, oQPen, oQBrush )                 -> oQGraphicsRectItem
+      :( nX, nY, nW, nH, oQPen, oQBrush )                 -> oQGraphicsRectItem
+      :addSimpleText( cText, oQFont )                     -> oQGraphicsSimpleTextItem
+      :addText( cText, oQFont )                           -> oQGraphicsTextItem
+      :addWidget( oQWidget, nWFlags )                     -> oQGraphicsProxyWidget
+      :backgroundBrush()                                  -> oQBrush
+      :bspTreeDepth()                                     -> nInt
+      :clearFocus()                                       -> NIL
+      :collidingItems( oQGraphicsItem, nMode )            -> oQList_QGraphicsItem
+      :destroyItemGroup( oQGraphicsItemGroup )            -> NIL
+      :focusItem()                                        -> oQGraphicsItem
+      :font()                                             -> oQFont
+      :foregroundBrush()                                  -> oQBrush
+      :hasFocus()                                         -> lBool
+      :height()                                           -> nQreal
+      :invalidate( nX, nY, nW, nH, nLayers )              -> NIL
+      :isSortCacheEnabled()                               -> lBool
+      :itemAt( oQPointF, oQTransform )                    -> oQGraphicsItem
+      :( nX, nY, oQTransform )                            -> oQGraphicsItem
+      :itemIndexMethod()                                  -> nItemIndexMethod
+      :items()                                            -> oQList_QGraphicsItem
+      :( nOrder )                                         -> oQList_QGraphicsItem
+      :( oQPointF, nMode, nOrder, oQTransform )           -> oQList_QGraphicsItem
+      :( nX, nY, nW, nH, nMode, nOrder, oQTransform )     -> oQList_QGraphicsItem
+      :( oQRectF, nMode, nOrder, oQTransform )            -> oQList_QGraphicsItem
+      :( oQPolygonF, nMode, nOrder, oQTransform )         -> oQList_QGraphicsItem
+      :( oQPainterPath, nMode, nOrder, oQTransform )      -> oQList_QGraphicsItem
+      :itemsBoundingRect()                                -> oQRectF
+      :mouseGrabberItem()                                 -> oQGraphicsItem
+      :palette()                                          -> oQPalette
+      :removeItem( oQGraphicsItem )                       -> NIL
+      :render( oQPainter, oQRectF, oQRectF, nAspectRatioMode )  -> NIL
+      :sceneRect()                                        -> oQRectF
+      :selectedItems()                                    -> oQList_QGraphicsItem
+      :selectionArea()                                    -> oQPainterPath
+      :setActiveWindow( oQGraphicsWidget )                -> NIL
+      :setBackgroundBrush( oQBrush )                      -> NIL
+      :setBspTreeDepth( nDepth )                          -> NIL
+      :setFocus( nFocusReason )                           -> NIL
+      :setFocusItem( oQGraphicsItem, nFocusReason )       -> NIL
+      :setFont( oQFont )                                  -> NIL
+      :setForegroundBrush( oQBrush )                      -> NIL
+      :setItemIndexMethod( nMethod )                      -> NIL
+      :setPalette( oQPalette )                            -> NIL
+      :setSceneRect( oQRectF )                            -> NIL
+      :( nX, nY, nW, nH )                                 -> NIL
+      :setSelectionArea( oQPainterPath )                  -> NIL
+      :( oQPainterPath, nMode )                           -> NIL
+      :setSortCacheEnabled( lEnabled )                    -> NIL
+      :setStyle( oQStyle )                                -> NIL
+      :style()                                            -> oQStyle
+      :update( nX, nY, nW, nH )                           -> NIL
+      :views()                                            -> oQList_QGraphicsView
+      :width()                                            -> nQreal
+      :isActive()                                         -> lBool
+      :stickyFocus()                                      -> lBool
+      :setStickyFocus( lEnabled )                         -> NIL
+      :activePanel()                                      -> oQGraphicsItem
+      :( oQPointF, oQTransform )                          -> oQGraphicsItem
+      :( nX, nY, oQTransform )                            -> oQGraphicsItem
+      :sendEvent( oQGraphicsItem, oQEvent )               -> lBool
+      :setActivePanel( oQGraphicsItem )                   -> NIL
+      :( oQPainterPath, oQTransform )                     -> NIL
+      :( oQPainterPath, nMode, oQTransform )              -> NIL
+      :( oQPainterPath, nSelectionOperation, nMode, oQTransform )  -> NIL
+      :advance()                                          -> NIL
+      :clear()                                            -> NIL
+      :clearSelection()                                   -> NIL
+      :( oQRectF, nLayers )                               -> NIL
+      :( oQRectF )                                        -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

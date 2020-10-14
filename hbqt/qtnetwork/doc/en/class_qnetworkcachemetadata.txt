@@ -1,0 +1,53 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QNetworkCacheMetaData()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qnetworkcachemetadata.html
+   $ONELINER$
+      Creates a new QNetworkCacheMetaData object.
+   $INHERITS$
+
+   $SYNTAX$
+      QNetworkCacheMetaData( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QNetworkCacheMetaData
+   $METHODS$
+      :expirationDate()                                   -> oQDateTime
+      :isValid()                                          -> lBool
+      :lastModified()                                     -> oQDateTime
+      :saveToDisk()                                       -> lBool
+      :setExpirationDate( oQDateTime )                    -> NIL
+      :setLastModified( oQDateTime )                      -> NIL
+      :setSaveToDisk( lAllow )                            -> NIL
+      :setUrl( oQUrl )                                    -> NIL
+      :swap( oQNetworkCacheMetaData )                     -> NIL
+      :url()                                              -> oQUrl
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtnetwork
+   $END$
+ */

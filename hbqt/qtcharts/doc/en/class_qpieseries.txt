@@ -1,0 +1,67 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QPieSeries()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.7/qpieseries.html
+   $ONELINER$
+      Creates a new QPieSeries object.
+   $INHERITS$
+      QAbstractSeries
+   $SYNTAX$
+      QPieSeries( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QPieSeries
+   $METHODS$
+      :append( oQPieSlice )                               -> lBool
+      :( cLabel, nValue )                                 -> oQPieSlice
+      :clear()                                            -> NIL
+      :count()                                            -> nInt
+      :holeSize()                                         -> nQreal
+      :horizontalPosition()                               -> nQreal
+      :insert( nIndex, oQPieSlice )                       -> lBool
+      :isEmpty()                                          -> lBool
+      :pieEndAngle()                                      -> nQreal
+      :pieSize()                                          -> nQreal
+      :pieStartAngle()                                    -> nQreal
+      :remove( oQPieSlice )                               -> lBool
+      :setHoleSize( nHoleSize )                           -> NIL
+      :setHorizontalPosition( nRelativePosition )         -> NIL
+      :setLabelsVisible( lVisible )                       -> NIL
+      :setPieEndAngle( nAngle )                           -> NIL
+      :setPieSize( nRelativeSize )                        -> NIL
+      :setPieStartAngle( nStartAngle )                    -> NIL
+      :setVerticalPosition( nRelativePosition )           -> NIL
+      :slices()                                           -> oQList_QPieSlice
+      :sum()                                              -> nQreal
+      :take( oQPieSlice )                                 -> lBool
+      :verticalPosition()                                 -> nQreal
+      :type()                                             -> nSeriesType
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.7 or upper
+   $FILES$
+      Library: hbqtcharts
+   $END$
+ */

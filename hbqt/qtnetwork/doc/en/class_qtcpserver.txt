@@ -1,0 +1,61 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QTcpServer()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qtcpserver.html
+   $ONELINER$
+      Creates a new QTcpServer object.
+   $INHERITS$
+
+   $SYNTAX$
+      QTcpServer( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QTcpServer
+   $METHODS$
+      :close()                                            -> NIL
+      :errorString()                                      -> cQString
+      :hasPendingConnections()                            -> lBool
+      :isListening()                                      -> lBool
+      :listen( oQHostAddress, nPort )                     -> lBool
+      :maxPendingConnections()                            -> nInt
+      :nextPendingConnection()                            -> oQTcpSocket
+      :pauseAccepting()                                   -> NIL
+      :proxy()                                            -> oQNetworkProxy
+      :resumeAccepting()                                  -> NIL
+      :serverAddress()                                    -> oQHostAddress
+      :serverError()                                      -> nQAbstractSocket_SocketError
+      :serverPort()                                       -> nQuint16
+      :setMaxPendingConnections( nNumConnections )        -> NIL
+      :setProxy( oQNetworkProxy )                         -> NIL
+      :setSocketDescriptor( nSocketDescriptor )           -> lBool
+      :socketDescriptor()                                 -> nQintptr
+      :waitForNewConnection( nMsec, @lTimedOut )          -> lBool
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtnetwork
+   $END$
+ */

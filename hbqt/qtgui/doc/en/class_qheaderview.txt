@@ -1,0 +1,107 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QHeaderView()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qheaderview.html
+   $ONELINER$
+      Creates a new QHeaderView object.
+   $INHERITS$
+      QAbstractItemView
+   $SYNTAX$
+      QHeaderView( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QHeaderView
+   $METHODS$
+      :cascadingSectionResizes()                          -> lBool
+      :count()                                            -> nInt
+      :defaultAlignment()                                 -> nQt_Alignment
+      :defaultSectionSize()                               -> nInt
+      :hiddenSectionCount()                               -> nInt
+      :hideSection( nLogicalIndex )                       -> NIL
+      :highlightSections()                                -> lBool
+      :isSectionHidden( nLogicalIndex )                   -> lBool
+      :isSortIndicatorShown()                             -> lBool
+      :length()                                           -> nInt
+      :logicalIndex( nVisualIndex )                       -> nInt
+      :logicalIndexAt( nPosition )                        -> nInt
+      :( nX, nY )                                         -> nInt
+      :( oQPoint )                                        -> nInt
+      :maximumSectionSize()                               -> nInt
+      :minimumSectionSize()                               -> nInt
+      :moveSection( nFrom, nTo )                          -> NIL
+      :offset()                                           -> nInt
+      :orientation()                                      -> nQt_Orientation
+      :resizeContentsPrecision()                          -> nInt
+      :resizeSection( nLogicalIndex, nSize )              -> NIL
+      :resizeSections( nMode )                            -> NIL
+      :restoreState( oQByteArray )                        -> lBool
+      :saveState()                                        -> oQByteArray
+      :sectionPosition( nLogicalIndex )                   -> nInt
+      :sectionResizeMode( nLogicalIndex )                 -> nResizeMode
+      :sectionSize( nLogicalIndex )                       -> nInt
+      :sectionSizeHint( nLogicalIndex )                   -> nInt
+      :sectionViewportPosition( nLogicalIndex )           -> nInt
+      :sectionsClickable()                                -> lBool
+      :sectionsHidden()                                   -> lBool
+      :sectionsMovable()                                  -> lBool
+      :sectionsMoved()                                    -> lBool
+      :setCascadingSectionResizes( lEnable )              -> NIL
+      :setDefaultAlignment( nAlignment )                  -> NIL
+      :setDefaultSectionSize( nSize )                     -> NIL
+      :setHighlightSections( lHighlight )                 -> NIL
+      :setMaximumSectionSize( nSize )                     -> NIL
+      :setMinimumSectionSize( nSize )                     -> NIL
+      :setResizeContentsPrecision( nPrecision )           -> NIL
+      :setSectionHidden( nLogicalIndex, lHide )           -> NIL
+      :setSectionResizeMode( nMode )                      -> NIL
+      :( nLogicalIndex, nMode )                           -> NIL
+      :setSectionsClickable( lClickable )                 -> NIL
+      :setSectionsMovable( lMovable )                     -> NIL
+      :setSortIndicator( nLogicalIndex, nOrder )          -> NIL
+      :setSortIndicatorShown( lShow )                     -> NIL
+      :setStretchLastSection( lStretch )                  -> NIL
+      :showSection( nLogicalIndex )                       -> NIL
+      :sortIndicatorOrder()                               -> nQt_SortOrder
+      :sortIndicatorSection()                             -> nInt
+      :stretchLastSection()                               -> lBool
+      :stretchSectionCount()                              -> nInt
+      :swapSections( nFirst, nSecond )                    -> NIL
+      :visualIndex( nLogicalIndex )                       -> nInt
+      :visualIndexAt( nPosition )                         -> nInt
+      :reset()                                            -> NIL
+      :setModel( oQAbstractItemModel )                    -> NIL
+      :setVisible( lV )                                   -> NIL
+      :sizeHint()                                         -> oQSize
+      :headerDataChanged( nOrientation, nLogicalFirst, nLogicalLast )  -> NIL
+      :setOffset( nOffset )                               -> NIL
+      :setOffsetToLastSection()                           -> NIL
+      :setOffsetToSectionPosition( nVisualSectionNumber )  -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

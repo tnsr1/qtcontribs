@@ -1,0 +1,58 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QNetworkProxyQuery()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qnetworkproxyquery.html
+   $ONELINER$
+      Creates a new QNetworkProxyQuery object.
+   $INHERITS$
+
+   $SYNTAX$
+      QNetworkProxyQuery( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QNetworkProxyQuery
+   $METHODS$
+      :localPort()                                        -> nInt
+      :networkConfiguration()                             -> oQNetworkConfiguration
+      :peerHostName()                                     -> cQString
+      :peerPort()                                         -> nInt
+      :protocolTag()                                      -> cQString
+      :queryType()                                        -> nQNetworkProxyQuery_QueryType
+      :setLocalPort( nPort )                              -> NIL
+      :setNetworkConfiguration( oQNetworkConfiguration )  -> NIL
+      :setPeerHostName( cHostname )                       -> NIL
+      :setPeerPort( nPort )                               -> NIL
+      :setProtocolTag( cProtocolTag )                     -> NIL
+      :setQueryType( nType )                              -> NIL
+      :setUrl( oQUrl )                                    -> NIL
+      :swap( oQNetworkProxyQuery )                        -> NIL
+      :url()                                              -> oQUrl
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtnetwork
+   $END$
+ */

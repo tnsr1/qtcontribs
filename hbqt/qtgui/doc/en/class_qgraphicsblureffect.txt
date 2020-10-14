@@ -1,0 +1,48 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QGraphicsBlurEffect()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.6/qgraphicsblureffect.html
+   $ONELINER$
+      Creates a new QGraphicsBlurEffect object.
+   $INHERITS$
+      QGraphicsEffect
+   $SYNTAX$
+      QGraphicsBlurEffect( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QGraphicsBlurEffect
+   $METHODS$
+      :blurHints()                                        -> nBlurHints
+      :blurRadius()                                       -> nQreal
+      :boundingRectFor( oQRectF )                         -> oQRectF
+      :setBlurHints( nHints )                             -> NIL
+      :setBlurRadius( nBlurRadius )                       -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.6 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

@@ -1,0 +1,47 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QPropertyAnimation()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.6/qpropertyanimation.html
+   $ONELINER$
+      Creates a new QPropertyAnimation object.
+   $INHERITS$
+      QVariantAnimation
+   $SYNTAX$
+      QPropertyAnimation( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QPropertyAnimation
+   $METHODS$
+      :propertyName()                                     -> oQByteArray
+      :setPropertyName( oQByteArray )                     -> NIL
+      :setTargetObject( oQObject )                        -> NIL
+      :targetObject()                                     -> oQObject
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.6 or upper
+   $FILES$
+      Library: hbqtcore
+   $END$
+ */

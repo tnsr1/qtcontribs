@@ -1,0 +1,59 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QDnsLookup()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.0/qdnslookup.html
+   $ONELINER$
+      Creates a new QDnsLookup object.
+   $INHERITS$
+
+   $SYNTAX$
+      QDnsLookup( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QDnsLookup
+   $METHODS$
+      :canonicalNameRecords()                             -> oQList_QDnsDomainNameRecord>
+      :error()                                            -> nError
+      :errorString()                                      -> cQString
+      :hostAddressRecords()                               -> oQList_QDnsHostAddressRecord>
+      :isFinished()                                       -> lBool
+      :mailExchangeRecords()                              -> oQList_QDnsMailExchangeRecord>
+      :name()                                             -> cQString
+      :nameServerRecords()                                -> oQList_QDnsDomainNameRecord>
+      :pointerRecords()                                   -> oQList_QDnsDomainNameRecord>
+      :serviceRecords()                                   -> oQList_QDnsServiceRecord>
+      :setName( cName )                                   -> NIL
+      :setType( nQDnsLookup::Type )                       -> NIL
+      :textRecords()                                      -> oQList_QDnsTextRecord>
+      :type()                                             -> nType
+      :abort()                                            -> NIL
+      :lookup()                                           -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.0 or upper
+   $FILES$
+      Library: hbqtnetwork
+   $END$
+ */

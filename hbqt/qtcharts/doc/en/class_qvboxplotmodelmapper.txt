@@ -1,0 +1,55 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QVBoxPlotModelMapper()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.7/qvboxplotmodelmapper.html
+   $ONELINER$
+      Creates a new QVBoxPlotModelMapper object.
+   $INHERITS$
+      QBoxPlotModelMapper
+   $SYNTAX$
+      QVBoxPlotModelMapper( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QVBoxPlotModelMapper
+   $METHODS$
+      :firstBoxSetColumn()                                -> nInt
+      :firstRow()                                         -> nInt
+      :lastBoxSetColumn()                                 -> nInt
+      :model()                                            -> oQAbstractItemModel
+      :rowCount()                                         -> nInt
+      :series()                                           -> oQBoxPlotSeries
+      :setFirstBoxSetColumn( nFirstBoxSetColumn )         -> NIL
+      :setFirstRow( nFirstRow )                           -> NIL
+      :setLastBoxSetColumn( nLastBoxSetColumn )           -> NIL
+      :setModel( oQAbstractItemModel )                    -> NIL
+      :setRowCount( nRowCount )                           -> NIL
+      :setSeries( oQBoxPlotSeries )                       -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.7 or upper
+   $FILES$
+      Library: hbqtcharts
+   $END$
+ */

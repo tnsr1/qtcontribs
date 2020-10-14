@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: samegame.prg 449 2017-02-21 01:48:03Z bedipritpal $
  */
 
 /*

@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: statusbar.prg 186 2013-03-13 23:02:55Z bedipritpal $
  */
 
 /*

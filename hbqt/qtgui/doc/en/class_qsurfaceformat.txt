@@ -1,0 +1,73 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QSurfaceFormat()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.0/qsurfaceformat.html
+   $ONELINER$
+      Creates a new QSurfaceFormat object.
+   $INHERITS$
+
+   $SYNTAX$
+      QSurfaceFormat( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QSurfaceFormat
+   $METHODS$
+      :alphaBufferSize()                                  -> nInt
+      :blueBufferSize()                                   -> nInt
+      :depthBufferSize()                                  -> nInt
+      :greenBufferSize()                                  -> nInt
+      :hasAlpha()                                         -> lBool
+      :majorVersion()                                     -> nInt
+      :minorVersion()                                     -> nInt
+      :profile()                                          -> nOpenGLContextProfile
+      :redBufferSize()                                    -> nInt
+      :renderableType()                                   -> nRenderableType
+      :samples()                                          -> nInt
+      :setAlphaBufferSize( nSize )                        -> NIL
+      :setBlueBufferSize( nSize )                         -> NIL
+      :setDepthBufferSize( nSize )                        -> NIL
+      :setGreenBufferSize( nSize )                        -> NIL
+      :setMajorVersion( nMajor )                          -> NIL
+      :setMinorVersion( nMinor )                          -> NIL
+      :setOption( nOpt )                                  -> NIL
+      :setProfile( nProfile )                             -> NIL
+      :setRedBufferSize( nSize )                          -> NIL
+      :setRenderableType( nType )                         -> NIL
+      :setSamples( nNumSamples )                          -> NIL
+      :setStencilBufferSize( nSize )                      -> NIL
+      :setStereo( lEnable )                               -> NIL
+      :setSwapBehavior( nBehavior )                       -> NIL
+      :setVersion( nMajor, nMinor )                       -> NIL
+      :stencilBufferSize()                                -> nInt
+      :stereo()                                           -> lBool
+      :swapBehavior()                                     -> nSwapBehavior
+      :testOption( nOpt )                                 -> lBool
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.0 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

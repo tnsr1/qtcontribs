@@ -1,0 +1,48 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QGraphicsEffect()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.6/qgraphicseffect.html
+   $ONELINER$
+      Creates a new QGraphicsEffect object.
+   $INHERITS$
+      QObject
+   $SYNTAX$
+      QGraphicsEffect( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QGraphicsEffect
+   $METHODS$
+      :boundingRect()                                     -> oQRectF
+      :boundingRectFor( oQRectF )                         -> oQRectF
+      :isEnabled()                                        -> lBool
+      :setEnabled( lEnable )                              -> NIL
+      :update()                                           -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.6 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

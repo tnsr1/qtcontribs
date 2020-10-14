@@ -1,0 +1,53 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QTextTableCell()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.8/qtexttablecell.html
+   $ONELINER$
+      Creates a new QTextTableCell object.
+   $INHERITS$
+
+   $SYNTAX$
+      QTextTableCell( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QTextTableCell
+   $METHODS$
+      :column()                                           -> nInt
+      :columnSpan()                                       -> nInt
+      :firstCursorPosition()                              -> oQTextCursor
+      :format()                                           -> oQTextCharFormat
+      :isValid()                                          -> lBool
+      :lastCursorPosition()                               -> oQTextCursor
+      :row()                                              -> nInt
+      :rowSpan()                                          -> nInt
+      :setFormat( oQTextCharFormat )                      -> NIL
+      :tableCellFormatIndex()                             -> nInt
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.8 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

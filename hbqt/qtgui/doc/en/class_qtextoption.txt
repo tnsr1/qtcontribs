@@ -1,0 +1,56 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QTextOption()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qtextoption.html
+   $ONELINER$
+      Creates a new QTextOption object.
+   $INHERITS$
+
+   $SYNTAX$
+      QTextOption( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QTextOption
+   $METHODS$
+      :alignment()                                        -> nQt_Alignment
+      :flags()                                            -> nFlags
+      :setAlignment( nAlignment )                         -> NIL
+      :setFlags( nFlags )                                 -> NIL
+      :setTabStop( nTabStop )                             -> NIL
+      :setTextDirection( nDirection )                     -> NIL
+      :setUseDesignMetrics( lEnable )                     -> NIL
+      :setWrapMode( nMode )                               -> NIL
+      :tabArray()                                         -> oQList_qreal>
+      :tabStop()                                          -> nQreal
+      :textDirection()                                    -> nQt_LayoutDirection
+      :useDesignMetrics()                                 -> lBool
+      :wrapMode()                                         -> nWrapMode
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

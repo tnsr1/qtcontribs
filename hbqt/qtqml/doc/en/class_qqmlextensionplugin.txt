@@ -1,0 +1,46 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QQmlExtensionPlugin()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qqmlextensionplugin.html
+   $ONELINER$
+      Creates a new QQmlExtensionPlugin object.
+   $INHERITS$
+      QObject
+   $SYNTAX$
+      QQmlExtensionPlugin( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QQmlExtensionPlugin
+   $METHODS$
+      :baseUrl()                                          -> oQUrl
+      :initializeEngine( oQQmlEngine, cUri )              -> NIL
+      :registerTypes( cUri )                              -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtqml
+   $END$
+ */

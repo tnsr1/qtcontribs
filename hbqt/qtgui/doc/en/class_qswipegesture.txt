@@ -1,0 +1,47 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QSwipeGesture()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.6/qswipegesture.html
+   $ONELINER$
+      Creates a new QSwipeGesture object.
+   $INHERITS$
+      QGesture
+   $SYNTAX$
+      QSwipeGesture( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QSwipeGesture
+   $METHODS$
+      :horizontalDirection()                              -> nSwipeDirection
+      :setSwipeAngle( nValue )                            -> NIL
+      :swipeAngle()                                       -> nQreal
+      :verticalDirection()                                -> nSwipeDirection
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.6 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

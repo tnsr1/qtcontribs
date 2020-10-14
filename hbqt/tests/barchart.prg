@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: barchart.prg 428 2016-10-20 01:05:49Z bedipritpal $
  */
 
 #include "hbqtgui.ch"

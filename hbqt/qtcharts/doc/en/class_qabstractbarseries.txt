@@ -1,0 +1,60 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QAbstractBarSeries()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.7/qabstractbarseries.html
+   $ONELINER$
+      Creates a new QAbstractBarSeries object.
+   $INHERITS$
+      QAbstractSeries
+   $SYNTAX$
+      QAbstractBarSeries( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QAbstractBarSeries
+   $METHODS$
+      :append( oQBarSet )                                 -> lBool
+      :barSets()                                          -> oQList_QBarSet
+      :barWidth()                                         -> nQreal
+      :clear()                                            -> NIL
+      :count()                                            -> nInt
+      :insert( nIndex, oQBarSet )                         -> lBool
+      :isLabelsVisible()                                  -> lBool
+      :labelsAngle()                                      -> nQreal
+      :labelsFormat()                                     -> cQString
+      :labelsPosition()                                   -> nQAbstractBarSeries_LabelsPosition
+      :remove( oQBarSet )                                 -> lBool
+      :setBarWidth( nWidth )                              -> NIL
+      :setLabelsAngle( nAngle )                           -> NIL
+      :setLabelsFormat( cFormat )                         -> NIL
+      :setLabelsPosition( nPosition )                     -> NIL
+      :setLabelsVisible( lVisible )                       -> NIL
+      :take( oQBarSet )                                   -> lBool
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.7 or upper
+   $FILES$
+      Library: hbqtcharts
+   $END$
+ */

@@ -1,0 +1,53 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QMarginsF()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qmarginsf.html
+   $ONELINER$
+      Creates a new QMarginsF object.
+   $INHERITS$
+
+   $SYNTAX$
+      QMarginsF( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QMarginsF
+   $METHODS$
+      :bottom()                                           -> nQreal
+      :isNull()                                           -> lBool
+      :left()                                             -> nQreal
+      :right()                                            -> nQreal
+      :setBottom( nBottom )                               -> NIL
+      :setLeft( nLeft )                                   -> NIL
+      :setRight( nRight )                                 -> NIL
+      :setTop( nTop )                                     -> NIL
+      :toMargins()                                        -> oQMargins
+      :top()                                              -> nQreal
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtcore
+   $END$
+ */

@@ -1,0 +1,87 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QFileInfo()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qfileinfo.html
+   $ONELINER$
+      Creates a new QFileInfo object.
+   $INHERITS$
+
+   $SYNTAX$
+      QFileInfo( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QFileInfo
+   $METHODS$
+      :absoluteDir()                                      -> oQDir
+      :absoluteFilePath()                                 -> cQString
+      :absolutePath()                                     -> cQString
+      :baseName()                                         -> cQString
+      :bundleName()                                       -> cQString
+      :caching()                                          -> lBool
+      :canonicalFilePath()                                -> cQString
+      :canonicalPath()                                    -> cQString
+      :completeBaseName()                                 -> cQString
+      :completeSuffix()                                   -> cQString
+      :created()                                          -> oQDateTime
+      :dir()                                              -> oQDir
+      :exists()                                           -> lBool
+      :fileName()                                         -> cQString
+      :filePath()                                         -> cQString
+      :group()                                            -> cQString
+      :groupId()                                          -> nUint
+      :isAbsolute()                                       -> lBool
+      :isBundle()                                         -> lBool
+      :isDir()                                            -> lBool
+      :isExecutable()                                     -> lBool
+      :isFile()                                           -> lBool
+      :isHidden()                                         -> lBool
+      :isReadable()                                       -> lBool
+      :isRelative()                                       -> lBool
+      :isRoot()                                           -> lBool
+      :isSymLink()                                        -> lBool
+      :isWritable()                                       -> lBool
+      :lastModified()                                     -> oQDateTime
+      :lastRead()                                         -> oQDateTime
+      :makeAbsolute()                                     -> lBool
+      :owner()                                            -> cQString
+      :ownerId()                                          -> nUint
+      :path()                                             -> cQString
+      :permission( nPermissions )                         -> lBool
+      :permissions()                                      -> nQFile_Permissions
+      :refresh()                                          -> NIL
+      :setCaching( lEnable )                              -> NIL
+      :setFile( cFile )                                   -> NIL
+      :( oQFile )                                         -> NIL
+      :( oQDir, cFile )                                   -> NIL
+      :size()                                             -> nQint64
+      :suffix()                                           -> cQString
+      :symLinkTarget()                                    -> cQString
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtcore
+   $END$
+ */

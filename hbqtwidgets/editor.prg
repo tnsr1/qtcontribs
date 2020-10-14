@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: editor.prg 464 2017-10-23 15:51:48Z bedipritpal $
  */
 
 /*

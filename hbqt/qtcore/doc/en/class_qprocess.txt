@@ -1,0 +1,76 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QProcess()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qprocess.html
+   $ONELINER$
+      Creates a new QProcess object.
+   $INHERITS$
+      QIODevice
+   $SYNTAX$
+      QProcess( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QProcess
+   $METHODS$
+      :close()                                            -> NIL
+      :closeReadChannel( nChannel )                       -> NIL
+      :closeWriteChannel()                                -> NIL
+      :environment()                                      -> oQStringList
+      :error()                                            -> nQProcess_ProcessError
+      :exitCode()                                         -> nInt
+      :exitStatus()                                       -> nQProcess_ExitStatus
+      :processChannelMode()                               -> nProcessChannelMode
+      :readAllStandardError()                             -> oQByteArray
+      :readAllStandardOutput()                            -> oQByteArray
+      :readChannel()                                      -> nProcessChannel
+      :setEnvironment( oQStringList )                     -> NIL
+      :setProcessChannelMode( nMode )                     -> NIL
+      :setReadChannel( nChannel )                         -> NIL
+      :setStandardErrorFile( cFileName, nMode )           -> NIL
+      :setStandardInputFile( cFileName )                  -> NIL
+      :setStandardOutputFile( cFileName, nMode )          -> NIL
+      :setStandardOutputProcess( oQProcess )              -> NIL
+      :setWorkingDirectory( cDir )                        -> NIL
+      :start( cProgram, oQStringList, nMode )             -> NIL
+      :( cProgram, nMode )                                -> NIL
+      :state()                                            -> nQProcess_ProcessState
+      :waitForFinished( nMsecs )                          -> lBool
+      :waitForStarted( nMsecs )                           -> lBool
+      :workingDirectory()                                 -> cQString
+      :execute( cProgram, oQStringList )                  -> nInt
+      :( cProgram )                                       -> nInt
+      :startDetached( cProgram, oQStringList, cWorkingDirectory, @nPid )  -> lBool
+      :( cProgram, oQStringList )                         -> lBool
+      :( cProgram )                                       -> lBool
+      :systemEnvironment()                                -> oQStringList
+      :kill()                                             -> NIL
+      :terminate()                                        -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtcore
+   $END$
+ */

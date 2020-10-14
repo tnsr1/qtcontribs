@@ -1,0 +1,215 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QGraphicsItem()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qgraphicsitem.html
+   $ONELINER$
+      Creates a new QGraphicsItem object.
+   $INHERITS$
+
+   $SYNTAX$
+      QGraphicsItem( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QGraphicsItem
+   $METHODS$
+      :acceptDrops()                                      -> lBool
+      :acceptHoverEvents()                                -> lBool
+      :acceptTouchEvents()                                -> lBool
+      :acceptedMouseButtons()                             -> nQt_MouseButtons
+      :advance( nPhase )                                  -> NIL
+      :boundingRect()                                     -> oQRectF
+      :boundingRegion( oQTransform )                      -> oQRegion
+      :boundingRegionGranularity()                        -> nQreal
+      :cacheMode()                                        -> nCacheMode
+      :childItems()                                       -> oQList_QGraphicsItem
+      :childrenBoundingRect()                             -> oQRectF
+      :clearFocus()                                       -> NIL
+      :clipPath()                                         -> oQPainterPath
+      :collidesWithItem( oQGraphicsItem, nMode )          -> lBool
+      :collidesWithPath( oQPainterPath, nMode )           -> lBool
+      :collidingItems( nMode )                            -> oQList_QGraphicsItem
+      :commonAncestorItem( oQGraphicsItem )               -> oQGraphicsItem
+      :contains( oQPointF )                               -> lBool
+      :cursor()                                           -> oQCursor
+      :data( nKey )                                       -> oQVariant
+      :deviceTransform( oQTransform )                     -> oQTransform
+      :effectiveOpacity()                                 -> nQreal
+      :ensureVisible( oQRectF, nXmargin, nYmargin )       -> NIL
+      :( nX, nY, nW, nH, nXmargin, nYmargin )             -> NIL
+      :filtersChildEvents()                               -> lBool
+      :flags()                                            -> nGraphicsItemFlags
+      :focusItem()                                        -> oQGraphicsItem
+      :focusProxy()                                       -> oQGraphicsItem
+      :grabKeyboard()                                     -> NIL
+      :grabMouse()                                        -> NIL
+      :graphicsEffect()                                   -> oQGraphicsEffect
+      :group()                                            -> oQGraphicsItemGroup
+      :hasCursor()                                        -> lBool
+      :hasFocus()                                         -> lBool
+      :hide()                                             -> NIL
+      :inputMethodHints()                                 -> nQt_InputMethodHints
+      :installSceneEventFilter( oQGraphicsItem )          -> NIL
+      :isActive()                                         -> lBool
+      :isAncestorOf( oQGraphicsItem )                     -> lBool
+      :isClipped()                                        -> lBool
+      :isEnabled()                                        -> lBool
+      :isObscured( oQRectF )                              -> lBool
+      :( nX, nY, nW, nH )                                 -> lBool
+      :isObscuredBy( oQGraphicsItem )                     -> lBool
+      :isPanel()                                          -> lBool
+      :isSelected()                                       -> lBool
+      :isUnderMouse()                                     -> lBool
+      :isVisible()                                        -> lBool
+      :isVisibleTo( oQGraphicsItem )                      -> lBool
+      :isWidget()                                         -> lBool
+      :isWindow()                                         -> lBool
+      :itemTransform( oQGraphicsItem, @lOk )              -> oQTransform
+      :mapFromItem( oQGraphicsItem, oQPointF )            -> oQPointF
+      :( oQGraphicsItem, oQRectF )                        -> oQPolygonF
+      :( oQGraphicsItem, oQPolygonF )                     -> oQPolygonF
+      :( oQGraphicsItem, oQPainterPath )                  -> oQPainterPath
+      :( oQGraphicsItem, nX, nY, nW, nH )                 -> oQPolygonF
+      :( oQGraphicsItem, nX, nY )                         -> oQPointF
+      :mapFromParent( oQPointF )                          -> oQPointF
+      :( oQRectF )                                        -> oQPolygonF
+      :( oQPolygonF )                                     -> oQPolygonF
+      :( oQPainterPath )                                  -> oQPainterPath
+      :( nX, nY, nW, nH )                                 -> oQPolygonF
+      :( nX, nY )                                         -> oQPointF
+      :mapFromScene( oQPointF )                           -> oQPointF
+      :( oQRectF )                                        -> oQPolygonF
+      :( oQPolygonF )                                     -> oQPolygonF
+      :( oQPainterPath )                                  -> oQPainterPath
+      :( nX, nY, nW, nH )                                 -> oQPolygonF
+      :( nX, nY )                                         -> oQPointF
+      :mapRectFromItem( oQGraphicsItem, oQRectF )         -> oQRectF
+      :( oQGraphicsItem, nX, nY, nW, nH )                 -> oQRectF
+      :mapRectFromParent( oQRectF )                       -> oQRectF
+      :( nX, nY, nW, nH )                                 -> oQRectF
+      :mapRectFromScene( oQRectF )                        -> oQRectF
+      :( nX, nY, nW, nH )                                 -> oQRectF
+      :mapRectToItem( oQGraphicsItem, oQRectF )           -> oQRectF
+      :( oQGraphicsItem, nX, nY, nW, nH )                 -> oQRectF
+      :mapRectToParent( oQRectF )                         -> oQRectF
+      :( nX, nY, nW, nH )                                 -> oQRectF
+      :mapRectToScene( oQRectF )                          -> oQRectF
+      :( nX, nY, nW, nH )                                 -> oQRectF
+      :mapToItem( oQGraphicsItem, oQPointF )              -> oQPointF
+      :( oQGraphicsItem, oQRectF )                        -> oQPolygonF
+      :( oQGraphicsItem, oQPolygonF )                     -> oQPolygonF
+      :( oQGraphicsItem, oQPainterPath )                  -> oQPainterPath
+      :( oQGraphicsItem, nX, nY, nW, nH )                 -> oQPolygonF
+      :( oQGraphicsItem, nX, nY )                         -> oQPointF
+      :mapToParent( oQPointF )                            -> oQPointF
+      :( oQRectF )                                        -> oQPolygonF
+      :( oQPolygonF )                                     -> oQPolygonF
+      :( oQPainterPath )                                  -> oQPainterPath
+      :( nX, nY, nW, nH )                                 -> oQPolygonF
+      :( nX, nY )                                         -> oQPointF
+      :mapToScene( oQPointF )                             -> oQPointF
+      :( oQRectF )                                        -> oQPolygonF
+      :( oQPolygonF )                                     -> oQPolygonF
+      :( oQPainterPath )                                  -> oQPainterPath
+      :( nX, nY, nW, nH )                                 -> oQPolygonF
+      :( nX, nY )                                         -> oQPointF
+      :moveBy( nDx, nDy )                                 -> NIL
+      :opacity()                                          -> nQreal
+      :opaqueArea()                                       -> oQPainterPath
+      :paint( oQPainter, oQStyleOptionGraphicsItem, oQWidget )  -> NIL
+      :panel()                                            -> oQGraphicsItem
+      :panelModality()                                    -> nPanelModality
+      :parentItem()                                       -> oQGraphicsItem
+      :parentObject()                                     -> oQGraphicsObject
+      :parentWidget()                                     -> oQGraphicsWidget
+      :pos()                                              -> oQPointF
+      :removeSceneEventFilter( oQGraphicsItem )           -> NIL
+      :resetTransform()                                   -> NIL
+      :rotation()                                         -> nQreal
+      :scale()                                            -> nQreal
+      :scene()                                            -> oQGraphicsScene
+      :sceneBoundingRect()                                -> oQRectF
+      :scenePos()                                         -> oQPointF
+      :sceneTransform()                                   -> oQTransform
+      :scroll( nDx, nDy, oQRectF )                        -> NIL
+      :setAcceptDrops( lOn )                              -> NIL
+      :setAcceptHoverEvents( lEnabled )                   -> NIL
+      :setAcceptTouchEvents( lEnabled )                   -> NIL
+      :setAcceptedMouseButtons( nButtons )                -> NIL
+      :setActive( lActive )                               -> NIL
+      :setBoundingRegionGranularity( nGranularity )       -> NIL
+      :setCacheMode( nMode, oQSize )                      -> NIL
+      :setCursor( oQCursor )                              -> NIL
+      :setData( nKey, oQVariant )                         -> NIL
+      :setEnabled( lEnabled )                             -> NIL
+      :setFiltersChildEvents( lEnabled )                  -> NIL
+      :setFlag( nFlag, lEnabled )                         -> NIL
+      :setFlags( nFlags )                                 -> NIL
+      :setFocus( nFocusReason )                           -> NIL
+      :setFocusProxy( oQGraphicsItem )                    -> NIL
+      :setGraphicsEffect( oQGraphicsEffect )              -> NIL
+      :setGroup( oQGraphicsItemGroup )                    -> NIL
+      :setInputMethodHints( nHints )                      -> NIL
+      :setOpacity( nOpacity )                             -> NIL
+      :setPanelModality( nPanelModality )                 -> NIL
+      :setParentItem( oQGraphicsItem )                    -> NIL
+      :setPos( oQPointF )                                 -> NIL
+      :( nX, nY )                                         -> NIL
+      :setRotation( nAngle )                              -> NIL
+      :setScale( nFactor )                                -> NIL
+      :setSelected( lSelected )                           -> NIL
+      :setToolTip( cToolTip )                             -> NIL
+      :setTransform( oQTransform, lCombine )              -> NIL
+      :setTransformOriginPoint( oQPointF )                -> NIL
+      :( nX, nY )                                         -> NIL
+      :setVisible( lVisible )                             -> NIL
+      :setX( nX )                                         -> NIL
+      :setY( nY )                                         -> NIL
+      :setZValue( nZ )                                    -> NIL
+      :shape()                                            -> oQPainterPath
+      :show()                                             -> NIL
+      :stackBefore( oQGraphicsItem )                      -> NIL
+      :toolTip()                                          -> cQString
+      :topLevelItem()                                     -> oQGraphicsItem
+      :topLevelWidget()                                   -> oQGraphicsWidget
+      :transform()                                        -> oQTransform
+      :transformOriginPoint()                             -> oQPointF
+      :transformations()                                  -> oQList_QGraphicsTransform
+      :type()                                             -> nInt
+      :ungrabKeyboard()                                   -> NIL
+      :ungrabMouse()                                      -> NIL
+      :unsetCursor()                                      -> NIL
+      :update( oQRectF )                                  -> NIL
+      :( nX, nY, nWidth, nHeight )                        -> NIL
+      :window()                                           -> oQGraphicsWidget
+      :x()                                                -> nQreal
+      :y()                                                -> nQreal
+      :zValue()                                           -> nQreal
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

@@ -1,0 +1,46 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QPolarChart()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.7/qpolarchart.html
+   $ONELINER$
+      Creates a new QPolarChart object.
+   $INHERITS$
+      QChart
+   $SYNTAX$
+      QPolarChart( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QPolarChart
+   $METHODS$
+      :addAxis( oQAbstractAxis, nPolarOrientation )       -> NIL
+      :axes( nPolarOrientation, oQAbstractSeries )        -> oQList_QAbstractAxis
+      :axisPolarOrientation( oQAbstractAxis )             -> nPolarOrientation
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.7 or upper
+   $FILES$
+      Library: hbqtcharts
+   $END$
+ */

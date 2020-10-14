@@ -1,0 +1,66 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QVideoSurfaceFormat()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.6/qvideosurfaceformat.html
+   $ONELINER$
+      Creates a new QVideoSurfaceFormat object.
+   $INHERITS$
+
+   $SYNTAX$
+      QVideoSurfaceFormat( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QVideoSurfaceFormat
+   $METHODS$
+      :frameHeight()                                      -> nInt
+      :frameRate()                                        -> nQreal
+      :frameSize()                                        -> oQSize
+      :frameWidth()                                       -> nInt
+      :handleType()                                       -> nQAbstractVideoBuffer_HandleType
+      :isValid()                                          -> lBool
+      :pixelAspectRatio()                                 -> oQSize
+      :pixelFormat()                                      -> nQVideoFrame_PixelFormat
+      :property( cName )                                  -> oQVariant
+      :propertyNames()                                    -> oQList_QByteArray>
+      :scanLineDirection()                                -> nDirection
+      :setFrameRate( nRate )                              -> NIL
+      :setFrameSize( oQSize )                             -> NIL
+      :( nWidth, nHeight )                                -> NIL
+      :setPixelAspectRatio( oQSize )                      -> NIL
+      :( nHorizontal, nVertical )                         -> NIL
+      :setProperty( cName, oQVariant )                    -> NIL
+      :setScanLineDirection( nDirection )                 -> NIL
+      :setViewport( oQRect )                              -> NIL
+      :setYCbCrColorSpace( nSpace )                       -> NIL
+      :sizeHint()                                         -> oQSize
+      :viewport()                                         -> oQRect
+      :yCbCrColorSpace()                                  -> nYCbCrColorSpace
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.6 or upper
+   $FILES$
+      Library: hbqtmultimedia
+   $END$
+ */

@@ -1,0 +1,49 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QDirIterator()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qdiriterator.html
+   $ONELINER$
+      Creates a new QDirIterator object.
+   $INHERITS$
+
+   $SYNTAX$
+      QDirIterator( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QDirIterator
+   $METHODS$
+      :fileInfo()                                         -> oQFileInfo
+      :fileName()                                         -> cQString
+      :filePath()                                         -> cQString
+      :hasNext()                                          -> lBool
+      :next()                                             -> cQString
+      :path()                                             -> cQString
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtcore
+   $END$
+ */

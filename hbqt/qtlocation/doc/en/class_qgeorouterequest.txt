@@ -1,0 +1,57 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QGeoRouteRequest()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.5/qgeorouterequest.html
+   $ONELINER$
+      Creates a new QGeoRouteRequest object.
+   $INHERITS$
+
+   $SYNTAX$
+      QGeoRouteRequest( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QGeoRouteRequest
+   $METHODS$
+      :excludeAreas()                                     -> oQList_QGeoRectangle>
+      :featureWeight( nFeatureType )                      -> nFeatureWeight
+      :maneuverDetail()                                   -> nManeuverDetail
+      :numberAlternativeRoutes()                          -> nInt
+      :routeOptimization()                                -> nRouteOptimizations
+      :segmentDetail()                                    -> nSegmentDetail
+      :setFeatureWeight( nFeatureType, nFeatureWeight )   -> NIL
+      :setManeuverDetail( nManeuverDetail )               -> NIL
+      :setNumberAlternativeRoutes( nAlternatives )        -> NIL
+      :setRouteOptimization( nOptimization )              -> NIL
+      :setSegmentDetail( nSegmentDetail )                 -> NIL
+      :setTravelModes( nTravelModes )                     -> NIL
+      :travelModes()                                      -> nTravelModes
+      :waypoints()                                        -> oQList_QGeoCoordinate>
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.5 or upper
+   $FILES$
+      Library: hbqtlocation
+   $END$
+ */

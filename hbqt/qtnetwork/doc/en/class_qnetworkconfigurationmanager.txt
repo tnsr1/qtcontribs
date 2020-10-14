@@ -1,0 +1,49 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QNetworkConfigurationManager()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.7/qnetworkconfigurationmanager.html
+   $ONELINER$
+      Creates a new QNetworkConfigurationManager object.
+   $INHERITS$
+
+   $SYNTAX$
+      QNetworkConfigurationManager( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QNetworkConfigurationManager
+   $METHODS$
+      :allConfigurations( nFilter )                       -> oQList_QNetworkConfiguration>
+      :capabilities()                                     -> nQNetworkConfigurationManager_Capabilities
+      :configurationFromIdentifier( cIdentifier )         -> oQNetworkConfiguration
+      :defaultConfiguration()                             -> oQNetworkConfiguration
+      :isOnline()                                         -> lBool
+      :updateConfigurations()                             -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.7 or upper
+   $FILES$
+      Library: hbqtnetwork
+   $END$
+ */

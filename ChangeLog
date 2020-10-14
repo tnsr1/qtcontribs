@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: ChangeLog 480 2020-04-03 16:03:58Z bedipritpal $
  */
 
 /* Read doc/howtosvn.txt and use this format for entry headers:
@@ -16,6 +16,334 @@
    The license applies to all entries newer than 2009-04-28.
 */
 
+2020-04-03 08:53 UTC-0800 Pritpal Bedi (bedipritpal at hotmail.com)(r479)
+  + Added: qmlparts/resources/qml/PhotoCapture.qml
+    ! Miss from previous commit. Reported by Luigi - thanks.
+
+2020-02-28 13:37 UTC-0800 Pritpal Bedi (bedipritpal at hotmail.com)(r479)
+  * hbqt/qtgui/hbqt_version.ch
+    % Updated for r479
+    
+  * hbqt/hbmk2_qt.hb
+    % Updated to include QObject derived classes of QtWebEngine.
+    
+  + hbqt/qtwebengine
+  + hbqt/qtwebengine/doc
+  + hbqt/qtwebengine/doc/en
+  + hbqt/qtwebengine/hbqt_init.cpp
+  + hbqt/qtwebengine/hbqtwebengine.ch
+  + hbqt/qtwebengine/hbqtwebengine.hbc
+  + hbqt/qtwebengine/hbqtwebengine.hbm
+  + hbqt/qtwebengine/hbqtwebengine.hbp
+  + hbqt/qtwebengine/hbqtwebengine.hbx
+  + hbqt/qtwebengine/hbqtwebengines.hbp
+  + hbqt/qtwebengine/qth
+  + hbqt/qtwebengine/qth/filelist.hbm
+  + hbqt/qtwebengine/qth/QQuickWebEngineProfile.qth
+  + hbqt/qtwebengine/qth/QWebEngineCertificateError.qth
+  + hbqt/qtwebengine/qth/QWebEngineContextMenuData.qth
+  + hbqt/qtwebengine/qth/QWebEngineCookieStore.qth
+  + hbqt/qtwebengine/qth/QWebEngineDownloadItem.qth
+  + hbqt/qtwebengine/qth/QWebEngineFullScreenRequest.qth
+  + hbqt/qtwebengine/qth/QWebEngineHistory.qth
+  + hbqt/qtwebengine/qth/QWebEngineHistoryItem.qth
+  + hbqt/qtwebengine/qth/QWebEnginePage.qth
+  + hbqt/qtwebengine/qth/QWebEngineProfile.qth
+  + hbqt/qtwebengine/qth/QWebEngineScript.qth
+  + hbqt/qtwebengine/qth/QWebEngineScriptCollection.qth
+  + hbqt/qtwebengine/qth/QWebEngineSettings.qth
+  + hbqt/qtwebengine/qth/QWebEngineUrlRequestInfo.qth
+  + hbqt/qtwebengine/qth/QWebEngineUrlRequestInterceptor.qth
+  + hbqt/qtwebengine/qth/QWebEngineUrlRequestJob.qth
+  + hbqt/qtwebengine/qth/QWebEngineUrlSchemeHandler.qth
+  + hbqt/qtwebengine/qth/QWebEngineView.qth
+  + hbqtwidgets/tests/loganalyzer
+    + Added: Module QtWebEngine since Qt 5.5 onwards.
+      A replacement to QtWebkit module which is now depricated.
+      
+  ; NOTE: this module is tested to be compilable on Linux 
+          Ubuntu 64 bits in shared mode. It is not possible to 
+          compile and link it in static mode. You will need 
+          Qt 5.8 or higher for this purpose. This lib is not 
+          included in qtcoontribs57.hbp. You may need to 
+          call it manually staying in harbour/addons as:
+             hbmk2 hbqt/qtwebengine/hbqtwebengine.hbp
+                 
+2020-02-20 20:04 UTC-0800 Pritpal Bedi (bedipritpal at hotmail.com)(r478)
+  * hbqt/qtcore/hbqt_pointer.cpp
+    ! Fixed: cut/update issue. Seems I am ageing.
+
+2020-02-20 19:30 UTC-0800 Pritpal Bedi (bedipritpal at hotmail.com)(r477)
+  + hbqtqmlparts/photocapture.prg
+    + Added. Missed in previous commit.
+
+2020-02-20 19:22 UTC-0800 Pritpal Bedi (bedipritpal at hotmail.com)(r476)
+  * hbqtwidgets/hbqtwidgets.hbp
+    ! Fixed - unwanted additions.
+
+2020-02-20 19:00 UTC-0800 Pritpal Bedi (bedipritpal at hotmail.com)(r475)
+  * hbdbu/dbu.prg
+  * hbide/main.prg
+    - Commented out: REQUEST __HBEXTERN__HBQTWIDGETS__
+      A bunch of QtQuick/Qml baggage is unnecessary.
+    
+  * hbqt/hbmk2_qt.hb
+    + Added: QStackedWidget as a base widget for .ui forms.
+      Until now we had QDialog, QWidget, QMainWindow as base widgets.
+      
+  * hbqt/hbqt_common.hbc
+  * hbqt/qtcore/hbqt_pointer.cpp
+  * hbqt/qtcore/hbqtcore.hbc
+    + Enhancement: to build Qt 5.5.x version statically.
+    
+  * hbqt/qtgui/hbqt_errorsys.prg
+    % Fixed: to display the error message box always.
+      In situations of recursive error it was killing the system.
+      
+  * hbqt/qtgui/hbqt_hbqgraphicsitem.h
+    + Added: bool __hbqGraphicsCanMoveItems();
+  * hbqt/qtgui/hbqt_hbqgraphicsitem.cpp
+  * hbqt/qtgui/hbqt_hbqgraphicsscene.cpp
+    + Implemented to lock the graphics item permanantly.
+    
+  * hbqt/qtgui/hbqtgui.hbc
+    + added: windowsprintersupport static librray for Qt 5.x.x static.
+    
+  * hbqt/qtgui/qth/QGraphicsScene.qth
+    + added: many methods which were not included initially.
+    
+  * hbqt/qtgui/qth/QPrintPreviewWidget.qth
+    + added: missing constructor 
+         else if( hb_pcount() == 1 && hbqt_par_isDerivedFrom( 1, "QPRINTER" ) )
+
+  * hbqt/qtqml/hbqt_init.cpp
+    + aaded: Qml specific plugins for sttaic builds.
+    
+  * hbqt/qtqml/hbqtqml.hbc
+  * hbqt/qtquick/hbqtquick.hbc
+    + Heavy changes for Qt 5.5 and otherwise static builds.
+    
+  * hbqtqmlparts/hbqtqmlparts.hbp
+    + photocapture.prg
+  * hbqtqmlparts/hbqtqmlparts.hbx
+    % Regenerated.
+  * hbqtqmlparts/hbqtqmlparts.qrc
+    + added: <file>resources/qml/PhotoCapture.qml</file>
+  * hbqtqmlparts/misc.prg
+    + added: FUNCTION __hbqtActivatePhotoCapture( bBlock )
+  * hbqtqmlparts/qmlbridge.prg
+  * hbqtqmlparts/resources/qml/BarcodeReader.qml
+    % Cleanup.
+
+  * hbqtwidgets/alert.prg
+    % Visual enhancement.
+    
+  * hbqtwidgets/hbqtbrowse.prg
+    % Enhancements to browse printing.
+    
+  * hbqtwidgets/imageeditor.prg
+    % Replaced: :fitInParent() => HbQtLayoutInParent()
+    
+  * hbqtwidgets/messages.prg
+  * hbqtwidgets/messages.ui
+    % Changed: <Back> icon.
+    
+  * hbqtwidgets/misc.prg
+    % Minor.
+    + Added: FUNCTION HbQtLayInParent( oWidget, oParent )
+    
+  * hbqtwidgets/previewer.prg
+    % Enhanced: PrintPreview widget implementation.
+    
+  * hbqtwidgets/properties.prg
+    + Added: a couple of methods and other enhancements.
+
+  + hbqtwidgets/resources/admin-1.png
+  + hbqtwidgets/resources/cart-1.png
+  + hbqtwidgets/resources/cart-2.png
+  + hbqtwidgets/resources/cart-3.png
+  + hbqtwidgets/resources/cart-4.png
+  + hbqtwidgets/resources/cart-5.png
+  + hbqtwidgets/resources/chat-1.png
+  + hbqtwidgets/resources/clean.png
+  + hbqtwidgets/resources/credit-card-1.png
+  + hbqtwidgets/resources/customer-service.png
+  + hbqtwidgets/resources/data-1.png
+  + hbqtwidgets/resources/edit.png
+  + hbqtwidgets/resources/exit-1.png
+  + hbqtwidgets/resources/female.png
+  + hbqtwidgets/resources/home.png
+  + hbqtwidgets/resources/info-2.png
+  + hbqtwidgets/resources/info-3.png
+  + hbqtwidgets/resources/info-4.png
+  + hbqtwidgets/resources/info-5.png
+  + hbqtwidgets/resources/info-6.png
+  + hbqtwidgets/resources/info-7.png
+  + hbqtwidgets/resources/layers-1.png
+  + hbqtwidgets/resources/mail-01.png
+  + hbqtwidgets/resources/male.png
+  + hbqtwidgets/resources/mover-1.png
+  + hbqtwidgets/resources/mover-2.png
+  + hbqtwidgets/resources/next-1.png
+  + hbqtwidgets/resources/pdf-document.png
+  + hbqtwidgets/resources/pdf.png
+  + hbqtwidgets/resources/previous-1.png
+  + hbqtwidgets/resources/properties-1.png
+  + hbqtwidgets/resources/scanner-1.png
+  + hbqtwidgets/resources/visuals-1.png
+  + hbqtwidgets/resources/visuals-2.png
+  + hbqtwidgets/resources/visuals-3.png
+  + hbqtwidgets/resources/vzl-arrow-bottom.png
+  + hbqtwidgets/resources/vzl-arrow-down.png
+  + hbqtwidgets/resources/vzl-arrow-left.png
+  + hbqtwidgets/resources/vzl-arrow-leftmost.png
+  + hbqtwidgets/resources/vzl-arrow-right.png
+  + hbqtwidgets/resources/vzl-arrow-rightmost.png
+  + hbqtwidgets/resources/vzl-arrow-top.png
+  + hbqtwidgets/resources/vzl-arrow-up.png
+  + hbqtwidgets/resources/vzl-csv.png
+  + hbqtwidgets/resources/vzl-dataset.png
+  + hbqtwidgets/resources/vzl-del-state.png
+  + hbqtwidgets/resources/vzl-edit.png
+  + hbqtwidgets/resources/vzl-excel.png
+  + hbqtwidgets/resources/vzl-layer-leaf.png
+  + hbqtwidgets/resources/vzl-markers.png
+  + hbqtwidgets/resources/vzl-navigator.png
+  + hbqtwidgets/resources/vzl-properties.png
+  + hbqtwidgets/resources/vzl-refresh.png
+  + hbqtwidgets/resources/vzl-row-to-visual.png
+  + hbqtwidgets/resources/vzl-select.png
+  + hbqtwidgets/resources/vzl-sort-az.png
+  + hbqtwidgets/resources/vzl-sort-za.png
+  + hbqtwidgets/resources/vzl-states.png
+  + hbqtwidgets/resources/vzl-table-view.png
+  + hbqtwidgets/resources/vzl-visuals.png
+  + hbqtwidgets/resources/vzl-zoom-in.png
+  + hbqtwidgets/resources/vzl-zoom-out.png
+  + hbqtwidgets/resources/vzl-zoom-pixel.png
+  + hbqtwidgets/resources/vzl-zoom-whole.png
+    
+  * hbqtwidgets/hbqtwidgets.qrc
+    + Added: many more icons.
+    
+  * hbqtwidgets/toolbarex.prg
+    % Minor.
+    
+  * hbqtwidgets/visualizer.ui
+  * hbqtwidgets/visualitems.prg
+  * hbqtwidgets/visualizer.prg
+    + Many enhancements.
+    
+  * qtcontribs.hbp
+    - Commented out hbqtwebkit - not available for static builds - any version.
+
+2019-04-25 08:40 UTC-0700 Pritpal Bedi (bedipritpal at hotmail.com)(r474)
+  + hbqtwidgets/resources/original.png
+  + hbqtwidgets/resources/to-excel.png
+    + Added missing images. Thanks Zoran for pointing.
+
+2019-04-23 00:05 UTC-0700 Pritpal Bedi (bedipritpal at hotmail.com)(r473)
+  * hbqt/hbmk2_qt.hb
+    ! Fix where "nullptr" variable declaration is missing in 
+      latest Qt releases.
+      
+  * hbqt/qtcore/hbqt_init.cpp
+    + static void hbqt_SlotsExecQRectQPointFQPointF( PHB_ITEM * codeBlock, 
+                                   void ** arguments, QStringList pList )
+      Needed for signals in QRubberBand class.
+      
+  * hbqt/qtgui/hbqtgui.ch
+    + Added few more contsnats for QRubberBand class.
+    
+  * hbqt/qtgui/qth/QPlainTextEdit.qth
+    + Added few new methods introduced in different Qt versions.
+    
+  + hbqt/qtgui/qth/QRubberBand.qth
+    + Implemented QRubberBand class.
+    
+  * hbqt/qtgui/qth/filelist.hbm
+    + Added: QRubberband.qth
+    
+  * hbqtwidgets/hbqtbrowse.prg
+    + Added: Actions icons in vertical toolbar of browser window for 
+      ::refreshCurrent() and ::refreshAll() methods.
+      
+  + hbqtwidgets/httpclient.prg
+    + Implemented a general purpose, easy to use, addressing REST Api
+      protocol, class HbQtHttpClient() on top of TipClientHttp().
+      This source can be included as stand alone in any other 
+      project. If matured enough I will also commit HbQtHttpServer()
+      based on Mindaugus's contrib/hbhttpd with some added and 
+      extremely required features.
+    
+  + hbqtwidgets/imageeditor.prg
+    + Implemented: HbQtImageEditor( oParent ) class which can be 
+      embedded into any container with/without any layout. This 
+      class exposes rotation, crop, etc features to manage images.
+      
+  * hbqtwidgets/silverlight.prg
+    + Added ::lActive property to know the state of 
+      function HbQtActivateSilverLight().
+      
+  * hbqtwidgets/hbqtwidgets.hbp
+    + Added imageeditor.prg.
+    
+  + hbqtwidgets/resources/crop.png
+  + hbqtwidgets/resources/delete-1.png
+  + hbqtwidgets/resources/exit-48.png
+  + hbqtwidgets/resources/refresh-3.png
+  + hbqtwidgets/resources/rotate-left.png
+  + hbqtwidgets/resources/select-2.png
+  + hbqtwidgets/resources/settings.png
+  * hbqtwidgets/hbqtwidgets.qrc
+    + Added few more images needed for HbQtImageEdit implementation.
+    
+  ; All above components, including the previous commit, has been 
+    developed for couple of real-time, in-production applications and 
+    which are running superbly in heavy load environments. So believe in 
+    HbQt and take use of it.    
+
+2019-04-05 14:31 UTC-0800 Pritpal Bedi (bedipritpal at hotmail.com)(r472)
+  * hbqtwidgets/misc.prg
+    ! Fixed. A copy/paste error.
+
+2019-04-04 15:19 UTC-0800 Pritpal Bedi (bedipritpal at hotmail.com)(r471)
+  * hbqt/hbmk2_qt.hb 
+    + WR_PRG( '#include "hbqtcore.ch"' )
+	  Patch provided by Zoran, thanks.
+	
+  * hbqt/qtgui/qth/QCompleter.qth
+    + Added: more methods.
+	
+  * hbqt/qscintilla/qth/QsciScintilla.qth
+	+ Added method requested by Antonio Linares.
+	
+  + hbqtwidgets/timeout.prg 
+    + CLASS HbQtWarnTimeout
+	  A widget to display timeout in seconds from higher to zero
+	  with an option to fetch more time. 
+    + FUNCTION HbQtSessionTimeout( bBlock, nWaitPeriod )
+      Function to exploit HbQtWarnTimeout().
+	  
+  * hbqtwidgets/alert.prg
+    ! Fixed some cosmetic issues.
+	
+  * hbqtwidgets/hbqtwidgets.hbp
+    + timeout.prg
+	
+  * hbqtwidgets/keyboardn.ui
+  * hbqtwidgets/keyboard.prg
+    ! Some cosmetic changes.
+	
+  * hbqtwidgets/misc.prg
+    ! Enhancement to __hbqtHashPullValue() to honor first level arrays.
+	
+  * hbqtwidgets/parselogs.ui
+    ! Cosmetic changes.
+	
+  * hbqtwidgets/scripts.prg
+    ! Minor fixes.
+	
 2017-11-09 17:08 UTC-0800 Pritpal Bedi (bedipritpal at hotmail.com)(r470)
   + hbqt/tests/sqllite-table.prg
     Added: yet another very useful demo exploiting SqlLite table and 

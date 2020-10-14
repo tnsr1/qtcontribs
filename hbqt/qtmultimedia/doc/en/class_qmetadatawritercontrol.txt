@@ -1,0 +1,48 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QMetaDataWriterControl()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qmetadatawritercontrol.html
+   $ONELINER$
+      Creates a new QMetaDataWriterControl object.
+   $INHERITS$
+      QMediaControl
+   $SYNTAX$
+      QMetaDataWriterControl( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QMetaDataWriterControl
+   $METHODS$
+      :availableMetaData()                                -> oQStringList
+      :isMetaDataAvailable()                              -> lBool
+      :isWritable()                                       -> lBool
+      :metaData( cKey )                                   -> oQVariant
+      :setMetaData( cKey, oQVariant )                     -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtmultimedia
+   $END$
+ */

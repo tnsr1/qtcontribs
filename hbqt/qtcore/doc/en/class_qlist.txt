@@ -1,0 +1,79 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QList()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qlist.html
+   $ONELINER$
+      Creates a new QList object.
+   $INHERITS$
+
+   $SYNTAX$
+      QList( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QList
+   $METHODS$
+      :append( xValue )                                   -> NIL
+      :at( nI )                                           -> oT
+      :back()                                             -> oT
+      :clear()                                            -> NIL
+      :count( xValue )                                    -> nInt
+      :()                                                 -> nInt
+      :empty()                                            -> lBool
+      :endsWith( xValue )                                 -> lBool
+      :first()                                            -> oT
+      :front()                                            -> oT
+      :indexOf( xValue, nFrom )                           -> nInt
+      :insert( nI, xValue )                               -> NIL
+      :isEmpty()                                          -> lBool
+      :last()                                             -> oT
+      :lastIndexOf( xValue, nFrom )                       -> nInt
+      :length()                                           -> nInt
+      :move( nFrom, nTo )                                 -> NIL
+      :pop()                                              -> NIL
+      :pop()                                              -> NIL
+      :prepend( xValue )                                  -> NIL
+      :push( xValue )                                     -> NIL
+      :push( xValue )                                     -> NIL
+      :removeAll( xValue )                                -> nInt
+      :removeAt( nI )                                     -> NIL
+      :removeFirst()                                      -> NIL
+      :removeLast()                                       -> NIL
+      :removeOne( xValue )                                -> lBool
+      :replace( nI, xValue )                              -> NIL
+      :size()                                             -> nInt
+      :startsWith( xValue )                               -> lBool
+      :swap( nI, nJ )                                     -> NIL
+      :takeAt( nI )                                       -> oT
+      :takeFirst()                                        -> oT
+      :takeLast()                                         -> oT
+      :value( nI )                                        -> oT
+      :( nI, xDefaultValue )                              -> oT
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtcore
+   $END$
+ */

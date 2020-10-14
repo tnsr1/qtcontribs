@@ -1,0 +1,51 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QAbstractVideoSurface()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.6/qabstractvideosurface.html
+   $ONELINER$
+      Creates a new QAbstractVideoSurface object.
+   $INHERITS$
+      QObject
+   $SYNTAX$
+      QAbstractVideoSurface( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QAbstractVideoSurface
+   $METHODS$
+      :error()                                            -> nError
+      :isActive()                                         -> lBool
+      :isFormatSupported( oQVideoSurfaceFormat )          -> lBool
+      :nearestFormat( oQVideoSurfaceFormat )              -> oQVideoSurfaceFormat
+      :present( oQVideoFrame )                            -> lBool
+      :start( oQVideoSurfaceFormat )                      -> lBool
+      :stop()                                             -> NIL
+      :surfaceFormat()                                    -> oQVideoSurfaceFormat
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.6 or upper
+   $FILES$
+      Library: hbqtmultimedia
+   $END$
+ */

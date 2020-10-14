@@ -1,0 +1,99 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      HBQPlainTextEdit()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/hbqplaintextedit.html
+   $ONELINER$
+      Creates a new HBQPlainTextEdit object.
+   $INHERITS$
+      QPlainTextEdit
+   $SYNTAX$
+      HBQPlainTextEdit( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type HBQPlainTextEdit
+   $METHODS$
+      :hbGetIndex( oQTextCursor )                         -> nInt
+      :hbGetLine( oQTextCursor )                          -> nInt
+      :hbLineNumberAreaWidth()                            -> nInt
+      :hbGetSpaces()                                      -> nInt
+      :hbSetSpaces( nNewSpaces )                          -> NIL
+      :hbBookmarks( nBlock )                              -> NIL
+      :hbNextBookmark( nBlock )                           -> NIL
+      :hbPrevBookmark( nBlock )                           -> NIL
+      :hbGotoBookmark( nBlock )                           -> NIL
+      :hbNumberBlockVisible( lB )                         -> NIL
+      :()                                                 -> lBool
+      :hbHighlightCurrentLine( lB )                       -> NIL
+      :()                                                 -> lBool
+      :hbSetEventBlock( xBlock )                          -> NIL
+      :hbSetHighLighter( oHBQSyntaxHighlighter )          -> NIL
+      :hbHighlightPage()                                  -> NIL
+      :hbGetBreakPoints()                                 -> cQString
+      :hbSetBreakPoint( nBlock )                          -> NIL
+      :hbSetDebuggedLine( nBlock )                        -> NIL
+      :hbUpdateLineNumberAreaWidth( nNewBlockCount )      -> NIL
+      :hbCaseUpper()                                      -> NIL
+      :hbCaseLower()                                      -> NIL
+      :hbEscapeQuotes()                                   -> NIL
+      :hbEscapeDQuotes()                                  -> NIL
+      :hbUnescapeQuotes()                                 -> NIL
+      :hbUnescapeDQuotes()                                -> NIL
+      :hbConvertQuotes()                                  -> NIL
+      :hbConvertDQuotes()                                 -> NIL
+      :hbBlockComment()                                   -> NIL
+      :hbStreamComment()                                  -> NIL
+      :hbDuplicateLine()                                  -> NIL
+      :hbReplaceSelection( cTxt )                         -> NIL
+      :hbBlockIndent( nSteps )                            -> NIL
+      :hbDeleteLine()                                     -> NIL
+      :hbMoveLine( nIDirection )                          -> NIL
+      :hbGetSelectedText()                                -> cQString
+      :hbTextUnderCursor( lBCodeComplete )                -> cQString
+      :hbShowPrototype( cTip, nRows, nCols )              -> NIL
+      :hbSetCompleter( oQCompleter )                      -> NIL
+      :hbSetFldsCompleter( oQCompleter )                  -> NIL
+      :hbSetCurrentLineColor( oQColor )                   -> NIL
+      :hbSetLineAreaBkColor( oQColor )                    -> NIL
+      :hbRefresh()                                        -> NIL
+      :hbSetSelectionMode( nMode, lOn )                   -> NIL
+      :hbSetSelectionInfo( xSelectionInfo )               -> NIL
+      :hbSetSelectionColor( oQColor )                     -> NIL
+      :hbSetMatchBraces( lAll )                           -> NIL
+      :hbGetViewportInfo()                                -> NIL
+      :hbApplyKey( nKey, nModifiers, cTxt )               -> NIL
+      :hbHighlightArea( nTop, nLeft, nBottom, nRight, nMode )  -> NIL
+      :hbTogglePersistentSelection()                      -> NIL
+      :hbHorzRulerVisible( lVisible )                     -> NIL
+      :hbSelectAll()                                      -> NIL
+      :hbSetFieldsListActive( lActive )                   -> NIL
+      :hbToggleCodeCompetion()                            -> NIL
+      :hbToggleCompetionTips()                            -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

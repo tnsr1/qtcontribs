@@ -1,0 +1,140 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QWindow()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.0/qwindow.html
+   $ONELINER$
+      Creates a new QWindow object.
+   $INHERITS$
+      QObject, QSurface
+   $SYNTAX$
+      QWindow( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QWindow
+   $METHODS$
+      :baseSize()                                         -> oQSize
+      :contentOrientation()                               -> nQt_ScreenOrientation
+      :create()                                           -> NIL
+      :cursor()                                           -> oQCursor
+      :destroy()                                          -> NIL
+      :devicePixelRatio()                                 -> nQreal
+      :filePath()                                         -> cQString
+      :flags()                                            -> nQt_WindowFlags
+      :focusObject()                                      -> oQObject
+      :frameGeometry()                                    -> oQRect
+      :frameMargins()                                     -> oQMargins
+      :framePosition()                                    -> oQPoint
+      :geometry()                                         -> oQRect
+      :height()                                           -> nInt
+      :icon()                                             -> oQIcon
+      :isActive()                                         -> lBool
+      :isAncestorOf( oQWindow, nMode )                    -> lBool
+      :isExposed()                                        -> lBool
+      :isModal()                                          -> lBool
+      :isTopLevel()                                       -> lBool
+      :isVisible()                                        -> lBool
+      :mapFromGlobal( oQPoint )                           -> oQPoint
+      :mapToGlobal( oQPoint )                             -> oQPoint
+      :mask()                                             -> oQRegion
+      :maximumHeight()                                    -> nInt
+      :maximumSize()                                      -> oQSize
+      :maximumWidth()                                     -> nInt
+      :minimumHeight()                                    -> nInt
+      :minimumSize()                                      -> oQSize
+      :minimumWidth()                                     -> nInt
+      :modality()                                         -> nQt_WindowModality
+      :opacity()                                          -> nQreal
+      :parent()                                           -> oQWindow
+      :position()                                         -> oQPoint
+      :reportContentOrientationChange( nOrientation )     -> NIL
+      :requestedFormat()                                  -> oQSurfaceFormat
+      :resize( oQSize )                                   -> NIL
+      :( nW, nH )                                         -> NIL
+      :screen()                                           -> oQScreen
+      :setBaseSize( oQSize )                              -> NIL
+      :setCursor( oQCursor )                              -> NIL
+      :setFilePath( cFilePath )                           -> NIL
+      :setFlags( nFlags )                                 -> NIL
+      :setFormat( oQSurfaceFormat )                       -> NIL
+      :setFramePosition( oQPoint )                        -> NIL
+      :setGeometry( nPosx, nPosy, nW, nH )                -> NIL
+      :( oQRect )                                         -> NIL
+      :setIcon( oQIcon )                                  -> NIL
+      :setKeyboardGrabEnabled( lGrab )                    -> lBool
+      :setMask( oQRegion )                                -> NIL
+      :setMaximumSize( oQSize )                           -> NIL
+      :setMinimumSize( oQSize )                           -> NIL
+      :setModality( nModality )                           -> NIL
+      :setMouseGrabEnabled( lGrab )                       -> lBool
+      :setOpacity( nLevel )                               -> NIL
+      :setParent( oQWindow )                              -> NIL
+      :setPosition( oQPoint )                             -> NIL
+      :( nPosx, nPosy )                                   -> NIL
+      :setScreen( oQScreen )                              -> NIL
+      :setSizeIncrement( oQSize )                         -> NIL
+      :setSurfaceType( nSurfaceType )                     -> NIL
+      :setTransientParent( oQWindow )                     -> NIL
+      :setVisibility( nV )                                -> NIL
+      :setWindowState( nState )                           -> NIL
+      :sizeIncrement()                                    -> oQSize
+      :title()                                            -> cQString
+      :transientParent()                                  -> oQWindow
+      :type()                                             -> nQt_WindowType
+      :unsetCursor()                                      -> NIL
+      :visibility()                                       -> nVisibility
+      :width()                                            -> nInt
+      :winId()                                            -> nWId
+      :windowState()                                      -> nQt_WindowState
+      :x()                                                -> nInt
+      :y()                                                -> nInt
+      :fromWinId( nId )                                   -> oQWindow
+      :alert( nMsec )                                     -> NIL
+      :close()                                            -> lBool
+      :hide()                                             -> NIL
+      :lower()                                            -> NIL
+      :raise()                                            -> NIL
+      :requestActivate()                                  -> NIL
+      :setHeight( nArg )                                  -> NIL
+      :setMaximumHeight( nH )                             -> NIL
+      :setMaximumWidth( nW )                              -> NIL
+      :setMinimumHeight( nH )                             -> NIL
+      :setMinimumWidth( nW )                              -> NIL
+      :setTitle( cQString )                               -> NIL
+      :setVisible( lVisible )                             -> NIL
+      :setWidth( nArg )                                   -> NIL
+      :setX( nArg )                                       -> NIL
+      :setY( nArg )                                       -> NIL
+      :show()                                             -> NIL
+      :showFullScreen()                                   -> NIL
+      :showMaximized()                                    -> NIL
+      :showMinimized()                                    -> NIL
+      :showNormal()                                       -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.0 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

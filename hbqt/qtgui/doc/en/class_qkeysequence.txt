@@ -1,0 +1,50 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QKeySequence()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qkeysequence.html
+   $ONELINER$
+      Creates a new QKeySequence object.
+   $INHERITS$
+
+   $SYNTAX$
+      QKeySequence( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QKeySequence
+   $METHODS$
+      :count()                                            -> nUint
+      :isEmpty()                                          -> lBool
+      :matches( oQKeySequence )                           -> nSequenceMatch
+      :toString( nFormat )                                -> cQString
+      :fromString( cStr, nFormat )                        -> oQKeySequence
+      :keyBindings( nKey )                                -> oQList_QKeySequence>
+      :mnemonic( cText )                                  -> oQKeySequence
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

@@ -1,0 +1,221 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QPainter()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qpainter.html
+   $ONELINER$
+      Creates a new QPainter object.
+   $INHERITS$
+
+   $SYNTAX$
+      QPainter( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QPainter
+   $METHODS$
+      :background()                                       -> oQBrush
+      :backgroundMode()                                   -> nQt_BGMode
+      :begin( oQPaintDevice )                             -> lBool
+      :boundingRect( oQRectF, nFlags, cText )             -> oQRectF
+      :( oQRect, nFlags, cText )                          -> oQRect
+      :( nX, nY, nW, nH, nFlags, cText )                  -> oQRect
+      :( oQRectF, cText, oQTextOption )                   -> oQRectF
+      :brush()                                            -> oQBrush
+      :brushOrigin()                                      -> oQPoint
+      :clipPath()                                         -> oQPainterPath
+      :clipRegion()                                       -> oQRegion
+      :combinedMatrix()                                   -> oQMatrix
+      :combinedTransform()                                -> oQTransform
+      :compositionMode()                                  -> nCompositionMode
+      :device()                                           -> oQPaintDevice
+      :deviceMatrix()                                     -> oQMatrix
+      :deviceTransform()                                  -> oQTransform
+      :drawArc( oQRectF, nStartAngle, nSpanAngle )        -> NIL
+      :( oQRect, nStartAngle, nSpanAngle )                -> NIL
+      :( nX, nY, nWidth, nHeight, nStartAngle, nSpanAngle )  -> NIL
+      :drawChord( oQRectF, nStartAngle, nSpanAngle )      -> NIL
+      :( oQRect, nStartAngle, nSpanAngle )                -> NIL
+      :( nX, nY, nWidth, nHeight, nStartAngle, nSpanAngle )  -> NIL
+      :drawConvexPolygon( oQPointF, nPointCount )         -> NIL
+      :( oQPoint, nPointCount )                           -> NIL
+      :( oQPolygonF )                                     -> NIL
+      :( oQPolygon )                                      -> NIL
+      :drawEllipse( oQRectF )                             -> NIL
+      :( oQRect )                                         -> NIL
+      :( nX, nY, nWidth, nHeight )                        -> NIL
+      :( oQPointF, nRx, nRy )                             -> NIL
+      :( oQPoint, nRx, nRy )                              -> NIL
+      :drawImage( oQRectF, oQImage, oQRectF, nFlags )     -> NIL
+      :( oQRect, oQImage, oQRect, nFlags )                -> NIL
+      :( oQPointF, oQImage )                              -> NIL
+      :( oQPoint, oQImage )                               -> NIL
+      :( oQPointF, oQImage, oQRectF, nFlags )             -> NIL
+      :( oQPoint, oQImage, oQRect, nFlags )               -> NIL
+      :( oQRectF, oQImage )                               -> NIL
+      :( oQRect, oQImage )                                -> NIL
+      :( nX, nY, oQImage, nSx, nSy, nSw, nSh, nFlags )    -> NIL
+      :drawLine( oQLineF )                                -> NIL
+      :( oQLine )                                         -> NIL
+      :( oQPoint, oQPoint )                               -> NIL
+      :( oQPointF, oQPointF )                             -> NIL
+      :( nX1, nY1, nX2, nY2 )                             -> NIL
+      :drawLines( oQLineF, nLineCount )                   -> NIL
+      :( oQLine, nLineCount )                             -> NIL
+      :( oQPointF, nLineCount )                           -> NIL
+      :( oQPoint, nLineCount )                            -> NIL
+      :drawPath( oQPainterPath )                          -> NIL
+      :drawPicture( oQPointF, oQPicture )                 -> NIL
+      :( oQPoint, oQPicture )                             -> NIL
+      :( nX, nY, oQPicture )                              -> NIL
+      :drawPie( oQRectF, nStartAngle, nSpanAngle )        -> NIL
+      :( oQRect, nStartAngle, nSpanAngle )                -> NIL
+      :( nX, nY, nWidth, nHeight, nStartAngle, nSpanAngle )  -> NIL
+      :drawPixmap( oQRectF, oQPixmap, oQRectF )           -> NIL
+      :( oQRect, oQPixmap, oQRect )                       -> NIL
+      :( oQPointF, oQPixmap, oQRectF )                    -> NIL
+      :( oQPoint, oQPixmap, oQRect )                      -> NIL
+      :( oQPointF, oQPixmap )                             -> NIL
+      :( oQPoint, oQPixmap )                              -> NIL
+      :( nX, nY, oQPixmap )                               -> NIL
+      :( oQRect, oQPixmap )                               -> NIL
+      :( nX, nY, nWidth, nHeight, oQPixmap )              -> NIL
+      :( nX, nY, nW, nH, oQPixmap, nSx, nSy, nSw, nSh )   -> NIL
+      :( nX, nY, oQPixmap, nSx, nSy, nSw, nSh )           -> NIL
+      :drawPoint( oQPointF )                              -> NIL
+      :( oQPoint )                                        -> NIL
+      :( nX, nY )                                         -> NIL
+      :drawPoints( oQPointF, nPointCount )                -> NIL
+      :( oQPoint, nPointCount )                           -> NIL
+      :( oQPolygonF )                                     -> NIL
+      :( oQPolygon )                                      -> NIL
+      :drawPolygon( oQPointF, nPointCount, nFillRule )    -> NIL
+      :( oQPoint, nPointCount, nFillRule )                -> NIL
+      :( oQPolygonF, nFillRule )                          -> NIL
+      :( oQPolygon, nFillRule )                           -> NIL
+      :drawPolyline( oQPointF, nPointCount )              -> NIL
+      :( oQPoint, nPointCount )                           -> NIL
+      :( oQPolygonF )                                     -> NIL
+      :( oQPolygon )                                      -> NIL
+      :drawRect( oQRectF )                                -> NIL
+      :( oQRect )                                         -> NIL
+      :( nX, nY, nWidth, nHeight )                        -> NIL
+      :drawRects( oQRectF, nRectCount )                   -> NIL
+      :( oQRect, nRectCount )                             -> NIL
+      :drawRoundedRect( oQRectF, nXRadius, nYRadius, nMode )  -> NIL
+      :( oQRect, nXRadius, nYRadius, nMode )              -> NIL
+      :( nX, nY, nW, nH, nXRadius, nYRadius, nMode )      -> NIL
+      :drawText( oQPointF, cText )                        -> NIL
+      :( oQPoint, cText )                                 -> NIL
+      :( oQRectF, cText, oQTextOption )                   -> NIL
+      :( oQRectF, nFlags, cText, oQRectF )                -> NIL
+      :( oQRect, nFlags, cText, oQRect )                  -> NIL
+      :( nX, nY, cText )                                  -> NIL
+      :( nX, nY, nWidth, nHeight, nFlags, cText, oQRect )  -> NIL
+      :drawTiledPixmap( oQRectF, oQPixmap, oQPointF )     -> NIL
+      :( oQRect, oQPixmap, oQPoint )                      -> NIL
+      :( nX, nY, nWidth, nHeight, oQPixmap, nSx, nSy )    -> NIL
+      :end()                                              -> lBool
+      :eraseRect( oQRectF )                               -> NIL
+      :( oQRect )                                         -> NIL
+      :( nX, nY, nWidth, nHeight )                        -> NIL
+      :fillPath( oQPainterPath, oQBrush )                 -> NIL
+      :fillRect( oQRectF, oQBrush )                       -> NIL
+      :( oQRect, oQBrush )                                -> NIL
+      :( oQRectF, oQColor )                               -> NIL
+      :( oQRect, oQColor )                                -> NIL
+      :( oQRectF, nColor )                                -> NIL
+      :( oQRect, nColor )                                 -> NIL
+      :( nX, nY, nWidth, nHeight, oQBrush )               -> NIL
+      :( nX, nY, nWidth, nHeight, oQColor )               -> NIL
+      :( nX, nY, nWidth, nHeight, nColor )                -> NIL
+      :font()                                             -> oQFont
+      :fontInfo()                                         -> oQFontInfo
+      :fontMetrics()                                      -> oQFontMetrics
+      :hasClipping()                                      -> lBool
+      :isActive()                                         -> lBool
+      :layoutDirection()                                  -> nQt_LayoutDirection
+      :opacity()                                          -> nQreal
+      :paintEngine()                                      -> oQPaintEngine
+      :pen()                                              -> oQPen
+      :renderHints()                                      -> nRenderHints
+      :resetMatrix()                                      -> NIL
+      :resetTransform()                                   -> NIL
+      :restore()                                          -> NIL
+      :rotate( nAngle )                                   -> NIL
+      :save()                                             -> NIL
+      :scale( nSx, nSy )                                  -> NIL
+      :setBackground( oQBrush )                           -> NIL
+      :setBackgroundMode( nMode )                         -> NIL
+      :setBrush( oQBrush )                                -> NIL
+      :( nStyle )                                         -> NIL
+      :setBrushOrigin( oQPointF )                         -> NIL
+      :( oQPoint )                                        -> NIL
+      :( nX, nY )                                         -> NIL
+      :setClipPath( oQPainterPath, nOperation )           -> NIL
+      :setClipRect( oQRectF, nOperation )                 -> NIL
+      :( nX, nY, nWidth, nHeight, nOperation )            -> NIL
+      :( oQRect, nOperation )                             -> NIL
+      :setClipRegion( oQRegion, nOperation )              -> NIL
+      :setClipping( lEnable )                             -> NIL
+      :setCompositionMode( nMode )                        -> NIL
+      :setFont( oQFont )                                  -> NIL
+      :setLayoutDirection( nDirection )                   -> NIL
+      :setOpacity( nOpacity )                             -> NIL
+      :setPen( oQPen )                                    -> NIL
+      :( oQColor )                                        -> NIL
+      :( nStyle )                                         -> NIL
+      :setRenderHint( nHint, lOn )                        -> NIL
+      :setRenderHints( nHints, lOn )                      -> NIL
+      :setTransform( oQTransform, lCombine )              -> NIL
+      :setViewTransformEnabled( lEnable )                 -> NIL
+      :setViewport( oQRect )                              -> NIL
+      :( nX, nY, nWidth, nHeight )                        -> NIL
+      :setWindow( oQRect )                                -> NIL
+      :( nX, nY, nWidth, nHeight )                        -> NIL
+      :setWorldMatrix( oQMatrix, lCombine )               -> NIL
+      :setWorldMatrixEnabled( lEnable )                   -> NIL
+      :setWorldTransform( oQTransform, lCombine )         -> NIL
+      :shear( nSh, nSv )                                  -> NIL
+      :strokePath( oQPainterPath, oQPen )                 -> NIL
+      :testRenderHint( nHint )                            -> lBool
+      :transform()                                        -> oQTransform
+      :translate( oQPointF )                              -> NIL
+      :( oQPoint )                                        -> NIL
+      :( nDx, nDy )                                       -> NIL
+      :viewTransformEnabled()                             -> lBool
+      :viewport()                                         -> oQRect
+      :window()                                           -> oQRect
+      :worldMatrix()                                      -> oQMatrix
+      :worldMatrixEnabled()                               -> lBool
+      :worldTransform()                                   -> oQTransform
+      :redirected( oQPaintDevice, oQPoint )               -> oQPaintDevice
+      :restoreRedirected( oQPaintDevice )                 -> NIL
+      :setRedirected( oQPaintDevice, oQPaintDevice, oQPoint )  -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

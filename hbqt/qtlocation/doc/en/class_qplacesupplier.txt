@@ -1,0 +1,52 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QPlaceSupplier()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.5/qplacesupplier.html
+   $ONELINER$
+      Creates a new QPlaceSupplier object.
+   $INHERITS$
+
+   $SYNTAX$
+      QPlaceSupplier( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QPlaceSupplier
+   $METHODS$
+      :icon()                                             -> oQPlaceIcon
+      :isEmpty()                                          -> lBool
+      :name()                                             -> cQString
+      :setIcon( oQPlaceIcon )                             -> NIL
+      :setName( cName )                                   -> NIL
+      :setSupplierId( cIdentifier )                       -> NIL
+      :setUrl( oQUrl )                                    -> NIL
+      :supplierId()                                       -> cQString
+      :url()                                              -> oQUrl
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.5 or upper
+   $FILES$
+      Library: hbqtlocation
+   $END$
+ */

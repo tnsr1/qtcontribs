@@ -1,0 +1,45 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QRegExpValidator()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qregexpvalidator.html
+   $ONELINER$
+      Creates a new QRegExpValidator object.
+   $INHERITS$
+      QValidator
+   $SYNTAX$
+      QRegExpValidator( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QRegExpValidator
+   $METHODS$
+      :regExp()                                           -> oQRegExp
+      :setRegExp( oQRegExp )                              -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

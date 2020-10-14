@@ -1,0 +1,47 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QXmlErrorHandler()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qxmlerrorhandler.html
+   $ONELINER$
+      Creates a new QXmlErrorHandler object.
+   $INHERITS$
+
+   $SYNTAX$
+      QXmlErrorHandler( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QXmlErrorHandler
+   $METHODS$
+      :error( oQXmlParseException )                       -> lBool
+      :errorString()                                      -> cQString
+      :fatalError( oQXmlParseException )                  -> lBool
+      :warning( oQXmlParseException )                     -> lBool
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtopengl
+   $END$
+ */

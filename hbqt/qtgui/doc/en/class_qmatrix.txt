@@ -1,0 +1,71 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QMatrix()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qmatrix.html
+   $ONELINER$
+      Creates a new QMatrix object.
+   $INHERITS$
+
+   $SYNTAX$
+      QMatrix( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QMatrix
+   $METHODS$
+      :m11()                                              -> nQreal
+      :m12()                                              -> nQreal
+      :m21()                                              -> nQreal
+      :m22()                                              -> nQreal
+      :det()                                              -> nQreal
+      :dx()                                               -> nQreal
+      :dy()                                               -> nQreal
+      :inverted( @lInvertible )                           -> oQMatrix
+      :isIdentity()                                       -> lBool
+      :isInvertible()                                     -> lBool
+      :map( nX, nY, @nTx, @nTy )                          -> NIL
+      :( oQPointF )                                       -> oQPointF
+      :( oQPoint )                                        -> oQPoint
+      :( oQLineF )                                        -> oQLineF
+      :( oQLine )                                         -> oQLine
+      :( oQPolygonF )                                     -> oQPolygonF
+      :( oQPolygon )                                      -> oQPolygon
+      :( oQRegion )                                       -> oQRegion
+      :( oQPainterPath )                                  -> oQPainterPath
+      :mapRect( oQRectF )                                 -> oQRectF
+      :( oQRect )                                         -> oQRect
+      :mapToPolygon( oQRect )                             -> oQPolygon
+      :reset()                                            -> NIL
+      :rotate( nDegrees )                                 -> oQMatrix
+      :scale( nSx, nSy )                                  -> oQMatrix
+      :setMatrix( nM11, nM12, nM21, nM22, nDx, nDy )      -> NIL
+      :shear( nSh, nSv )                                  -> oQMatrix
+      :translate( nDx, nDy )                              -> oQMatrix
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

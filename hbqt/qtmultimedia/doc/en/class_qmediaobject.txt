@@ -1,0 +1,53 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QMediaObject()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qmediaobject.html
+   $ONELINER$
+      Creates a new QMediaObject object.
+   $INHERITS$
+      QObject
+   $SYNTAX$
+      QMediaObject( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QMediaObject
+   $METHODS$
+      :availability()                                     -> nQMultimedia_AvailabilityStatus
+      :availableMetaData()                                -> oQStringList
+      :bind( oQObject )                                   -> lBool
+      :isAvailable()                                      -> lBool
+      :isMetaDataAvailable()                              -> lBool
+      :metaData( cKey )                                   -> oQVariant
+      :notifyInterval()                                   -> nInt
+      :service()                                          -> oQMediaService
+      :setNotifyInterval( nMilliSeconds )                 -> NIL
+      :unbind( oQObject )                                 -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtmultimedia
+   $END$
+ */

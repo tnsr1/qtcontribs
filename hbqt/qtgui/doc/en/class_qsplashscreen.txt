@@ -1,0 +1,49 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QSplashScreen()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qsplashscreen.html
+   $ONELINER$
+      Creates a new QSplashScreen object.
+   $INHERITS$
+      QWidget
+   $SYNTAX$
+      QSplashScreen( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QSplashScreen
+   $METHODS$
+      :finish( oQWidget )                                 -> NIL
+      :pixmap()                                           -> oQPixmap
+      :repaint()                                          -> NIL
+      :setPixmap( oQPixmap )                              -> NIL
+      :clearMessage()                                     -> NIL
+      :showMessage( cMessage, nAlignment, oQColor )       -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

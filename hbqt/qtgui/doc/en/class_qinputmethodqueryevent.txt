@@ -1,0 +1,46 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QInputMethodQueryEvent()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.0/qinputmethodqueryevent.html
+   $ONELINER$
+      Creates a new QInputMethodQueryEvent object.
+   $INHERITS$
+      QEvent
+   $SYNTAX$
+      QInputMethodQueryEvent( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QInputMethodQueryEvent
+   $METHODS$
+      :queries()                                          -> nQt_InputMethodQueries
+      :setValue( nQuery, oQVariant )                      -> NIL
+      :value( nQuery )                                    -> oQVariant
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.0 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

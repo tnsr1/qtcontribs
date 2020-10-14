@@ -1,0 +1,55 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QQmlError()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qqmlerror.html
+   $ONELINER$
+      Creates a new QQmlError object.
+   $INHERITS$
+
+   $SYNTAX$
+      QQmlError( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QQmlError
+   $METHODS$
+      :column()                                           -> nInt
+      :description()                                      -> cQString
+      :isValid()                                          -> lBool
+      :line()                                             -> nInt
+      :object()                                           -> oQObject
+      :setColumn( nColumn )                               -> NIL
+      :setDescription( cDescription )                     -> NIL
+      :setLine( nLine )                                   -> NIL
+      :setObject( oQObject )                              -> NIL
+      :setUrl( oQUrl )                                    -> NIL
+      :toString()                                         -> cQString
+      :url()                                              -> oQUrl
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtqml
+   $END$
+ */

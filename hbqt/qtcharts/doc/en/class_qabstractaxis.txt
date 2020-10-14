@@ -1,0 +1,100 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QAbstractAxis()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.7/qabstractaxis.html
+   $ONELINER$
+      Creates a new QAbstractAxis object.
+   $INHERITS$
+      QObject
+   $SYNTAX$
+      QAbstractAxis( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QAbstractAxis
+   $METHODS$
+      :alignment()                                        -> nQt_Alignment
+      :gridLineColor()                                    -> oQColor
+      :gridLinePen()                                      -> oQPen
+      :hide()                                             -> NIL
+      :isGridLineVisible()                                -> lBool
+      :isLineVisible()                                    -> lBool
+      :isMinorGridLineVisible()                           -> lBool
+      :isReverse()                                        -> lBool
+      :isTitleVisible()                                   -> lBool
+      :isVisible()                                        -> lBool
+      :labelsAngle()                                      -> nInt
+      :labelsBrush()                                      -> oQBrush
+      :labelsColor()                                      -> oQColor
+      :labelsFont()                                       -> oQFont
+      :labelsVisible()                                    -> lBool
+      :linePen()                                          -> oQPen
+      :linePenColor()                                     -> oQColor
+      :minorGridLineColor()                               -> oQColor
+      :minorGridLinePen()                                 -> oQPen
+      :orientation()                                      -> nQt_Orientation
+      :setGridLineColor( oQColor )                        -> NIL
+      :setGridLinePen( oQPen )                            -> NIL
+      :setGridLineVisible( lVisible )                     -> NIL
+      :setLabelsAngle( nAngle )                           -> NIL
+      :setLabelsBrush( oQBrush )                          -> NIL
+      :setLabelsColor( oQColor )                          -> NIL
+      :setLabelsFont( oQFont )                            -> NIL
+      :setLabelsVisible( lVisible )                       -> NIL
+      :setLinePen( oQPen )                                -> NIL
+      :setLinePenColor( oQColor )                         -> NIL
+      :setLineVisible( lVisible )                         -> NIL
+      :setMax( oQVariant )                                -> NIL
+      :setMin( oQVariant )                                -> NIL
+      :setMinorGridLineColor( oQColor )                   -> NIL
+      :setMinorGridLinePen( oQPen )                       -> NIL
+      :setMinorGridLineVisible( lVisible )                -> NIL
+      :setRange( oQVariant, oQVariant )                   -> NIL
+      :setReverse( lReverse )                             -> NIL
+      :setShadesBorderColor( oQColor )                    -> NIL
+      :setShadesBrush( oQBrush )                          -> NIL
+      :setShadesColor( oQColor )                          -> NIL
+      :setShadesPen( oQPen )                              -> NIL
+      :setShadesVisible( lVisible )                       -> NIL
+      :setTitleBrush( oQBrush )                           -> NIL
+      :setTitleFont( oQFont )                             -> NIL
+      :setTitleText( cTitle )                             -> NIL
+      :setTitleVisible( lVisible )                        -> NIL
+      :setVisible( lVisible )                             -> NIL
+      :shadesBorderColor()                                -> oQColor
+      :shadesBrush()                                      -> oQBrush
+      :shadesColor()                                      -> oQColor
+      :shadesPen()                                        -> oQPen
+      :shadesVisible()                                    -> lBool
+      :show()                                             -> NIL
+      :titleBrush()                                       -> oQBrush
+      :titleFont()                                        -> oQFont
+      :titleText()                                        -> cQString
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.7 or upper
+   $FILES$
+      Library: hbqtcharts
+   $END$
+ */

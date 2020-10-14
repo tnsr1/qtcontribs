@@ -1,0 +1,53 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QGLFramebufferObjectFormat()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.6/qglframebufferobjectformat.html
+   $ONELINER$
+      Creates a new QGLFramebufferObjectFormat object.
+   $INHERITS$
+
+   $SYNTAX$
+      QGLFramebufferObjectFormat( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QGLFramebufferObjectFormat
+   $METHODS$
+      :attachment()                                       -> nQGLFramebufferObject_Attachment
+      :internalTextureFormat()                            -> nGLenum
+      :mipmap()                                           -> lBool
+      :samples()                                          -> nInt
+      :setAttachment( nAttachment )                       -> NIL
+      :setInternalTextureFormat( nInternalTextureFormat )  -> NIL
+      :setMipmap( lEnabled )                              -> NIL
+      :setSamples( nSamples )                             -> NIL
+      :setTextureTarget( nTarget )                        -> NIL
+      :textureTarget()                                    -> nGLenum
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.6 or upper
+   $FILES$
+      Library: hbqtopengl
+   $END$
+ */

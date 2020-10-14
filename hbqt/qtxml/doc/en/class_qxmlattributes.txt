@@ -1,0 +1,60 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QXmlAttributes()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qxmlattributes.html
+   $ONELINER$
+      Creates a new QXmlAttributes object.
+   $INHERITS$
+
+   $SYNTAX$
+      QXmlAttributes( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QXmlAttributes
+   $METHODS$
+      :append( cQName, cUri, cLocalPart, cValue )         -> NIL
+      :clear()                                            -> NIL
+      :count()                                            -> nInt
+      :index( cQName )                                    -> nInt
+      :( oQLatin1String )                                 -> nInt
+      :( cUri, cLocalPart )                               -> nInt
+      :length()                                           -> nInt
+      :localName( nIndex )                                -> cQString
+      :qName( nIndex )                                    -> cQString
+      :type( nIndex )                                     -> cQString
+      :( cQName )                                         -> cQString
+      :( cUri, cLocalName )                               -> cQString
+      :uri( nIndex )                                      -> cQString
+      :value( nIndex )                                    -> cQString
+      :( cQName )                                         -> cQString
+      :( oQLatin1String )                                 -> cQString
+      :( cUri, cLocalName )                               -> cQString
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtopengl
+   $END$
+ */

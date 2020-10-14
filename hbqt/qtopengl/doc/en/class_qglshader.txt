@@ -1,0 +1,52 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QGLShader()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.6/qglshader.html
+   $ONELINER$
+      Creates a new QGLShader object.
+   $INHERITS$
+      QObject
+   $SYNTAX$
+      QGLShader( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QGLShader
+   $METHODS$
+      :compileSourceCode( oQByteArray )                   -> lBool
+      :( cSource )                                        -> lBool
+      :compileSourceFile( cFileName )                     -> lBool
+      :isCompiled()                                       -> lBool
+      :log()                                              -> cQString
+      :shaderId()                                         -> nGLuint
+      :shaderType()                                       -> nQGLShader_ShaderType
+      :sourceCode()                                       -> oQByteArray
+      :hasOpenGLShaders( nType, oQGLContext )             -> lBool
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.6 or upper
+   $FILES$
+      Library: hbqtopengl
+   $END$
+ */

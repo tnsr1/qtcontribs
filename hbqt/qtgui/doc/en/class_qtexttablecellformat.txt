@@ -1,0 +1,53 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QTextTableCellFormat()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.8/qtexttablecellformat.html
+   $ONELINER$
+      Creates a new QTextTableCellFormat object.
+   $INHERITS$
+      QTextCharFormat
+   $SYNTAX$
+      QTextTableCellFormat( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QTextTableCellFormat
+   $METHODS$
+      :bottomPadding()                                    -> nQreal
+      :isValid()                                          -> lBool
+      :leftPadding()                                      -> nQreal
+      :rightPadding()                                     -> nQreal
+      :setBottomPadding( nPadding )                       -> NIL
+      :setLeftPadding( nPadding )                         -> NIL
+      :setPadding( nPadding )                             -> NIL
+      :setRightPadding( nPadding )                        -> NIL
+      :setTopPadding( nPadding )                          -> NIL
+      :topPadding()                                       -> nQreal
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.8 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

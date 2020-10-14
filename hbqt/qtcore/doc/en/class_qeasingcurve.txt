@@ -1,0 +1,55 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QEasingCurve()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.6/qeasingcurve.html
+   $ONELINER$
+      Creates a new QEasingCurve object.
+   $INHERITS$
+
+   $SYNTAX$
+      QEasingCurve( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QEasingCurve
+   $METHODS$
+      :addCubicBezierSegment( oQPointF, oQPointF, oQPointF )  -> NIL
+      :addTCBSegment( oQPointF, nT, nC, nB )              -> NIL
+      :amplitude()                                        -> nQreal
+      :overshoot()                                        -> nQreal
+      :period()                                           -> nQreal
+      :setAmplitude( nAmplitude )                         -> NIL
+      :setOvershoot( nOvershoot )                         -> NIL
+      :setPeriod( nPeriod )                               -> NIL
+      :setType( nType )                                   -> NIL
+      :swap( oQEasingCurve )                              -> NIL
+      :type()                                             -> nType
+      :valueForProgress( nProgress )                      -> nQreal
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.6 or upper
+   $FILES$
+      Library: hbqtcore
+   $END$
+ */

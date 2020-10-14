@@ -1,0 +1,64 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QTextLine()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qtextline.html
+   $ONELINER$
+      Creates a new QTextLine object.
+   $INHERITS$
+
+   $SYNTAX$
+      QTextLine( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QTextLine
+   $METHODS$
+      :ascent()                                           -> nQreal
+      :cursorToX( @nCursorPos, nEdge )                    -> nQreal
+      :( nCursorPos, nEdge )                              -> nQreal
+      :descent()                                          -> nQreal
+      :height()                                           -> nQreal
+      :isValid()                                          -> lBool
+      :lineNumber()                                       -> nInt
+      :naturalTextRect()                                  -> oQRectF
+      :naturalTextWidth()                                 -> nQreal
+      :position()                                         -> oQPointF
+      :rect()                                             -> oQRectF
+      :setLineWidth( nWidth )                             -> NIL
+      :setNumColumns( nNumColumns )                       -> NIL
+      :( nNumColumns, nAlignmentWidth )                   -> NIL
+      :setPosition( oQPointF )                            -> NIL
+      :textLength()                                       -> nInt
+      :textStart()                                        -> nInt
+      :width()                                            -> nQreal
+      :x()                                                -> nQreal
+      :xToCursor( nX, nCpos )                             -> nInt
+      :y()                                                -> nQreal
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

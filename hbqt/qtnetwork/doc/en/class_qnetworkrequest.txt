@@ -1,0 +1,53 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QNetworkRequest()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qnetworkrequest.html
+   $ONELINER$
+      Creates a new QNetworkRequest object.
+   $INHERITS$
+
+   $SYNTAX$
+      QNetworkRequest( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QNetworkRequest
+   $METHODS$
+      :attribute( nCode, oQVariant )                      -> oQVariant
+      :hasRawHeader( oQByteArray )                        -> lBool
+      :header( nHeader )                                  -> oQVariant
+      :rawHeader( oQByteArray )                           -> oQByteArray
+      :rawHeaderList()                                    -> oQList_QByteArray>
+      :setAttribute( nCode, oQVariant )                   -> NIL
+      :setHeader( nHeader, oQVariant )                    -> NIL
+      :setRawHeader( oQByteArray, oQByteArray )           -> NIL
+      :setUrl( oQUrl )                                    -> NIL
+      :url()                                              -> oQUrl
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtnetwork
+   $END$
+ */

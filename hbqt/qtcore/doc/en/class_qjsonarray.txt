@@ -1,0 +1,65 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QJsonArray()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.0/qjsonarray.html
+   $ONELINER$
+      Creates a new QJsonArray object.
+   $INHERITS$
+
+   $SYNTAX$
+      QJsonArray( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QJsonArray
+   $METHODS$
+      :append( oQJsonValue )                              -> NIL
+      :at( nI )                                           -> oQJsonValue
+      :contains( oQJsonValue )                            -> lBool
+      :count()                                            -> nInt
+      :empty()                                            -> lBool
+      :first()                                            -> oQJsonValue
+      :insert( nI, oQJsonValue )                          -> NIL
+      :isEmpty()                                          -> lBool
+      :last()                                             -> oQJsonValue
+      :pop()                                              -> NIL
+      :pop()                                              -> NIL
+      :prepend( oQJsonValue )                             -> NIL
+      :push( oQJsonValue )                                -> NIL
+      :push( oQJsonValue )                                -> NIL
+      :removeAt( nI )                                     -> NIL
+      :removeFirst()                                      -> NIL
+      :removeLast()                                       -> NIL
+      :replace( nI, oQJsonValue )                         -> NIL
+      :size()                                             -> nInt
+      :takeAt( nI )                                       -> oQJsonValue
+      :toVariantList()                                    -> oQList_QVariant>
+      :fromStringList( oQStringList )                     -> oQJsonArray
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.0 or upper
+   $FILES$
+      Library: hbqtcore
+   $END$
+ */

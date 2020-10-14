@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: demobarcodereader.prg 417 2015-08-01 01:42:17Z bedipritpal $
  */
 
 /*

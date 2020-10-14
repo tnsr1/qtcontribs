@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: dialog.prg 392 2015-01-23 21:14:12Z bedipritpal $
  */
 
 /*

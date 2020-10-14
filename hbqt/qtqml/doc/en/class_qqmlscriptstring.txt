@@ -1,0 +1,49 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QQmlScriptString()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qqmlscriptstring.html
+   $ONELINER$
+      Creates a new QQmlScriptString object.
+   $INHERITS$
+
+   $SYNTAX$
+      QQmlScriptString( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QQmlScriptString
+   $METHODS$
+      :booleanLiteral( @lOk )                             -> lBool
+      :isEmpty()                                          -> lBool
+      :isNullLiteral()                                    -> lBool
+      :isUndefinedLiteral()                               -> lBool
+      :numberLiteral( @lOk )                              -> nQreal
+      :stringLiteral()                                    -> cQString
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtqml
+   $END$
+ */

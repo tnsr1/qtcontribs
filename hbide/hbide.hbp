@@ -14,6 +14,8 @@
 
 -icon={allwin}hbide.ico
 
+-Lc:\dev\lib\win\mingw
+
 -workdir=${hb_work}/${hb_plat}/${hb_comp}${hb_build}/${hb_name}
 
 {!android&!__ios__}-o../../bin/${hb_plat}/${hb_comp}${hb_build}/${hb_name}
@@ -43,7 +45,7 @@ hbziparc.hbc
 {allwin}gtwvg.hbc
 
 -env:HB_DYNLOAD_RDDADS=yes
-rddads.hbc
+#rddads.hbc
 
 main.prg
 parts.prg
@@ -128,3 +130,5 @@ settings.qrc
 {_HB_BUILD_&(!(HB_BUILD_DYN='no')&(win|wce|os2))}-shared
 
 $hb_pkg_install.hbm
+
+ 

@@ -1,0 +1,57 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QMenuBar()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qmenubar.html
+   $ONELINER$
+      Creates a new QMenuBar object.
+   $INHERITS$
+      QWidget
+   $SYNTAX$
+      QMenuBar( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QMenuBar
+   $METHODS$
+      :activeAction()                                     -> oQAction
+      :addAction( cText )                                 -> oQAction
+      :( cText, oQObject, cMember )                       -> oQAction
+      :( oQAction )                                       -> NIL
+      :addMenu( oQMenu )                                  -> oQAction
+      :( cTitle )                                         -> oQMenu
+      :( oQIcon, cTitle )                                 -> oQMenu
+      :addSeparator()                                     -> oQAction
+      :clear()                                            -> NIL
+      :insertMenu( oQAction, oQMenu )                     -> oQAction
+      :insertSeparator( oQAction )                        -> oQAction
+      :isDefaultUp()                                      -> lBool
+      :setActiveAction( oQAction )                        -> NIL
+      :setDefaultUp( lBool )                              -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

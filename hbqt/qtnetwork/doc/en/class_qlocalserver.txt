@@ -1,0 +1,58 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QLocalServer()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qlocalserver.html
+   $ONELINER$
+      Creates a new QLocalServer object.
+   $INHERITS$
+
+   $SYNTAX$
+      QLocalServer( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QLocalServer
+   $METHODS$
+      :close()                                            -> NIL
+      :errorString()                                      -> cQString
+      :fullServerName()                                   -> cQString
+      :hasPendingConnections()                            -> lBool
+      :isListening()                                      -> lBool
+      :listen( cName )                                    -> lBool
+      :maxPendingConnections()                            -> nInt
+      :nextPendingConnection()                            -> oQLocalSocket
+      :serverError()                                      -> nQAbstractSocket_SocketError
+      :serverName()                                       -> cQString
+      :setMaxPendingConnections( nNumConnections )        -> NIL
+      :setSocketOptions( nOptions )                       -> NIL
+      :socketOptions()                                    -> nSocketOptions
+      :waitForNewConnection( nMsec, @lTimedOut )          -> lBool
+      :removeServer( cName )                              -> lBool
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtnetwork
+   $END$
+ */

@@ -1,0 +1,44 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QLatin1String()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qlatin1string.html
+   $ONELINER$
+      Creates a new QLatin1String object.
+   $INHERITS$
+
+   $SYNTAX$
+      QLatin1String( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QLatin1String
+   $METHODS$
+      :latin1()                                           -> cChar
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtcore
+   $END$
+ */

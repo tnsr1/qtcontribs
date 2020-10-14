@@ -1,0 +1,57 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QHostInfo()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.0/qhostinfo.html
+   $ONELINER$
+      Creates a new QHostInfo object.
+   $INHERITS$
+
+   $SYNTAX$
+      QHostInfo( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QHostInfo
+   $METHODS$
+      :addresses()                                        -> oQList_QHostAddress>
+      :error()                                            -> nHostInfoError
+      :errorString()                                      -> cQString
+      :hostName()                                         -> cQString
+      :lookupId()                                         -> nInt
+      :setError( nError )                                 -> NIL
+      :setErrorString( cStr )                             -> NIL
+      :setHostName( cHostName )                           -> NIL
+      :setLookupId( nId )                                 -> NIL
+      :abortHostLookup( nId )                             -> NIL
+      :fromName( cName )                                  -> oQHostInfo
+      :localDomainName()                                  -> cQString
+      :localHostName()                                    -> cQString
+      :lookupHost( cName, oQObject, cMember )             -> nInt
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.0 or upper
+   $FILES$
+      Library: hbqtnetwork
+   $END$
+ */

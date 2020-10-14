@@ -1,0 +1,53 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QQmlIncubator()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qqmlincubator.html
+   $ONELINER$
+      Creates a new QQmlIncubator object.
+   $INHERITS$
+
+   $SYNTAX$
+      QQmlIncubator( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QQmlIncubator
+   $METHODS$
+      :clear()                                            -> NIL
+      :errors()                                           -> oQList_QQmlError>
+      :forceCompletion()                                  -> NIL
+      :incubationMode()                                   -> nIncubationMode
+      :isError()                                          -> lBool
+      :isLoading()                                        -> lBool
+      :isNull()                                           -> lBool
+      :isReady()                                          -> lBool
+      :object()                                           -> oQObject
+      :status()                                           -> nStatus
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtqml
+   $END$
+ */

@@ -1,0 +1,59 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QVideoEncoderSettings()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qvideoencodersettings.html
+   $ONELINER$
+      Creates a new QVideoEncoderSettings object.
+   $INHERITS$
+
+   $SYNTAX$
+      QVideoEncoderSettings( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QVideoEncoderSettings
+   $METHODS$
+      :bitRate()                                          -> nInt
+      :codec()                                            -> cQString
+      :encodingMode()                                     -> nQMultimedia_EncodingMode
+      :encodingOption( cOption )                          -> oQVariant
+      :frameRate()                                        -> nQreal
+      :isNull()                                           -> lBool
+      :quality()                                          -> nQMultimedia_EncodingQuality
+      :resolution()                                       -> oQSize
+      :setBitRate( nValue )                               -> NIL
+      :setCodec( cCodec )                                 -> NIL
+      :setEncodingMode( nMode )                           -> NIL
+      :setEncodingOption( cOption, oQVariant )            -> NIL
+      :setFrameRate( nRate )                              -> NIL
+      :setQuality( nQuality )                             -> NIL
+      :setResolution( oQSize )                            -> NIL
+      :( nWidth, nHeight )                                -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtmultimedia
+   $END$
+ */

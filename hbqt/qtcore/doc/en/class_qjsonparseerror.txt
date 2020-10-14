@@ -1,0 +1,44 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QJsonParseError()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.0/qjsonparseerror.html
+   $ONELINER$
+      Creates a new QJsonParseError object.
+   $INHERITS$
+
+   $SYNTAX$
+      QJsonParseError( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QJsonParseError
+   $METHODS$
+      :errorString()                                      -> cQString
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.0 or upper
+   $FILES$
+      Library: hbqtcore
+   $END$
+ */

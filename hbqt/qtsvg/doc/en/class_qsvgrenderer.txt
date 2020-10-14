@@ -1,0 +1,49 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QSvgRenderer()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qsvgrenderer.html
+   $ONELINER$
+      Creates a new QSvgRenderer object.
+   $INHERITS$
+      QObject
+   $SYNTAX$
+      QSvgRenderer( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QSvgRenderer
+   $METHODS$
+      :load( cFilename )                                  -> lBool
+      :( oQByteArray )                                    -> lBool
+      :( oQXmlStreamReader )                              -> lBool
+      :render( oQPainter )                                -> NIL
+      :( oQPainter, oQRectF )                             -> NIL
+      :( oQPainter, cElementId, oQRectF )                 -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtsvg
+   $END$
+ */

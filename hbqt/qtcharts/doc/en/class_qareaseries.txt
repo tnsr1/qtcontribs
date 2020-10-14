@@ -1,0 +1,67 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QAreaSeries()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.7/qareaseries.html
+   $ONELINER$
+      Creates a new QAreaSeries object.
+   $INHERITS$
+      QAbstractSeries
+   $SYNTAX$
+      QAreaSeries( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QAreaSeries
+   $METHODS$
+      :borderColor()                                      -> oQColor
+      :brush()                                            -> oQBrush
+      :color()                                            -> oQColor
+      :lowerSeries()                                      -> oQLineSeries
+      :pen()                                              -> oQPen
+      :pointLabelsClipping()                              -> lBool
+      :pointLabelsColor()                                 -> oQColor
+      :pointLabelsFont()                                  -> oQFont
+      :pointLabelsFormat()                                -> cQString
+      :pointLabelsVisible()                               -> lBool
+      :pointsVisible()                                    -> lBool
+      :setBorderColor( oQColor )                          -> NIL
+      :setBrush( oQBrush )                                -> NIL
+      :setColor( oQColor )                                -> NIL
+      :setLowerSeries( oQLineSeries )                     -> NIL
+      :setPen( oQPen )                                    -> NIL
+      :setPointLabelsClipping( lEnabled )                 -> NIL
+      :setPointLabelsColor( oQColor )                     -> NIL
+      :setPointLabelsFont( oQFont )                       -> NIL
+      :setPointLabelsFormat( cFormat )                    -> NIL
+      :setPointLabelsVisible( lVisible )                  -> NIL
+      :setPointsVisible( lVisible )                       -> NIL
+      :setUpperSeries( oQLineSeries )                     -> NIL
+      :upperSeries()                                      -> oQLineSeries
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.7 or upper
+   $FILES$
+      Library: hbqtcharts
+   $END$
+ */

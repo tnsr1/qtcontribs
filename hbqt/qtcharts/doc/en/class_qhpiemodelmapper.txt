@@ -1,0 +1,55 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QHPieModelMapper()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.7/qhpiemodelmapper.html
+   $ONELINER$
+      Creates a new QHPieModelMapper object.
+   $INHERITS$
+      QPieModelMapper
+   $SYNTAX$
+      QHPieModelMapper( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QHPieModelMapper
+   $METHODS$
+      :columnCount()                                      -> nInt
+      :firstColumn()                                      -> nInt
+      :labelsRow()                                        -> nInt
+      :model()                                            -> oQAbstractItemModel
+      :series()                                           -> oQPieSeries
+      :setColumnCount( nColumnCount )                     -> NIL
+      :setFirstColumn( nFirstColumn )                     -> NIL
+      :setLabelsRow( nLabelsRow )                         -> NIL
+      :setModel( oQAbstractItemModel )                    -> NIL
+      :setSeries( oQPieSeries )                           -> NIL
+      :setValuesRow( nValuesRow )                         -> NIL
+      :valuesRow()                                        -> nInt
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.7 or upper
+   $FILES$
+      Library: hbqtcharts
+   $END$
+ */

@@ -1,0 +1,50 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QGraphicsItemGroup()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qgraphicsitemgroup.html
+   $ONELINER$
+      Creates a new QGraphicsItemGroup object.
+   $INHERITS$
+      QGraphicsItem
+   $SYNTAX$
+      QGraphicsItemGroup( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QGraphicsItemGroup
+   $METHODS$
+      :addToGroup( oQGraphicsItem )                       -> NIL
+      :removeFromGroup( oQGraphicsItem )                  -> NIL
+      :boundingRect()                                     -> oQRectF
+      :isObscuredBy( oQGraphicsItem )                     -> lBool
+      :opaqueArea()                                       -> oQPainterPath
+      :paint( oQPainter, oQStyleOptionGraphicsItem, oQWidget )  -> NIL
+      :type()                                             -> nInt
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

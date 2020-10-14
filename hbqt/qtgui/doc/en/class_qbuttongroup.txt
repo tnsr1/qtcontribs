@@ -1,0 +1,54 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QButtonGroup()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qbuttongroup.html
+   $ONELINER$
+      Creates a new QButtonGroup object.
+   $INHERITS$
+      QObject
+   $SYNTAX$
+      QButtonGroup( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QButtonGroup
+   $METHODS$
+      :addButton( oQAbstractButton )                      -> NIL
+      :( oQAbstractButton, nId )                          -> NIL
+      :button( nId )                                      -> oQAbstractButton
+      :buttons()                                          -> oQList_QAbstractButton
+      :checkedButton()                                    -> oQAbstractButton
+      :checkedId()                                        -> nInt
+      :exclusive()                                        -> lBool
+      :id( oQAbstractButton )                             -> nInt
+      :removeButton( oQAbstractButton )                   -> NIL
+      :setExclusive( lBool )                              -> NIL
+      :setId( oQAbstractButton, nId )                     -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

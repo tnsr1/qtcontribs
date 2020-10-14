@@ -1,0 +1,73 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QScreen()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.0/qscreen.html
+   $ONELINER$
+      Creates a new QScreen object.
+   $INHERITS$
+      QObject
+   $SYNTAX$
+      QScreen( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QScreen
+   $METHODS$
+      :angleBetween( nA, nB )                             -> nInt
+      :availableGeometry()                                -> oQRect
+      :availableSize()                                    -> oQSize
+      :availableVirtualGeometry()                         -> oQRect
+      :availableVirtualSize()                             -> oQSize
+      :depth()                                            -> nInt
+      :devicePixelRatio()                                 -> nQreal
+      :geometry()                                         -> oQRect
+      :grabWindow( nWindow, nX, nY, nWidth, nHeight )     -> oQPixmap
+      :isLandscape( nO )                                  -> lBool
+      :isPortrait( nO )                                   -> lBool
+      :logicalDotsPerInch()                               -> nQreal
+      :logicalDotsPerInchX()                              -> nQreal
+      :logicalDotsPerInchY()                              -> nQreal
+      :mapBetween( nA, nB, oQRect )                       -> oQRect
+      :name()                                             -> cQString
+      :orientation()                                      -> nQt_ScreenOrientation
+      :orientationUpdateMask()                            -> nQt_ScreenOrientations
+      :physicalDotsPerInch()                              -> nQreal
+      :physicalDotsPerInchX()                             -> nQreal
+      :physicalDotsPerInchY()                             -> nQreal
+      :physicalSize()                                     -> oQSizeF
+      :primaryOrientation()                               -> nQt_ScreenOrientation
+      :refreshRate()                                      -> nQreal
+      :setOrientationUpdateMask( nMask )                  -> NIL
+      :size()                                             -> oQSize
+      :transformBetween( nA, nB, oQRect )                 -> oQTransform
+      :virtualGeometry()                                  -> oQRect
+      :virtualSiblings()                                  -> oQList_QScreen
+      :virtualSize()                                      -> oQSize
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.0 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

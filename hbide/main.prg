@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: main.prg 475 2020-02-20 03:07:47Z bedipritpal $
  */
 
 /*
@@ -81,8 +81,8 @@ REQUEST __HBEXTERN__HBZIPARC__
 
 REQUEST __HBEXTERN__HBQTCORE__
 REQUEST __HBEXTERN__HBQTGUI__
-//REQUEST __HBEXTERN__HBQTWIDGETS__
 REQUEST __HBEXTERN__HBXBP__
+//REQUEST __HBEXTERN__HBQTWIDGETS__
 
 
 #include "hbide.ch"
@@ -125,7 +125,9 @@ FUNCTION Main( ... )
    QResource():registerResource_1( hbqtres_HbIde() )
    QResource():registerResource_1( hbqtres_Settings() )
 
-   hb_cdpSelect( "UTF8EX" )
+//   hb_cdpSelect( "UTF8EX" )
+   hb_cdpSelect( "RU1251" )
+
    SET EPOCH TO 1950
 
    hb_SetEnv( "__HBIDE__", hb_dirBase() )

@@ -1,0 +1,47 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QHttpMultiPart()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-64.128/qhttpmultipart.html
+   $ONELINER$
+      Creates a new QHttpMultiPart object.
+   $INHERITS$
+
+   $SYNTAX$
+      QHttpMultiPart( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QHttpMultiPart
+   $METHODS$
+      :append( oQHttpPart )                               -> NIL
+      :boundary()                                         -> oQByteArray
+      :setBoundary( oQByteArray )                         -> NIL
+      :setContentType( nContentType )                     -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      64.128 or upper
+   $FILES$
+      Library: hbqtnetwork
+   $END$
+ */

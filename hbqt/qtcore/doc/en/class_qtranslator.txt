@@ -1,0 +1,47 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QTranslator()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qtranslator.html
+   $ONELINER$
+      Creates a new QTranslator object.
+   $INHERITS$
+      QObject
+   $SYNTAX$
+      QTranslator( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QTranslator
+   $METHODS$
+      :isEmpty()                                          -> lBool
+      :load( cFilename, cDirectory, cSearch_delimiters, cSuffix )  -> lBool
+      :translate( cContext, cSourceText, cDisambiguation )  -> cQString
+      :( cContext, cSourceText, cDisambiguation, nN )     -> cQString
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtcore
+   $END$
+ */

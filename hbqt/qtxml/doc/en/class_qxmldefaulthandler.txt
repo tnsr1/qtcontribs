@@ -1,0 +1,70 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QXmlDefaultHandler()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qxmldefaulthandler.html
+   $ONELINER$
+      Creates a new QXmlDefaultHandler object.
+   $INHERITS$
+      QXmlContentHandler, QXmlErrorHandler, QXmlDTDHandler, QXmlEntityResolver, QXmlLexicalHandler, QXmlDeclHandler
+   $SYNTAX$
+      QXmlDefaultHandler( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QXmlDefaultHandler
+   $METHODS$
+      :attributeDecl( cEName, cAName, cType, cValueDefault, cValue )  -> lBool
+      :characters( cCh )                                  -> lBool
+      :comment( cCh )                                     -> lBool
+      :endCDATA()                                         -> lBool
+      :endDTD()                                           -> lBool
+      :endDocument()                                      -> lBool
+      :endElement( cNamespaceURI, cLocalName, cQName )    -> lBool
+      :endEntity( cName )                                 -> lBool
+      :endPrefixMapping( cPrefix )                        -> lBool
+      :error( oQXmlParseException )                       -> lBool
+      :errorString()                                      -> cQString
+      :externalEntityDecl( cName, cPublicId, cSystemId )  -> lBool
+      :fatalError( oQXmlParseException )                  -> lBool
+      :ignorableWhitespace( cCh )                         -> lBool
+      :internalEntityDecl( cName, cValue )                -> lBool
+      :notationDecl( cName, cPublicId, cSystemId )        -> lBool
+      :processingInstruction( cTarget, cData )            -> lBool
+      :setDocumentLocator( oQXmlLocator )                 -> NIL
+      :skippedEntity( cName )                             -> lBool
+      :startCDATA()                                       -> lBool
+      :startDTD( cName, cPublicId, cSystemId )            -> lBool
+      :startDocument()                                    -> lBool
+      :startElement( cNamespaceURI, cLocalName, cQName, oQXmlAttributes )  -> lBool
+      :startEntity( cName )                               -> lBool
+      :startPrefixMapping( cPrefix, cUri )                -> lBool
+      :unparsedEntityDecl( cName, cPublicId, cSystemId, cNotationName )  -> lBool
+      :warning( oQXmlParseException )                     -> lBool
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtopengl
+   $END$
+ */

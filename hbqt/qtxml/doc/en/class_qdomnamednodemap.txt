@@ -1,0 +1,55 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QDomNamedNodeMap()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qdomnamednodemap.html
+   $ONELINER$
+      Creates a new QDomNamedNodeMap object.
+   $INHERITS$
+
+   $SYNTAX$
+      QDomNamedNodeMap( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QDomNamedNodeMap
+   $METHODS$
+      :contains( cName )                                  -> lBool
+      :count()                                            -> nInt
+      :isEmpty()                                          -> lBool
+      :item( nIndex )                                     -> oQDomNode
+      :length()                                           -> nUint
+      :namedItem( cName )                                 -> oQDomNode
+      :namedItemNS( cNsURI, cLocalName )                  -> oQDomNode
+      :removeNamedItem( cName )                           -> oQDomNode
+      :removeNamedItemNS( cNsURI, cLocalName )            -> oQDomNode
+      :setNamedItem( oQDomNode )                          -> oQDomNode
+      :setNamedItemNS( oQDomNode )                        -> oQDomNode
+      :size()                                             -> nInt
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtopengl
+   $END$
+ */

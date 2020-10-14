@@ -1,5 +1,5 @@
 #
-# $Id$
+# $Id: hbqtopengl.hbp 392 2015-01-23 21:14:12Z bedipritpal $
 #
 
 {__ios__}-stop='QtOpenGL is not available for ios...'

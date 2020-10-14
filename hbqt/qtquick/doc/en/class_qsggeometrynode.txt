@@ -1,0 +1,47 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QSGGeometryNode()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qsggeometrynode.html
+   $ONELINER$
+      Creates a new QSGGeometryNode object.
+   $INHERITS$
+      QSGGeometryNode
+   $SYNTAX$
+      QSGGeometryNode( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QSGGeometryNode
+   $METHODS$
+      :material()                                         -> oQSGMaterial
+      :opaqueMaterial()                                   -> oQSGMaterial
+      :setMaterial( oQSGMaterial )                        -> NIL
+      :setOpaqueMaterial( oQSGMaterial )                  -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtquick
+   $END$
+ */

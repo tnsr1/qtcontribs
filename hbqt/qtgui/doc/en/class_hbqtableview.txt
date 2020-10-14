@@ -1,0 +1,47 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      HBQTableView()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/hbqtableview.html
+   $ONELINER$
+      Creates a new HBQTableView object.
+   $INHERITS$
+      QTableView
+   $SYNTAX$
+      HBQTableView( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type HBQTableView
+   $METHODS$
+      :hbSetBlock( xBlock )                               -> NIL
+      :hbClearBlock()                                     -> NIL
+      :visualRect( oQModelIndex )                         -> oQRect
+      :setModel( oQAbstractItemModel )                    -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

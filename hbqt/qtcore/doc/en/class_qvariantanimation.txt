@@ -1,0 +1,54 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QVariantAnimation()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.6/qvariantanimation.html
+   $ONELINER$
+      Creates a new QVariantAnimation object.
+   $INHERITS$
+      QAbstractAnimation
+   $SYNTAX$
+      QVariantAnimation( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QVariantAnimation
+   $METHODS$
+      :currentValue()                                     -> oQVariant
+      :easingCurve()                                      -> oQEasingCurve
+      :endValue()                                         -> oQVariant
+      :keyValueAt( nStep )                                -> oQVariant
+      :setDuration( nMsecs )                              -> NIL
+      :setEasingCurve( oQEasingCurve )                    -> NIL
+      :setEndValue( oQVariant )                           -> NIL
+      :setKeyValueAt( nStep, oQVariant )                  -> NIL
+      :setStartValue( oQVariant )                         -> NIL
+      :startValue()                                       -> oQVariant
+      :duration()                                         -> nInt
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.6 or upper
+   $FILES$
+      Library: hbqtcore
+   $END$
+ */

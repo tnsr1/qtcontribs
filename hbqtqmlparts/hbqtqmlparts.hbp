@@ -1,5 +1,5 @@
 #
-# $Id$
+# $Id: hbqtqmlparts.hbp 475 2020-02-20 03:07:47Z bedipritpal $
 #
 
 -3rd=hbide_version=1.0
@@ -22,6 +22,7 @@
 -workdir=${hb_work}/${hb_plat}/${hb_comp}${hb_build}/${hb_targetname}
 
 ../hbqt/hbqt.hbc
+
 hbqtwidgets.hbc
 hbqtzxing.hbc
 
@@ -31,6 +32,7 @@ misc.prg
 qmlbridge.prg
 barcodereader.prg
 webview.prg
+photocapture.prg
 
 hbqtqmlparts.qrc
 

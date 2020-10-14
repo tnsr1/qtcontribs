@@ -1,0 +1,46 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QCameraFocusZone()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-5.3/qcamerafocuszone.html
+   $ONELINER$
+      Creates a new QCameraFocusZone object.
+   $INHERITS$
+
+   $SYNTAX$
+      QCameraFocusZone( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QCameraFocusZone
+   $METHODS$
+      :area()                                             -> oQRectF
+      :isValid()                                          -> lBool
+      :status()                                           -> nQCameraFocusZone_FocusZoneStatus
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      5.3 or upper
+   $FILES$
+      Library: hbqtmultimedia
+   $END$
+ */

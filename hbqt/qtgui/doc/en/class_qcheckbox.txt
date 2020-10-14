@@ -1,0 +1,47 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QCheckBox()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qcheckbox.html
+   $ONELINER$
+      Creates a new QCheckBox object.
+   $INHERITS$
+      QAbstractButton
+   $SYNTAX$
+      QCheckBox( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QCheckBox
+   $METHODS$
+      :checkState()                                       -> nQt_CheckState
+      :isTristate()                                       -> lBool
+      :setCheckState( nState )                            -> NIL
+      :setTristate( lY )                                  -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

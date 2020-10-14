@@ -1,0 +1,55 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QGraphicsDropShadowEffect()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.6/qgraphicsdropshadoweffect.html
+   $ONELINER$
+      Creates a new QGraphicsDropShadowEffect object.
+   $INHERITS$
+      QGraphicsEffect
+   $SYNTAX$
+      QGraphicsDropShadowEffect( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QGraphicsDropShadowEffect
+   $METHODS$
+      :blurRadius()                                       -> nQreal
+      :color()                                            -> oQColor
+      :offset()                                           -> oQPointF
+      :xOffset()                                          -> nQreal
+      :yOffset()                                          -> nQreal
+      :setBlurRadius( nBlurRadius )                       -> NIL
+      :setColor( oQColor )                                -> NIL
+      :setOffset( oQPointF )                              -> NIL
+      :( nDx, nDy )                                       -> NIL
+      :( nD )                                             -> NIL
+      :setXOffset( nDx )                                  -> NIL
+      :setYOffset( nDy )                                  -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.6 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */

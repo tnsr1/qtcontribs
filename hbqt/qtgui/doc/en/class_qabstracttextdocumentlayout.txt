@@ -1,0 +1,53 @@
+
+/* $DOC$
+   $TEMPLATE$
+      Class
+   $NAME$
+      QAbstractTextDocumentLayout()
+   $CATEGORY$
+      Harbour Bindings for Qt
+   $SUBCATEGORY$
+      GUI
+   $EXTERNALLINK$
+      http://doc.qt.io/qt-4.5/qabstracttextdocumentlayout.html
+   $ONELINER$
+      Creates a new QAbstractTextDocumentLayout object.
+   $INHERITS$
+      QObject
+   $SYNTAX$
+      QAbstractTextDocumentLayout( ... )
+
+   $ARGUMENTS$
+
+   $RETURNS$
+      An instance of the object of type QAbstractTextDocumentLayout
+   $METHODS$
+      :anchorAt( oQPointF )                               -> cQString
+      :blockBoundingRect( oQTextBlock )                   -> oQRectF
+      :document()                                         -> oQTextDocument
+      :documentSize()                                     -> oQSizeF
+      :frameBoundingRect( oQTextFrame )                   -> oQRectF
+      :hitTest( oQPointF, nAccuracy )                     -> nInt
+      :pageCount()                                        -> nInt
+      :paintDevice()                                      -> oQPaintDevice
+      :registerHandler( nObjectType, oQObject )           -> NIL
+      :setPaintDevice( oQPaintDevice )                    -> NIL
+
+   $DESCRIPTION$
+
+   $EXAMPLES$
+
+   $TESTS$
+
+   $STATUS$
+      R
+   $COMPLIANCE$
+      Not Clipper compatible
+   $PLATFORMS$
+      Windows, Linux, Mac OS X, OS/2
+   $VERSION$
+      4.5 or upper
+   $FILES$
+      Library: hbqtgui
+   $END$
+ */
